@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="1.13b" id="c8a18e4a-4033-4c08-b482-520555f11d49" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" name="Daemons of Chaos 7th"><entries>
+    <entry categoryId="Rare###DATA###" id="8ed8bc68-c48c-427d-8506-1c17272d4d77" name="Beasts of Nurgle" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="bc1e7533-d2e6-48c4-8984-6fb6618b30c4" name="Beast of Nurgle" points="100.0" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Beast of Nurgle###DATA###" name="Beast of Nurgle" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="5"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="4"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="1"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="D6+1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="27297530-94bb-48e1-8162-737767cd3c37" name="Slime Trail" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+        <rule id="Regeneration###DATA###" name="Regeneration"><description>BRB Page 74</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Rare###DATA###" id="ef91b659-c9c6-48c6-a860-41d4e0ebae2d" name="Bloodcrushers of Khorne" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="ca35b1ce-22ac-4c3b-b9ad-e1e31562464b" name="Bloodcrusher" points="70.0" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Bloodletter###DATA###" name="Bloodletter" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="5"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+            <profile id="Juggernaut###DATA###" name="Juggernaut" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="7"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="2"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="406bcf99-c6cd-462a-a57e-8d40511debc2" name="Musician" points="10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="eca6f623-9a6a-4afa-9aeb-ef54e2cf899c" name="Bloodreaper" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Bloodreaper###DATA###" name="Bloodreaper" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="5"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="13526a7c-3f98-4788-8102-152253503c19" name="Standard Bearer" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="29da2bbc-1904-4e43-8d6a-b253c35cd99b" name="Daemonic Icons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="d9d0674b-775e-4c2b-9d2c-737b1485c171" name="Skull Totem" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="08b94fd9-01f7-4521-a21e-703511f675f6" name="Icon of Endless War" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Core###DATA###" id="9ec8967e-189e-463e-82e0-ad8e13e3f7af" name="Bloodletters of Khorne" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="5e9c8df9-6742-4c4a-a962-6a406db71b87" name="Bloodletter" points="12.0" type="upgrade" minSelections="10" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Bloodletter###DATA###" name="Bloodletter" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="5"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="04636098-2d91-4efb-a6fb-27ac2cfbbeb7" name="Bloodreaper" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Bloodreaper###DATA###" name="Bloodreaper" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="5"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="829a78ef-e1fe-427d-aa89-0719310ed10d" name="Musician" points="6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="acfdda82-2ea0-411b-a879-802d481a5662" name="Standard Bearer" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="a6e42a5b-0005-49c6-9311-f30c961795a7" name="Daemonic Icons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="4474f9ae-74aa-46cf-b414-3e0265ce64d4" name="Skull Totem" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="32cc65d3-8ef8-4f97-a084-9b77a01f445e" name="Icon of Endless War" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Magic Resistance (1)###DATA###" name="Magic Resistance (1)"><description>Page 72</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Lords###DATA###" id="b11c817e-f449-4abb-aee7-4e865d4b924d" name="Bloodthister of Khorne" points="450.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+        <entryGroup id="ac80fa1e-d7a8-4f9b-b684-adf3b504d83a" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="100.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="8681ca08-38de-4d6e-9069-7eb71388715b" name="Awesome Strength" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="78117659-fe9d-4cab-95de-38d4b2926c70" name="Dark Insanity" points="55.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="c215e98d-589d-4e19-973a-c66eb36e1633" name="Obsidian Armour" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="6433ad78-228f-4183-a3af-04fd86e89816" name="Axe of Khorne" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="93d88ad6-5a02-4550-b476-2b43fbb63c2d" name="Firestorm Blade" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="1c2b755c-dd24-4bf1-a38a-a36eee265c15" name="Immortal Fury" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="7f13d758-067a-4764-bef6-784e070d134a" name="Spellbreaker" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e2a69d15-be9a-4b97-83e0-75fbc553b4f2" name="Armour of Khorne" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="2bf64527-72a8-4d08-98c1-29163dc95acb" name="Collar of Khorne" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Fly###DATA###" name="Fly"><description>BRB Page 20</description></rule>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Magic Resistance (2)###DATA###" name="Magic Resistance (2)"><description>Page 72</description></rule>
+      </rules><profiles>
+        <profile id="Bloodthister of Khorne###DATA###" name="Bloodthister of Khorne" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="10"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="5"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="9"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="7"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Core###DATA###" id="65d0f1bb-2d94-4406-9fa8-debf4dcf7b77" name="Chaos Furies" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="953b705f-d2cf-4b43-8a5e-136e6a151e13" name="Chaos Fury" points="12.0" type="upgrade" minSelections="5" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Chaos Fury###DATA###" name="Chaos Fury" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="2"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Fly###DATA###" name="Fly"><description>BRB Page 20</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Lords###DATA###" id="7a762198-4e42-4a81-b40d-5259fc6fd920" name="Daemon Prince" points="300.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+        <entryGroup id="02a3c02d-8f67-4284-a576-11f0e79080ff" name="Dedication" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="8ea885df-a5f1-4614-87df-448c816e4630" name="Khorne" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e198234a-770a-4287-a08a-d6b15dcb893c" name="Slaanesh" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" name="Tzeentch" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="c8399d15-fb7e-4b92-8b3a-29504b0f9789" name="Nurgle" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="8e92d3c2-e99c-4dda-b7c6-6105e058d98d" name="Magic Level" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="ff93957c-d5d6-4e6f-bf84-161d7d2c20fe" name="Level 1 Wizard" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+                <entryGroup id="42a561e2-c113-49d0-87be-f09f28dab5f6" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="9e961c0a-f21b-4485-a9e5-a85b64bad749" name="Death" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="ee24602d-1af7-4a29-9fc2-a24f4604a847" name="Fire" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="d6722ee7-255c-40bc-8c9d-d2656f98f722" name="Metal" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="c030d668-c433-4aa5-b6b2-b3f2e4620f13" name="Shadow" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="b30f2eca-d8b7-4dd3-8db1-ff96ac008a76" name="Nurgle" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at most" value="0.0"/>
+                          </conditions><conditionGroups/></modifier>
+                      </modifiers><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="e5782ead-7e20-4754-a19a-5a23ffcf1be3" name="Slaanesh" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at most" value="0.0"/>
+                          </conditions><conditionGroups/></modifier>
+                      </modifiers><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="034193da-9d8d-451d-b2e9-d1b130110bfc" name="Tzeentch" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at most" value="0.0"/>
+                          </conditions><conditionGroups/></modifier>
+                      </modifiers><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/></entryGroup>
+              </entryGroups><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="030f3cdd-ea54-47c4-be44-0b0ee5cbd4fb" name="Level 2 Wizard" points="85.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+                <entryGroup id="db066fb5-342c-447f-84e4-7b7173edf53f" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="c9dafa0a-2108-4d0e-81a6-1361f96faaeb" name="Death" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="1006bbc6-0100-4faf-8858-8581f66c59b3" name="Fire" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="a061837a-d436-44fd-b00e-173d6046aba8" name="Metal" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="717e166d-f50f-49b4-a2ed-2464e9b33de9" name="Shadow" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="87066aad-a24f-4333-b51c-e8afdd24ca5e" name="Nurgle" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at most" value="0.0"/>
+                          </conditions><conditionGroups/></modifier>
+                      </modifiers><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="d7200607-8ee2-4bfc-a4a8-c6182cdea116" name="Slaanesh" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at most" value="0.0"/>
+                          </conditions><conditionGroups/></modifier>
+                      </modifiers><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="7acaa64c-4e5e-4ac5-be3b-a42e6ed3d9fc" name="Tzeentch" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at least" value="1.0"/>
+                          </conditions><conditionGroups/></modifier>
+                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                            <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at most" value="0.0"/>
+                          </conditions><conditionGroups/></modifier>
+                      </modifiers><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/></entryGroup>
+              </entryGroups><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                <condition parentId="7a762198-4e42-4a81-b40d-5259fc6fd920" childId="8ea885df-a5f1-4614-87df-448c816e4630" field="selections" type="at least" value="1.0"/>
+              </conditions><conditionGroups/></modifier>
+          </modifiers></entryGroup>
+        <entryGroup id="2383b7c6-a75f-4db8-97d5-74910200c290" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="75.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="7f082bc2-a4f3-47e4-8ff7-d0c3fe2bf08c" name="Etherblade" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="885d2553-2849-49a1-b618-05f58c94f60d" name="Armed Monstrosity" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e399f3cd-7a1f-4a8b-ad29-f0083e66e7fd" name="Daemonic Robes" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="78216bd5-9a9a-4ff2-8636-d6f10350e2c5" name="Enrapturing Gaze" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="9c4a3236-4e3c-40a4-945a-788b16de264f" name="Immortal Fury" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e4f4b133-a483-4c78-9c7a-77e570ebbf80" name="Iridescent Corona" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="868a0171-ce2a-439f-a325-3f8ae1211254" name="Soul Hunger" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="cd54bbaf-aaee-487d-a1ca-b8540d7339aa" name="Winged Horror" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups>
+            <entryGroup id="afee94a7-8581-4cfc-87e2-91553b627567" name="Khorne Daemonic Gifts" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="74660fd3-c774-43dc-bf8f-25109adc7045" name="Obsidian Armour" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="76bfc485-5f6c-469f-b056-3368fdd6d8c0" name="Axe of Khorne" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="458a9161-99ac-437b-a310-9a84d65b07b2" name="Firestorm Blade" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="c0b25d98-b064-4b5a-b65a-166e865ca1df" name="Spellbreaker" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="2d3959d8-3aed-4e30-84fa-4b8e61bdf655" name="Armour of Khorne" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="1f5527cd-16a3-4cce-9fed-bfadb7d8765d" name="Collar of Khorne" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers>
+                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                    <condition parentId="roster" childId="8ea885df-a5f1-4614-87df-448c816e4630" field="selections" type="at least" value="1.0"/>
+                  </conditions><conditionGroups/></modifier>
+              </modifiers></entryGroup>
+            <entryGroup id="9a0ff541-b502-49a9-94d4-b8f8bc0cda4b" name="Slaanesh Daemonic Gifts" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="6be250b2-7e92-4c95-b39e-e98dad42a0ed" name="Temptator" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="23086ee6-d3b8-41ed-ac6e-6730a24ae5d4" name="Allure of Slaanesh" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="34ceea43-d96c-4346-90f3-d62a6b0183c5" name="Enrapturing Gaze" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="55122885-b3d5-4f29-b443-c09af1205411" name="Siren Song" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f4138d2a-bf1b-45c7-aad1-c45a2440c546" name="Soporific Musk" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="968cc4a6-8121-416d-8669-4dec84a8c198" name="Torment Blade" points="5.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers>
+                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                    <condition parentId="roster" childId="e198234a-770a-4287-a08a-d6b15dcb893c" field="selections" type="at least" value="1.0"/>
+                  </conditions><conditionGroups/></modifier>
+              </modifiers></entryGroup>
+            <entryGroup id="2e5d2634-423a-40b7-a187-7bc66453c701" name="Tzeentch Daemonic Gifts" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="9db3e75c-3be2-415d-b8ed-9f94ef5cd117" name="Staff of Change" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="d30f3271-384c-442a-be96-892a87344fa7" name="Spell Destroyer" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="02d8487b-3a11-4f70-aaa6-5592fb17024c" name="Power Vortex" points="30.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="68c3e832-7cb4-46be-b5ee-2e16dc64aa1b" name="Dark Magister" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="98251e10-d19b-4e81-b8f8-2c2972345549" name="Flames of Tzeentch" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="2a5090c2-26b3-431c-90fa-e7f3a892868a" name="Master of Sorcery" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers>
+                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                    <condition parentId="roster" childId="6bfa7cf7-5ba1-43b4-9f88-48f20f3a9fc9" field="selections" type="at least" value="1.0"/>
+                  </conditions><conditionGroups/></modifier>
+              </modifiers></entryGroup>
+            <entryGroup id="15badf9c-1628-4eea-a94c-2fada8caa640" name="Nurgle Daemonic Gifts" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="b5b018e4-feeb-4d56-adf2-86df3a255153" name="Nurgling Infestation" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a129430c-8a49-42e5-bde3-0f2548726008" name="Staff of Nurgle" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="c9052649-38ad-449a-a166-dc7f1d7210c2" name="Trappings of Nurgle" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="98d87e02-880b-4b38-8e53-3e57d6db2f80" name="Noxious Vapours" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="cc981076-cc3f-4356-af1c-fb0ac966b9cf" name="Pestilent Mucus" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="b1e95db0-f331-4914-af88-b64736aae9c5" name="Nurgles Rot" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="74ec5e62-890e-416a-b3ac-0a05689720d3" name="Stream of Bile" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="c070378a-cc99-455b-864a-d8086c59c9dd" name="Slime Trail" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers>
+                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                    <condition parentId="roster" childId="c8399d15-fb7e-4b92-8b3a-29504b0f9789" field="selections" type="at least" value="1.0"/>
+                  </conditions><conditionGroups/></modifier>
+              </modifiers></entryGroup>
+          </entryGroups><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+      </rules><profiles>
+        <profile id="Daemon Prince###DATA###" name="Daemon Prince" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="8"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="5"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="4"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="7"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="5"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Core###DATA###" id="16d3539d-472c-4841-bcf7-6f2dfb6fefc7" name="Daemonettes of Slaanesh" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="0eb77b8a-42a0-4b67-9204-b486c2b4ae61" name="Daemonette" points="12.0" type="upgrade" minSelections="10" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Daemonette###DATA###" name="Daemonette" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="5"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="6fe47ae9-9f75-4433-9942-f935c37ef0d9" name="Musician" points="6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="6d45cc16-a8d3-4dd7-9d25-d734504df086" name="Standard Bearer" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="7c7efb43-b39d-4b1b-86aa-2f53b44102ed" name="Daemonic Icons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="fbe9f98e-dca6-482c-950d-d47c2732dbff" name="Siren Standard" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="51b09c1b-89d0-4fe9-a8bf-4f7d4d1391e3" name="Banner of Ecstacy" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="068b9be2-c718-454e-949e-4dcea4228506" name="Alluress" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Alluress###DATA###" name="Alluress" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="5"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Armour Piercing###DATA###" name="Armour Piercing"><description>BRB Page 67</description></rule>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Heroes###DATA###" id="9a3e8e0c-a1ba-4a63-be96-aaa84271a833" name="Epidemius, Tallman of Nurgle" points="135.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+        <rule id="Regeneration###DATA###" name="Regeneration"><description>BRB Page 74</description></rule>
+        <rule id="The Tally of Pestilence###DATA###" name="The Tally of Pestilence"><description>Daemons of Chaos Armybook Page 57</description></rule>
+      </rules><profiles>
+        <profile id="Epidemius, Tallman of Nurgle###DATA###" name="Epidemius, Tallman of Nurgle" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+        <profile id="Palanquin###DATA###" name="Palanquin" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="6"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Rare###DATA###" id="16107d41-499d-4812-a6b3-36d3371eece0" name="Fiends of Slaanesh" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="d97e2f5d-0b16-4c27-a3b1-9957244bb39d" name="Fiend of Slaanesh" points="55.0" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Fiend of Slaanesh###DATA###" name="Fiend of Slaanesh" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="10"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="4"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="3"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="6"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="4"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="1f25812e-38ee-43ad-adc0-86e2214f533e" name="Soporific Musk" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Armour Piercing###DATA###" name="Armour Piercing"><description>BRB Page 67</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Rare###DATA###" id="3be29c64-4f53-409e-be01-d017424afee2" name="Flamers of Tzeentch" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="1667e756-ddd7-4b0b-b93c-a03a52573918" name="Flamer" points="35.0" type="upgrade" minSelections="3" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Flamer###DATA###" name="Flamer" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="2"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="4"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="d96e079d-53e5-484f-bc2b-706583908c7f" name="Flames of Tzeentch" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="8f1ec8c9-bba3-4930-ac2e-7c33da607312" name="Pyrocaster" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Pyrocaster###DATA###" name="Pyrocaster" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="2"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="5"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Skirmish###DATA###" name="Skirmish"><description>Details...</description></rule>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Special###DATA###" id="516ecb04-6cc5-4e89-9592-024be18976a4" name="Flesh Hounds of Khorne" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="fede71b9-bf3c-40fe-bd5e-35b9c972339e" name="Flesh Hound" points="35.0" type="upgrade" minSelections="5" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Flesh Hound###DATA###" name="Flesh Hound" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="06e083d5-b9c3-42a4-9b14-8dc427636974" name="Karanak, Hound of Vengence" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Karanak, Hound of Vengence###DATA###" name="Karanak, Hound of Vengence" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="4"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Magic Resistance (3)###DATA###" name="Magic Resistance (3)"><description>Page 72</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Lords###DATA###" id="581a5031-633a-4446-833a-1484603afeb3" name="Great Unclean One" points="450.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+        <entryGroup id="91069e5b-013b-4184-b973-14dcd8dd0d73" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="100.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="8f53de0d-a74a-46d7-82e5-c07292076d84" name="Balesword" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="22c31742-d149-46e4-b795-4fc0ee1126d9" name="Nurgling Infestation" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="7dce93ed-e988-4920-aaa0-a282c183afe6" name="Staff of Nurgle" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="91069ab1-9b6b-45ff-a6aa-e7afc447d68a" name="Trappings of Nurgle" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="b11b862c-0ee4-4752-b32f-45d1235b5d28" name="Noxious Vapours" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="ac5cebe9-eb58-4206-b8a6-627612961ca2" name="Pestilent Mucus" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="bce409ed-3604-419d-9ef3-07e9fcc8ebb0" name="Nurgles Rot" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="ff6ce166-70d5-4a48-ba29-0ec4c8f70ca9" name="Soul Hunger" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="9c0d0277-2c7a-4a7e-860f-27b391abec97" name="Stream of Bile" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="78490621-b986-4f3c-816c-c4c79ec0a802" name="Slime Trail" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="23f709f4-0306-458a-ba1e-04c1824c0b6e" name="Magic Level" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="c6f2cb97-5dc4-4311-b5a3-fc5a3fc46cee" name="Level 2 Wizard" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="12cb9993-d360-41b3-9cfc-8ad827a3c8fd" name="Level 3 Wizard" points="85.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="35251d89-3813-4728-89e5-8d5923481b30" name="Level 4 Wizard" points="120.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="cac54b48-13fd-439e-af30-c2e4a73e3762" name="Level 1 Wizard" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+      </rules><profiles>
+        <profile id="Great Unclean One###DATA###" name="Great Unclean One" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="4"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="10"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="4"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Heroes###DATA###" id="8e857202-6350-4f52-b72e-fd88562c68a0" name="Herald of Khorne" points="100.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="fc79cf5f-b24a-40a9-943f-39bdc14bf344" name="Battle Standard Bearer" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups>
+            <entryGroup id="35d28421-8b22-45dc-92d0-dbb73201d0b6" name="Magical Standard" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="a3773968-e122-41e9-adbb-856da8348d37" name="Standard of Chaos Glory" points="125.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="2400c106-3634-4587-8597-03e14cd410a8" name="Banner of Hellfire" points="100.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="ba551bd2-5b66-4c5c-a5cd-48a9cc83d7ba" name="Great Icon of Despair" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="6d56ca3d-5b74-479d-aae2-d088cee0cfe1" name="Banner of Unholy Victory" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="378d9e68-bd82-41ef-b5e3-78e3d29c1f7e" name="Great Standard of Sundering" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups>
+        <entryGroup id="9ce00997-0b7c-4e93-aed4-5108ca585085" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="5d61059f-99fb-475f-9e91-9fbd6ba00b69" name="Juggernaut of Khorne" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="263e6c7a-2b7f-474b-a35f-0a5065b272eb" name="Chariot of Khorne" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="931ae859-5c68-4162-b92d-9640fcce866f" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="a2d4b588-1952-4f51-a73c-7625fe06cf28" name="Obsidian Armour" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="d3863bc1-dc65-4ce8-881e-f4c019499110" name="Firestorm Blade" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="6cdcf34a-dfeb-4f74-b999-ad37d4fce2b1" name="Armour of Khorne" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e9bbbaa8-8676-47cb-bfcf-2630db26bf0c" name="Daemonic Robes" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="cdbb0f18-f5ae-45af-8419-47b725d28ad1" name="Soul Hunger" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="eb54c0a2-0bb5-449f-940a-59f7a3488e56" name="Etherblade" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Magic Resistance (1)###DATA###" name="Magic Resistance (1)"><description>Page 72</description></rule>
+        <rule id="Hatred (All Enemies)###DATA###" name="Hatred (All Enemies)"><description>BRB Page 71</description></rule>
+        <rule id="Killing Blow###DATA###" name="Killing Blow"><description>BRB Page 72</description></rule>
+        <rule id="Locus of Khorne###DATA###" name="Locus of Khorne"><description>Details...</description></rule>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+      </rules><profiles>
+        <profile id="Herald of Khorne###DATA###" name="Herald of Khorne" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="5"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="7"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="6"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Heroes###DATA###" id="0213d1d7-5ac4-44cd-96df-b1b057b8011c" name="Herald of Nurgle" points="115.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="441d9eb8-56be-4fc3-8862-780943dc5179" name="Level 1 Wizard" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="aa9d54e7-77c3-4369-8bb4-414e619bba1e" name="Palanquin" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="ef13b797-85f6-4503-a333-c8eae5b4e626" name="Battle Standard Bearer" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups>
+            <entryGroup id="78ae6c47-a31d-4f47-8334-6c1b4a98843a" name="Magical Standard" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="49c70aeb-b137-4304-a72d-5ff8929b790b" name="Standard of Chaos Glory" points="125.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="bc60b1a7-ada6-409c-951c-612a93999170" name="Banner of Hellfire" points="100.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="5dc72cf1-b24c-4da6-b985-895c5ece1ece" name="Great Icon of Despair" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f2ba6f78-4f29-44b1-bee5-9fcbe2dcc3ac" name="Banner of Unholy Victory" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f551e55a-ad27-4ef2-896a-26a1c173eec5" name="Great Standard of Sundering" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups>
+        <entryGroup id="a1bdcaf2-a85d-4525-8e54-a399cce46027" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="49c48ece-a1e8-46aa-8901-67f9ed1fdc8c" name="Staff of Nurgle" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="8ca3e090-951a-423d-99fc-b7e1f7ce9f46" name="Noxious Vapours" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="1b9b8ba8-43aa-4209-96b7-f00a4f1964d9" name="Pestilent Mucus" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="cf497cb3-50de-4ee6-87a9-075d76ce08d9" name="Nurgles Rot" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="feb9d178-73a4-4423-b114-40f2f6084149" name="Soul Hunger" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="2025617f-b950-44c6-975a-38aa41f5ae4a" name="Stream of Bile" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="35082c18-e0b1-42b9-a1d9-c56c28616418" name="Slime Trail" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+        <rule id="Regeneration###DATA###" name="Regeneration"><description>BRB Page 74</description></rule>
+        <rule id="Locus of Nurgle###DATA###" name="Locus of Nurgle"><description>Details...</description></rule>
+      </rules><profiles>
+        <profile id="Herald of Nurgle###DATA###" name="Herald of Nurgle" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="5"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="2"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Heroes###DATA###" id="3cdfaaec-f132-4624-be43-52ec8686d41b" name="Herald of Slaanesh" points="90.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="6ae192bc-645d-4b20-9c7f-337727019694" name="Level 1 Wizard" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="b564c0d3-8e8c-4cec-b6cb-066efe1702d1" name="Battle Standard Bearer" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups>
+            <entryGroup id="751be8b8-3b35-4d33-9e8e-112f8b533cf7" name="Magical Standard" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="d636574e-0ab5-48cb-9663-0aa314846824" name="Standard of Chaos Glory" points="125.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="acee28e5-91fa-42cd-a7a6-2db60af9a965" name="Banner of Hellfire" points="100.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="32e88ff4-d528-4140-bcfa-0986aff8c0a5" name="Great Icon of Despair" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="c7215660-9384-4660-9e49-4c5ef7300652" name="Banner of Unholy Victory" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="8ed3e3fb-4cb2-4414-92b0-e5aa419148ef" name="Great Standard of Sundering" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups>
+        <entryGroup id="4e3bc6bc-81d2-47d1-8edc-3696df52b8ad" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="885025bb-2455-444f-b765-49c60323ceed" name="Steed of Slaanesh" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="b266ac16-6bd6-478c-93f5-682ff77a8b57" name="Chariot of Slaanesh" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="e69a6801-af8f-4540-8e39-fb8e7fa72e20" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="d5e051ac-4f4d-4ef0-9fcb-137e21f1a2e0" name="Etherblade" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="8982904f-b585-4cae-b4ea-6e6af1e9a03e" name="Allure of Slaanesh" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="7223d31a-0641-49fc-836f-f443dc690c80" name="Enrapturing Gaze" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="d1007dc3-4455-42bf-847a-154cf97b306e" name="Daemonic Robes" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="9aed97c3-ac22-4d50-8f1c-bfd285282929" name="Siren Song" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="343aa268-0d97-4b03-b47c-7976c33a7f2c" name="Soporific Musk" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="df1134c1-2a64-4001-82c9-b476971bc422" name="Torment Blade" points="5.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="2dc869b1-8b94-4d10-94da-1d216aa56c40" name="Many Armed Monstrosity" points="50.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Armour Piercing###DATA###" name="Armour Piercing"><description>BRB Page 67</description></rule>
+        <rule id="Always Strikes First###DATA###" name="Always Strikes First"><description>BRB Page 66</description></rule>
+        <rule id="Locus of Slaanesh###DATA###" name="Locus of Slaanesh"><description>Details...</description></rule>
+      </rules><profiles>
+        <profile id="Herald of Slaanesh###DATA###" name="Herald of Slaanesh" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="7"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="7"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="4"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Heroes###DATA###" id="a7ead669-0442-4eda-a9f1-0ae234339644" name="Herald of Tzeentch" points="115.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="47f21fa5-be47-45ff-b1f9-ed6c3525a44f" name="Battle Standard Bearer" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups>
+            <entryGroup id="c75c728a-dda5-471c-9be3-3a0eb9d75b83" name="Magical Standard" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="46aa634c-de3f-4535-8dc6-a6b5bc080ac2" name="Standard of Chaos Glory" points="125.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="359cb660-20d4-4f55-b5e5-c7fc29868288" name="Banner of Hellfire" points="100.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="b0e7a14f-6e03-4bd8-91d3-eadd11bd9f89" name="Great Icon of Despair" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="070de3af-9f0b-4163-99fc-81d67330d13b" name="Banner of Unholy Victory" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="2bb6511f-9e46-4e1d-a37e-0580fb612e56" name="Great Standard of Sundering" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups>
+        <entryGroup id="22b20066-1d7f-4288-ac80-ef19c42af07e" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="a84255d0-a1bc-4b32-a09b-c00612cfd98b" name="Disc of Tzeentch" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="9c74d8e0-e4d2-4107-bb2d-20889ec1c7c9" name="Chariot of Tzeentch" points="60.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="fe255cb6-b334-4492-b21c-82b162a39dd4" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="a572a076-4bfa-42f5-a7b0-e1b187cc6d0a" name="Staff of Change" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="62e45d77-047d-4275-a39c-a36aba7f78d0" name="Power Vortex" points="30.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="663f3b22-b884-4fb0-b55e-c2aa1b699c12" name="Daemonic Robes" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="7d6834dd-e714-4d01-ad2c-dad34978be83" name="Flames of Tzeentch" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="44874d72-3544-46f5-9661-2b1257ef3b16" name="Iridescent Corona" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="73edd047-418c-42e5-ac5a-d31c8613d512" name="Master of Sorcery" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+                <entryGroup id="f7655588-8a06-4fd1-854e-52c49f51bdb2" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="a2bb7cad-5d35-441d-aaf7-a48c3d01de0a" name="Death" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="a687de68-de0f-45f6-bf34-56ce60f7df0e" name="Life" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="22aa8b09-e2e2-4db5-9229-319b2e29b962" name="Shadow" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="034ed23d-1cf8-46b1-bdf1-b01af006abc2" name="Light" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="80f0d067-d08b-4b65-b65d-b7d35b0b1f02" name="Beasts" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="d91ffd2f-2533-4fbe-8f18-46cd21aa9c3f" name="Heavens" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="98d696e9-258b-4fcc-9603-80d67ac0d83c" name="Metal" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="159c0c5a-d2e3-4c73-a637-1fd73724a39c" name="Fire" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/></entryGroup>
+              </entryGroups><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e9f9ea80-1606-4546-889f-ae126e0671f1" name="Winged Horror" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="527e829d-a63a-4d68-b5d4-23f1f68caf23" name="Spell Breaker" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+        <rule id="4+ Ward Save###DATA###" name="4+ Ward Save"/>
+        <rule id="Locus of Tzeentch###DATA###" name="Locus of Tzeentch"><description>Details...</description></rule>
+      </rules><profiles>
+        <profile id="Herald of Tzeentch###DATA###" name="Herald of Tzeentch" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="4"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Lords###DATA###" id="6b660669-2174-46f4-8a7a-54cca35a0e44" name="Kairos Fateweaver, Oracle of Tzeentch" points="625.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="1fb25050-a7c3-44c3-ac7e-00e09481419f" name="Daemonic Robes" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="8b188e24-38db-45e4-9e55-2cfc2e699b57" name="Twin Heads" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="47d9c215-8b90-4522-80ed-8e9f9c841efe" name="Tzeentch's Will" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="b1db385c-056d-4077-837e-b778acef8d2e" name="Left Head" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="a46a51d1-e8b4-47e3-b6de-57f66b8bd16f" name="Left Head" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="ead60305-f24c-45a0-804c-8fd784aa3595" name="Shem's Burning Gaze" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="19045aeb-609e-4fce-a2c1-c0593487ec89" name="Pha's Protection" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="5e09449f-5912-420a-a17c-8c1950ff305e" name="The Speed of Light" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f5e348a4-195a-462e-86ee-76f2c3833021" name="Light of Battle" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="337df22e-4445-4e54-a3db-82a0a8841ae5" name="Net of Amyntok" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="7b7b3b0e-f3cd-4441-8873-a4ffa020013f" name="Banishment" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="29032e13-8930-4be1-9522-0965e7119034" name="Birona's Timewarp" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="5bf00fbb-b760-40f4-ae16-8da3c4b693e0" name="Earth Blood" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="7803132f-dae7-4ddb-b4f5-ab81a000f34a" name="Awakening of the Wood" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="26cfaf70-fce4-408f-89d7-9ab85d418802" name="Flesh to Stone" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="1cea55ed-5761-47b2-9074-d1c2a47c1851" name="Throne of Vines" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="d56ee535-d133-4057-a465-bee0f3f40cc3" name="Shield of Thorns" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="37e6b5d5-13b2-42c1-ad0f-b5fa287aa127" name="Regrowth" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="c5fe708a-e314-4cfa-ba7a-2097fb4d7d3a" name="The Dwellers Below" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a041d740-8113-4e00-a694-7cef2adceb46" name="Ice Shard Blizzard" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="e4f7fb96-431e-4f47-96a4-15a6642c7b88" name="Harmonic Convergence" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="b18561fb-eaf0-456b-8514-58ca07463e21" name="Wind Blast" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="7f69598a-b84a-46a6-9fe1-0367619efbee" name="Curse of the Mindnight Wind" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="c0fe8bf3-145e-418a-9db6-9416d420f605" name="Urannon's Thunderbolt" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="423b6dcc-36dd-4a2e-90f6-a2a1daed6a5c" name="Comet of Casandora" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a48e58ad-c84c-40d6-ae8b-6f0f22c28528" name="Chain Lightning" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a129a0c7-7c6d-42da-9708-6200e9f21281" name="Searing Doom" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="490c6c64-4121-4f32-b297-fbdac014f2ea" name="Gehenna's Golden Hounds" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="d0d762ba-1c92-4c11-ae4d-2497614ee5c5" name="Glittering Robe" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="5f476bfb-140d-4bec-9f55-d397bd3c5215" name="Plague of Rust" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="07ae578b-61e3-43eb-b823-68faf4ee00c6" name="Transmutation of Lead" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f764b482-73db-483a-9985-6da29b0d442d" name="Final Transmutation" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="142901a1-3766-45d2-bedb-fb1d2860a0f2" name="Enchanted Blade of Aiban" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="13b5b2d6-5b28-4b73-a668-a09409d3eadc" name="Right Head" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="a9bfc76e-6b29-4fc3-a6e3-c3af1015e01b" name="Right Head" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="623aa65e-60d4-4098-8238-4cb1db0fa5d8" name="Fireball" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="11712b4e-290e-497a-af09-ad53b9401a01" name="Cascading Fire Cloak" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="b9dee9e2-8580-4f19-afe4-0676089a28e4" name="Flaming Sword of Rhuin" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f24296f3-a5a6-49e4-a239-ffad6ad80eed" name="The Burning Head" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="20853042-aca8-401c-a3d1-4301849c516a" name="Piercing Bolts of Burning" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="17711e71-c814-4445-b695-37f7b07b12ee" name="Fulminating Flame Cage" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="12200711-e38b-482b-8b94-fb1e7d10f2f5" name="Flame Storm" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="b8a1263d-3b5c-4b80-8638-1afdc48fc260" name="Wyssan's Wildform" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="81488862-4708-427c-942b-31c6fe4125cd" name="The Flock of Doom" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a4ab7064-e22d-45be-af04-52155092e239" name="The Amber Spear" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="652338a0-4491-4c4f-b012-d5f8d797c9ab" name="Pann's Impenetrable Pelt" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="d73a00fb-0fea-46dd-b160-86ee9165efab" name="The Curse of Anraheir" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="95f823f9-6e1a-4a3d-95cc-d0abdaf0a3d2" name="The Savage Beast of Horros" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="11bec8eb-8239-4dd8-b398-6722021f416b" name="Transformation of Kadon" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="dc21844f-7983-4720-9558-3f5bfd01a68f" name="Melkoths Mystifying Miasma" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="ade69477-212b-4cb4-b959-6cc07ecd353d" name="Steed of Shadows" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="006aeaf8-fbb7-4a2a-9974-c93a3b7c87fc" name="The Enfeebling Foe" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="dcdc3019-d261-4958-a9d5-8e135de746cc" name="The Withering" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a8923009-505e-4b88-85b9-a70788deb64f" name="The Penumbral Pendulum" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="d174157f-94e0-4e45-866b-41174159e88f" name="Pit of Shades" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="518a9af7-dafd-44a4-9bac-15e1ecf47f30" name="Okkam's Mindrazor" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="a876db4e-036a-4b76-9c58-9ba749eaf829" name="Spirt Leech" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="8c8215cc-22e7-4e03-bec7-e6c90dd429a3" name="Aspect of the Dreadknight" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="1ecfc661-7512-40f6-a813-e7c5ea3fdf48" name="The Caress of Laniph" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="fa45e563-a6f4-491a-8cc7-925e2ad4dcf5" name="Soulblight" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="ec0b7145-3df7-4fbb-928e-7e1d7d3ae0cf" name="Doom and Darkness" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="6187ec79-de08-4e9c-972f-a506e4bcef55" name="The Fate of Bjuna" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f2f43f5d-631d-49c5-9f44-5e6173e01479" name="The Purple Sun of Xereus" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+        <rule id="Fly###DATA###" name="Fly"><description>BRB Page 20</description></rule>
+        <rule id="Oracle of Eternity###DATA###" name="Oracle of Eternity"><description>Daemons of Chaos Armybook Page 52</description></rule>
+      </rules><profiles>
+        <profile id="Kairos Fateweaver, Oracle of Tzeentch###DATA###" name="Kairos Fateweaver, Oracle of Tzeentch" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="1"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="5"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="5"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="5"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="1"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Lords###DATA###" id="d70df9fe-8041-4b55-8563-b1c77e503a09" name="Keeper of Secrets" points="450.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+        <entryGroup id="ae03e830-1b58-4cff-a3b8-3b84aafec80b" name="Magic Level" defaultEntryId="ae0cfa19-43ac-4c10-8a31-0a6d3baa7e1a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="5342527b-db78-4c3f-b872-d2107277d0eb" name="Level 2 Wizard" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="dbf08fd8-208d-46ff-bbcf-b75f3870e490" name="Level 3 Wizard" points="85.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="fdbe3e3c-99fb-4e18-9b3f-96bd7895d562" name="Level 4 Wizard" points="120.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="ae0cfa19-43ac-4c10-8a31-0a6d3baa7e1a" name="Level 1 Wizard" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="51c6924e-262e-4863-b1bf-421b50c7a643" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="100.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="e4502ecc-6dd4-4129-bf2e-d95abe3f7708" name="Spirit Swallower" points="100.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="0746e104-9653-4a41-be68-bcd2c4be1503" name="Etherblade" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="73c04497-9e40-44b6-ba1f-ca3823f92de7" name="Temptator" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="7698af36-69f9-49ee-b3e6-aca7b8556b03" name="Allure of Slaanesh" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="22a3876a-e328-494d-afe7-f2fccf02b283" name="Enrapturing Gaze" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e0aa7972-c721-429b-a630-9bc112586cfe" name="Daemonic Robes" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="11bb7b55-8d3a-4f16-ae86-22a803acea90" name="Siren Song" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="a5c690b2-8ac3-4b4d-a3fb-a7d9a26fb9a9" name="Soporific Musk" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="78e06170-01fb-4902-adbc-b1b461b6a023" name="Torment Blade" points="5.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="46220961-bbab-402a-9e02-7b0994348cdd" name="Soul Hunger" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Always Strikes First###DATA###" name="Always Strikes First"><description>BRB Page 66</description></rule>
+        <rule id="Armour Piercing###DATA###" name="Armour Piercing"><description>BRB Page 67</description></rule>
+      </rules><profiles>
+        <profile id="Keeper of Secrets###DATA###" name="Keeper of Secrets" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="10"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="9"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="5"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="10"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="6"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Lords###DATA###" id="0e26d9dd-780b-432f-9789-a4ebbe71884c" name="Ku'Gath Plaguefather" points="650.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="e2485575-ca3f-4d4b-9e95-f9682c30b6d8" name="Level 1 Wizard" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="e013e033-6b32-4c13-bb05-60f0839ec44e" name="Nurgling Infestation" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="6e89aa6c-eccc-4f43-904e-f3d80337a064" name="Slime Trail" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+        <rule id="Hatred (Dwarfs)###DATA###" name="Hatred (Dwarfs)"><description>BRB Page 71</description></rule>
+      </rules><profiles>
+        <profile id="Ku'Gath Plaguefather###DATA###" name="Ku'Gath Plaguefather" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="4"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="10"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="4"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+        <profile id="Palanquin###DATA###" name="Palanquin" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="6"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Lords###DATA###" id="6e9f0249-221c-47b0-bc9e-9695bc62b935" name="Lord of Change" points="450.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+        <entryGroup id="2153cfef-2752-4364-a2b0-242e30c2792e" name="Daemonic Gifts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="100.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="d185d3f8-d16c-48f6-b29a-c450b77a97f1" name="Twin Heads" points="75.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="73269008-34fa-4766-9eae-0cd95288fbe9" name="Tzeentch's Will" points="70.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="d51dedde-86b8-4a26-9aed-c92d351a1f16" name="Staff of Change" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="e56c0e43-ba00-4ec1-8d6b-4b319ae30719" name="Spell Destroyer" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="be8180a2-72f6-4502-aa29-fdc6907f128f" name="Power Vortex" points="30.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="8582f95a-82c5-4be4-ae75-438a8bd2faa1" name="Dark Magister" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="21b73c20-8d65-4e0a-8f34-e3b1cb11fd5c" name="Daemonic Robes" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="24f22cf7-043d-4928-a27a-a43f6ce87c40" name="Flames of Tzeentch" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="a7abcf9d-c05f-41f6-b84a-bd6d25e21519" name="Iridescent Corona" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="605f244c-1c27-4d55-afa5-c1a7f2028c12" name="Master of Sorcery" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+                <entryGroup id="6c9fc6d9-2238-42af-ac1b-e32e6a90fe27" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="2ec24a1e-d705-4fc9-95f2-56f4faa5852c" name="Death" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="8b283542-f258-446e-91d5-f86e65cb2101" name="Life" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="81fa853c-019b-4c71-bba5-75d720d5fcb6" name="Shadow" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="4f966f37-79bb-4ba3-a953-269e9a1e41d8" name="Light" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="c9a736fc-17cf-41ea-8f2f-6713f5991efc" name="Beasts" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="20ee2fe8-da07-49c9-a678-b59f2ec3f36d" name="Heavens" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="4eef695e-5e48-45f8-b07d-3a2e7151cc8b" name="Metal" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="86ffda50-138d-4baa-bdca-598849117986" name="Fire" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/></entryGroup>
+              </entryGroups><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+        <entryGroup id="4d518d0f-16f8-45e0-bd37-673c11fdf4ed" name="Magic Level" defaultEntryId="256f7378-5dee-40cc-9925-a80454ebb5f6" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="256f7378-5dee-40cc-9925-a80454ebb5f6" name="Level 2 Wizard" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="6e6323f9-df90-49cf-a59a-c2cb199da609" name="Level 3 Wizard" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="9ab39d50-0301-4357-9a3e-c02b06986140" name="Level 4 Wizard" points="85.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Fly###DATA###" name="Fly"><description>BRB Page 20</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+      </rules><profiles>
+        <profile id="Lord of Change###DATA###" name="Lord of Change" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="6"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="4"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="5"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="6"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="5"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Special###DATA###" id="161fbe98-577c-447b-a8ee-82e9ffc0923c" name="Nurglings" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="b852f6c9-ddab-4108-a22d-5e4ead1588c8" name="Nurgling Base" points="35.0" type="upgrade" minSelections="3" maxSelections="12" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Nurgling Base###DATA###" name="Nurgling Base" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="3"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+        <rule id="Skirmish###DATA###" name="Skirmish"><description>Details...</description></rule>
+        <rule id="Scouts###DATA###" name="Scouts"><description>Details...</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Core###DATA###" id="8340744c-c5e4-422f-a0df-f7fe4391266f" name="Pink Horrors of Tzeentch" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="adb7a1ae-610c-4206-823a-d22717d9e8ae" name="Pink Horror" points="12.0" type="upgrade" minSelections="10" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Pink Horror###DATA###" name="Pink Horror" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="6582d758-e255-4570-9c28-85cd466c7dc1" name="Musician" points="6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="706ca752-d7a5-4b92-9419-53cc6a577d12" name="Standard Bearer" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="ae1e0817-113d-4ece-a426-0bdb9a5e8d3f" name="Daemonic Icons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="f1b86d83-8fc8-4d68-a99d-616148d99b11" name="Banner of Change" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f2dc3c90-0d04-4aa9-b2ad-2a2ef3d3b987" name="Icon of Sorcery" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="17cd038c-3003-48e7-b889-2fbe5391589b" name="Iridescent Horror" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Iridescent Horror###DATA###" name="Iridescent Horror" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="77f2ffd0-b57b-4b1f-a489-1e5c065c595a" name="The Changling" points="60.0" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                <condition parentId="8340744c-c5e4-422f-a0df-f7fe4391266f" childId="17cd038c-3003-48e7-b889-2fbe5391589b" field="selections" type="at most" value="0.0"/>
+              </conditions><conditionGroups/></modifier>
+          </modifiers><rules/><profiles>
+            <profile id="The Changling###DATA###" name="The Changling" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="3"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Core###DATA###" id="cf1d52a4-b660-44fb-ae09-9511096450c5" name="Plaguebearers of Nurgle" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="cafe9eba-876c-4900-bc4c-52a87c178b66" name="Plaguebearer" points="12.0" type="upgrade" minSelections="10" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Plaguebearer###DATA###" name="Plaguebearer" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="1"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="ea26560b-3c8a-4775-88b0-5e728b91f3cc" name="Musician" points="6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="fbd8a453-d3d4-4739-a734-d3f212adf531" name="Standard Bearer" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="2a09d8b5-96d7-4bb4-bb26-855067a68ea9" name="Daemonic Icons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="8b187fd7-dd6d-4973-82c2-133db0581ecd" name="Standard of Seeping Decay" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="f0c2001c-ca09-46c5-8506-6c1bbe0e9f6e" name="Icon of Eternal Virulence" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="31278c7a-1ccc-451a-af7e-b07e9767aba0" name="Plagueridden" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Plagueridden###DATA###" name="Plagueridden" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="4"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="1"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+        <rule id="Poisoned Attacks###DATA###" name="Poisoned Attacks"><description>BRB Page 73</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Lords###DATA###" id="9985c8d4-1153-4f6c-8d1c-42ace97cc33a" name="Scarbrand, The Exiled One" points="655.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Large Target###DATA###" name="Large Target"><description>BRB Page 72</description></rule>
+        <rule id="Terror###DATA###" name="Terror"><description>BRB Page 78</description></rule>
+        <rule id="Magic Resistance (2)###DATA###" name="Magic Resistance (2)"><description>Page 72</description></rule>
+        <rule id="Hatred (All Enemies)###DATA###" name="Hatred (All Enemies)"><description>BRB Page 71</description></rule>
+        <rule id="Frenzy###DATA###" name="Frenzy"><description>BRB Page 70</description></rule>
+        <rule id="Rage Embodied###DATA###" name="Rage Embodied"><description>Daemons of Chaos Armybook Page 51</description></rule>
+        <rule id="Bellows of Endless Fury###DATA###" name="Bellows of Endless Fury"><description>Daemons of Chaos Armybook Page 51</description></rule>
+      </rules><profiles>
+        <profile id="Scarbrand, The Exiled One###DATA###" name="Scarbrand, The Exiled One" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="8"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="10"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="6"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="5"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="10"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="7 (8)"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Special###DATA###" id="3f219453-221f-40a9-9cc7-5cf660b6a427" name="Screamers of Tzeentch" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="cc16b289-c1bc-4a5b-9cc6-e939150a1c1b" name="Screamer" points="30.0" type="upgrade" minSelections="3" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Screamer###DATA###" name="Screamer" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="1"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="4"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Slashing Attack###DATA###" name="Slashing Attack"><description>Details...</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Fly###DATA###" name="Fly"><description>BRB Page 20</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Special###DATA###" id="0363e7e4-2218-47e5-98a5-673bc24f04bc" name="Seekers of Slaanesh" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="73118d2f-df33-438d-ae91-6ee18b2e5162" name="Seeker of Slaanesh" points="24.0" type="upgrade" minSelections="5" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Daemonette###DATA###" name="Daemonette" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="5"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="2"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+            <profile id="Steed of Slaanesh###DATA###" name="Steed of Slaanesh" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="10"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="5"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="1"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="a26c58cc-e482-49be-8297-fb6b167c4b27" name="Musician" points="6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="1062322a-7ef5-43d4-b6db-443ac1572357" name="Standard Bearer" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="89706232-cb73-41cb-aef0-15217f10a621" name="Daemonic Icons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="eb045e55-019e-4a89-bef6-8ef5c79d1881" name="Siren Standard" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="dc4815c6-97f8-4632-952d-08988aa7c64b" name="Banner of Ecstacy" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="c247c3c0-ad62-43f6-8a85-81e425b7598a" name="Alluress" points="12.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Alluress###DATA###" name="Alluress" profileTypeId="Infantry###DATA###"><characteristics>
+                <characteristic characteristicId="M###DATA###" name="M" value="6"/>
+                <characteristic characteristicId="WS###DATA###" name="WS" value="5"/>
+                <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+                <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+                <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+                <characteristic characteristicId="W###DATA###" name="W" value="1"/>
+                <characteristic characteristicId="I###DATA###" name="I" value="5"/>
+                <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+                <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Fast Cavalry###DATA###" name="Fast Cavalry"><description>Details...</description></rule>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Armour Piercing###DATA###" name="Armour Piercing"><description>BRB Page 67</description></rule>
+        <rule id="Poisoned Attacks (Steeds only)###DATA###" name="Poisoned Attacks (Steeds only)"><description>BRB Page 73</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Heroes###DATA###" id="b72f179d-dc2d-48c4-ae19-5d6c45c55503" name="Skulltaker" points="150.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups>
+        <entryGroup id="472c9377-d6ac-4ce4-a949-933a7f5d74dd" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="a5f1d1ad-d2a3-4c5b-b5fa-6dbd528e2acb" name="Juggernaut of Khorne" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="(No Category)" id="d21bd574-ec6d-4c69-a8be-7453a78f58a5" name="Chariot of Khorne" points="150.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+        <rule id="Hatred (All Enemies)###DATA###" name="Hatred (All Enemies)"><description>BRB Page 71</description></rule>
+        <rule id="Killing Blow###DATA###" name="Killing Blow"><description>BRB Page 72</description></rule>
+        <rule id="Skulls for the Skull Throne!###DATA###" name="Skulls for the Skull Throne!"><description>Daemons of Chaos Armybook Page 54</description></rule>
+      </rules><profiles>
+        <profile id="Skulltaker###DATA###" name="Skulltaker" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="5"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="9"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="6"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="4"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="9"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="4"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Heroes###DATA###" id="bcd87f2b-3708-4b61-869c-d5110db30f4e" name="The Blue Scribes" points="81.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Flaming Attacks###DATA###" name="Flaming Attacks"><description>BRB Page 69</description></rule>
+        <rule id="Fly###DATA###" name="Fly"><description>BRB Page 20</description></rule>
+        <rule id="Energy Syphon###DATA###" name="Energy Syphon"><description>Daemons of Chaos Armybook Page 55</description></rule>
+        <rule id="Scrolls of Sorcery###DATA###" name="Scrolls of Sorcery"><description>Daemons of Chaos Armybook Page 55</description></rule>
+      </rules><profiles>
+        <profile id="The Blue Scribes###DATA###" name="The Blue Scribes" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="1"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="3"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="3"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="3"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="2"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="3"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="7"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Heroes###DATA###" id="0942c39b-c438-4502-bdc4-25a2266b2d96" name="The Masque of Slaanesh" points="90.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Daemonic###DATA###" name="Daemonic"><description>Daemons of Chaos Armybook Page 30</description></rule>
+        <rule id="Armour Piercing###DATA###" name="Armour Piercing"><description>BRB Page 67</description></rule>
+        <rule id="May Not Join Units###DATA###" name="May Not Join Units"/>
+        <rule id="Unnatural Relexes###DATA###" name="Unnatural Relexes"><description>Daemons of Chaos Armybook Page 58</description></rule>
+        <rule id="The Eternal Dance###DATA###" name="The Eternal Dance"><description>Daemons of Chaos Armybook Page 58</description></rule>
+      </rules><profiles>
+        <profile id="The Masque of Slaanesh###DATA###" name="The Masque of Slaanesh" profileTypeId="Infantry###DATA###"><characteristics>
+            <characteristic characteristicId="M###DATA###" name="M" value="10"/>
+            <characteristic characteristicId="WS###DATA###" name="WS" value="7"/>
+            <characteristic characteristicId="BS###DATA###" name="BS" value="0"/>
+            <characteristic characteristicId="ST###DATA###" name="ST" value="4"/>
+            <characteristic characteristicId="T###DATA###" name="T" value="3"/>
+            <characteristic characteristicId="W###DATA###" name="W" value="2"/>
+            <characteristic characteristicId="I###DATA###" name="I" value="7"/>
+            <characteristic characteristicId="A###DATA###" name="A" value="5"/>
+            <characteristic characteristicId="LD###DATA###" name="LD" value="8"/>
+          </characteristics></profile>
+      </profiles></entry>
+  </entries><rules/></catalogue>
