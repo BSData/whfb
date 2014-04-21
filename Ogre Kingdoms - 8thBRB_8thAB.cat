@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fad72a47-5102-4bd4-9b7e-148b4522f3d4" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Ogre Kindoms - Army Book (2013-4) -V8.8.1." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fad72a47-5102-4bd4-9b7e-148b4522f3d4" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Ogre Kindoms - Army Book (2013-4) -V8.8.1." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="efb72383-5767-2e16-16af-e737874b1671" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="BRB" page="135">
       <entries/>
@@ -609,7 +609,7 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="a26a7603-3cd5-430c-a92c-8122c45d1f9e" name="AB - Rock Eye" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="a26a7603-3cd5-430c-a92c-8122c45d1f9e" name="AB - Rock Eye" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1970,7 +1970,7 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="da95e980-1f6a-43a1-9ca3-129077d13134" name="AB - Rock Eye" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="da95e980-1f6a-43a1-9ca3-129077d13134" name="AB - Rock Eye" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -3313,7 +3313,7 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="b38e1907-11ea-49f4-9b39-d837250760ce" name="AB - Rock Eye" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="b38e1907-11ea-49f4-9b39-d837250760ce" name="AB - Rock Eye" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -5195,7 +5195,7 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="b8a8b5db-a522-4405-956e-1c3172a8c2df" name="AB - Rock Eye" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="b8a8b5db-a522-4405-956e-1c3172a8c2df" name="AB - Rock Eye" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -8303,7 +8303,7 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="aa68d23e-8186-4b09-ba4c-be77f560ef2c" name="AB - Rock Eye" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="aa68d23e-8186-4b09-ba4c-be77f560ef2c" name="AB - Rock Eye" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -9712,7 +9712,7 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="9cb59867-6c4f-4db4-8936-149ddd7b113c" name="AB - Rock Eye" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="9cb59867-6c4f-4db4-8936-149ddd7b113c" name="AB - Rock Eye" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
