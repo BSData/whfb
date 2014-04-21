@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="136ebf86-bdc9-9f2d-08ca-e8659ceaaeb7" revision="60" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dwarfs 8th Edition" authorName="Derk" authorContact="pm me at the Bugman&apos;s Brewery" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="136ebf86-bdc9-9f2d-08ca-e8659ceaaeb7" revision="60" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dwarfs - Army Book (2014-2) -V8.8.0." authorName="Derk" authorContact="pm me at the Bugman&apos;s Brewery" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="729f55d0-19d9-bc56-9334-8809c047364d" name="Belegar Ironhammer" points="305.0" categoryId="4c6f72647323232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>

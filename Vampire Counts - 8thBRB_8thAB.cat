@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eb04bd3b-7be9-428f-ae08-746bd8c698f7" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Vampire Counts 8th Ed AB and 8th Ed BRB" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eb04bd3b-7be9-428f-ae08-746bd8c698f7" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Vampire Counts - Army Book (2013-4) -V8.8.1." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="dec322d5-3cb6-1351-f4c9-7ac059941ec3" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -3012,7 +3012,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="e73bdf8c-5cb2-42a9-839f-2c824f598aa5" name="Mannfred the Acolyte" points="200.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="e73bdf8c-5cb2-42a9-839f-2c824f598aa5" name="Mannfred the Acolyte" points="200.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="c662e46f-ffb0-4137-89f9-11e78dfab218" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4635,7 +4635,7 @@
     </entry>
     <entry id="744fd11e-43fa-43e6-8b1e-4e0ac12845fd" name="Mortis Engine" points="220.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries>
-        <entry id="0e3c97ae-8135-4afa-8b22-c90269842c42" name="Blasphemous Tome" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="0e3c97ae-8135-4afa-8b22-c90269842c42" name="Blasphemous Tome" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5912,7 +5912,7 @@
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="0896115e-666f-411b-91b8-97f620f28463" name="Wizard Level" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+        <entryGroup id="0896115e-666f-411b-91b8-97f620f28463" name="Wizard Level" defaultEntryId="28f816ed-7075-4cf5-b073-dbceaad320fb" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
             <entry id="28f816ed-7075-4cf5-b073-dbceaad320fb" name="Wizard Level 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>

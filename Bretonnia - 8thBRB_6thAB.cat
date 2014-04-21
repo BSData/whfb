@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3a81ff07-f518-e6bd-5da8-43be15dd967e" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Bretonnia 6th Ed AB and 8th Ed BRB" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3a81ff07-f518-e6bd-5da8-43be15dd967e" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Bretonnia - Army Book (2013-4) -V8.6.6." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -3656,6 +3656,9 @@ Green Knight may move normally on the turn he appears.”</description>
         <link id="a2de467f-9744-2547-7a5a-a11a2a375517" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="13cb3eb3-767c-4458-c22a-ea4f4207de27" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="b14269fc-3201-ef5d-0fa8-81a89f2a6795" name="Royal Pegasus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
@@ -3691,6 +3694,9 @@ Green Knight may move normally on the turn he appears.”</description>
           <modifiers/>
         </link>
         <link id="2f07a112-5af5-171d-d11f-4e06fd28b974" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="160e4ac2-e056-dbcd-f52d-e5ad94da8a41" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" linkType="rule">
           <modifiers/>
         </link>
       </links>
