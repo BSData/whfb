@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e4ea4dec-068d-f8a2-6c84-b8233745215b" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Beastmen 7th Ed AB and 8th Ed BRB" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e4ea4dec-068d-f8a2-6c84-b8233745215b" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Beastmen - 8th Ed BRB - 7th Ed AB - FAQ 4-&apos;13" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="4a71701f-ea9b-81b4-3b3d-5825d2bc724e" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -2599,6 +2599,186 @@ Add the following sentence to the end of the third paragraph:
         </link>
       </links>
     </entry>
+    <entry id="1a1480a7-f979-dcc1-d078-21966960f1cb" name="Moonclaw, Son of Morrslieb" points="200.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="7af16562-6b9d-f7a9-2060-dadb6c22295c" name="Braystaff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bcf94d08-a915-0bde-3fbc-ee530beccce7" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="037ddfa6-93ac-8f0b-ebec-01bf2e90c6ab" name="Wizard Level" defaultEntryId="7b8320c1-8c37-e13b-c865-a6f28907786a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="7b8320c1-8c37-e13b-c865-a6f28907786a" name="Wizard Level 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="2bcdedbc-f3e8-9bd3-f2e4-2312ab341b8d" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="5476c052-8496-0ae0-262b-ef2a7021900f" name="Lore of the Wild" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="979ff17d-d194-1150-38b8-5a0fbe05b814" name="Lore of Shadow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="0b07020e-b477-ff98-23e6-7b4857cd0b09" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="78786cda-dc28-58a3-bbb3-db9f74d2a421" name="Umbralok" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0bae6f63-45ee-3dbc-fb2c-e8959efda5e2" profileTypeId="4d6f64656c23232344415441232323" name="Umbralok" hidden="false" book="AB" page="59">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="+1"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="b256cb28-8f9a-42a6-9a59-c4de8338f7da" targetId="1ef54ae5-87a6-a624-4392-d3870568aa5e" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="fe29bddb-b876-d183-58aa-63e30e7213f2" name="Wave of Insanity" hidden="false" book="AB" page="59">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="bb9638e1-9edb-c27e-b578-b4719775bf13" name="Unholy Zenith" hidden="false" book="AB" page="59">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="fb0cfcf6-e4d0-18e9-342f-1ff1b34d81f7" name="Ward of Morrslieb" hidden="false" book="AB" page="59">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ef326aaa-bc13-6ab7-b9d7-76155dbada9e" profileTypeId="4d6f64656c23232344415441232323" name="Moonclaw, Son of Morrslieb" hidden="false" book="AB" page="59">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="2"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="28978084-b6c5-2c4e-a4b6-7ddbc0ed6bb5" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0a584bb3-cd39-249d-dbca-310fe3acc962" name="Morghur, Master of Skulls" points="280.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7a5ed960-0184-b032-5e96-d2f4a8343f8a" name="Aura of Transmutation" hidden="false" book="AB" page="57">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ef34c392-f1b1-5cb2-79b4-3a54ce2359ad" name="Spirit-essence of Chaos" hidden="false" book="AB" page="57">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ccdd7dff-711a-95cf-8ca0-357b9ececd7a" profileTypeId="4d6f64656c23232344415441232323" name="Morghur, Master of Skulls" hidden="false" book="AB" page="57">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fdb9df0e-a7b5-823d-2922-7838a46c8e82" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b6121de4-bfdd-3586-eb70-ce2a5d0659d4" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="341d5009-6720-a933-4f81-2e5565bfc06d" targetId="17a4121b-b68c-ca7b-34ef-173c0c9fc825" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="86706a42-b550-6f4c-3b12-0d551d9aaae7" name="Razorgor Chariot" points="145.0" categoryId="5370656369616c23232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false" book="AB" page="45">
       <entries>
         <entry id="0a9fb3ee-84d5-9bdb-6f6d-a9aabb1593e9" name="Bestigor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
@@ -2803,6 +2983,100 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="69d27eef-6699-e2fd-d21c-1d1f1bcccf93" targetId="9fa16463-e125-6b7a-00e9-81b48958995b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f5876f5f-77ad-8998-a021-028df23079f9" name="Slugtongue" points="190.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="27495544-152b-1111-dda1-bbc2a03877e6" name="Braystaff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7574388b-717c-ebbb-8fe0-91feb998e8d3" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="bdc0c78c-a49c-9d7d-74ce-3b7b808d7506" name="Wizard Level" defaultEntryId="bba8a28f-187d-4c33-7548-ec84ac39ecfd" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="bba8a28f-187d-4c33-7548-ec84ac39ecfd" name="Wizard Level 2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="9a24a4c9-6c16-5ca0-c597-cbd5e97aad92" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="6ce75ad5-9acc-b75c-4b11-1fbfb7153339" name="Lore of the Wild" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="129c696e-1bf3-cf7d-7d18-fc8b4e099e4a" name="Lore of Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="9c981036-1c75-a26b-716c-c4e355d543e4" name="Curse of the Famine-fiend" hidden="false" book="AB" page="61">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ab6f4e7b-ba59-faec-908f-f390be8541a0" profileTypeId="4d6f64656c23232344415441232323" name="Slugtongue" hidden="false" book="AB" page="61">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e4f2166c-f8c5-4f50-edeb-5c40efe1298e" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5234a84a-5e01-02fe-8915-86539cf245a0" targetId="53d10660-1b77-24f1-3123-3c62f883a5ea" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96fa23eb-b057-82a3-470b-6d30d0e7da39" targetId="880b7bb7-2128-6401-6716-1fadd31ed1e8" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3311,6 +3585,222 @@ can join the unit.”</description>
         </link>
       </links>
     </entry>
+    <entry id="6d4633e1-7c68-3bb5-d8b7-b34f8d4bbfcb" name="Wargor" points="85.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="a412e7de-4b50-54b3-8f3f-9a915ee146ec" name="Shield" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0af89fd9-36a8-7f25-c81e-3ba4b8d3d4d0" targetId="43d8c6b3-1c3b-aa54-4df2-d22e445b4ed8" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="53b4c98e-448b-fc3c-ab87-25d8ef952f2c" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="184763e1-e7c1-e055-2bd3-cee1559245ca" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="4f7a3b76-79cd-5bec-d3ae-65b781edad0a" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="6d4633e1-7c68-3bb5-d8b7-b34f8d4bbfcb" childId="ba15711c-3236-07b2-6c4e-23e29402583b" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <links>
+                    <link id="387ffd10-f671-cfd5-461f-519cc66262ea" targetId="0dd77a85-e4ed-0cd0-688b-6667a49adcec" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="1e2a11e1-1c1b-45b6-a1df-3cbac88625fd" targetId="218c4f4e-464d-9d7c-ae85-04248eaacde4" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="31ed3651-474e-cdf2-6e94-31fb2c307b46" targetId="c2ac2d0d-9e5f-014e-579e-e8cb9a5f343e" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="c279a608-85cd-ac2a-b921-638a2e73430a" targetId="76bdb69c-8303-cce1-981a-e097cba585e3" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links>
+                <link id="7247375f-68e3-160d-8f81-2c247c1a7ca4" targetId="feaffa1a-c656-d839-d8e5-af8fcae7ab7c" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="c4e50e18-e613-1c20-7070-bb5c38965822" name="Battle Standard Bearer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="ba15711c-3236-07b2-6c4e-23e29402583b" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="0d563c4c-fca6-50cf-040c-375c5e220862" targetId="607856ce-22d2-029c-5250-65626cf58720" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="92e035d2-f786-5380-a216-8d20e91c62dd" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="b6ee6439-3c05-f131-9ff2-ba203125aea3" name="Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="120c8d4d-3849-4fb6-8af9-d8e954a60bf6" name="Great Weapon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8f5b86c7-67a7-b4d8-9534-104866127f92" targetId="70f257e8-87ff-01c3-ffe9-c002210b30a6" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6e32fdee-24eb-15b8-0f65-25ebc7946e87" name="Additional Hand Weapon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="20b7e950-2656-d105-ab76-de8e5c8ae6da" targetId="b3cac909-5e61-6690-162b-7207dce88060" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="9d346aab-4a91-8589-df19-731e3bc7fd57" name="Armour" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="6473edda-6aac-f5ae-9b5a-e2e706c8d855" name="Light Armour" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="bd1704be-b114-780e-d940-a2bf65efe784" targetId="9336071b-6122-8154-ec85-c256308728ec" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="a3f78028-f58f-74f8-7b61-292d29bec8b4" name="Heavy Armour" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f17745c1-9e36-70fc-0484-d792911159a1" targetId="72c71f66-894e-d5ae-bcce-1947edec0cf4" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="33e562f7-8571-2476-a330-c059345476be" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="becddce6-64eb-2016-1251-ca1b15c6e6fc" name="Tuskgor Chariot" points="80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6f58bd40-4593-7e6c-cecb-afcb56a7f495" targetId="8a39c895-bca5-3358-0a5d-baf32ed68521" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="a5a7dc3b-7491-226f-2216-5de1117e32d7" name="Razorgor Chariot" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f326e777-7d43-030b-81d9-2c84d949f0ed" targetId="d0cb2e5e-7d90-d527-6e66-5660cb210695" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6e137112-b085-55c6-dc43-de0392c4ebdb" profileTypeId="4d6f64656c23232344415441232323" name="Wargor" hidden="false" book="AB" page="34">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="04d4911d-19bd-03da-d234-199113cc96c5" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="fd020a7f-ee51-e7a2-d7e6-fe8775af0334" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e5d8d3f5-0b17-636a-78ae-d5a65834d283" targetId="1eac4d6d-708c-fd43-62d6-a96e016e559b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="111f9004-34b5-5b4c-10f9-c031863c9790" name="Warhoofs Centigors" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
         <entry id="c85482e6-2628-3299-0f9a-4952df2f7a1b" name="Centigor" points="25.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="AB" page="46">
@@ -3537,496 +4027,6 @@ can join the unit.”</description>
           <modifiers/>
         </link>
         <link id="7ef19a93-1ce4-1fc4-9497-0e6ea674299c" targetId="9336071b-6122-8154-ec85-c256308728ec" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6d4633e1-7c68-3bb5-d8b7-b34f8d4bbfcb" name="Wargor" points="85.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries>
-        <entry id="a412e7de-4b50-54b3-8f3f-9a915ee146ec" name="Shield" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0af89fd9-36a8-7f25-c81e-3ba4b8d3d4d0" targetId="43d8c6b3-1c3b-aa54-4df2-d22e445b4ed8" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="53b4c98e-448b-fc3c-ab87-25d8ef952f2c" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="184763e1-e7c1-e055-2bd3-cee1559245ca" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="4f7a3b76-79cd-5bec-d3ae-65b781edad0a" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="50.0" minInRoster="0" maxInRoster="-1" collective="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers>
-                    <modifier type="decrement" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="6d4633e1-7c68-3bb5-d8b7-b34f8d4bbfcb" childId="ba15711c-3236-07b2-6c4e-23e29402583b" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <links>
-                    <link id="387ffd10-f671-cfd5-461f-519cc66262ea" targetId="0dd77a85-e4ed-0cd0-688b-6667a49adcec" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                    <link id="1e2a11e1-1c1b-45b6-a1df-3cbac88625fd" targetId="218c4f4e-464d-9d7c-ae85-04248eaacde4" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                    <link id="31ed3651-474e-cdf2-6e94-31fb2c307b46" targetId="c2ac2d0d-9e5f-014e-579e-e8cb9a5f343e" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                    <link id="c279a608-85cd-ac2a-b921-638a2e73430a" targetId="76bdb69c-8303-cce1-981a-e097cba585e3" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <links>
-                <link id="7247375f-68e3-160d-8f81-2c247c1a7ca4" targetId="feaffa1a-c656-d839-d8e5-af8fcae7ab7c" linkType="entry group">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="c4e50e18-e613-1c20-7070-bb5c38965822" name="Battle Standard Bearer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="ba15711c-3236-07b2-6c4e-23e29402583b" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="0d563c4c-fca6-50cf-040c-375c5e220862" targetId="607856ce-22d2-029c-5250-65626cf58720" linkType="entry group">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="92e035d2-f786-5380-a216-8d20e91c62dd" field="selections" type="less than" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="b6ee6439-3c05-f131-9ff2-ba203125aea3" name="Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="120c8d4d-3849-4fb6-8af9-d8e954a60bf6" name="Great Weapon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="8f5b86c7-67a7-b4d8-9534-104866127f92" targetId="70f257e8-87ff-01c3-ffe9-c002210b30a6" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="6e32fdee-24eb-15b8-0f65-25ebc7946e87" name="Additional Hand Weapon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="20b7e950-2656-d105-ab76-de8e5c8ae6da" targetId="b3cac909-5e61-6690-162b-7207dce88060" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="9d346aab-4a91-8589-df19-731e3bc7fd57" name="Armour" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="6473edda-6aac-f5ae-9b5a-e2e706c8d855" name="Light Armour" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="bd1704be-b114-780e-d940-a2bf65efe784" targetId="9336071b-6122-8154-ec85-c256308728ec" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="a3f78028-f58f-74f8-7b61-292d29bec8b4" name="Heavy Armour" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="f17745c1-9e36-70fc-0484-d792911159a1" targetId="72c71f66-894e-d5ae-bcce-1947edec0cf4" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="33e562f7-8571-2476-a330-c059345476be" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="becddce6-64eb-2016-1251-ca1b15c6e6fc" name="Tuskgor Chariot" points="80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="6f58bd40-4593-7e6c-cecb-afcb56a7f495" targetId="8a39c895-bca5-3358-0a5d-baf32ed68521" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="a5a7dc3b-7491-226f-2216-5de1117e32d7" name="Razorgor Chariot" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="f326e777-7d43-030b-81d9-2c84d949f0ed" targetId="d0cb2e5e-7d90-d527-6e66-5660cb210695" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="6e137112-b085-55c6-dc43-de0392c4ebdb" profileTypeId="4d6f64656c23232344415441232323" name="Wargor" hidden="false" book="AB" page="34">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="04d4911d-19bd-03da-d234-199113cc96c5" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="fd020a7f-ee51-e7a2-d7e6-fe8775af0334" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e5d8d3f5-0b17-636a-78ae-d5a65834d283" targetId="1eac4d6d-708c-fd43-62d6-a96e016e559b" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0a584bb3-cd39-249d-dbca-310fe3acc962" name="Morghur, Master of Skulls" points="280.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="7a5ed960-0184-b032-5e96-d2f4a8343f8a" name="Aura of Transmutation" hidden="false" book="AB" page="57">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="ef34c392-f1b1-5cb2-79b4-3a54ce2359ad" name="Spirit-essence of Chaos" hidden="false" book="AB" page="57">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="ccdd7dff-711a-95cf-8ca0-357b9ececd7a" profileTypeId="4d6f64656c23232344415441232323" name="Morghur, Master of Skulls" hidden="false" book="AB" page="57">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="fdb9df0e-a7b5-823d-2922-7838a46c8e82" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="b6121de4-bfdd-3586-eb70-ce2a5d0659d4" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="341d5009-6720-a933-4f81-2e5565bfc06d" targetId="17a4121b-b68c-ca7b-34ef-173c0c9fc825" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f5876f5f-77ad-8998-a021-028df23079f9" name="Slugtongue" points="190.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="27495544-152b-1111-dda1-bbc2a03877e6" name="Braystaff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7574388b-717c-ebbb-8fe0-91feb998e8d3" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="bdc0c78c-a49c-9d7d-74ce-3b7b808d7506" name="Wizard Level" defaultEntryId="bba8a28f-187d-4c33-7548-ec84ac39ecfd" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="bba8a28f-187d-4c33-7548-ec84ac39ecfd" name="Wizard Level 2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="9a24a4c9-6c16-5ca0-c597-cbd5e97aad92" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="6ce75ad5-9acc-b75c-4b11-1fbfb7153339" name="Lore of the Wild" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="129c696e-1bf3-cf7d-7d18-fc8b4e099e4a" name="Lore of Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="9c981036-1c75-a26b-716c-c4e355d543e4" name="Curse of the Famine-fiend" hidden="false" book="AB" page="61">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="ab6f4e7b-ba59-faec-908f-f390be8541a0" profileTypeId="4d6f64656c23232344415441232323" name="Slugtongue" hidden="false" book="AB" page="61">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e4f2166c-f8c5-4f50-edeb-5c40efe1298e" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5234a84a-5e01-02fe-8915-86539cf245a0" targetId="53d10660-1b77-24f1-3123-3c62f883a5ea" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="96fa23eb-b057-82a3-470b-6d30d0e7da39" targetId="880b7bb7-2128-6401-6716-1fadd31ed1e8" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1a1480a7-f979-dcc1-d078-21966960f1cb" name="Moonclaw, Son of Morrslieb" points="200.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="7af16562-6b9d-f7a9-2060-dadb6c22295c" name="Braystaff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bcf94d08-a915-0bde-3fbc-ee530beccce7" targetId="ba5a123d-b791-e6ea-3490-a034bf6962e2" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="037ddfa6-93ac-8f0b-ebec-01bf2e90c6ab" name="Wizard Level" defaultEntryId="7b8320c1-8c37-e13b-c865-a6f28907786a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="7b8320c1-8c37-e13b-c865-a6f28907786a" name="Wizard Level 1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="2bcdedbc-f3e8-9bd3-f2e4-2312ab341b8d" name="Lore" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="5476c052-8496-0ae0-262b-ef2a7021900f" name="Lore of the Wild" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="979ff17d-d194-1150-38b8-5a0fbe05b814" name="Lore of Shadow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="0b07020e-b477-ff98-23e6-7b4857cd0b09" name="Mount" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="78786cda-dc28-58a3-bbb3-db9f74d2a421" name="Umbralok" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="0bae6f63-45ee-3dbc-fb2c-e8959efda5e2" profileTypeId="4d6f64656c23232344415441232323" name="Umbralok" hidden="false" book="AB" page="59">
-                  <characteristics>
-                    <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
-                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="+1"/>
-                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="b256cb28-8f9a-42a6-9a59-c4de8338f7da" targetId="1ef54ae5-87a6-a624-4392-d3870568aa5e" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="fe29bddb-b876-d183-58aa-63e30e7213f2" name="Wave of Insanity" hidden="false" book="AB" page="59">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="bb9638e1-9edb-c27e-b578-b4719775bf13" name="Unholy Zenith" hidden="false" book="AB" page="59">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="fb0cfcf6-e4d0-18e9-342f-1ff1b34d81f7" name="Ward of Morrslieb" hidden="false" book="AB" page="59">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="ef326aaa-bc13-6ab7-b9d7-76155dbada9e" profileTypeId="4d6f64656c23232344415441232323" name="Moonclaw, Son of Morrslieb" hidden="false" book="AB" page="59">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="2"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="28978084-b6c5-2c4e-a4b6-7ddbc0ed6bb5" targetId="0bafd11f-914a-cac7-97a8-ddfec2f8d4ef" linkType="rule">
           <modifiers/>
         </link>
       </links>
