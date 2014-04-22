@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e839a02e-1aa1-b1dc-fa19-52d99bd81a1c" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="High Elves - Army Book (2013-4) -V8.7.4." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e839a02e-1aa1-b1dc-fa19-52d99bd81a1c" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="High Elves - Army Book (2013-4) -V8.7.4." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="82bb2dc3-461b-f42c-0138-f68b0c9b503b" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -1062,7 +1062,7 @@ can cause irresistible force as normal.”</description>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="4ff58563-bdba-1dc5-4390-370a87750da2" profileTypeId="576561706f6e23232344415441232323" name="Chayal" hidden="false" book="AB" page="69">
+                <profile id="4ff58563-bdba-1dc5-4390-370a87750da2" profileTypeId="576561706f6e23232344415441232323" name="The Fangsword of Eltharion" hidden="false" book="AB" page="69">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                     <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2 (on charge)"/>
