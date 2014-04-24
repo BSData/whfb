@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -2423,7 +2423,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a6688602-a24f-364e-da8f-62364f3a4042" name="Chaos Spawn" points="0.0" categoryId="5261726523232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+    <entry id="a6688602-a24f-364e-da8f-62364f3a4042" name="Chaos Spawn" points="50.0" categoryId="5261726523232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="76f8b593-df15-7734-c05f-4d9a74b8b5d0" name="Spawn of Chaos" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
