@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d0f6d5ae-af44-401a-9a02-e6df49652942" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Empire - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d0f6d5ae-af44-401a-9a02-e6df49652942" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Empire - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="578a5b26-b90b-4c1d-a24d-72d54d6114d5" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -1702,7 +1702,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <rules/>
           <profiles/>
           <links>
-            <link id="dfa06213-bf33-3b6f-06ea-47d58b4632bd" targetId="ca62a11a-afce-e3f8-e727-c0d66df33117" linkType="profile">
+            <link id="dfa06213-bf33-3b6f-06ea-47d58b4632bd" targetId="bd694977-d316-377d-a7b0-3aa0966feb92" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -5212,7 +5212,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <rules/>
           <profiles/>
           <links>
-            <link id="64710282-5d19-fa06-2b3f-6399f9313395" targetId="ca62a11a-afce-e3f8-e727-c0d66df33117" linkType="profile">
+            <link id="64710282-5d19-fa06-2b3f-6399f9313395" targetId="bd694977-d316-377d-a7b0-3aa0966feb92" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -7780,7 +7780,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <rules/>
           <profiles/>
           <links>
-            <link id="73627d88-6b69-9cb6-27e6-b35019850e51" targetId="ca62a11a-afce-e3f8-e727-c0d66df33117" linkType="profile">
+            <link id="73627d88-6b69-9cb6-27e6-b35019850e51" targetId="bd694977-d316-377d-a7b0-3aa0966feb92" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -7987,7 +7987,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <rules/>
           <profiles/>
           <links>
-            <link id="833d7390-bb2e-2495-0935-072d4e53840b" targetId="ca62a11a-afce-e3f8-e727-c0d66df33117" linkType="profile">
+            <link id="833d7390-bb2e-2495-0935-072d4e53840b" targetId="bd694977-d316-377d-a7b0-3aa0966feb92" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -8046,12 +8046,28 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="bb3c6037-44f1-977b-cd17-2492cc9dc0d0" profileTypeId="4d6f64656c23232344415441232323" name="Warhorse" hidden="false" book="AB" page="87">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="08e2a5c3-2309-9682-0935-2c3362e44374" targetId="0fbf0d55-00e1-dc6c-e693-296829aaf3c5" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8073196c-d989-1864-c21e-d771711a6f8e" targetId="ca62a11a-afce-e3f8-e727-c0d66df33117" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -8066,7 +8082,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="4cac4871-dbf2-36ba-2ffb-09774fb864e2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Power Stone" hidden="false" page="0">
+            <profile id="4cac4871-dbf2-36ba-2ffb-09774fb864e2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Power Stone" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Before casting a spell. Add 2 Powerdice to roll for spell (use atleast 1 dice from powerdice pool)."/>
               </characteristics>
@@ -8081,7 +8097,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="96f67ed3-9322-3c04-4f16-63b77a9608fc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Dispel Scroll" hidden="false" page="0">
+            <profile id="96f67ed3-9322-3c04-4f16-63b77a9608fc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Dispel Scroll" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Dispel spell if no IF."/>
               </characteristics>
@@ -8096,7 +8112,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="78be90b6-af4c-255a-ffc3-d8cdfda8ddfc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scroll of Shielding" hidden="false" page="0">
+            <profile id="78be90b6-af4c-255a-ffc3-d8cdfda8ddfc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scroll of Shielding" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Target gets 4+ Ward Save against cast spell."/>
               </characteristics>
@@ -8111,7 +8127,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="dd0560c0-1b09-4617-b53c-7618cc9e48d2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Channeling Staff" hidden="false" page="0">
+            <profile id="dd0560c0-1b09-4617-b53c-7618cc9e48d2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Channeling Staff" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 to channeling."/>
               </characteristics>
@@ -8126,7 +8142,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="bd424c10-7f73-b3d0-2b22-fff1475f9749" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sceptre of Stability" hidden="false" page="0">
+            <profile id="bd424c10-7f73-b3d0-2b22-fff1475f9749" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sceptre of Stability" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can increase dispel result with another +D6. Can contribute to IF dispel."/>
               </characteristics>
@@ -8141,7 +8157,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="baf92890-a7eb-b4a8-aed7-70e3cb645026" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Earthing Rod" hidden="false" page="0">
+            <profile id="baf92890-a7eb-b4a8-aed7-70e3cb645026" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Earthing Rod" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can re-roll result on miscast table."/>
               </characteristics>
@@ -8156,7 +8172,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="da0cb517-ddc7-68ac-6c03-d140c78b8cd3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" page="0">
+            <profile id="da0cb517-ddc7-68ac-6c03-d140c78b8cd3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
               </characteristics>
@@ -8171,7 +8187,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="dab8925d-ab03-3550-1b5e-5e03a160c3aa" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Forbidden Rod" hidden="false" page="0">
+            <profile id="dab8925d-ab03-3550-1b5e-5e03a160c3aa" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Forbidden Rod" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Add +D6 dice to the power pool, also D3 wounds on the bearer (no armour save)."/>
               </characteristics>
@@ -8186,7 +8202,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f2501bcb-b2d5-b9f2-b298-360afad4a9c8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wand of Jet" hidden="false" page="0">
+            <profile id="f2501bcb-b2d5-b9f2-b298-360afad4a9c8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wand of Jet" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can increase cast result with another +D6. Can contribute to IF dispel."/>
               </characteristics>
@@ -8201,7 +8217,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="e1a1b716-8f42-547d-f489-04a3276d1378" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Power Scroll" hidden="false" page="0">
+            <profile id="e1a1b716-8f42-547d-f489-04a3276d1378" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Power Scroll" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. A Power Scroll can be used when the Wizard makes a casting attempt. During that casting attempt, the casting value of the spell is halved. You cannot choose to boost a spell when using the Power Scroll."/>
               </characteristics>
@@ -8216,7 +8232,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a81371b3-e2a1-7d17-0089-606ddfe8fa39" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" page="0">
+            <profile id="a81371b3-e2a1-7d17-0089-606ddfe8fa39" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
               </characteristics>
@@ -8231,7 +8247,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="5279031f-0c15-7feb-3ffe-d58d83520f4a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scroll of Leeching" hidden="false" page="0">
+            <profile id="5279031f-0c15-7feb-3ffe-d58d83520f4a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scroll of Leeching" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. After spell cast add number of power dice used as dispel dice (limit of 12)."/>
               </characteristics>
@@ -8246,7 +8262,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a4988af9-2df7-5bfe-5123-d237748e81da" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Feedback Scroll" hidden="false" page="0">
+            <profile id="a4988af9-2df7-5bfe-5123-d237748e81da" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Feedback Scroll" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of Dispel. Roll a dice for every dice used to cast the spell. The casting wizard takes a wound for every 5+, no armour saves."/>
               </characteristics>
@@ -8261,7 +8277,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9c5da1f1-7539-ce24-cdfc-ec8b6356dfbc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Book of Ashur" hidden="false" page="0">
+            <profile id="9c5da1f1-7539-ce24-cdfc-ec8b6356dfbc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Book of Ashur" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 to cast and dispel"/>
               </characteristics>
@@ -8276,7 +8292,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0dce948a-d0b9-cefa-0e85-38c48fad37bf" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (BRB-FAQ)" hidden="false" page="0">
+            <profile id="0dce948a-d0b9-cefa-0e85-38c48fad37bf" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (FAQ&apos;ed)" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 bonus on attempts to dispel"/>
               </characteristics>
@@ -8298,7 +8314,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f735dbce-a990-9888-5881-2b7f1eb791f9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
+            <profile id="f735dbce-a990-9888-5881-2b7f1eb791f9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
               </characteristics>
@@ -8313,7 +8329,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0454efe0-9b4f-1d47-439b-1ddb325432d0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
+            <profile id="0454efe0-9b4f-1d47-439b-1ddb325432d0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
               </characteristics>
@@ -8328,7 +8344,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="34c31ebf-876e-b6e7-f294-6e72f73b9476" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ironcurse Icon" hidden="false" page="0">
+            <profile id="34c31ebf-876e-b6e7-f294-6e72f73b9476" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ironcurse Icon" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bearer + unit he is with have 6+ WardSave against war machine weapons."/>
               </characteristics>
@@ -8343,7 +8359,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="dbdcce96-6a34-7c72-6ff9-cd27046378e3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+            <profile id="dbdcce96-6a34-7c72-6ff9-cd27046378e3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
               </characteristics>
@@ -8358,7 +8374,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a74a949e-e616-f9ab-202c-e8a415100688" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
+            <profile id="a74a949e-e616-f9ab-202c-e8a415100688" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
               </characteristics>
@@ -8373,7 +8389,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9237b924-8649-4a4f-82cb-f5d1ff84efdd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
+            <profile id="9237b924-8649-4a4f-82cb-f5d1ff84efdd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
               </characteristics>
@@ -8388,7 +8404,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="602f6c5e-d053-9f6f-3e51-ae95e52ab382" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Terrifying Mask of Eee!" hidden="false" page="0">
+            <profile id="602f6c5e-d053-9f6f-3e51-ae95e52ab382" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Terrifying Mask of Eee!" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Cause Terror (BRB-78). Other models cannot use his Ld."/>
               </characteristics>
@@ -8403,7 +8419,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="5eb00316-d37d-f5d6-14e6-fef32b2d9bfe" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ruby Ring of Ruin" hidden="false" page="0">
+            <profile id="5eb00316-d37d-f5d6-14e6-fef32b2d9bfe" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ruby Ring of Ruin" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power Level 3. Fireball spell (BRB-492)"/>
               </characteristics>
@@ -8418,7 +8434,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="6c79d22e-254b-0488-a16e-d7710a896604" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Featherfoe Torc" hidden="false" page="0">
+            <profile id="6c79d22e-254b-0488-a16e-d7710a896604" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Featherfoe Torc" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Flying creatures (and their riders) must re-roll succesfull rolls to hit against the bearer (and the unit he is with) in close combat."/>
               </characteristics>
@@ -8433,7 +8449,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="85867fea-79de-aa57-fbbc-dbe0c689b455" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
+            <profile id="85867fea-79de-aa57-fbbc-dbe0c689b455" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
               </characteristics>
@@ -8448,7 +8464,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="52bfe21d-474d-6183-a308-e56ad8c2b836" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Crown of Command" hidden="false" page="0">
+            <profile id="52bfe21d-474d-6183-a308-e56ad8c2b836" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Crown of Command" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Stubborn (BRB-76)"/>
               </characteristics>
@@ -8463,7 +8479,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7c60c025-22ed-807b-4d8d-8f01a17cb576" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Arabyan Carpet" hidden="false" page="0">
+            <profile id="7c60c025-22ed-807b-4d8d-8f01a17cb576" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Arabyan Carpet" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Fly rule (BRB-70), cannot join units."/>
               </characteristics>
@@ -8478,7 +8494,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="be130fb5-c79b-4ea3-7c65-43186b90490a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+            <profile id="be130fb5-c79b-4ea3-7c65-43186b90490a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
               </characteristics>
@@ -8493,7 +8509,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="fbb9837b-f3e6-343f-f291-81b5d2b9993f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizarding Hat" hidden="false" page="0">
+            <profile id="fbb9837b-f3e6-343f-f291-81b5d2b9993f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizarding Hat" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="As lvl 2 Wizard with random chosen Battle Magic lore. Stupidity (BRB-76)."/>
               </characteristics>
@@ -8508,7 +8524,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d5f38297-8f3e-8c61-6e3c-55d7db5dd67a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ring of Volans" hidden="false" page="0">
+            <profile id="d5f38297-8f3e-8c61-6e3c-55d7db5dd67a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ring of Volans" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Bound Spell (power level variable). Select 1 of the 8 lores and generate spell as if a level 1 Wizard."/>
               </characteristics>
@@ -8523,7 +8539,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7d4edfe4-c50f-dff5-432a-312c4ac9b393" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+            <profile id="7d4edfe4-c50f-dff5-432a-312c4ac9b393" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Must swap all  S, T, I and A values with enemy in a challenge."/>
               </characteristics>
@@ -8545,7 +8561,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="18532e34-e491-3c90-0a76-75f139cb642e" profileTypeId="41726d6f757223232344415441232323" name="Enchanted Shield" hidden="false" page="0">
+            <profile id="18532e34-e491-3c90-0a76-75f139cb642e" profileTypeId="41726d6f757223232344415441232323" name="Enchanted Shield" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Higher Saving Throw modifier then normal"/>
@@ -8561,7 +8577,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f620cb9e-c3ee-8dfd-d997-11983216f893" profileTypeId="41726d6f757223232344415441232323" name="Charmed Shield" hidden="false" page="0">
+            <profile id="f620cb9e-c3ee-8dfd-d997-11983216f893" profileTypeId="41726d6f757223232344415441232323" name="Charmed Shield" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="One use only. The first hit suffered by the bearer is discounted on a roll of 2+"/>
@@ -8577,10 +8593,10 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="41517bb2-e3db-7f53-0c2b-441ac6bd27b2" profileTypeId="41726d6f757223232344415441232323" name="Dragonhelm" hidden="false" page="0">
+            <profile id="41517bb2-e3db-7f53-0c2b-441ac6bd27b2" profileTypeId="41726d6f757223232344415441232323" name="Dragonhelm" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="The wearer has a 2+ WardSave against flaming attacks"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="The wearer has a WardSave (2+) against flaming attacks"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8593,7 +8609,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="802f1914-38fc-688c-9d5e-aaa13177af88" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+            <profile id="802f1914-38fc-688c-9d5e-aaa13177af88" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -8609,10 +8625,10 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f7e35688-4e8f-bf10-1f40-bece57dbff77" profileTypeId="41726d6f757223232344415441232323" name="Spellshield" hidden="false" page="0">
+            <profile id="f7e35688-4e8f-bf10-1f40-bece57dbff77" profileTypeId="41726d6f757223232344415441232323" name="Spellshield" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="MagicResistance (1) (BRB-72)"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Magic Resistance (1) (BRB-72)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8625,7 +8641,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7f9af950-ecb4-7110-dfb1-0401614e0773" profileTypeId="41726d6f757223232344415441232323" name="Shield of Ptolos" hidden="false" page="0">
+            <profile id="7f9af950-ecb4-7110-dfb1-0401614e0773" profileTypeId="41726d6f757223232344415441232323" name="Shield of Ptolos" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="The bearer has a 1+ ArmourSave against shooting attacks"/>
@@ -8641,7 +8657,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0061f15e-02ba-a800-1c7a-78fb9b67bcc1" profileTypeId="41726d6f757223232344415441232323" name="Glittering Scales" hidden="false" page="0">
+            <profile id="0061f15e-02ba-a800-1c7a-78fb9b67bcc1" profileTypeId="41726d6f757223232344415441232323" name="Glittering Scales" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="6+"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Enemies suffer a -1 to hit penalty in close combat"/>
@@ -8657,7 +8673,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="20bf665e-4452-7914-a59c-44d5fbc1bb4b" profileTypeId="41726d6f757223232344415441232323" name="Helm of Discord" hidden="false" page="0">
+            <profile id="20bf665e-4452-7914-a59c-44d5fbc1bb4b" profileTypeId="41726d6f757223232344415441232323" name="Helm of Discord" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="At the start of each Close Combat phase, choose an enemy character in base contact with the bearer or his unit. That character must immediately take a Leadership test. If the test is failed, the character cannot make attacks and is hit automatically."/>
@@ -8673,10 +8689,10 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="daef108e-28bf-4ae0-8cd4-d649ce49aa87" profileTypeId="41726d6f757223232344415441232323" name="Armour of Fortune" hidden="false" page="0">
+            <profile id="daef108e-28bf-4ae0-8cd4-d649ce49aa87" profileTypeId="41726d6f757223232344415441232323" name="Armour of Fortune" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 5+ WardSave"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer WardSave (5+)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8689,7 +8705,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="fce2746e-3af3-f701-c154-ec4c5efe4cf5" profileTypeId="41726d6f757223232344415441232323" name="Armour of Silvered Steel" hidden="false" page="0">
+            <profile id="fce2746e-3af3-f701-c154-ec4c5efe4cf5" profileTypeId="41726d6f757223232344415441232323" name="Armour of Silvered Steel" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="2+ ArmourSave no improvement"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value=""/>
@@ -8705,7 +8721,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d0ebd845-e9a7-eee6-b6ab-3f00ae1f612d" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+            <profile id="d0ebd845-e9a7-eee6-b6ab-3f00ae1f612d" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
@@ -8721,10 +8737,10 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="6e1c0a72-4660-ea9d-75e9-bffc7dd2bb85" profileTypeId="41726d6f757223232344415441232323" name="Armour of Destiny" hidden="false" page="0">
+            <profile id="6e1c0a72-4660-ea9d-75e9-bffc7dd2bb85" profileTypeId="41726d6f757223232344415441232323" name="Armour of Destiny" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 4+ WardSave"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer WardSave (4+)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8737,7 +8753,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="6f614f9e-626e-e8c4-b7ec-a8e148443f48" profileTypeId="41726d6f757223232344415441232323" name="Armour of Meteoric Iron" hidden="false" page="0">
+            <profile id="6f614f9e-626e-e8c4-b7ec-a8e148443f48" profileTypeId="41726d6f757223232344415441232323" name="Armour of Meteoric Iron" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="1+ ArmourSave no improvement"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="6+ WardSave"/>
@@ -8753,7 +8769,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="10440fb8-38db-8686-e7f0-cf49ed309e7f" profileTypeId="41726d6f757223232344415441232323" name="Helm of the Ratslayer" hidden="false" page="0">
+            <profile id="10440fb8-38db-8686-e7f0-cf49ed309e7f" profileTypeId="41726d6f757223232344415441232323" name="Helm of the Ratslayer" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Fear (BRB-69). Terror (BRB-78) against models from a Skaven army. Skaven gain Hatred (BRB-71) on wearer."/>
@@ -8776,7 +8792,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="dd649ecf-a37d-5e0d-8205-a9fedefb9757" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Griffon Standard" hidden="false" page="0">
+            <profile id="dd649ecf-a37d-5e0d-8205-a9fedefb9757" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Griffon Standard" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Double rank bonus for Combat Resolution. Never pursue."/>
               </characteristics>
@@ -8791,7 +8807,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="64ba3fb9-9e99-8b19-f510-93e978c33d7a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="War Banner" hidden="false" page="0">
+            <profile id="64ba3fb9-9e99-8b19-f510-93e978c33d7a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="War Banner" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Combat Resolution."/>
               </characteristics>
@@ -8806,7 +8822,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ea33fdbd-d364-81f6-d1c9-843d643eca8f" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Scarecrow Banner" hidden="false" page="0">
+            <profile id="ea33fdbd-d364-81f6-d1c9-843d643eca8f" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Scarecrow Banner" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Fear (BRB-69) in models with Fly."/>
               </characteristics>
@@ -8821,7 +8837,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ed8f6383-311a-b3ac-0204-62d2cd2bce73" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
+            <profile id="ed8f6383-311a-b3ac-0204-62d2cd2bce73" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
               </characteristics>
@@ -8836,7 +8852,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9b3775ae-2b23-d586-4d00-1475e6ceb448" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Eternal Flame" hidden="false" page="0">
+            <profile id="9b3775ae-2b23-d586-4d00-1475e6ceb448" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Eternal Flame" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Flaming Attacks (BRB-69)."/>
               </characteristics>
@@ -8851,7 +8867,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7eeec25f-3322-bfd5-4851-7dd68a279d7e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of Discipline" hidden="false" page="0">
+            <profile id="7eeec25f-3322-bfd5-4851-7dd68a279d7e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of Discipline" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Ld, but cannot use Generals Inspiring Presence."/>
               </characteristics>
@@ -8866,7 +8882,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="5e32c189-a200-56c7-3304-9dd3ad93f57c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Lichebone Pennant" hidden="false" page="0">
+            <profile id="5e32c189-a200-56c7-3304-9dd3ad93f57c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Lichebone Pennant" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Magic Resistance (1) (BRB-72)."/>
               </characteristics>
@@ -8881,7 +8897,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f94fdd1f-bee9-444c-59ef-f60b44ef64d5" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Swiftness" hidden="false" page="0">
+            <profile id="f94fdd1f-bee9-444c-59ef-f60b44ef64d5" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Swiftness" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1M"/>
               </characteristics>
@@ -8896,7 +8912,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="b22ab812-d33b-8a1d-e43a-b8ce591d0b12" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Razor Standard" hidden="false" page="0">
+            <profile id="b22ab812-d33b-8a1d-e43a-b8ce591d0b12" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Razor Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Armour Piercing (BRB-67)"/>
               </characteristics>
@@ -8911,7 +8927,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="57bf8b23-7a6a-32c3-2718-735f660e261a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+            <profile id="57bf8b23-7a6a-32c3-2718-735f660e261a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
               </characteristics>
@@ -8926,7 +8942,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9553ae8b-9cdb-a8c5-dfba-2b854e338e1c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Wailing Banner" hidden="false" page="0">
+            <profile id="9553ae8b-9cdb-a8c5-dfba-2b854e338e1c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Wailing Banner" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Terror (BRB-78)"/>
               </characteristics>
@@ -8941,7 +8957,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="c454a775-c4ae-7ae0-f270-2777726cad1c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
+            <profile id="c454a775-c4ae-7ae0-f270-2777726cad1c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
               </characteristics>
@@ -8956,7 +8972,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="1ffc5050-bb7f-9453-8e01-d71abd61d911" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Steel Standard" hidden="false" page="0">
+            <profile id="1ffc5050-bb7f-9453-8e01-d71abd61d911" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Steel Standard" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Bearer + unit: Ignore negative Movement penalties for Barding, re-roll any dice of a 1 when determining the distance they charge, flee or pursue."/>
               </characteristics>
@@ -8978,7 +8994,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="21548d83-592a-5d36-bc38-93c9d59601f6" profileTypeId="576561706f6e23232344415441232323" name="Sword of Striking" hidden="false" page="0">
+            <profile id="21548d83-592a-5d36-bc38-93c9d59601f6" profileTypeId="576561706f6e23232344415441232323" name="Sword of Striking" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -8995,7 +9011,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="acb5191e-11d0-6a79-3d12-01b0fa3d4298" profileTypeId="576561706f6e23232344415441232323" name="Sword of Battle" hidden="false" page="0">
+            <profile id="acb5191e-11d0-6a79-3d12-01b0fa3d4298" profileTypeId="576561706f6e23232344415441232323" name="Sword of Battle" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9012,7 +9028,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="8f0ac9fb-4bd3-a865-f7c8-419454580198" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
+            <profile id="8f0ac9fb-4bd3-a865-f7c8-419454580198" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
@@ -9029,7 +9045,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0cd73410-3d2b-0cef-9a28-1493715a1f85" profileTypeId="576561706f6e23232344415441232323" name="Biting Blade" hidden="false" page="0">
+            <profile id="0cd73410-3d2b-0cef-9a28-1493715a1f85" profileTypeId="576561706f6e23232344415441232323" name="Biting Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9046,7 +9062,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="bcb36b88-8b23-e9e4-1d43-c01bf2b224be" profileTypeId="576561706f6e23232344415441232323" name="Shrieking Blade" hidden="false" page="0">
+            <profile id="bcb36b88-8b23-e9e4-1d43-c01bf2b224be" profileTypeId="576561706f6e23232344415441232323" name="Shrieking Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9063,7 +9079,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="e8ce113e-0c81-23dd-ebad-384fe297c73b" profileTypeId="576561706f6e23232344415441232323" name="Tormentor Sword" hidden="false" page="0">
+            <profile id="e8ce113e-0c81-23dd-ebad-384fe297c73b" profileTypeId="576561706f6e23232344415441232323" name="Tormentor Sword" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9080,7 +9096,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ef24df03-41a3-924a-a8f3-70bd094027e1" profileTypeId="576561706f6e23232344415441232323" name="Warrior Bane" hidden="false" page="0">
+            <profile id="ef24df03-41a3-924a-a8f3-70bd094027e1" profileTypeId="576561706f6e23232344415441232323" name="Warrior Bane" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9097,7 +9113,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9f6a4ac1-718f-8f91-7941-4a6f1194ae6f" profileTypeId="576561706f6e23232344415441232323" name="Relic Sword" hidden="false" page="0">
+            <profile id="9f6a4ac1-718f-8f91-7941-4a6f1194ae6f" profileTypeId="576561706f6e23232344415441232323" name="Relic Sword" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9114,7 +9130,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d5a6176a-9af7-003f-e83c-d6498c49aaff" profileTypeId="576561706f6e23232344415441232323" name="Gold Sigil Sword" hidden="false" page="0">
+            <profile id="d5a6176a-9af7-003f-e83c-d6498c49aaff" profileTypeId="576561706f6e23232344415441232323" name="Gold Sigil Sword" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9131,7 +9147,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d084eac4-a832-584e-ce14-e2be207e2418" profileTypeId="576561706f6e23232344415441232323" name="Berserker Sword" hidden="false" page="0">
+            <profile id="d084eac4-a832-584e-ce14-e2be207e2418" profileTypeId="576561706f6e23232344415441232323" name="Berserker Sword" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9148,7 +9164,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="025b3eff-9528-657c-d1c4-0bdc78c67857" profileTypeId="576561706f6e23232344415441232323" name="Sword of Swift Slaying" hidden="false" page="0">
+            <profile id="025b3eff-9528-657c-d1c4-0bdc78c67857" profileTypeId="576561706f6e23232344415441232323" name="Sword of Swift Slaying" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9165,7 +9181,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="5be74727-7634-e5c0-678f-c4a4bba1baac" profileTypeId="576561706f6e23232344415441232323" name="Spellthieving Sword" hidden="false" page="0">
+            <profile id="5be74727-7634-e5c0-678f-c4a4bba1baac" profileTypeId="576561706f6e23232344415441232323" name="Spellthieving Sword" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9182,10 +9198,10 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="4fb59d65-8ef5-30c5-6aa5-10c19e76f028" profileTypeId="576561706f6e23232344415441232323" name="Sword of Anti-Heroes" hidden="false" page="0">
+            <profile id="4fb59d65-8ef5-30c5-6aa5-10c19e76f028" profileTypeId="576561706f6e23232344415441232323" name="Sword of Anti-Heroes" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1*"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1*"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1S and +1A for every enemy character in base contact."/>
               </characteristics>
               <modifiers/>
@@ -9199,11 +9215,11 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0d44d219-e81c-7b84-b107-e58561f29662" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+            <profile id="0d44d219-e81c-7b84-b107-e58561f29662" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons (BRB-501). WS 10."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons (FAQ&apos;ed)(BRB-501). WS 10."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9216,7 +9232,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="b2dd32c1-1321-7cea-3898-694c46e8196f" profileTypeId="576561706f6e23232344415441232323" name="Sword of Strife" hidden="false" page="0">
+            <profile id="b2dd32c1-1321-7cea-3898-694c46e8196f" profileTypeId="576561706f6e23232344415441232323" name="Sword of Strife" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9233,7 +9249,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="751a5fbb-0afb-7a9d-cc66-881e4a9e206d" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
+            <profile id="751a5fbb-0afb-7a9d-cc66-881e4a9e206d" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
@@ -9250,7 +9266,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="fb2587d5-60be-04c5-4124-94ba398dd7a4" profileTypeId="576561706f6e23232344415441232323" name="Obsidian Blade" hidden="false" page="0">
+            <profile id="fb2587d5-60be-04c5-4124-94ba398dd7a4" profileTypeId="576561706f6e23232344415441232323" name="Obsidian Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9267,7 +9283,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="6ea960b7-2339-e7fa-a7dc-ece3679a9f3a" profileTypeId="576561706f6e23232344415441232323" name="Sword of Bloodshed" hidden="false" page="0">
+            <profile id="6ea960b7-2339-e7fa-a7dc-ece3679a9f3a" profileTypeId="576561706f6e23232344415441232323" name="Sword of Bloodshed" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -9284,7 +9300,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="fe76331d-307f-1c37-15ce-d80f9cc0c57a" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" page="0">
+            <profile id="fe76331d-307f-1c37-15ce-d80f9cc0c57a" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
@@ -9301,7 +9317,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d2dd91e6-e066-b7ed-e08d-175f052f33b0" profileTypeId="576561706f6e23232344415441232323" name="Runefang" hidden="false" page="0">
+            <profile id="d2dd91e6-e066-b7ed-e08d-175f052f33b0" profileTypeId="576561706f6e23232344415441232323" name="Runefang" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As User"/>
@@ -9318,7 +9334,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="b2bb92f3-3702-2e24-6d45-ddf333db349a" profileTypeId="576561706f6e23232344415441232323" name="The Mace of Helsturm" hidden="false" page="0">
+            <profile id="b2bb92f3-3702-2e24-6d45-ddf333db349a" profileTypeId="576561706f6e23232344415441232323" name="The Mace of Helsturm" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
@@ -9342,9 +9358,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="39978a17-ef51-409d-2f1e-95ea7b8f1c59" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Protection" hidden="false" page="0">
+            <profile id="39978a17-ef51-409d-2f1e-95ea7b8f1c59" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Protection" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="6+ WardSave."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (6+)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9357,7 +9373,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0189ac80-522e-da9c-bf06-615cde3d5e0e" profileTypeId="54616c69736d616e23232344415441232323" name="Luckstone" hidden="false" page="0">
+            <profile id="0189ac80-522e-da9c-bf06-615cde3d5e0e" profileTypeId="54616c69736d616e23232344415441232323" name="Luckstone" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Re-roll a single failed armour save."/>
               </characteristics>
@@ -9372,9 +9388,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="3a7c0ac8-5ca8-d367-5009-09fa015fd3e4" profileTypeId="54616c69736d616e23232344415441232323" name="Pidgeon Plucker Pendant" hidden="false" page="0">
+            <profile id="3a7c0ac8-5ca8-d367-5009-09fa015fd3e4" profileTypeId="54616c69736d616e23232344415441232323" name="Pidgeon Plucker Pendant" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="5+ Ward Save against wounds caused in close combat by models with Fly rule."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Ward Save (5+) against wounds caused in close combat by models with Fly rule."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9387,9 +9403,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a3b37bc0-e3ae-e969-7d9e-e1336d3d8331" profileTypeId="54616c69736d616e23232344415441232323" name="Dragonbane Gem" hidden="false" page="0">
+            <profile id="a3b37bc0-e3ae-e969-7d9e-e1336d3d8331" profileTypeId="54616c69736d616e23232344415441232323" name="Dragonbane Gem" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="2+ WardSave against Flaming Attacks."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (2+) against Flaming Attacks."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9402,7 +9418,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="41d74fe9-409b-bc28-9cac-9daae1ad5270" profileTypeId="54616c69736d616e23232344415441232323" name="Seed of Rebirth" hidden="false" page="0">
+            <profile id="41d74fe9-409b-bc28-9cac-9daae1ad5270" profileTypeId="54616c69736d616e23232344415441232323" name="Seed of Rebirth" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Regeneration (6+) (BRB-74)."/>
               </characteristics>
@@ -9417,7 +9433,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="14565b26-48f4-183d-5526-6e5377f8c781" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Trinket" hidden="false" page="0">
+            <profile id="14565b26-48f4-183d-5526-6e5377f8c781" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Trinket" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (1) (BRB-72)"/>
               </characteristics>
@@ -9432,9 +9448,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="16761345-1925-5156-c9d9-68ef82300276" profileTypeId="54616c69736d616e23232344415441232323" name="Opal Amulet" hidden="false" page="0">
+            <profile id="16761345-1925-5156-c9d9-68ef82300276" profileTypeId="54616c69736d616e23232344415441232323" name="Opal Amulet" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. 4+ Ward Save against first wound suffered."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Ward Save (4+) against first wound suffered."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9447,7 +9463,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="4b171a5a-612e-714f-ed71-8aceb6fb9c06" profileTypeId="54616c69736d616e23232344415441232323" name="Dawn Stone" hidden="false" page="0">
+            <profile id="4b171a5a-612e-714f-ed71-8aceb6fb9c06" profileTypeId="54616c69736d616e23232344415441232323" name="Dawn Stone" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Re-roll failed armour saves."/>
               </characteristics>
@@ -9462,7 +9478,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d22fcbeb-2240-4364-e3b0-c2ee78ce4e7f" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Amulet" hidden="false" page="0">
+            <profile id="d22fcbeb-2240-4364-e3b0-c2ee78ce4e7f" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Amulet" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (2) (BRB-72)"/>
               </characteristics>
@@ -9477,9 +9493,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="46f7a3f8-0c53-826f-8dd6-bc7047a5905a" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Endurance" hidden="false" page="0">
+            <profile id="46f7a3f8-0c53-826f-8dd6-bc7047a5905a" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Endurance" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="5+ WardSave."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (5+)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9492,7 +9508,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="e5ca96cb-eab0-b142-a148-6056ac268761" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Lodestone" hidden="false" page="0">
+            <profile id="e5ca96cb-eab0-b142-a148-6056ac268761" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Lodestone" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (3) (BRB-72)"/>
               </characteristics>
@@ -9507,9 +9523,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="38bfb0ab-ce6b-640d-e75a-45a12b3afb63" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Preservation" hidden="false" page="0">
+            <profile id="38bfb0ab-ce6b-640d-e75a-45a12b3afb63" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Preservation" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="4+ WardSave."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (4+)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9522,7 +9538,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="49ef9453-e5d4-01dc-8560-86be11202f81" profileTypeId="54616c69736d616e23232344415441232323" name="The White Cloak of Ulric" hidden="false" page="0">
+            <profile id="49ef9453-e5d4-01dc-8560-86be11202f81" profileTypeId="54616c69736d616e23232344415441232323" name="The White Cloak of Ulric" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Enemies in base contact suffer -1 to all To Hit rolls.5+ WardSave. 2+ WardSave against Flaming Attacks (BRB-69)."/>
               </characteristics>
@@ -9717,7 +9733,7 @@ then the Swiftstride special rule is not used.” to the end of the
 first paragraph.</description>
       <modifiers/>
     </rule>
-    <rule id="b183be1c-6f6e-c88e-91e9-a225ab941433" name="Regeneration" hidden="false" book="BRB" page="74">
+    <rule id="b183be1c-6f6e-c88e-91e9-a225ab941433" name="Regeneration (*)" hidden="false" book="BRB" page="74">
       <description>.</description>
       <modifiers/>
     </rule>
@@ -10153,7 +10169,7 @@ up to 12&quot;[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ca62a11a-afce-e3f8-e727-c0d66df33117" profileTypeId="4d6f64656c23232344415441232323" name="Warhorse" hidden="false" book="AB" page="87">
+    <profile id="bd694977-d316-377d-a7b0-3aa0966feb92" profileTypeId="4d6f64656c23232344415441232323" name="Warhorse" hidden="false" book="AB" page="87">
       <characteristics>
         <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
         <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
