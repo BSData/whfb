@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -1609,6 +1609,9 @@
                 <link id="307ed658-efea-2392-908c-3aade2c4784b" targetId="85880daf-9e17-ce22-6584-b7e6ad481bd6" linkType="entry group">
                   <modifiers/>
                 </link>
+                <link id="2929d255-2692-10d3-38c6-677d3d89b0da" targetId="bb6ae6fa-353f-030a-a498-9125c20bcf7c" linkType="entry group">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
           </entryGroups>
@@ -2013,6 +2016,9 @@
                   <modifiers/>
                 </link>
                 <link id="0ffdb675-3782-0725-7efa-6215e7f531bf" targetId="85880daf-9e17-ce22-6584-b7e6ad481bd6" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="a2be6531-29a0-2567-4073-c1d7cd47203d" targetId="bb6ae6fa-353f-030a-a498-9125c20bcf7c" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
@@ -3468,14 +3474,7 @@
               <modifiers/>
               <links>
                 <link id="3e272a81-6636-eeda-9064-8db4750f3bf2" targetId="bb6ae6fa-353f-030a-a498-9125c20bcf7c" linkType="entry group">
-                  <modifiers>
-                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="cbc10255-d10f-a5e0-dbdf-7fdb7d7d2f56" childId="238d7e80-26c7-a47a-75c9-e7bff2365812" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                  <modifiers/>
                 </link>
                 <link id="c38b04f6-03ea-2b95-3143-e5594a119af5" targetId="4bbd9f99-8390-e2b0-e742-19f9e7f92689" linkType="entry group">
                   <modifiers/>
