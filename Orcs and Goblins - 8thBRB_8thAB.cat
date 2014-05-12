@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8f6e9c35-8ddd-42b5-a6e1-d31bfe7afe94" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="BRB" page="135">
       <entries/>
@@ -32,6 +32,162 @@
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="eafc781a-286d-1fc3-9189-da4682057ff7" name="Arachnarok Spider" points="290.0" categoryId="5261726523232344415441232323" type="unit" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+      <entries>
+        <entry id="e300ce43-6129-d903-4d50-4706dabfbfd0" name="Howdah Crew" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="8" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="205c5f50-d7bc-fe1b-7773-8d6c8c6b585e" profileTypeId="4d6f64656c23232344415441232323" name="Forest Goblin Crew" hidden="false" book="AB" page="51">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="2"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="27d7f576-9468-a6ad-09ee-ed84fd1ae458" targetId="517baa19-a518-f6c6-f48f-42cba6cdce1d" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="184e74cb-b7c1-fe58-2599-9980ad779b32" targetId="2a8260a0-d550-5e96-8548-406d88baa730" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="d4a39f26-36e2-8e8a-f50b-ba0be67bd868" name="Upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="e085cdcc-e809-f121-31fd-0815433627a1" name="Flinger" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="30a0f6aa-eb5b-af42-10b5-7f4aa8e064d0" name="Flinger" hidden="false" book="AB" page="51">
+                  <description>.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="97c1beaf-47b7-a05c-0e06-ad4705ed3da5" profileTypeId="576561706f6e23232344415441232323" name="Flinger (Stone Thrower)" hidden="false" book="AB" page="51">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12-48&quot;"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="1(3)"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="197da210-9e52-1ae9-1116-e403e0a996fa" name="Catchweb Spidershrine" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="41253a7d-210f-8171-db19-12789bc56bfc" name="Catchweb Spidershrine" hidden="false" book="AB" page="51">
+                  <description>.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="8dc04723-fb30-4a4f-b9b5-fb3415f837a2" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="53cab887-94ae-0dbe-aed3-5e9e8ff51491" name="Howdah Crew" hidden="false" book="AB" page="51">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a71582c7-e441-9396-5fd4-b22d7d1ca53b" name="Natural Armour (4+)" hidden="false" book="AB" page="51">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="e0eff6a0-717e-5318-1d5e-189bd9d8f2b1" name="Venom Surge" hidden="false" book="AB" page="51">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="89c34395-82dd-f10a-a130-c88587a87821" profileTypeId="4d6f64656c23232344415441232323" name="Arachnarok Spider" hidden="false" book="AB" page="51">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="8"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="8"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="24a7a04d-b5d1-a8c3-8d1b-bb3bffb4d7f0" targetId="6da0915a-c8e5-cb6b-b5b9-851878456ac6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="01fad358-c1a3-f39d-7474-b2689e1b6d65" targetId="e88e264e-9650-e53f-5db3-ecf89b1de2a7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="979518b5-cc31-599b-4d18-5ad89e171481" targetId="48f64fb6-2069-caa5-2c92-949321609063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="68eef050-8824-a991-9490-6fd8c06d3d92" targetId="cd61578a-ffdd-fac2-fbf7-976b33b4e2f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="56453a39-0cc0-5ef6-9a83-64b19271744b" targetId="533e71c2-aea7-2de9-63db-fc13ff8abeda" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c8ccf7e2-5aa6-fcc3-481b-532402147bdb" targetId="a04a071e-9522-25e1-ac88-cb1abc873858" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3bce3254-0da6-dd4c-e470-aedebeef800f" targetId="00120a45-58fa-93de-18cd-dc4365564597" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a2e1856b-bb84-f71a-55f6-3df8e847db62" targetId="192850bc-159f-488a-f08d-ff3bd520715e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2d08d012-7fc3-16c3-60e0-d670881ef21f" targetId="3453c745-7875-1ebf-216c-160db18baf54" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e4e1897b-3472-0dc5-6290-60a05b39a278" targetId="3b1aff45-a46b-c3ea-cd8a-bbb108d4ec89" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="aedf1728-3655-4317-b789-6740bb6fd9fa" name="Azhag the Slaughterer" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -5983,7 +6139,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ee06bf68-dde0-49e8-a7b4-f6c7f4f20a9e" name="River Trolls" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+    <entry id="ee06bf68-dde0-49e8-a7b4-f6c7f4f20a9e" name="River Trolls" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries>
         <entry id="b525fae4-2325-4d15-a07f-7712bb9ffb30" name="River Troll" points="45.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -8164,162 +8320,6 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="22e6c5cd-f6da-bc6d-4350-630b3ca302c2" targetId="73e722bd-6630-78de-4a38-ba259773f191" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="eafc781a-286d-1fc3-9189-da4682057ff7" name="Arachnarok Spider" points="290.0" categoryId="5261726523232344415441232323" type="unit" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
-      <entries>
-        <entry id="e300ce43-6129-d903-4d50-4706dabfbfd0" name="Howdah Crew" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="8" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="205c5f50-d7bc-fe1b-7773-8d6c8c6b585e" profileTypeId="4d6f64656c23232344415441232323" name="Forest Goblin Crew" hidden="false" book="AB" page="51">
-              <characteristics>
-                <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="2"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
-                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="27d7f576-9468-a6ad-09ee-ed84fd1ae458" targetId="517baa19-a518-f6c6-f48f-42cba6cdce1d" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="184e74cb-b7c1-fe58-2599-9980ad779b32" targetId="2a8260a0-d550-5e96-8548-406d88baa730" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="d4a39f26-36e2-8e8a-f50b-ba0be67bd868" name="Upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-          <entries>
-            <entry id="e085cdcc-e809-f121-31fd-0815433627a1" name="Flinger" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="30a0f6aa-eb5b-af42-10b5-7f4aa8e064d0" name="Flinger" hidden="false" book="AB" page="51">
-                  <description>.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="97c1beaf-47b7-a05c-0e06-ad4705ed3da5" profileTypeId="576561706f6e23232344415441232323" name="Flinger (Stone Thrower)" hidden="false" book="AB" page="51">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12-48&quot;"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="1(3)"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73)"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="197da210-9e52-1ae9-1116-e403e0a996fa" name="Catchweb Spidershrine" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="41253a7d-210f-8171-db19-12789bc56bfc" name="Catchweb Spidershrine" hidden="false" book="AB" page="51">
-                  <description>.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="8dc04723-fb30-4a4f-b9b5-fb3415f837a2" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules>
-        <rule id="53cab887-94ae-0dbe-aed3-5e9e8ff51491" name="Howdah Crew" hidden="false" book="AB" page="51">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="a71582c7-e441-9396-5fd4-b22d7d1ca53b" name="Natural Armour (4+)" hidden="false" book="AB" page="51">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="e0eff6a0-717e-5318-1d5e-189bd9d8f2b1" name="Venom Surge" hidden="false" book="AB" page="51">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="89c34395-82dd-f10a-a130-c88587a87821" profileTypeId="4d6f64656c23232344415441232323" name="Arachnarok Spider" hidden="false" book="AB" page="51">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="8"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="8"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="24a7a04d-b5d1-a8c3-8d1b-bb3bffb4d7f0" targetId="6da0915a-c8e5-cb6b-b5b9-851878456ac6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="01fad358-c1a3-f39d-7474-b2689e1b6d65" targetId="e88e264e-9650-e53f-5db3-ecf89b1de2a7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="979518b5-cc31-599b-4d18-5ad89e171481" targetId="48f64fb6-2069-caa5-2c92-949321609063" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="68eef050-8824-a991-9490-6fd8c06d3d92" targetId="cd61578a-ffdd-fac2-fbf7-976b33b4e2f9" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="56453a39-0cc0-5ef6-9a83-64b19271744b" targetId="533e71c2-aea7-2de9-63db-fc13ff8abeda" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c8ccf7e2-5aa6-fcc3-481b-532402147bdb" targetId="a04a071e-9522-25e1-ac88-cb1abc873858" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3bce3254-0da6-dd4c-e470-aedebeef800f" targetId="00120a45-58fa-93de-18cd-dc4365564597" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a2e1856b-bb84-f71a-55f6-3df8e847db62" targetId="192850bc-159f-488a-f08d-ff3bd520715e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2d08d012-7fc3-16c3-60e0-d670881ef21f" targetId="3453c745-7875-1ebf-216c-160db18baf54" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e4e1897b-3472-0dc5-6290-60a05b39a278" targetId="3b1aff45-a46b-c3ea-cd8a-bbb108d4ec89" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -10605,6 +10605,10 @@ Add the following sentence to the end of the third paragraph:
       <description>.</description>
       <modifiers/>
     </rule>
+    <rule id="32a315d6-746c-4a15-d127-5828d8386146" name="Orc Bully" hidden="false" book="AB" page="47">
+      <description>.</description>
+      <modifiers/>
+    </rule>
     <rule id="a04a071e-9522-25e1-ac88-cb1abc873858" name="Poisoned Attacks" hidden="false" book="BRB" page="73">
       <description>.</description>
       <modifiers/>
@@ -10688,7 +10692,15 @@ of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
+    <rule id="39227e7f-f325-1bcc-7ded-557256d52cc3" name="Strider (Marsh)" hidden="false" book="BRB" page="76">
+      <description>.</description>
+      <modifiers/>
+    </rule>
     <rule id="e88e264e-9650-e53f-5db3-ecf89b1de2a7" name="Strider (Obstacle)" hidden="false" book="BRB" page="76">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6cbf5ebc-3b96-eec9-52e3-f99fe247422e" name="Strider (River)" hidden="false" book="BRB" page="76">
       <description>.</description>
       <modifiers/>
     </rule>
@@ -10717,6 +10729,10 @@ of the third paragraph.</description>
       <modifiers/>
     </rule>
     <rule id="3b1aff45-a46b-c3ea-cd8a-bbb108d4ec89" name="Thunderstomp" hidden="false" book="BRB" page="76">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d6277724-0836-296a-43f7-96d17918848f" name="Troll Vomit" hidden="false" book="AB" page="57">
       <description>.</description>
       <modifiers/>
     </rule>
@@ -10759,22 +10775,6 @@ up to 12&quot;[...]”.</description>
       <modifiers/>
     </rule>
     <rule id="f90c166d-5a74-1fb8-2fd3-b328a740c0c4" name="Wild Abandon" hidden="false" book="AB" page="41">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="32a315d6-746c-4a15-d127-5828d8386146" name="Orc Bully" hidden="false" book="AB" page="47">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="d6277724-0836-296a-43f7-96d17918848f" name="Troll Vomit" hidden="false" book="AB" page="57">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="39227e7f-f325-1bcc-7ded-557256d52cc3" name="Strider (Marsh)" hidden="false" book="BRB" page="76">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="6cbf5ebc-3b96-eec9-52e3-f99fe247422e" name="Strider (River)" hidden="false" book="BRB" page="76">
       <description>.</description>
       <modifiers/>
     </rule>
@@ -10824,6 +10824,24 @@ up to 12&quot;[...]”.</description>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 in first round of close combat"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ed81e7e9-ec87-eae4-5ba7-de47c7911fb9" profileTypeId="4d6f64656c23232344415441232323" name="Giant Wolf" hidden="false" book="AB" page="100">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="9"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -10988,24 +11006,6 @@ up to 12&quot;[...]”.</description>
         <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
         <characteristic characteristicId="4c4423232344415441232323" name="LD" value="3"/>
         <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-2"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="ed81e7e9-ec87-eae4-5ba7-de47c7911fb9" profileTypeId="4d6f64656c23232344415441232323" name="Giant Wolf" hidden="false" book="AB" page="100">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="9"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
         <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
         <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
         <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
