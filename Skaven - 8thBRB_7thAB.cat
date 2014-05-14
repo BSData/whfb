@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="d7e96398-40ba-4147-aeb9-e9baf04ac908" name="Army Size" defaultEntryId="543551d2-030c-4bff-9f44-3ee0f8c2114b" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -5701,6 +5701,16 @@ automatically and will not strike back.”</description>
                 <link id="dda6fc86-6266-78e9-a993-13d72b305a21" targetId="0e21ed83-078f-311b-705c-2fede1de6bbe" linkType="entry group">
                   <modifiers/>
                 </link>
+                <link id="b1d661ba-31d5-c2c4-8761-516601f159af" targetId="0a3fd191-d41b-f6be-8f49-dd67ac165542" linkType="entry group">
+                  <modifiers>
+                    <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="4c870d1a-af1a-9bc2-083d-617721632e39" childId="0be0d70f-d56a-be80-50f5-8442d20a42e9" field="selections" type="not equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
               </links>
             </entryGroup>
           </entryGroups>
@@ -6262,27 +6272,6 @@ machine with three crew.”</description>
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="777699cd-2998-db6c-a95c-67679994f706" name="Great Pox Rat" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="dcb05dee-a4a1-ed59-f451-503c571bfc95" targetId="1b291cca-8576-ad08-e7d6-3f93666ed7f7" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6b16e6cb-a25a-203b-c775-c5015adbe7b2" targetId="d1cc8acf-eec5-04bf-7267-305b6862ab39" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ad0b7efc-217b-1a2f-d832-ee989c381f83" targetId="7e27c8a5-8aca-a633-d182-3d5e72990c17" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="259b869e-ba9a-f3d4-6966-d1d337283045" targetId="fa522baa-f8d5-d389-7b1d-24ea528c90a6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="91f78e09-6c65-7389-72fc-007894da3b10" name="Doom-flayer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -6328,6 +6317,27 @@ machine with three crew.”</description>
           <modifiers/>
         </link>
         <link id="c84d1a3a-cba2-c0b1-4376-35ef1c7d2004" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="777699cd-2998-db6c-a95c-67679994f706" name="Great Pox Rat" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="dcb05dee-a4a1-ed59-f451-503c571bfc95" targetId="1b291cca-8576-ad08-e7d6-3f93666ed7f7" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6b16e6cb-a25a-203b-c775-c5015adbe7b2" targetId="d1cc8acf-eec5-04bf-7267-305b6862ab39" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ad0b7efc-217b-1a2f-d832-ee989c381f83" targetId="7e27c8a5-8aca-a633-d182-3d5e72990c17" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="259b869e-ba9a-f3d4-6966-d1d337283045" targetId="fa522baa-f8d5-d389-7b1d-24ea528c90a6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6413,47 +6423,6 @@ machine with three crew.”</description>
         </link>
       </links>
     </entry>
-    <entry id="77be205e-3661-4ec2-ce87-c62fc6d0d4ba" name="Warpfire Thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="bc1beee3-0b18-4021-3b07-e85869481bf0" name="Rapid Reaction" hidden="false" book="AB" page="60">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="fa26d122-5a13-b229-173e-22a9ff03c350" profileTypeId="576561706f6e23232344415441232323" name="Warpfire Thrower" hidden="false" book="AB" page="60">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Artillery dice"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Move or Fire (but can pivot) (BRB-73), Flame Template, Warpfire Thrower Misfire chart (AB-60)(FAQ&apos;ed), Warpstone Weapon (AB-33)(FAQ&apos;ed), automatic hits, Flaming Attacks (BRB-69), target must take panic test when suffering a casualty"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8630ac3a-35be-52a6-afa7-7f8495f65a5b" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="e0b298aa-6838-3ab4-4d54-7784ffd5eadb" targetId="d28320ed-2aa2-3bad-e1b0-8396a0a2853b" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="06ef6f0f-1844-b66c-4424-7646a3b882de" targetId="89c461fe-5210-f2c2-1cc9-de6b7f488f3a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="b196b256-1099-7904-ebcb-44c6650160c2" targetId="74a34bb8-fec3-72b3-fddc-d47c000c4524" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e43e2ccd-8d02-c07d-e48c-7da839af2224" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c1e1da29-9c73-964b-40f1-ee83f5bcafc3" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="731afb44-95d5-98d0-1bac-d1cc934f2707" name="Warp-grinder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -6511,6 +6480,47 @@ Initiative.”</description>
           <modifiers/>
         </link>
         <link id="05857521-129b-6b02-aa80-3c7c27995fcb" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="77be205e-3661-4ec2-ce87-c62fc6d0d4ba" name="Warpfire Thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bc1beee3-0b18-4021-3b07-e85869481bf0" name="Rapid Reaction" hidden="false" book="AB" page="60">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="fa26d122-5a13-b229-173e-22a9ff03c350" profileTypeId="576561706f6e23232344415441232323" name="Warpfire Thrower" hidden="false" book="AB" page="60">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Artillery dice"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Move or Fire (but can pivot) (BRB-73), Flame Template, Warpfire Thrower Misfire chart (AB-60)(FAQ&apos;ed), Warpstone Weapon (AB-33)(FAQ&apos;ed), automatic hits, Flaming Attacks (BRB-69), target must take panic test when suffering a casualty"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8630ac3a-35be-52a6-afa7-7f8495f65a5b" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e0b298aa-6838-3ab4-4d54-7784ffd5eadb" targetId="d28320ed-2aa2-3bad-e1b0-8396a0a2853b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="06ef6f0f-1844-b66c-4424-7646a3b882de" targetId="89c461fe-5210-f2c2-1cc9-de6b7f488f3a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b196b256-1099-7904-ebcb-44c6650160c2" targetId="74a34bb8-fec3-72b3-fddc-d47c000c4524" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e43e2ccd-8d02-c07d-e48c-7da839af2224" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c1e1da29-9c73-964b-40f1-ee83f5bcafc3" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7408,6 +7418,298 @@ Initiative.”</description>
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="3a979f89-3a29-c5ee-2586-967957d6c7ef" name="Magic Standards" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+      <entries>
+        <entry id="1be06870-0189-4fb1-0f83-f1dd106a167b" name="BRB - War Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3017def4-12db-4b98-022b-62f9e84c8257" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="War Banner" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Combat Resolution."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="eadab9a2-f426-232c-c19f-7f2910ca09ad" name="BRB - Scarecrow Banner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="56e50071-887d-0925-4f5c-29a9e6751cdc" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Scarecrow Banner" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Fear (BRB-69) in models with Fly."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e6d88184-0365-897c-1903-7cf14e44a2de" name="BRB - Gleaming Pennant" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="23c1c554-f98d-fac2-6c98-d29118ffbcf7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="68fe68da-a484-7e9d-408f-4f61bb0e7bf3" name="BRB - Banner of Eternal Flame" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="516b2f39-085f-34a4-84e1-3c1f5ff269f0" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Eternal Flame" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Flaming Attacks (BRB-69)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9cab1c91-c2c5-b1fc-2c73-72a40bbfb0fe" name="BRB - Standard of Discipline" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="837b957e-80c7-c8b3-ada9-64f1fa5b3dba" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of Discipline" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Ld, but cannot use Generals Inspiring Presence."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d5467af6-8f98-4763-d316-fb5fbe721b57" name="BRB - Lichebone Pennant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="682654e3-37f8-5395-ef3e-de3958a653a8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Lichebone Pennant" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Magic Resistance (1) (BRB-72)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ecfdf504-76ef-7933-1976-39d9189ac485" name="BRB - Banner of Swiftness" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="07fde029-8599-6804-c5a3-2dbafab38bf2" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Swiftness" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1M"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="db7c6aca-56cd-d2f8-81fa-a6a11a8c27ff" name="BRB - Razor Standard" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="329c38d9-350a-4f7a-e8d9-064f18997b12" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Razor Standard" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Armour Piercing (BRB-67)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f39309db-5900-fb4a-ecbc-7fd9a7bd1abb" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="37511712-0de1-d737-6bab-7e0c151f1bf3" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="76d5f4df-0e18-4409-f83e-be0a62b16f9c" name="BRB - Wailing Banner" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="58ae476f-529b-208f-7fdb-a8f4f8ed1bf1" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Wailing Banner" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Terror (BRB-78)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6e25bb29-a88e-77e9-d19a-4792fba6afa4" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="aa1e0602-d47a-ab98-6ed4-3f3f7569d7b4" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f640e770-7722-9c53-8329-89a2f0e47d0b" name="AB - Banner of the Under-Empire (FAQ&apos;ed)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="465f5d5f-7ba3-1323-95c4-36352e505fd7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of the Under-Empire" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All units in base contact with the unit bearing this banner suffer 2D6 S2 hits at the strat of every round of close combat. Distributed as shooting."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6f2d2c90-fd63-9e99-1092-ddd4ffd6781d" name="AB - Banner of Verminous Scurrying (FAQ&apos;ed)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0dfad0c3-6266-3113-742e-72a248fd1c69" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Verminous Scurrying" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Activate at start of friendly turn except the first. March at Triple speed. Suffer 2D6 S3 hits (as shooting)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3db2f767-497a-2381-ef5a-6352c5c1bcf3" name="AB - Dwarf-Hide Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5ca9d845-e2be-a1fa-1bf5-fbd58067e643" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Dwarf-Hide Banner" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Hatred (Dwarfs)(BRB-71), Dwarfs gain Hatred against unit bearing this banner."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0db06cc0-661e-f020-aae1-32914f4150fc" name="AB - Grand Banner of Clan Superiority (FAQ&apos;ed)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="64b5f624-3504-df19-91d0-563b3cd4ad26" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Grand Banner of Clan Superiority" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Add D3 to Combat Resolution per complete rank (5 or more models) more then the enemy."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c4771a5a-07c0-a30b-c2d3-12a2956e1760" name="AB - Sacred Banner of the Horned Rat" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1f466c22-7ed7-65a8-ed3f-ec8b6e3c01c0" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Sacred Banner of the Horned Rat" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All enemy unit&apos;s in 12&quot; get -1 Ld, can make enemy units in base contact re-roll succesfull Ld tests."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9210e1f6-d3ec-b4de-1310-171827bb232e" name="AB - Shroud of Dripping Death (FAQ&apos;ed)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="00a9d7f7-7136-a27b-46ea-ae8428641a76" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Shroud of Dripping Death" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Enemy models in base contact take a singel S3 hit, No Armour Save at the start of every round of close combat. Pursueing unit suffers D6+2 S3 Hits with No Armour Saves."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d07be58a-e1d7-f714-5408-cd7a81877e65" name="AB - Storm Banner (FAQ&apos;ed)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="df833dd6-d4d3-98f2-c475-4c423fad2a06" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Storm Banner" hidden="false" book="AB" page="111">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Activate at start of any player&apos;s turn. No Fly allowed, BS shooting -2 To Hit, Non BS shooting may only fire on a 4+. At start of each following player turn effects will end on a 4+."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9fdb7b78-532e-0830-8283-e156ca63bcd0" name="AB(Clan Pestilens Befouled Items) - Plague Banner" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="be054809-a394-7c48-50d0-b52765911f00" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Plague Banner (Clan Pestilens Befouled Items)" hidden="false" book="AB" page="110">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Activate in any Close COmbat phase. Unit of Plague Monks may re-roll failed To Hit and To Wound rolls."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="1bdaac3f-5619-de4b-5fe2-49fb0d0f0d98" name="Magic Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries>
         <entry id="cb2caff3-654d-f773-9ee7-c496c17171fa" name="BRB - Sword of Striking" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
@@ -8224,298 +8526,6 @@ Initiative.”</description>
             <profile id="c678b510-5f39-b2fa-0c69-1a09fb5b017f" profileTypeId="54616c69736d616e23232344415441232323" name="Shadow Magnet Trinket" hidden="false" book="AB" page="108">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Shooting against bearer and unit he is with suffer additional -1 To Hit penalty."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="3a979f89-3a29-c5ee-2586-967957d6c7ef" name="Magic Standards" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-      <entries>
-        <entry id="1be06870-0189-4fb1-0f83-f1dd106a167b" name="BRB - War Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3017def4-12db-4b98-022b-62f9e84c8257" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="War Banner" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Combat Resolution."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="eadab9a2-f426-232c-c19f-7f2910ca09ad" name="BRB - Scarecrow Banner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="56e50071-887d-0925-4f5c-29a9e6751cdc" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Scarecrow Banner" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Fear (BRB-69) in models with Fly."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="e6d88184-0365-897c-1903-7cf14e44a2de" name="BRB - Gleaming Pennant" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="23c1c554-f98d-fac2-6c98-d29118ffbcf7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="68fe68da-a484-7e9d-408f-4f61bb0e7bf3" name="BRB - Banner of Eternal Flame" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="516b2f39-085f-34a4-84e1-3c1f5ff269f0" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Eternal Flame" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Flaming Attacks (BRB-69)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="9cab1c91-c2c5-b1fc-2c73-72a40bbfb0fe" name="BRB - Standard of Discipline" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="837b957e-80c7-c8b3-ada9-64f1fa5b3dba" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of Discipline" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Ld, but cannot use Generals Inspiring Presence."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="d5467af6-8f98-4763-d316-fb5fbe721b57" name="BRB - Lichebone Pennant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="682654e3-37f8-5395-ef3e-de3958a653a8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Lichebone Pennant" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Magic Resistance (1) (BRB-72)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="ecfdf504-76ef-7933-1976-39d9189ac485" name="BRB - Banner of Swiftness" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="07fde029-8599-6804-c5a3-2dbafab38bf2" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Swiftness" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1M"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="db7c6aca-56cd-d2f8-81fa-a6a11a8c27ff" name="BRB - Razor Standard" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="329c38d9-350a-4f7a-e8d9-064f18997b12" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Razor Standard" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Armour Piercing (BRB-67)"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="f39309db-5900-fb4a-ecbc-7fd9a7bd1abb" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="37511712-0de1-d737-6bab-7e0c151f1bf3" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="76d5f4df-0e18-4409-f83e-be0a62b16f9c" name="BRB - Wailing Banner" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="58ae476f-529b-208f-7fdb-a8f4f8ed1bf1" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Wailing Banner" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Terror (BRB-78)"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="6e25bb29-a88e-77e9-d19a-4792fba6afa4" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="aa1e0602-d47a-ab98-6ed4-3f3f7569d7b4" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="f640e770-7722-9c53-8329-89a2f0e47d0b" name="AB - Banner of the Under-Empire (FAQ&apos;ed)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="465f5d5f-7ba3-1323-95c4-36352e505fd7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of the Under-Empire" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All units in base contact with the unit bearing this banner suffer 2D6 S2 hits at the strat of every round of close combat. Distributed as shooting."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="6f2d2c90-fd63-9e99-1092-ddd4ffd6781d" name="AB - Banner of Verminous Scurrying (FAQ&apos;ed)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="0dfad0c3-6266-3113-742e-72a248fd1c69" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Verminous Scurrying" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Activate at start of friendly turn except the first. March at Triple speed. Suffer 2D6 S3 hits (as shooting)"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="3db2f767-497a-2381-ef5a-6352c5c1bcf3" name="AB - Dwarf-Hide Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5ca9d845-e2be-a1fa-1bf5-fbd58067e643" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Dwarf-Hide Banner" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Hatred (Dwarfs)(BRB-71), Dwarfs gain Hatred against unit bearing this banner."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="0db06cc0-661e-f020-aae1-32914f4150fc" name="AB - Grand Banner of Clan Superiority (FAQ&apos;ed)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="64b5f624-3504-df19-91d0-563b3cd4ad26" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Grand Banner of Clan Superiority" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Add D3 to Combat Resolution per complete rank (5 or more models) more then the enemy."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="c4771a5a-07c0-a30b-c2d3-12a2956e1760" name="AB - Sacred Banner of the Horned Rat" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="1f466c22-7ed7-65a8-ed3f-ec8b6e3c01c0" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Sacred Banner of the Horned Rat" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All enemy unit&apos;s in 12&quot; get -1 Ld, can make enemy units in base contact re-roll succesfull Ld tests."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="9210e1f6-d3ec-b4de-1310-171827bb232e" name="AB - Shroud of Dripping Death (FAQ&apos;ed)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="00a9d7f7-7136-a27b-46ea-ae8428641a76" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Shroud of Dripping Death" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Enemy models in base contact take a singel S3 hit, No Armour Save at the start of every round of close combat. Pursueing unit suffers D6+2 S3 Hits with No Armour Saves."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="d07be58a-e1d7-f714-5408-cd7a81877e65" name="AB - Storm Banner (FAQ&apos;ed)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="df833dd6-d4d3-98f2-c475-4c423fad2a06" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Storm Banner" hidden="false" book="AB" page="111">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Activate at start of any player&apos;s turn. No Fly allowed, BS shooting -2 To Hit, Non BS shooting may only fire on a 4+. At start of each following player turn effects will end on a 4+."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="9fdb7b78-532e-0830-8283-e156ca63bcd0" name="AB(Clan Pestilens Befouled Items) - Plague Banner" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="be054809-a394-7c48-50d0-b52765911f00" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Plague Banner (Clan Pestilens Befouled Items)" hidden="false" book="AB" page="110">
-              <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Activate in any Close COmbat phase. Unit of Plague Monks may re-roll failed To Hit and To Wound rolls."/>
               </characteristics>
               <modifiers/>
             </profile>
