@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8f6e9c35-8ddd-42b5-a6e1-d31bfe7afe94" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="BRB" page="135">
       <entries/>
@@ -6605,7 +6605,7 @@
     </entry>
     <entry id="a74814e9-1eed-4fe4-8859-6a2490be7b3c" name="Savage Orc Boar Boy Big &apos;Uns" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
-        <entry id="c8eb80c9-31ca-4c07-a703-e157634f3303" name="Savage Orc Boar Boy Big &apos;Uns" points="18.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="c8eb80c9-31ca-4c07-a703-e157634f3303" name="Savage Orc Boar Boy Big &apos;Uns" points="22.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries>
             <entry id="1bdad730-2898-49dc-8c14-921f1ec22c92" name="Shields" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
               <entries/>
