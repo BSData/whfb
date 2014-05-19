@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="72aec429-2263-fde8-4399-2cbddbcc6d11" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dwarfs - Army Book (2014-2) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="72aec429-2263-fde8-4399-2cbddbcc6d11" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dwarfs - Army Book (2014-2) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -6122,7 +6122,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="71376b96-58c1-4600-c11c-01cff5b335a9" name="Rune of Speed" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="71376b96-58c1-4600-c11c-01cff5b335a9" name="Rune of Speed (1st rune)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6132,6 +6132,36 @@
               <modifiers/>
             </rule>
           </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="51a668a6-b8e5-0527-bc2b-a7e76e56aaeb" name="Rune of Speed (2nd rune)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="433afc52-3b87-df60-0a07-1b8e9b59982a" childId="71376b96-58c1-4600-c11c-01cff5b335a9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8544272b-b332-46af-ba63-70c4ba0e4178" name="Rune of Speed (3rd rune)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="433afc52-3b87-df60-0a07-1b8e9b59982a" childId="51a668a6-b8e5-0527-bc2b-a7e76e56aaeb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
           <profiles/>
           <links/>
         </entry>
