@@ -4647,7 +4647,7 @@
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="955e15ec-0b9b-2f1d-1b10-7a6effbca53d" name="Ancient Stegadon" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="955e15ec-0b9b-2f1d-1b10-7a6effbca53d" name="Ancient Stegadon" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
       <entries>
         <entry id="acce0f65-f562-ce25-1ffe-2cb2c6024a7a" name="Crew" points="0.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -4816,7 +4816,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f4415619-8b49-b4d8-a9ab-85e4ed314b94" name="Ancient Stegadon (Engine of the Gods)" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="f4415619-8b49-b4d8-a9ab-85e4ed314b94" name="Ancient Stegadon (Engine of the Gods)" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
       <entries>
         <entry id="0121b1a9-3c43-5c87-5e50-a2b83cb34a94" name="Crew" points="0.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -4968,7 +4968,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="d31caeb4-b12c-4726-d094-7a624912cdbc" name="Carnosaur" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="d31caeb4-b12c-4726-d094-7a624912cdbc" name="Carnosaur" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
       <entries>
         <entry id="f0d48601-d522-af74-1f7f-1806fbf31c6d" name="Bloodroar" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -5046,7 +5046,7 @@
         </link>
       </links>
     </entry>
-    <entry id="54c0d580-b2de-80b4-dfff-df38aa6dc484" name="Cold One" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="54c0d580-b2de-80b4-dfff-df38aa6dc484" name="Cold One" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5088,7 +5088,7 @@
         </link>
       </links>
     </entry>
-    <entry id="17e22edd-79d8-dce4-5ccd-f2adeb9d0d2e" name="Ripperdactyl" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="17e22edd-79d8-dce4-5ccd-f2adeb9d0d2e" name="Ripperdactyl" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" book="" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5552,7 +5552,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="18c837d9-865e-6562-75ed-4db24e3da895" name="AB - Cube of Darkness" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="18c837d9-865e-6562-75ed-4db24e3da895" name="AB - Cube of Darkness" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="63">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5567,7 +5567,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="676bb025-5922-7f1b-2ab0-d0a44ed0f824" name="AB - Plaque of Dominion" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="676bb025-5922-7f1b-2ab0-d0a44ed0f824" name="AB - Plaque of Dominion" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="63">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5589,7 +5589,7 @@
     </entryGroup>
     <entryGroup id="f97be10b-7156-349a-41aa-156b1a11500e" name="Disciplines of the Old Ones" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
       <entries>
-        <entry id="3fc81ce5-0b01-684e-d7eb-823d2178cf10" name="Reservoir of Eldritch Energy" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="3fc81ce5-0b01-684e-d7eb-823d2178cf10" name="Reservoir of Eldritch Energy" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5602,7 +5602,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="f50360ec-a849-1255-7de7-de878efb3d74" name="Soul of Stone" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="f50360ec-a849-1255-7de7-de878efb3d74" name="Soul of Stone" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5615,7 +5615,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="a6cedef9-43ec-bfdc-856c-a54bf566303c" name="Becalming Cogitation" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="a6cedef9-43ec-bfdc-856c-a54bf566303c" name="Becalming Cogitation" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5628,7 +5628,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1a8efd44-e036-0f78-aba4-85ded906221f" name="Wandering Deliberations" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="1a8efd44-e036-0f78-aba4-85ded906221f" name="Wandering Deliberations" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5641,7 +5641,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="dcd25156-4865-f796-cc8b-8ee816bb5e89" name="Harmonic Convergence" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="dcd25156-4865-f796-cc8b-8ee816bb5e89" name="Harmonic Convergence" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5654,7 +5654,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="20229f5a-9519-2248-65c8-632e26cca57d" name="The Harrowing Scrutiny" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="20229f5a-9519-2248-65c8-632e26cca57d" name="The Harrowing Scrutiny" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5667,7 +5667,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1104fda3-e2f4-3504-daff-254a5561c925" name="Transcendent Healing" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="1104fda3-e2f4-3504-daff-254a5561c925" name="Transcendent Healing" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5680,7 +5680,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="6352e59c-4478-a860-48e4-091ad9c2db86" name="Unfathomable Presence" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="6352e59c-4478-a860-48e4-091ad9c2db86" name="Unfathomable Presence" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5693,7 +5693,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="c5fe9aca-fcd4-8b05-3cea-2f76a8f2e1cd" name="Focus of Mystery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="c5fe9aca-fcd4-8b05-3cea-2f76a8f2e1cd" name="Focus of Mystery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5706,7 +5706,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b6f12954-9983-95c2-6ec0-a2145d354a7a" name="Higher State of Consciousness" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="b6f12954-9983-95c2-6ec0-a2145d354a7a" name="Higher State of Consciousness" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="61">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5936,7 +5936,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="52646fb5-95ce-c3ff-02de-582005d005cc" name="AB - The Cloak of Feathers" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="52646fb5-95ce-c3ff-02de-582005d005cc" name="AB - The Cloak of Feathers" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="63">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5951,7 +5951,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="2f1ec6c8-9495-795f-dd55-d3ad06d17c95" name="AB - The Horn of Kygor" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="2f1ec6c8-9495-795f-dd55-d3ad06d17c95" name="AB - The Horn of Kygor" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="63">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5966,7 +5966,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="8e5c6130-75f6-db4b-ebaa-cf1319ae480e" name="AB - The Egg of Quango" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="8e5c6130-75f6-db4b-ebaa-cf1319ae480e" name="AB - The Egg of Quango" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="63">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6180,7 +6180,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="addbccc5-ed23-e035-5daa-3ff8fe45a18e" name="AB - Sacred Stegadon Helm of Itza" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="addbccc5-ed23-e035-5daa-3ff8fe45a18e" name="AB - Sacred Stegadon Helm of Itza" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="62">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6368,7 +6368,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="075e6ff1-1dc7-8f73-2b5f-e0c6d71946c0" name="AB - Skavenpelt Banner" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="075e6ff1-1dc7-8f73-2b5f-e0c6d71946c0" name="AB - Skavenpelt Banner" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="62">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6383,7 +6383,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="ee48761b-a4e9-088a-dcc4-2efac60274b7" name="AB - The Jaguar Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="ee48761b-a4e9-088a-dcc4-2efac60274b7" name="AB - The Jaguar Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="62">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6728,7 +6728,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="b6f3ef73-5a8c-f667-2036-915e1832821b" name="AB - The Blade of Realities" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="b6f3ef73-5a8c-f667-2036-915e1832821b" name="AB - The Blade of Realities" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="62">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6745,7 +6745,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="fb3cbb5a-bce7-0914-5e8a-040e419dc6c4" name="AB - The Prianha Blade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="fb3cbb5a-bce7-0914-5e8a-040e419dc6c4" name="AB - The Prianha Blade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" book="Lizardmen Army Book" page="62">
           <entries/>
           <entryGroups/>
           <modifiers/>
