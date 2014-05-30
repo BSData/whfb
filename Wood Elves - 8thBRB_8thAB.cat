@@ -437,7 +437,26 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="3b59156d-9e49-ef2f-c1fb-98fdf09c97c4" profileTypeId="4d6f64656c23232344415441232323" name="Glade Guard" hidden="false" book="AB" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links>
             <link id="b398a304-4256-f05d-03e0-e802b866177b" targetId="a6b5e487-8cb4-5f31-8af4-e560e98410e5" linkType="entry group">
               <modifiers/>
@@ -453,7 +472,26 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="7e68012c-28a9-ab91-c343-9baa69c80203" profileTypeId="4d6f64656c23232344415441232323" name="Lord&apos;s Bowman" hidden="false" book="AB" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
             <entry id="5502ee72-f7be-a6d5-2c99-959aafe2eb86" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -485,7 +523,14 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="16ed405e-18d0-a107-964d-ac14cc7c7677" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bc25f9af-0e9b-4f00-259e-e80f58788749" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7601defc-c8f7-7d87-b0d9-4827d45b64d1" name="Glade Lord" points="145.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries>
@@ -1372,7 +1417,26 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="9701f70f-b366-3923-c4dd-1def88b36610" profileTypeId="4d6f64656c23232344415441232323" name="Waywatchers" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
@@ -1384,7 +1448,26 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="b18d4ee9-b964-bb41-cf2b-8ffd4fac26b5" profileTypeId="4d6f64656c23232344415441232323" name="Waywatcher Sentinel" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
           </entries>
@@ -1396,7 +1479,23 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="70f91031-4cd9-9966-96b9-a30f1f18628c" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="15bc53d5-423c-ef8f-d25b-937a09191348" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8f7db4e9-9465-7009-e6bd-74d2f72bf214" targetId="6eff3a92-944b-73b2-202a-09c40ae826c0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cc939680-b4ce-9526-9038-edf1190935bc" targetId="a7ec9af5-0ef4-c4e8-a4bf-61579b5f9980" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f25d6cae-6aff-8894-da5d-ea9b8589baf1" targetId="d75dc813-ea92-bdf1-90b2-2a782fe96def" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="63e05939-29f1-8b70-8c74-3fc5f241e9e1" name="Wild Riders" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false" hidden="false" page="0">
       <entries>
@@ -1559,7 +1658,26 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="574d1dd6-953b-16cc-6ea7-a9cf1aef6676" profileTypeId="4d6f64656c23232344415441232323" name="Wildwood Rangers" hidden="false" book="AB" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="5"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
@@ -1571,7 +1689,26 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="b246add0-4bab-17a1-cc00-28fc3303d1a7" profileTypeId="4d6f64656c23232344415441232323" name="Wildwood Warden" hidden="false" book="AB" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="5"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
             <entry id="d4599c45-ba98-d34e-67e0-1ebc65bfc144" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -1603,7 +1740,20 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="1e9166af-b85f-27f3-89f9-40de43dd84ee" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="891cee9c-2e5d-6dc8-9247-6bbde8bdce58" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e0c3ebf3-3e4c-b573-5d92-bf596d38258f" targetId="4c1952e2-a9c9-e554-3d34-02f06cf6fca3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ae217772-b50d-7be0-5840-850483173824" targetId="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </entries>
   <rules/>
@@ -3184,6 +3334,18 @@
       <description>+1 to all attempts to cast spells, if the model is in a forest</description>
       <modifiers/>
     </rule>
+    <rule id="eec0c8fd-06b1-15c0-569b-b7087042b1b7" name="Devastating Charge" hidden="false" book="BRB" page="0">
+      <description>Models with this special rule have +1 Attack during a turn in which they charge into combat</description>
+      <modifiers/>
+    </rule>
+    <rule id="fc62ce67-8a0a-272c-2fcc-52c0708801b5" name="Fast Cavalry" hidden="false" book="BRB" page="0">
+      <description>- VANGUARD : Fast Cavalry  has the Vanguard special rule 
+- FREE REFORM : Unless it charges, this kind of  unit is allowed to reform as many times as it wishes during its move, even if it marches. No model can move for a number of inches higher than double its movement.
+- FEIGNED FLIGHT : A unit that flee as a charge reaction and then rallies at the beginning of their next turn may reform as normal, and is also free to move during the remaining moves part of the movement phase. The unit is can also shoot as normal (counts as moved). If they  flee and then is caught by the opponent , the unit is destroyed .
+- FIRE ON THE MARCH: Fast Cavalry armed with missile weapons are expert at shooting from horseback (or wolfback!) and can therefore shoot during a turn in which they marched or reformed (providing their weapon doesn&apos;t have the Move or Fire special rule). However, the normal -1 To Hit penalty for moving and shooting still applies.
+Warning :  if a character without this rule join this unit , all the models lose the fast cavalry rule</description>
+      <modifiers/>
+    </rule>
     <rule id="460aa5be-ed77-898a-2d54-5c6bea7bc44a" name="Fear" hidden="false" book="BRB" page="0">
       <description>For every combat turn the enemy must pass a LD roll , or is WS will be reduced to 1 </description>
       <modifiers/>
@@ -3202,8 +3364,35 @@ If more than half of the models are within a forest :
 - all the models (but not their mounts) re-roll 1&apos;s on close combat To-Wound rolls</description>
       <modifiers/>
     </rule>
+    <rule id="05f89eed-e552-7c4b-552c-465e9045b3f6" name="Frenzy" hidden="false" book="BRB" page="0">
+      <description>Affected unit gets one extra attack per model and is Immune to Psychology. Whenever one or more enemies are within charge range, the frenzied unit must charge one of them. If they overtake fleeing enemies, they always overrun. A frenzied unit that is beaten in combat loses Frenzy. </description>
+      <modifiers/>
+    </rule>
     <rule id="013e8a36-c898-87ff-b8fc-95517c79066b" name="Hatred" hidden="false" book="BRB" page="0">
       <description>A unit that hates its enemy may re-roll missed attacks to hit in the first round of combat. Units must pursue hated units defeated in combat, they cannot test on leadership as usual. If they overtake fleeing enemies, they always overrun. </description>
+      <modifiers/>
+    </rule>
+    <rule id="d75dc813-ea92-bdf1-90b2-2a782fe96def" name="Hawk-eyed Archer" hidden="false" book="AB" page="48">
+      <description>The unit with this rule must choose at every turn between :
+- fast shot : Multiple Shots (2)
+- aimed shot : no armour save</description>
+      <modifiers/>
+    </rule>
+    <rule id="6eff3a92-944b-73b2-202a-09c40ae826c0" name="Scout" hidden="false" book="BRB" page="0">
+      <description>Can be deployed normally or anyhwere on the field.
+in the second case they must be at 12&apos;&apos; from enemy unit and if their side start first they cannot charge
+
+if both have scout units roll , and then deploy alternatively the scout units 
+</description>
+      <modifiers/>
+    </rule>
+    <rule id="a7ec9af5-0ef4-c4e8-a4bf-61579b5f9980" name="Skirmisher" hidden="false" book="BRB" page="0">
+      <description>the miniatures are about 1/2&apos; apart one from another.
+if they charge or stand they change to a normal formation for free , without changing front and number of ranks.
+Unless it charges , it can reform freely as many time as it wishes ( always move less than double the Movement characteristic)
+They can  shoot if they marched or reformed earlier in the turn (with the usual-1 To Hit penalty for moving and shooting )
+-1 to be hit penalty from shooting
+always zero rank , no rank bonus, steadfast</description>
       <modifiers/>
     </rule>
     <rule id="752544bd-09a2-fcf8-fae6-4f32b6deab44" name="Stubborn" hidden="false" page="0">
@@ -3214,20 +3403,13 @@ If more than half of the models are within a forest :
       <description>6+ ward save</description>
       <modifiers/>
     </rule>
-    <rule id="eec0c8fd-06b1-15c0-569b-b7087042b1b7" name="Devastating Charge" hidden="false" book="BRB" page="0">
-      <description>Models with this special rule have +1 Attack during a turn in which they charge into combat</description>
+    <rule id="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" name="Immune to Psicology" hidden="false" book="BRB" page="0">
+      <description>The unit automatically passes all Panic, Fear and Terror tests it has to take. 
+Break tests (and other Leadership tests) are taken normally </description>
       <modifiers/>
     </rule>
-    <rule id="fc62ce67-8a0a-272c-2fcc-52c0708801b5" name="Fast Cavalry" hidden="false" book="BRB" page="0">
-      <description>- VANGUARD : Fast Cavalry  has the Vanguard special rule 
-- FREE REFORM : Unless it charges, this kind of  unit is allowed to reform as many times as it wishes during its move, even if it marches. No model can move for a number of inches higher than double its movement.
-- FEIGNED FLIGHT : A unit that flee as a charge reaction and then rallies at the beginning of their next turn may reform as normal, and is also free to move during the remaining moves part of the movement phase. The unit is can also shoot as normal (counts as moved). If they  flee and then is caught by the opponent , the unit is destroyed .
-- FIRE ON THE MARCH: Fast Cavalry armed with missile weapons are expert at shooting from horseback (or wolfback!) and can therefore shoot during a turn in which they marched or reformed (providing their weapon doesn&apos;t have the Move or Fire special rule). However, the normal -1 To Hit penalty for moving and shooting still applies.
-Warning :  if a character without this rule join this unit , all the models lose the fast cavalry rule</description>
-      <modifiers/>
-    </rule>
-    <rule id="05f89eed-e552-7c4b-552c-465e9045b3f6" name="Frenzy" hidden="false" book="BRB" page="0">
-      <description>Affected unit gets one extra attack per model and is Immune to Psychology. Whenever one or more enemies are within charge range, the frenzied unit must charge one of them. If they overtake fleeing enemies, they always overrun. A frenzied unit that is beaten in combat loses Frenzy. </description>
+    <rule id="4c1952e2-a9c9-e554-3d34-02f06cf6fca3" name="Guardians onf the Wildwoods" hidden="false" book="AB" page="0">
+      <description>if in base contact with one enemy which cause Fear or Terror, this model has +1 Attack</description>
       <modifiers/>
     </rule>
   </sharedRules>
