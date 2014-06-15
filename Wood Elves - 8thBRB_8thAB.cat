@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -1382,7 +1382,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="bc10382a-dff9-e2c6-634b-2f7d6ee1445e" name="Waystalker" points="90.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+    <entry id="bc10382a-dff9-e2c6-634b-2f7d6ee1445e" name="Waystalker" points="90.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" book="Ab" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="455fa68b-3a8d-5b4c-2e85-f40ae1f3e80a" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="25.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
@@ -1407,8 +1407,43 @@
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links/>
+      <profiles>
+        <profile id="771f8c25-f470-6a5e-375d-7462d0804059" profileTypeId="4d6f64656c23232344415441232323" name="Waystalker" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="7"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="28877ebe-1ac5-268d-60f0-bc845ccd7cf1" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="36f3578e-cc73-bf17-f321-6e4d15437ffe" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="025595ec-06ad-92d5-d280-04107525f8d4" targetId="d75dc813-ea92-bdf1-90b2-2a782fe96def" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f7d50c3b-af88-7556-cdcb-5d3e612a6a2d" targetId="6eff3a92-944b-73b2-202a-09c40ae826c0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="daa79738-9296-91f6-28fe-61f590fae018" targetId="d55ace77-10cf-1fa4-2378-ce3df3b4d3da" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="ee6648a3-78a6-585d-afe9-3861729d4f38" name="Waywatchers" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" hidden="false" page="0">
       <entries>
@@ -3368,6 +3403,10 @@ If more than half of the models are within a forest :
       <description>Affected unit gets one extra attack per model and is Immune to Psychology. Whenever one or more enemies are within charge range, the frenzied unit must charge one of them. If they overtake fleeing enemies, they always overrun. A frenzied unit that is beaten in combat loses Frenzy. </description>
       <modifiers/>
     </rule>
+    <rule id="4c1952e2-a9c9-e554-3d34-02f06cf6fca3" name="Guardians onf the Wildwoods" hidden="false" book="AB" page="0">
+      <description>if in base contact with one enemy which cause Fear or Terror, this model has +1 Attack</description>
+      <modifiers/>
+    </rule>
     <rule id="013e8a36-c898-87ff-b8fc-95517c79066b" name="Hatred" hidden="false" book="BRB" page="0">
       <description>A unit that hates its enemy may re-roll missed attacks to hit in the first round of combat. Units must pursue hated units defeated in combat, they cannot test on leadership as usual. If they overtake fleeing enemies, they always overrun. </description>
       <modifiers/>
@@ -3376,6 +3415,11 @@ If more than half of the models are within a forest :
       <description>The unit with this rule must choose at every turn between :
 - fast shot : Multiple Shots (2)
 - aimed shot : no armour save</description>
+      <modifiers/>
+    </rule>
+    <rule id="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" name="Immune to Psicology" hidden="false" book="BRB" page="0">
+      <description>The unit automatically passes all Panic, Fear and Terror tests it has to take. 
+Break tests (and other Leadership tests) are taken normally </description>
       <modifiers/>
     </rule>
     <rule id="6eff3a92-944b-73b2-202a-09c40ae826c0" name="Scout" hidden="false" book="BRB" page="0">
@@ -3403,13 +3447,7 @@ always zero rank , no rank bonus, steadfast</description>
       <description>6+ ward save</description>
       <modifiers/>
     </rule>
-    <rule id="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" name="Immune to Psicology" hidden="false" book="BRB" page="0">
-      <description>The unit automatically passes all Panic, Fear and Terror tests it has to take. 
-Break tests (and other Leadership tests) are taken normally </description>
-      <modifiers/>
-    </rule>
-    <rule id="4c1952e2-a9c9-e554-3d34-02f06cf6fca3" name="Guardians onf the Wildwoods" hidden="false" book="AB" page="0">
-      <description>if in base contact with one enemy which cause Fear or Terror, this model has +1 Attack</description>
+    <rule id="d55ace77-10cf-1fa4-2378-ce3df3b4d3da" name="Sniper" hidden="false" book="BRB" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
