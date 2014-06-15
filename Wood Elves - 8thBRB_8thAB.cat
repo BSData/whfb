@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -990,7 +990,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="413dd6f0-df1c-ed74-62d5-1ff0681956c2" targetId="1fb2e229-1e23-28cb-b89e-ef79e3f8b22e" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="81a1a16f-870c-2dac-793b-9dbf492b31ee" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="940bf11f-cafe-da74-5c54-304b7f74422a" name="Great Eagle" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
               <entries/>
@@ -998,7 +1005,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="ea46569d-8bb5-9735-db5d-d57e5aa010ca" targetId="222c2a4b-feae-174f-64b8-0ea62a8cdcd6" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="1883cd94-55c5-ca8b-fea4-d596679433ed" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="af789290-271b-9c8c-1a1e-2f19bfb2df88" name="Unicorn" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
               <entries/>
@@ -1006,7 +1020,23 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="070cd476-abd9-1f74-f533-f3c7d0e169c0" targetId="16e2f423-96cf-234c-e3d1-1f53f295c903" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="9757b7fc-d7d2-2660-38e8-afe2fa180fc5" targetId="12162461-a875-2065-ba74-61274148b1d3" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="df47e4e3-8504-dc3f-30b4-cd1d53fb60c1" targetId="e93ba593-97a7-170a-007e-352537bfd5e0" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="41efc8b7-e195-36de-c190-f394be6a6701" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="4f0ab115-c2b5-b4b0-7ede-01c2b2a77fb7" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -1035,8 +1065,37 @@
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links/>
+      <profiles>
+        <profile id="65c48e69-772c-4ae0-6081-9c95d34180fb" profileTypeId="4d6f64656c23232344415441232323" name="Spellsinger" hidden="false" book="AB" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="94c0cfc5-51c8-d5d2-0157-bd4bb08c9d97" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aad649f5-b99c-49ae-6806-0a14940d6d9f" targetId="691e38c3-3971-fccf-6307-dd1b13f8af00" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d8b3b3b4-c2af-48bb-0817-c6760675d461" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="0121bcff-4ca1-1d6a-8cf3-f5d3bf18b45a" name="Spellweaver" points="185.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries>
@@ -3439,6 +3498,9 @@ They can  shoot if they marched or reformed earlier in the turn (with the usual-
 always zero rank , no rank bonus, steadfast</description>
       <modifiers/>
     </rule>
+    <rule id="d55ace77-10cf-1fa4-2378-ce3df3b4d3da" name="Sniper" hidden="false" book="BRB" page="0">
+      <modifiers/>
+    </rule>
     <rule id="752544bd-09a2-fcf8-fae6-4f32b6deab44" name="Stubborn" hidden="false" page="0">
       <description>Stubborn units ignore break test modifiers, they always use the leadership on their profiles. </description>
       <modifiers/>
@@ -3447,9 +3509,70 @@ always zero rank , no rank bonus, steadfast</description>
       <description>6+ ward save</description>
       <modifiers/>
     </rule>
-    <rule id="d55ace77-10cf-1fa4-2378-ce3df3b4d3da" name="Sniper" hidden="false" book="BRB" page="0">
+    <rule id="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" name="Fly" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="12162461-a875-2065-ba74-61274148b1d3" name="Magic Resistance" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="e93ba593-97a7-170a-007e-352537bfd5e0" name="Impale" hidden="false" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="1fb2e229-1e23-28cb-b89e-ef79e3f8b22e" profileTypeId="4d6f64656c23232344415441232323" name="Elven Steed" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="9"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="222c2a4b-feae-174f-64b8-0ea62a8cdcd6" profileTypeId="4d6f64656c23232344415441232323" name="Great Eagle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="2"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="16e2f423-96cf-234c-e3d1-1f53f295c903" profileTypeId="4d6f64656c23232344415441232323" name="Unicorn" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR" value="2"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>
