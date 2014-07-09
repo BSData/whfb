@@ -1009,7 +1009,7 @@ an extra rank even in the turn they charge.”</description>
     </entry>
     <entry id="594272c8-fd88-7abc-03ad-75591e863975" name="Grey Seer" points="240.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
-        <entry id="06f8b014-9646-0727-e088-daeb0bebadba" name="AB - Warpstone Tokens (FAQ&apos;ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="06f8b014-9646-0727-e088-daeb0bebadba" name="AB - Warpstone Tokens (FAQ&apos;ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
