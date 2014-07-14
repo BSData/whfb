@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ba7bc984-20b1-47f4-a5c0-84f2738f7eb2" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Lizardmen - Army Book (2013-8) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ba7bc984-20b1-47f4-a5c0-84f2738f7eb2" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Lizardmen - Army Book (2013-8) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -2212,7 +2212,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="0b68b477-6297-c1b5-1cf4-6652abdba33d" name="Spear" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+            <entry id="0b68b477-6297-c1b5-1cf4-6652abdba33d" name="Spear" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2442,7 +2442,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="ab0c6f8c-ff74-d54f-efff-ffef049edea9" name="Spear" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+            <entry id="ab0c6f8c-ff74-d54f-efff-ffef049edea9" name="Spear" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2843,7 +2843,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="6e4f324b-9d0f-fd00-fddd-e357af0b6654" name="Spear" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+            <entry id="6e4f324b-9d0f-fd00-fddd-e357af0b6654" name="Spear" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
