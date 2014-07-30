@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -896,7 +896,44 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="71bdb608-b09b-db95-787b-02dcc486eab2" profileTypeId="4d6f64656c23232344415441232323" name="Sisters of the Thorn" hidden="false" book="AB" page="46">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="6"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="d8d8fef0-405b-b7e2-5102-9993937ec697" profileTypeId="4d6f64656c23232344415441232323" name="Steed of Isha" hidden="false" book="AB" page="46">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="9"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
@@ -908,7 +945,26 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="8062034d-30aa-d6a7-f9d5-782267b53d71" profileTypeId="4d6f64656c23232344415441232323" name="Handmaiden of the Thorn" hidden="false" book="AB" page="46">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="6"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
             <entry id="be10102e-f8dd-0122-7940-5589488a1179" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -938,9 +994,35 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="a33cb15f-c364-5390-e299-e3d139fd0520" name="Poisoned Attacks (riders only)" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="65205745-450b-0419-1d7c-b736299e018e" name="Daughters of Eternity" hidden="false" book="AB" page="46">
+          <description>4+ Ward Save</description>
+          <modifiers/>
+        </rule>
+        <rule id="38934afe-0468-eeed-3c86-6752435c3b00" name="Deepwood Coven" hidden="false" book="AB" page="46">
+          <description>Count as a Level 2 Wizard , which knows Shield of Thorns (Life) and Curse of Anraheir (Beasts).
+Other wizards may take those spells .
++1 to cast for each rank of 5 past the first , up to +3
+At every casting one sister must be selected for LoS , range etc.
+If miscast,  no roll on the table but 1d3 Wounds without save </description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
-      <links/>
+      <links>
+        <link id="b7b44ea3-60b6-f423-891f-eeeba05c827a" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="56c3cbeb-1ec9-c8ca-301e-703d56925bef" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="737dd05a-91b7-dbfa-9c26-54b9897f0170" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="811f5c1a-cea9-997b-cde2-d9437909be22" name="Spellsinger" points="80.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries>
