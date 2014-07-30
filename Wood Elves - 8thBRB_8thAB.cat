@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="2" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -24,7 +24,26 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="50d13092-1a0c-c795-3ea7-54f26f4d78fe" profileTypeId="4d6f64656c23232344415441232323" name="Deepwood Scouts" hidden="false" book="AB" page="0">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links>
             <link id="ebb87caa-86ef-65af-1a5a-3861a48589f6" targetId="a6b5e487-8cb4-5f31-8af4-e560e98410e5" linkType="entry group">
               <modifiers/>
@@ -40,7 +59,26 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="b5ddfccc-72bc-8d70-808b-7102510be4ef" profileTypeId="4d6f64656c23232344415441232323" name="Master Scout" hidden="false" book="AB" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
             <entry id="01510c51-384c-3786-417d-b4b483d80745" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
@@ -68,7 +106,20 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="09e5d806-862a-09d1-9b13-c367d673c653" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ad4c3a8d-7136-34a4-cc4e-3d4266c60a1b" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="839d82fb-60e9-39e5-b6dd-a53cd8fb207a" targetId="6eff3a92-944b-73b2-202a-09c40ae826c0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="960b92ed-b936-53a1-5ed8-e9d29c116261" targetId="a7ec9af5-0ef4-c4e8-a4bf-61579b5f9980" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="99d7be51-2b73-bbe0-df57-1d1bd7a731a8" name="Dryads" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
       <entries>
@@ -1415,7 +1466,44 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="716b8e6b-eb97-34d1-8cd6-1386650f976b" profileTypeId="4d6f64656c23232344415441232323" name="Warhawk Riders" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Cavalry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="4ab47048-b87b-c0ce-783f-bef13590ee00" profileTypeId="4d6f64656c23232344415441232323" name="Warhawk" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="1"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
@@ -1427,7 +1515,26 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="11e5cb46-e2eb-2431-7121-a0e0fe5b35a1" profileTypeId="4d6f64656c23232344415441232323" name="Wind Rider" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Cavalry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
           </entries>
@@ -1437,9 +1544,27 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="af0e19b0-4579-f288-eeeb-588673bb372f" name="Predator&apos;s Descent" hidden="false">
+          <description>Warhawk only : Killing Blow on charge</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
-      <links/>
+      <links>
+        <link id="c0dfee6d-adf4-c64f-08a1-adb08eaeac92" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="05b5a25d-edeb-1f8f-c9dc-59bc5f64a530" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0f6ef6c3-1381-3eeb-47a5-df0de98af030" targetId="4c942517-909f-599d-94b9-2de55569d2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6e4e6db-3b91-e3d6-7440-08dab395c8be" targetId="1fc86c66-317e-1e8a-2033-9c42379c73c6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="bc10382a-dff9-e2c6-634b-2f7d6ee1445e" name="Waystalker" points="90.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" book="Ab" page="0">
       <entries/>
@@ -3424,6 +3549,9 @@
       <description>Strikes before other enemies, regardless of Initiative or charges. If a unit has always strikes first and their initiative is higher or the same as the enemy unit, they may re-roll missed to hit dice. If two enemies have this rule, resolve who strikes first as though neither unit were affected. Always Strikes Last cancels out Always Strikes First. </description>
       <modifiers/>
     </rule>
+    <rule id="4c942517-909f-599d-94b9-2de55569d2bd" name="Armour Piercing" hidden="false" book="BRB" page="67">
+      <modifiers/>
+    </rule>
     <rule id="691e38c3-3971-fccf-6307-dd1b13f8af00" name="Blessing of the Ancients" hidden="false" book="AB" page="36">
       <description>+1 to all attempts to cast spells, if the model is in a forest</description>
       <modifiers/>
@@ -3442,6 +3570,13 @@ Warning :  if a character without this rule join this unit , all the models lose
     </rule>
     <rule id="460aa5be-ed77-898a-2d54-5c6bea7bc44a" name="Fear" hidden="false" book="BRB" page="0">
       <description>For every combat turn the enemy must pass a LD roll , or is WS will be reduced to 1 </description>
+      <modifiers/>
+    </rule>
+    <rule id="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" name="Fly" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="1fc86c66-317e-1e8a-2033-9c42379c73c6" name="Flying Cavalry" hidden="false">
+      <description>Has both Flying and Fast Cavalry rules</description>
       <modifiers/>
     </rule>
     <rule id="ced68ad4-128c-8737-8659-1b01f35fe33f" name="Forest Spirit" hidden="false" book="AB" page="36">
@@ -3481,6 +3616,12 @@ If more than half of the models are within a forest :
 Break tests (and other Leadership tests) are taken normally </description>
       <modifiers/>
     </rule>
+    <rule id="e93ba593-97a7-170a-007e-352537bfd5e0" name="Impale" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="12162461-a875-2065-ba74-61274148b1d3" name="Magic Resistance" hidden="false" page="0">
+      <modifiers/>
+    </rule>
     <rule id="6eff3a92-944b-73b2-202a-09c40ae826c0" name="Scout" hidden="false" book="BRB" page="0">
       <description>Can be deployed normally or anyhwere on the field.
 in the second case they must be at 12&apos;&apos; from enemy unit and if their side start first they cannot charge
@@ -3507,15 +3648,6 @@ always zero rank , no rank bonus, steadfast</description>
     </rule>
     <rule id="91e7f9e7-8415-188b-b28c-1d44d2c24792" name="Talismanic Tattoos" hidden="false" page="0">
       <description>6+ ward save</description>
-      <modifiers/>
-    </rule>
-    <rule id="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" name="Fly" hidden="false" page="0">
-      <modifiers/>
-    </rule>
-    <rule id="12162461-a875-2065-ba74-61274148b1d3" name="Magic Resistance" hidden="false" page="0">
-      <modifiers/>
-    </rule>
-    <rule id="e93ba593-97a7-170a-007e-352537bfd5e0" name="Impale" hidden="false" page="0">
       <modifiers/>
     </rule>
   </sharedRules>
