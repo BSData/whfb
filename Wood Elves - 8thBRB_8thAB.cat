@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -886,8 +886,46 @@
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links/>
+      <profiles>
+        <profile id="56cda112-5c87-08d0-42ca-e2065a90d505" profileTypeId="4d6f64656c23232344415441232323" name="Shadowdancer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="8"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="6"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b1eca35c-4885-17af-0dfd-bf0e2dbee87d" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="37f7b11d-d1de-0062-d325-858c3911f010" targetId="691e38c3-3971-fccf-6307-dd1b13f8af00" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="87040611-4012-3616-00c0-9d65a6daf4aa" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d4c08aa4-10b5-0c54-6d89-47db51c64486" targetId="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c3a3cc12-4164-46f2-d1fa-c53d298cd083" targetId="91e7f9e7-8415-188b-b28c-1d44d2c24792" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="067ebfde-adb9-b688-4943-ee39803f09ed" targetId="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="fe988688-7d67-9df8-5f1c-5970edfb8900" name="Sisters of the Thorn" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false" hidden="false" page="0">
       <entries>
@@ -995,7 +1033,7 @@
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="a33cb15f-c364-5390-e299-e3d139fd0520" name="Poisoned Attacks (riders only)" hidden="false">
+        <rule id="a33cb15f-c364-5390-e299-e3d139fd0520" name="Poisoned Attacks (riders only)" hidden="false" page="0">
           <modifiers/>
         </rule>
         <rule id="65205745-450b-0419-1d7c-b736299e018e" name="Daughters of Eternity" hidden="false" book="AB" page="46">
@@ -1549,7 +1587,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="716b8e6b-eb97-34d1-8cd6-1386650f976b" profileTypeId="4d6f64656c23232344415441232323" name="Warhawk Riders" hidden="false">
+            <profile id="716b8e6b-eb97-34d1-8cd6-1386650f976b" profileTypeId="4d6f64656c23232344415441232323" name="Warhawk Riders" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -1567,7 +1605,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               </characteristics>
               <modifiers/>
             </profile>
-            <profile id="4ab47048-b87b-c0ce-783f-bef13590ee00" profileTypeId="4d6f64656c23232344415441232323" name="Warhawk" hidden="false">
+            <profile id="4ab47048-b87b-c0ce-783f-bef13590ee00" profileTypeId="4d6f64656c23232344415441232323" name="Warhawk" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="1"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -1598,7 +1636,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="11e5cb46-e2eb-2431-7121-a0e0fe5b35a1" profileTypeId="4d6f64656c23232344415441232323" name="Wind Rider" hidden="false">
+                <profile id="11e5cb46-e2eb-2431-7121-a0e0fe5b35a1" profileTypeId="4d6f64656c23232344415441232323" name="Wind Rider" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -1627,7 +1665,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="af0e19b0-4579-f288-eeeb-588673bb372f" name="Predator&apos;s Descent" hidden="false">
+        <rule id="af0e19b0-4579-f288-eeeb-588673bb372f" name="Predator&apos;s Descent" hidden="false" page="0">
           <description>Warhawk only : Killing Blow on charge</description>
           <modifiers/>
         </rule>
@@ -3657,7 +3695,7 @@ Warning :  if a character without this rule join this unit , all the models lose
     <rule id="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" name="Fly" hidden="false" page="0">
       <modifiers/>
     </rule>
-    <rule id="1fc86c66-317e-1e8a-2033-9c42379c73c6" name="Flying Cavalry" hidden="false">
+    <rule id="1fc86c66-317e-1e8a-2033-9c42379c73c6" name="Flying Cavalry" hidden="false" page="0">
       <description>Has both Flying and Fast Cavalry rules</description>
       <modifiers/>
     </rule>
@@ -3730,6 +3768,16 @@ always zero rank , no rank bonus, steadfast</description>
     </rule>
     <rule id="91e7f9e7-8415-188b-b28c-1d44d2c24792" name="Talismanic Tattoos" hidden="false" page="0">
       <description>6+ ward save</description>
+      <modifiers/>
+    </rule>
+    <rule id="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" name="Loec&apos;s Shadow Dance" hidden="false" book="AB" page="45">
+      <description>Every round they must choose one of the following dances :
+* Armour Piercing &amp; Deadly Strike
+* +1 Attack
+* Ward Save 3+ 
+* Enemy in contact got no bonus for extra rank
+
+The same dance cannot be chosen for two rounds</description>
       <modifiers/>
     </rule>
   </sharedRules>
