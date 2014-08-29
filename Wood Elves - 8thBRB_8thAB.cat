@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -3739,6 +3739,16 @@ Break tests (and other Leadership tests) are taken normally </description>
     <rule id="e93ba593-97a7-170a-007e-352537bfd5e0" name="Impale" hidden="false" page="0">
       <modifiers/>
     </rule>
+    <rule id="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" name="Loec&apos;s Shadow Dance" hidden="false" book="AB" page="45">
+      <description>Every round they must choose one of the following dances :
+* Armour Piercing &amp; Deadly Strike
+* +1 Attack
+* Ward Save 3+ 
+* Enemy in contact got no bonus for extra rank
+
+The same dance cannot be chosen for two rounds</description>
+      <modifiers/>
+    </rule>
     <rule id="12162461-a875-2065-ba74-61274148b1d3" name="Magic Resistance" hidden="false" page="0">
       <modifiers/>
     </rule>
@@ -3768,16 +3778,6 @@ always zero rank , no rank bonus, steadfast</description>
     </rule>
     <rule id="91e7f9e7-8415-188b-b28c-1d44d2c24792" name="Talismanic Tattoos" hidden="false" page="0">
       <description>6+ ward save</description>
-      <modifiers/>
-    </rule>
-    <rule id="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" name="Loec&apos;s Shadow Dance" hidden="false" book="AB" page="45">
-      <description>Every round they must choose one of the following dances :
-* Armour Piercing &amp; Deadly Strike
-* +1 Attack
-* Ward Save 3+ 
-* Enemy in contact got no bonus for extra rank
-
-The same dance cannot be chosen for two rounds</description>
       <modifiers/>
     </rule>
   </sharedRules>
