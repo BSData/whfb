@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="62" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="65" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="6d34a2e9-1de8-3343-6d9d-2fb151f4f54e" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ac63943a-b840-b858-b0f0-3c309bd5c9a3" name="Army Size" defaultEntryId="d7de3aa5-968d-694c-abce-d855e6ba9e7f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d7de3aa5-968d-694c-abce-d855e6ba9e7f" name="Army (0-2999 points)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e09e99f2-f9bb-47f6-927e-edbf9b1950d4" name="Grand Army (3000+ points)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="11aca169-c858-eb10-5c06-14bc07d5183f" name="Black Ark Fleetmaster" points="155.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="58eaadd8-54c7-4400-6b98-9d522912b9ed" name="Two hand weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -9504,7 +9536,14 @@ Opponent receives +1 To Hit in close combat.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e09e99f2-f9bb-47f6-927e-edbf9b1950d4" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b16f13be-341e-7ca2-ce54-58b6b64d1aff" name="Reaper Bolt Thrower" hidden="false" page="0">
           <description>Range 48&quot;
