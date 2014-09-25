@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs - FAQ FEB2013 &amp; BRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs - FAQ FEB2013 &amp; BRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="70b42fc8-23a4-6473-6c92-6695c4a4479d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -2162,13 +2162,13 @@
         <link id="75ecab43-4f1d-2cff-147b-603dfcaa1394" targetId="af03fac0-955d-1daf-56b1-800286437886" linkType="rule">
           <modifiers/>
         </link>
-        <link id="3bb33e5b-fdc0-0889-9bcd-dfe191116139" targetId="97ecf854-2e7b-6db0-5aa6-f9fa51cf6cbd" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="78bb4918-9fcf-5813-4946-50b4827186ce" targetId="71db1f67-13fd-40a5-27d9-c58893ee15a4" linkType="rule">
           <modifiers/>
         </link>
         <link id="0d54179e-a045-c5ba-22b2-514fcd5b811a" targetId="47a3c4d3-a911-d52c-546a-bcf49164b754" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="919e900c-8784-0bae-304f-8bc68b9c1a96" targetId="2a5b3ee6-f83a-67fb-b0ce-c88098654fe8" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2260,13 +2260,13 @@
         <link id="b6b622be-21f4-6175-25f0-b9bde5c1a31c" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" linkType="rule">
           <modifiers/>
         </link>
-        <link id="316c2508-9bbc-be26-db2c-e31f9ad4444e" targetId="97ecf854-2e7b-6db0-5aa6-f9fa51cf6cbd" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="b88f6a24-f082-86b6-4760-bbcbabe8d790" targetId="71db1f67-13fd-40a5-27d9-c58893ee15a4" linkType="rule">
           <modifiers/>
         </link>
         <link id="b92c4078-9f89-0dbc-408f-43b0aab6ccf9" targetId="47a3c4d3-a911-d52c-546a-bcf49164b754" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd0712af-b9b9-c127-5dd0-5a97d38a492c" targetId="2a5b3ee6-f83a-67fb-b0ce-c88098654fe8" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2444,28 +2444,258 @@
             <entryGroup id="60ac4f28-68ad-42b5-c7c7-e9e056984e9e" name="Mount" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="038f36e7-552a-c78a-8bfb-3a63cc202273" name="Great Taurus" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
+                  <entries>
+                    <entry id="ee6a57aa-9757-a652-2538-5f6f27f900b0" name="Flaming Breath" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules>
+                        <rule id="528f9a5d-800e-882b-9855-767fd763acec" name="Flaming Breath" hidden="false">
+                          <description>Grants the Great Taurus a Strength 4 Breath Weapon with the Flaming Attacks special rule.</description>
+                          <modifiers/>
+                        </rule>
+                      </rules>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                    <entry id="db059519-e4e2-d65c-97d2-aded054bfaae" name="Bloodrage" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules>
+                        <rule id="5455276c-f773-260d-d15f-fc5b4c1bb183" name="Bloodrage" hidden="false">
+                          <description>Grants the Great Taurus the Frenzy and Hatred special rules.</description>
+                          <modifiers/>
+                        </rule>
+                      </rules>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
                   <entryGroups/>
                   <modifiers/>
                   <rules/>
-                  <profiles/>
-                  <links/>
+                  <profiles>
+                    <profile id="c09c2409-a80d-348f-d3ae-0284357414fd" profileTypeId="4d6f64656c23232344415441232323" name="Great Taurus" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+                        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                        <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+                        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+                        <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+                        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                        <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+                        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                        <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="d2f5a875-b31f-77f1-088a-cd1bfd650325" targetId="97ecf854-2e7b-6db0-5aa6-f9fa51cf6cbd" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="5c4ad656-2fc7-ae50-bd04-773c600cdc90" targetId="199bcf85-02b9-b173-8d77-b925b28d089b" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="35b7ad33-82d9-e294-b5d9-a573e7634484" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="7ba4d391-7f13-6acc-0cd1-dc1b9e602e0e" targetId="725153c1-7674-1ce7-c441-699126b522ce" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="cf76eede-381a-cec5-3954-ff7564e00e80" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="b3db0140-e901-6919-aa80-39b6f48f1705" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="d45ac09c-3abf-802e-ee7d-0c7dbf6727f5" name="Bale Taurus " points="225.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
+                  <rules>
+                    <rule id="cad7262c-b745-0697-4254-264f2fbe2e29" name="Breath Weapon" hidden="false">
+                      <description>Strength 4, Flaming Attack</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="20bd79aa-432d-76a2-0762-977de8bbc618" profileTypeId="4d6f64656c23232344415441232323" name="Bale Taurus " hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+                        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                        <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+                        <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+                        <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+                        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                        <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+                        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                        <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="e9e296fa-dc49-c8b5-2e7e-f8d46904dd1f" targetId="2a5b3ee6-f83a-67fb-b0ce-c88098654fe8" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="f4ae50c1-197e-6ec0-225f-f0c0b24040ad" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="11c56366-1518-4dfd-a6af-c80281b62791" targetId="725153c1-7674-1ce7-c441-699126b522ce" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="4a2817e4-ea82-fb53-de22-74709b8924d4" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="583758dc-8c93-318d-3dbe-3015b6566ee1" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
-                <entry id="bf00467d-0026-a6ce-ef28-42b06a89feeb" name="L&apos;ammasu" points="195.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
+                <entry id="bf00467d-0026-a6ce-ef28-42b06a89feeb" name="Lammasu" points="195.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries>
+                    <entry id="f5d11b8a-e9c8-0ae4-85c7-d5a57b7e40e7" name="Mace Tail" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules>
+                        <rule id="ec7d00e9-19c6-c654-6290-ef4ce78af75d" name="Mace Tail" hidden="false">
+                          <description>Grants the Lammasu 1 Tail Attack at +1 Strength.</description>
+                          <modifiers/>
+                        </rule>
+                      </rules>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                    <entry id="3e04d7ea-e53f-c37d-e578-d0a78945cc79" name="Sorcerous Exhalation" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules>
+                        <rule id="c16ab3fd-c989-753d-ed24-9f296baa71ee" name="Sorcerous Exhalation" hidden="false">
+                          <description>Grants the Lammasu a Strength 4 Breath Weapon, which is magical.</description>
+                          <modifiers/>
+                        </rule>
+                      </rules>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups>
+                    <entryGroup id="e31d9757-fc4a-9450-0479-6dd76ffa57bf" name="Wizard Level" defaultEntryId="6bbe8567-72a1-b63c-9d24-5a1b4432d30c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="6bbe8567-72a1-b63c-9d24-5a1b4432d30c" name="Level 1 Wizard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="363cd637-6b7f-ca56-f19b-8759fb129083" targetId="4f69c97f-57d5-7ed1-850d-2f363f3c130a" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="ee5b1291-40d3-7149-00ea-dd9aaa72e830" name="Level 2 Wizard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="dde0efe4-f8a5-e324-f120-fd8ed02891d0" targetId="a7dc2f5e-bded-ba25-f72b-ac4d1ae25ff6" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                    <entryGroup id="d5843621-fa8f-4fcd-bf4c-bada8a313902" name="Lore" defaultEntryId="abb951f0-92ef-ea49-cd71-7998eac38fbe" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="baf00864-96a4-3b41-313b-242c7a34b49e" name="Lore of Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                        <entry id="5e62c748-7282-06c7-31cd-1b922b6390f9" name="Lore of Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                        <entry id="abb951f0-92ef-ea49-cd71-7998eac38fbe" name="Lore of Shadow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
                   <modifiers/>
                   <rules/>
-                  <profiles/>
-                  <links/>
+                  <profiles>
+                    <profile id="28245e6e-475b-00fb-cadc-91c255257419" profileTypeId="4d6f64656c23232344415441232323" name="Lammasu" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+                        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+                        <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+                        <characteristic characteristicId="4923232344415441232323" name="I" value="1"/>
+                        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                        <characteristic characteristicId="4d5223232344415441232323" name="MR" value="3"/>
+                        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="c9208e6a-0585-a0c0-78cd-5e5d64a46cd4" targetId="725153c1-7674-1ce7-c441-699126b522ce" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="91576a03-71ce-f8ca-5146-caed95529ea0" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="3bf8d3e3-5603-a967-6162-f49875181c8d" targetId="295dbafa-e830-d618-d50f-475d11eada72" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="2682f66e-7164-7738-19e8-b1bca96b61ec" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="2df107d8-b9cd-411d-83b7-1cd6848e32ce" targetId="b997ad3c-5562-d1dc-7cfd-f1c1ff85b4f4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
               </entries>
               <entryGroups/>
@@ -3260,7 +3490,9 @@
             <profile id="ac28502d-2b29-7d64-c69f-9bc19dbc43a6" profileTypeId="41726d6f757223232344415441232323" name="Profile The Mask of the Furnace" hidden="false" book="AB" page="0">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="+1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="The wearer of this mask counts their armour as 1 point better than normal. In addition they cause fear and have 4+ Ward save which increases to 2+ against flaming attacks."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Chaos Dwarf only
+
+The wearer of this mask counts their armour as 1 point better than normal. In addition they cause fear and have 4+ Ward save which increases to 2+ against flaming attacks."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3844,7 +4076,9 @@
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Close combat attacks made with this weapon are at +2 Strength. Any Flammable model successfully wounded is killed outright."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Chaos Dwarf only
+
+Close combat attacks made with this weapon are at +2 Strength. Any Flammable model successfully wounded is killed outright."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4046,7 +4280,9 @@
           <profiles>
             <profile id="eb5b4b91-ab18-7b26-fea9-1a1d26948417" profileTypeId="54616c69736d616e23232344415441232323" name="Profile Stone Mantle" hidden="false" book="AB" page="0">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="The bearer&apos;s Toughness is increased by +1, while their Initiative is lowered by -1 (to a minimum of 1)."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Chaos Dwarf only
+
+The bearer&apos;s Toughness is increased by +1, while their Initiative is lowered by -1 (to a minimum of 1)."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4084,11 +4320,12 @@ turn[...]” in the second paragraph</description>
       <description>Blackshard Armour confers a 4+ Armour save and addition a 5+ wards save afainst flaming attacks. </description>
       <modifiers/>
     </rule>
-    <rule id="2a5b3ee6-f83a-67fb-b0ce-c88098654fe8" name="Blazing body" hidden="false" page="0">
-      <description>Any model except another K&apos;daai in base contact (friend or foe) at the start of the Close Combat phase takes an Automatic S4 hit. this is counted as a Flaming attack. In addition, any non-magical attack suffers -1 to wound them.   </description>
+    <rule id="2a5b3ee6-f83a-67fb-b0ce-c88098654fe8" name="Blazing Body" hidden="false" page="0">
+      <description>Any model (friend or foe) in base contact with one or more Bale Taurus or K&apos;daai, except a Chaos Dwarf using it as a mount or another K&apos;daai, takes an automatic Strength 4 hit at the start of the Close Combat phase. This is counted as a Flaming attack. Additionally, any non-magical attacks must re-roll successfull To Wound rolls.</description>
       <modifiers/>
     </rule>
-    <rule id="97ecf854-2e7b-6db0-5aa6-f9fa51cf6cbd" name="Blazing Body" hidden="false" book="Tamurkhan" page="0">
+    <rule id="97ecf854-2e7b-6db0-5aa6-f9fa51cf6cbd" name="Blazing Body - Great Taurus" hidden="false" book="Tamurkhan" page="0">
+      <description>Any model (friend or enemy), except a Chaos Dwarf using it as a mount, takes an automatic Strength 4 hit at the start of the Close Combat phase. This is a Flaming attack. Additionally, any non-magical Attacks directed against the Great Taurus suffer a -1 penalty To Wound.</description>
       <modifiers/>
     </rule>
     <rule id="ee2e7730-8f85-f9f0-26af-632ef03a0ec0" name="Blood of Hashut " hidden="false" page="0">
@@ -4411,6 +4648,14 @@ up to 12&quot;[...]”.</description>
     </rule>
     <rule id="8862c837-1068-e6fb-3ab7-67daeabecad8" name="Ward Save (x+)" hidden="false" book="BRB" page="44">
       <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="199bcf85-02b9-b173-8d77-b925b28d089b" name="Fuelled By Fire" hidden="false">
+      <description>A Great Taurus cannot be wounded by spells from the Lore of Fire. In addition, if the Great Taurus is the target of a successfully cast spell from the Lore of Fire, it immediately regains D3 Wounds lost earlier in the battle.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b997ad3c-5562-d1dc-7cfd-f1c1ff85b4f4" name="Sorcerous Miasma" hidden="false">
+      <description>Magic Weapons carried by models in base contact with a model with this rule lose all of their magical properties and are treated as a &apos;normal&apos; weapon of the same type (if it is not clear what sort of weapon it is, treat it as a hand weapon). This effect applies to both frienly and enemy characters and lasts whilst they remain in base contact.</description>
       <modifiers/>
     </rule>
   </sharedRules>
