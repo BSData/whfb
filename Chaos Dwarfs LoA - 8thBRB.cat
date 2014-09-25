@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs - FAQ FEB2013 &amp; BRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="8" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs - FAQ FEB2013 &amp; BRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="70b42fc8-23a4-6473-6c92-6695c4a4479d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -431,7 +431,7 @@
         </link>
       </links>
     </entry>
-    <entry id="89b15153-07e0-e8b9-2332-6ed323c00402" name="Daemonsmith Sorcer" points="0.0" categoryId="4865726f657323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="89b15153-07e0-e8b9-2332-6ed323c00402" name="Daemonsmith Sorcerer" points="0.0" categoryId="4865726f657323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="722fa9fe-de03-07f7-dcfb-ea20a2843907" name="Deamonsmith Sorcerer" points="95.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
           <entries>
@@ -532,6 +532,37 @@
                       <modifiers/>
                     </link>
                   </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="1dcbfb10-1654-6650-3667-04ee61aa6dd4" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="56b2e2bd-4d55-bf5f-cf5e-f2828910ba27" name="Lore of Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="4d8094a3-41be-549d-2e9f-2d10413a13ea" name="Lore of Metal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="3fc9f7e9-3961-d19b-146b-b1b73a6aaea8" name="Lore of Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
                 </entry>
               </entries>
               <entryGroups/>
@@ -2379,7 +2410,7 @@
         </link>
       </links>
     </entry>
-    <entry id="9afcf679-8b71-e907-fd6a-54b4b0840a83" name="Sorcerer-prophet" points="0.0" categoryId="4c6f72647323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="9afcf679-8b71-e907-fd6a-54b4b0840a83" name="Sorcerer-Prophet" points="0.0" categoryId="4c6f72647323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="4552a2f3-23e7-cf29-7c2b-01c6e3635f2e" name="Sorcerer-prophet" points="265.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
           <entries>
@@ -2608,7 +2639,7 @@
                             </link>
                           </links>
                         </entry>
-                        <entry id="ee5b1291-40d3-7149-00ea-dd9aaa72e830" name="Level 2 Wizard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                        <entry id="ee5b1291-40d3-7149-00ea-dd9aaa72e830" name="Level 2 Wizard" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -2749,6 +2780,45 @@
                       <modifiers/>
                     </link>
                   </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="47f47fdb-8dfb-bf50-11d9-c08fd372aa09" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="ae2b7685-7515-be35-67a1-df97689817f6" name="Lore of Hashut" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="67f67c23-eb5a-dc3c-75bd-52027bee4768" name="Lore of Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="181ed5cd-f44c-9697-b816-4d14814f13e1" name="Lore of Metal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="8c070667-5915-ca89-d6e8-c2813206fd02" name="Lore of Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
                 </entry>
               </entries>
               <entryGroups/>
@@ -3490,9 +3560,7 @@
             <profile id="ac28502d-2b29-7d64-c69f-9bc19dbc43a6" profileTypeId="41726d6f757223232344415441232323" name="Profile The Mask of the Furnace" hidden="false" book="AB" page="0">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="+1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Chaos Dwarf only
-
-The wearer of this mask counts their armour as 1 point better than normal. In addition they cause fear and have 4+ Ward save which increases to 2+ against flaming attacks."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Chaos Dwarf only  The wearer of this mask counts their armour as 1 point better than normal. In addition they cause fear and have 4+ Ward save which increases to 2+ against flaming attacks."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4076,9 +4144,7 @@ The wearer of this mask counts their armour as 1 point better than normal. In ad
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Chaos Dwarf only
-
-Close combat attacks made with this weapon are at +2 Strength. Any Flammable model successfully wounded is killed outright."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Chaos Dwarf only  Close combat attacks made with this weapon are at +2 Strength. Any Flammable model successfully wounded is killed outright."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4280,9 +4346,7 @@ Close combat attacks made with this weapon are at +2 Strength. Any Flammable mod
           <profiles>
             <profile id="eb5b4b91-ab18-7b26-fea9-1a1d26948417" profileTypeId="54616c69736d616e23232344415441232323" name="Profile Stone Mantle" hidden="false" book="AB" page="0">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Chaos Dwarf only
-
-The bearer&apos;s Toughness is increased by +1, while their Initiative is lowered by -1 (to a minimum of 1)."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Chaos Dwarf only  The bearer&apos;s Toughness is increased by +1, while their Initiative is lowered by -1 (to a minimum of 1)."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4435,6 +4499,10 @@ Close Combat:                              +1             Requires Two Hands</de
     </rule>
     <rule id="af03fac0-955d-1daf-56b1-800286437886" name="Frenzy (D3)" hidden="false" book="BRB" page="70">
       <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="199bcf85-02b9-b173-8d77-b925b28d089b" name="Fuelled By Fire" hidden="false">
+      <description>A Great Taurus cannot be wounded by spells from the Lore of Fire. In addition, if the Great Taurus is the target of a successfully cast spell from the Lore of Fire, it immediately regains D3 Wounds lost earlier in the battle.</description>
       <modifiers/>
     </rule>
     <rule id="bcef5af7-2c9f-7b48-645a-f46d1feae6a9" name="Hatred" hidden="false" book="BRB" page="71">
@@ -4592,6 +4660,10 @@ and Shoot charge reaction, a model making a[...]” at the start
 of the third paragraph.</description>
       <modifiers/>
     </rule>
+    <rule id="b997ad3c-5562-d1dc-7cfd-f1c1ff85b4f4" name="Sorcerous Miasma" hidden="false">
+      <description>Magic Weapons carried by models in base contact with a model with this rule lose all of their magical properties and are treated as a &apos;normal&apos; weapon of the same type (if it is not clear what sort of weapon it is, treat it as a hand weapon). This effect applies to both frienly and enemy characters and lasts whilst they remain in base contact.</description>
+      <modifiers/>
+    </rule>
     <rule id="e81708dc-f8d6-a71a-7fbb-16999b916c93" name="Sorcerrer&apos;s curse " hidden="false" page="0">
       <description>Whenever a Chaos Dwarf with this special rule suffers a Miscast during the game, after resolving the effects of the Miscast, they must take a Toughness test. If this test is faild they suffer a single addition wound which may not be stopped in any way. However the first time they suffer a wound in this way they aslso gain +1 Toughness for the rest of the game.</description>
       <modifiers/>
@@ -4648,14 +4720,6 @@ up to 12&quot;[...]”.</description>
     </rule>
     <rule id="8862c837-1068-e6fb-3ab7-67daeabecad8" name="Ward Save (x+)" hidden="false" book="BRB" page="44">
       <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="199bcf85-02b9-b173-8d77-b925b28d089b" name="Fuelled By Fire" hidden="false">
-      <description>A Great Taurus cannot be wounded by spells from the Lore of Fire. In addition, if the Great Taurus is the target of a successfully cast spell from the Lore of Fire, it immediately regains D3 Wounds lost earlier in the battle.</description>
-      <modifiers/>
-    </rule>
-    <rule id="b997ad3c-5562-d1dc-7cfd-f1c1ff85b4f4" name="Sorcerous Miasma" hidden="false">
-      <description>Magic Weapons carried by models in base contact with a model with this rule lose all of their magical properties and are treated as a &apos;normal&apos; weapon of the same type (if it is not clear what sort of weapon it is, treat it as a hand weapon). This effect applies to both frienly and enemy characters and lasts whilst they remain in base contact.</description>
       <modifiers/>
     </rule>
   </sharedRules>
