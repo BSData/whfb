@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="8" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs - FAQ FEB2013 &amp; BRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs LoA - 8thBRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="70b42fc8-23a4-6473-6c92-6695c4a4479d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -538,7 +538,7 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="1dcbfb10-1654-6650-3667-04ee61aa6dd4" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="1dcbfb10-1654-6650-3667-04ee61aa6dd4" name="Lore" defaultEntryId="56b2e2bd-4d55-bf5f-cf5e-f2828910ba27" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="56b2e2bd-4d55-bf5f-cf5e-f2828910ba27" name="Lore of Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -2472,11 +2472,11 @@
             </entry>
           </entries>
           <entryGroups>
-            <entryGroup id="60ac4f28-68ad-42b5-c7c7-e9e056984e9e" name="Mount" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="60ac4f28-68ad-42b5-c7c7-e9e056984e9e" name="Mount" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="038f36e7-552a-c78a-8bfb-3a63cc202273" name="Great Taurus" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries>
-                    <entry id="ee6a57aa-9757-a652-2538-5f6f27f900b0" name="Flaming Breath" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="ee6a57aa-9757-a652-2538-5f6f27f900b0" name="Flaming Breath" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -2489,7 +2489,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="db059519-e4e2-d65c-97d2-aded054bfaae" name="Bloodrage" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="db059519-e4e2-d65c-97d2-aded054bfaae" name="Bloodrage" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -2597,7 +2597,7 @@
                 </entry>
                 <entry id="bf00467d-0026-a6ce-ef28-42b06a89feeb" name="Lammasu" points="195.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries>
-                    <entry id="f5d11b8a-e9c8-0ae4-85c7-d5a57b7e40e7" name="Mace Tail" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="f5d11b8a-e9c8-0ae4-85c7-d5a57b7e40e7" name="Mace Tail" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -2610,7 +2610,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="3e04d7ea-e53f-c37d-e578-d0a78945cc79" name="Sorcerous Exhalation" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="3e04d7ea-e53f-c37d-e578-d0a78945cc79" name="Sorcerous Exhalation" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -2786,7 +2786,7 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="47f47fdb-8dfb-bf50-11d9-c08fd372aa09" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="47f47fdb-8dfb-bf50-11d9-c08fd372aa09" name="Lore" defaultEntryId="ae2b7685-7515-be35-67a1-df97689817f6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="ae2b7685-7515-be35-67a1-df97689817f6" name="Lore of Hashut" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
