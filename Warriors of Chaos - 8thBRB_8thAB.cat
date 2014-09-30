@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -274,6 +274,123 @@
           <modifiers/>
         </link>
         <link id="5decd26b-ddbc-fef6-abc2-5b56811945b4" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7ac22972-b7be-b8e1-395c-ba39537e60d7" name="Be&apos;lakor (Battlescroll)" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Battlescroll - Be&apos;lakor">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="39f7479f-0f17-9fd8-ae0c-b831075a8b5d" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f071a910-4ceb-72ea-9b62-1f44944a18e2" name="Lore of Shadows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="599a91c2-4635-dd1e-59a0-b44b5c3f3930" name="Magic Items: Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3f5ef734-1251-b52b-fc8f-860197e24386" name="BS - The Blade of Shadows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="06b6e6dd-eab0-bff0-81de-d3c30f68d917" profileTypeId="576561706f6e23232344415441232323" name="The Blade of Shadows" hidden="false" book="Battlescroll">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="No armour saves are allowed for Wounds caused by the Blade of Shadows."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="ed0bb332-7807-bbe7-adf7-695ab19c7aff" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f13aa880-cc55-78de-278c-41028fdcaba9" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="8ee374ea-07bd-2703-328f-95d18af3a0a9" name="Lord of Torment" hidden="false" book="Battlescroll">
+          <description>If one or more enemy units failed a Panic or Break test during the previous turn (after any re-rolls for special rules such as a Battle Standard Bearer&apos;s Hold Your Ground! rule), Be&apos;lakor receives D3 additional power dice in the Magic phase. These bonus power dice do not count towards the maximum number of dice in the power pool, and only Be&apos;lakor can make use of them. Any unused power dice are discarded at the end of the Magic phase as normal.</description>
+          <modifiers/>
+        </rule>
+        <rule id="157e0804-fc29-fc0d-2b0b-f9de4e91ce8d" name="Shadow Form" hidden="false" book="Battlescroll">
+          <description>Be&apos;lakor has a 4+ ward save. Furthermore, attacks that target Be&apos;lakor in the Shooting phase have a -2 To Hit modifier.</description>
+          <modifiers/>
+        </rule>
+        <rule id="61aaff0f-6d07-7288-db54-2a5b84364b0f" name="The Dark Master" hidden="false" book="Battlescroll">
+          <description>All enemy units within 12&apos;&apos; of Be&apos;lakor suffer a -1 penalty to the Leadership characteristic on their profile. This penalty is cumulative with other modifiers.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="447aeb7a-1c43-fea8-2077-df76f409a05f" profileTypeId="4d6f64656c23232344415441232323" name="Be&apos;lakor" hidden="false" book="Battlescroll">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="9"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="8"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1a7b1401-a7f5-4c1c-5c46-c696c7af2313" targetId="16071b8b-3acc-f74a-af56-384665cbdf8e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e7012de1-a9a6-59af-a0fd-8db0af9276b5" targetId="ca521073-4b5e-f30f-953b-409592d11b1c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="124f8cd8-d022-a601-eb08-696f9e54a6a8" targetId="5967bf3c-f8ab-af11-71b2-d34fb1eec83e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="921cb02c-68b7-486a-ddf1-0969e1a85982" targetId="4804a8f1-072a-ef84-1c16-352d576ede08" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="68a849d3-3769-695f-7fd2-46bc2556d9c3" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4c1e2b28-9c8b-7baa-9d29-21ce1350610b" targetId="38b8b17f-d9b0-93df-9f03-8a8e818a9761" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a44e3f71-f346-93eb-76f4-fa379a19869d" targetId="796eecee-991c-42a0-d48c-8c03dc09387a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6454,123 +6571,6 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="a131e2d7-ea59-b743-564a-7ba81942ac6b" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7ac22972-b7be-b8e1-395c-ba39537e60d7" name="Be&apos;lakor" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Battlescroll - Be&apos;lakor">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="39f7479f-0f17-9fd8-ae0c-b831075a8b5d" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="f071a910-4ceb-72ea-9b62-1f44944a18e2" name="Lore of Shadows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="599a91c2-4635-dd1e-59a0-b44b5c3f3930" name="Magic Items: Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="3f5ef734-1251-b52b-fc8f-860197e24386" name="BS - The Blade of Shadows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="06b6e6dd-eab0-bff0-81de-d3c30f68d917" profileTypeId="576561706f6e23232344415441232323" name="The Blade of Shadows" hidden="false" book="Battlescroll">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="No armour saves are allowed for Wounds caused by the Blade of Shadows."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="ed0bb332-7807-bbe7-adf7-695ab19c7aff" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="f13aa880-cc55-78de-278c-41028fdcaba9" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="8ee374ea-07bd-2703-328f-95d18af3a0a9" name="Lord of Torment" hidden="false" book="Battlescroll">
-          <description>If one or more enemy units failed a Panic or Break test during the previous turn (after any re-rolls for special rules such as a Battle Standard Bearer&apos;s Hold Your Ground! rule), Be&apos;lakor receives D3 additional power dice in the Magic phase. These bonus power dice do not count towards the maximum number of dice in the power pool, and only Be&apos;lakor can make use of them. Any unused power dice are discarded at the end of the Magic phase as normal.</description>
-          <modifiers/>
-        </rule>
-        <rule id="157e0804-fc29-fc0d-2b0b-f9de4e91ce8d" name="Shadow Form" hidden="false" book="Battlescroll">
-          <description>Be&apos;lakor has a 4+ ward save. Furthermore, attacks that target Be&apos;lakor in the Shooting phase have a -2 To Hit modifier.</description>
-          <modifiers/>
-        </rule>
-        <rule id="61aaff0f-6d07-7288-db54-2a5b84364b0f" name="The Dark Master" hidden="false" book="Battlescroll">
-          <description>All enemy units within 12&apos;&apos; of Be&apos;lakor suffer a -1 penalty to the Leadership characteristic on their profile. This penalty is cumulative with other modifiers.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="447aeb7a-1c43-fea8-2077-df76f409a05f" profileTypeId="4d6f64656c23232344415441232323" name="Be&apos;lakor" hidden="false" book="Battlescroll">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="9"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="8"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="1a7b1401-a7f5-4c1c-5c46-c696c7af2313" targetId="16071b8b-3acc-f74a-af56-384665cbdf8e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e7012de1-a9a6-59af-a0fd-8db0af9276b5" targetId="ca521073-4b5e-f30f-953b-409592d11b1c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="124f8cd8-d022-a601-eb08-696f9e54a6a8" targetId="5967bf3c-f8ab-af11-71b2-d34fb1eec83e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="921cb02c-68b7-486a-ddf1-0969e1a85982" targetId="4804a8f1-072a-ef84-1c16-352d576ede08" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="68a849d3-3769-695f-7fd2-46bc2556d9c3" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4c1e2b28-9c8b-7baa-9d29-21ce1350610b" targetId="38b8b17f-d9b0-93df-9f03-8a8e818a9761" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a44e3f71-f346-93eb-76f4-fa379a19869d" targetId="796eecee-991c-42a0-d48c-8c03dc09387a" linkType="rule">
           <modifiers/>
         </link>
       </links>
