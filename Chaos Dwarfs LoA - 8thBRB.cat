@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs LoA - 8thBRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2fd79e3e-6f10-4eda-8831-68cc53f85956" revision="10" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Chaos Dwarfs LoA - 8thBRB" authorName="Spartacusbob" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="70b42fc8-23a4-6473-6c92-6695c4a4479d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="6bd8a55b-af21-71bb-2128-b5c54a2c13ae" name="Army Size" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6bd8a55b-af21-71bb-2128-b5c54a2c13ae" name="Army Size" defaultEntryId="b604e65c-bf81-f0dd-4c1d-ebe44ea82f1a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="b604e65c-bf81-f0dd-4c1d-ebe44ea82f1a" name="Army (0-2999 points)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -33,7 +33,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="6779c4f1-b399-3dc9-afaf-a750df4c6389" name="Bull Centaur Renders" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="6779c4f1-b399-3dc9-afaf-a750df4c6389" name="Bull Centaur Renders" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="6aceb8cf-3f0c-2c18-3923-3b388fcca0af" name="Bull Centaur Render" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
@@ -192,7 +192,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -354,7 +361,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="8822f950-64d6-68c9-9f7f-469327215baa" name="Chaos Siege Giant" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="8822f950-64d6-68c9-9f7f-469327215baa" name="Chaos Siege Giant" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="f7039dfe-522e-c3d6-f974-68687f2ef462" name="Chaos Siege Giant" points="275.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
           <entries>
@@ -403,7 +410,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="dfe266db-3aed-269d-0be8-0b08babfa61c" name="Fall Over" hidden="false" book="Tamurkhan" page="0">
           <modifiers/>
@@ -617,7 +631,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="1ffce99d-9fe7-f5b3-7013-070ad98535af" name="Deathshrieker Rocket Launcher" points="100.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="1ffce99d-9fe7-f5b3-7013-070ad98535af" name="Deathshrieker Rocket Launcher" points="100.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="2f38a6b0-63ed-76c0-d3e4-01807e677039" name="Steam Carriage " points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -701,7 +715,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="62b5d385-0f3b-3265-183d-bed0536ce485" profileTypeId="576561706f6e23232344415441232323" name="Deathshrieker Rocket" hidden="false" book="Tamurkhan" page="0">
@@ -856,7 +877,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a0572e93-4dd9-fcb7-47db-f1b50f8b6990" name="Dreadquake Mortar" points="195.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="a0572e93-4dd9-fcb7-47db-f1b50f8b6990" name="Dreadquake Mortar" points="195.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="9e3eda91-11bb-2c85-c544-f48b527ec8c9" name="Hellbound " points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -998,10 +1019,17 @@
         </link>
       </links>
     </entry>
-    <entry id="a620c99f-ab5f-c31a-7df5-f1a235e04a98" name="Hellcannon" points="210.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warriors of Chaos" page="0">
+    <entry id="a620c99f-ab5f-c31a-7df5-f1a235e04a98" name="Hellcannon" points="210.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warriors of Chaos" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -1322,7 +1350,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="26178710-81e5-b17a-7607-232e47c278c6" name="Hobgoblin Wolf Raiders" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="26178710-81e5-b17a-7607-232e47c278c6" name="Hobgoblin Wolf Raiders" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="cee3543e-2881-e33c-7ec1-2a939fa6ff4d" name="Hobgoblin Wolf Raider " points="12.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
@@ -1483,7 +1511,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="16c4d410-e259-b8b5-167c-f5205e872437" name="Cowardly Dispoilers" hidden="false" page="0">
           <description>Hobgoblin Wolf riders gain +1 to their combat resolution on any turn they charge an enemy in the rear or the flank, but if they themselves are charged they suffer -1 to hit on the first round of combat. this applies to hobgoblins and any characters in the unit, but not the giant wolves. </description>
@@ -1567,7 +1602,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="f2fb23bc-ebf7-ebff-2137-2cc177fde82a" name="Sheild" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="f2fb23bc-ebf7-ebff-2137-2cc177fde82a" name="Shield" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1866,7 +1901,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d5c8e29c-0915-ebfa-5b80-e81fdae48aeb" name="Infernal Ironsworn" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="d5c8e29c-0915-ebfa-5b80-e81fdae48aeb" name="Infernal Ironsworn" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="9661097c-d8e1-0c0c-1050-dd2e5871a1dc" name="Infernal Ironsworn" points="17.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
@@ -1989,7 +2024,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -2004,7 +2046,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3fa83f67-940b-37e6-a893-1dc6cb08dcde" name="Iron Deamon War Engine" points="285.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="3fa83f67-940b-37e6-a893-1dc6cb08dcde" name="Iron Deamon War Engine" points="285.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="8f020a52-d9e5-f55c-6537-c65284097b1a" name="Hellbound" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -2053,7 +2095,14 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="85f82b53-dffe-8c08-2611-061d4377692a" name="Lumbering and Unstoppable" hidden="false" book="Tamurkhan" page="0">
           <modifiers/>
@@ -2127,7 +2176,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a106cb07-e51d-66e1-5a84-6c220383dc60" name="K&apos;daai Destroyer" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="a106cb07-e51d-66e1-5a84-6c220383dc60" name="K&apos;daai Destroyer" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="4eb8e2fd-ba5b-2968-4504-df002f028c73" name="K&apos;daai Destroyer" points="325.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
@@ -2171,7 +2220,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -2204,7 +2260,7 @@
         </link>
       </links>
     </entry>
-    <entry id="9298f28a-d2d4-27b1-94d8-cf4c1a5b26d9" name="K&apos;daai Fireborn" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="9298f28a-d2d4-27b1-94d8-cf4c1a5b26d9" name="K&apos;daai Fireborn" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="4e5499de-087e-a1d0-ab64-857bcfebd966" name="K&apos;daai Fireborn" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
@@ -2275,7 +2331,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -2302,7 +2365,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d48de09c-ef4c-a729-c1cd-933620c88fd7" name="Magma Cannon" points="145.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
+    <entry id="d48de09c-ef4c-a729-c1cd-933620c88fd7" name="Magma Cannon" points="145.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Tamurkhan" page="0">
       <entries>
         <entry id="8bf59d86-ed15-4291-f591-a667280d0217" name="Hellbound " points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -2386,7 +2449,14 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="80eb5ce8-e932-712f-dcd4-f4be421d0cb5" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="73192061-3ec2-afa2-5aaa-9fffac0b785c" profileTypeId="576561706f6e23232344415441232323" name="Magma Cannon" hidden="false" book="Tamurkhan" page="0">
