@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4bcc0255-157f-21fd-d761-ad7f0f62567f" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Undead Legions (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4bcc0255-157f-21fd-d761-ad7f0f62567f" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Undead Legions (2014)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a2d17192-de0e-0105-1e95-a553d548b829" name="Arkhan the Black, Mortarch of Sacrament" points="650.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -21839,6 +21839,354 @@
         </rule>
       </rules>
       <profiles/>
+      <links/>
+    </entry>
+    <entry id="3a30fcab-35b8-0a37-d0fa-2e06b212f8c1" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="135">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="483ed043-076b-4610-6962-b4697cd30b4d" name="Army Size" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a790b367-4272-f8b6-b5cb-383523b4fa63" name="Army (0-2999 points)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="247fd267-6e55-4d5b-8080-50a1d6bdf46b" name="Grand Army (3000+ points)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="754ef509-139a-212f-8445-da7ef6c33459" name="Tomb Guard" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="2e7a7656-51a9-f85e-9c9c-b5d808966281" name="Tomb Guard" points="11.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="c909cdd2-9c0a-78ee-48ed-a30342283e58" name="Halberds" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="34fafbea-4dd8-b5f5-30ed-2d61db636154" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" book="BRB" page="90">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ce9693b4-76c3-87d3-941f-442aa283f0e2" profileTypeId="4d6f64656c23232344415441232323" name="Tomb Guard" hidden="false" book="AB" page="39">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="c8d7c9a2-fef1-a962-f18e-83639b0f11e8" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e51e2e28-b531-dc2c-7ab1-641f6167130b" name="Standard Bearer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="59418739-813c-2183-149b-14a30b530772" name="Magic Banners" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="50867c05-d8cf-6c4c-e572-94c407a38f40" name="BRB - War Banner" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="ec5558a1-15d0-9a49-f160-6ae9497e991b" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="War Banner" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Combat Resolution."/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="0beeb280-051a-7757-9a20-f8a8226973d0" name="BRB - Wailing Banner" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="811eb60d-15b7-4673-2053-a318ced31b95" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Wailing Banner" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Terror (BRB-78)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="d8bd84b0-40a7-7675-89ed-894b586a4d72" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="fb3227f3-708a-48ef-8154-3feca8b48d84" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="5ffa3a4d-3afc-ddc0-8024-e9f95baf7f9b" name="BRB - Razor Standard" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="d551f083-2a00-9da0-dbbe-73ade75b08a6" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Razor Standard" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Armour Piercing (BRB-67)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="e52b7654-78ac-6402-adb3-b805761ab6c6" name="BRB - Banner of Swiftness" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="e6c69087-a38e-a563-49bc-a6362f5c73e2" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Swiftness" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1M"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="8e2bef1e-ceed-bd6a-6dfc-730f93e4e838" name="BRB - Lichebone Pennant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="06f37793-f382-be9f-945f-bcde1319c068" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Lichebone Pennant" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Magic Resistance (1)"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="b3328bcf-b6aa-3cdc-6658-a1252002f6da" name="BRB - Standard of Discipiline" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="2e131696-d885-9172-ff57-3b2ba32a38e8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of Discipiline" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Ld, but cannot use Generals Inspiring Presence."/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="560b9e16-8603-82cb-ff56-c5aca18a042b" name="BRB - Gleaming Pennant" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="f236cbaf-18a4-f668-436c-935ee4b8a9dd" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="1f8b2f43-df44-a0b5-76a0-02254906b43b" name="BRB - Scarecrow Banner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="7f695e65-5aba-9ecc-b6aa-3dd41cd169eb" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Scarecrow Banner" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Fear (BRB-69) in models with Fly."/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="e0f3d77a-fd82-5c4a-f0e4-c0dab2eccf5f" name="BRB - Banner of Eternal Flame" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="fa9c1d25-0e29-6fbc-fdf4-7d8112d7af61" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Eternal Flame" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Flaming Attacks (BRB-69)."/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                    <entry id="d963679a-42f6-bd38-4005-1917a9000aa7" name="AB - Standard of the Undying Legion" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles>
+                        <profile id="d10b3581-74ae-8387-25a9-5fe351796d3c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of the Undying Legion" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Bound Spell (power level 5). This banner contains an augment spell that can only be cast on the bearer&apos;s unit. If succesfully cast, the bearer&apos;s unit immediately recovers D6 + 2 Wounds worth of models, as described in Resurrecting Fallen Warriors on page 19."/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c56daa34-f078-40e7-9715-f5b1060e63f1" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ea1f836c-0cf8-fc51-6071-bd5063fd8d72" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1945bd38-97d3-ff8c-7466-a87a153a0f06" profileTypeId="4d6f64656c23232344415441232323" name="Tomb Captain" hidden="false" book="AB" page="39">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="247fd267-6e55-4d5b-8080-50a1d6bdf46b" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="a87b6f0b-3a3b-9e84-f9d4-95d83f276280" name="Killing Blow (BRB-72)" hidden="false" page="0">
+          <description>To wound rolls of 6 causes a killing blow that automatically slays. Only against infantry, cavalry and war beasts. Ignores Armor and Regeneration saves.</description>
+          <modifiers/>
+        </rule>
+        <rule id="9b843287-5a64-53a8-d10c-3b81dcbeb065" name="Nehekharan Undead (AB-28)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="39002628-0a90-8aeb-5902-a2319a80e79c" profileTypeId="41726d6f757223232344415441232323" name="Light Armour" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="6+"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="256ec789-cf9f-b1d6-200d-bd55432a950d" profileTypeId="576561706f6e23232344415441232323" name="Hand Weapon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As User"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="None"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="61f50e03-1f09-63b5-8416-83c923b88573" profileTypeId="41726d6f757223232344415441232323" name="Shield" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Parry Save (BRB-88)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
   </entries>
