@@ -395,7 +395,7 @@
             </entryGroup>
           </entryGroups>
           <modifiers>
-            <modifier type="decrement" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="3dfe021a-ff29-49ce-9e34-38b4807f0459" childId="0722ec4a-3612-4596-9381-0f6a10fbcc36" field="selections" type="equal to" value="1.0"/>
               </conditions>
