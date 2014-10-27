@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fad72a47-5102-4bd4-9b7e-148b4522f3d4" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Ogre Kindoms - Army Book (2013-4) -V8.8.1." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fad72a47-5102-4bd4-9b7e-148b4522f3d4" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Ogre Kindoms - Army Book (2013-4) -V8.8.1." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="efb72383-5767-2e16-16af-e737874b1671" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="135">
       <entries/>
@@ -359,12 +359,26 @@
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="3b80736a-43ad-4c33-a56b-a487817d84a5" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="3b80736a-43ad-4c33-a56b-a487817d84a5" name="Lore" defaultEntryId="05764292-5dc5-45ca-80de-24978679ab3b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="05764292-5dc5-45ca-80de-24978679ab3b" name="Lore of the Great Maw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="05764292-5dc5-45ca-80de-24978679ab3b" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="roster" childId="416aa6b0-9755-4dd6-b84f-029ac86f0325" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="roster" childId="05764292-5dc5-45ca-80de-24978679ab3b" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="roster" childId="1b077ef7-c719-45df-8034-66d1fb8c3dc8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <rules/>
               <profiles/>
               <links/>
@@ -3027,7 +3041,21 @@
             <entry id="1b077ef7-c719-45df-8034-66d1fb8c3dc8" name="Lore of the Great Maw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="05764292-5dc5-45ca-80de-24978679ab3b" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="roster" childId="416aa6b0-9755-4dd6-b84f-029ac86f0325" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="roster" childId="05764292-5dc5-45ca-80de-24978679ab3b" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="roster" childId="1b077ef7-c719-45df-8034-66d1fb8c3dc8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <rules/>
               <profiles/>
               <links/>
