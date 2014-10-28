@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="8" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8f6e9c35-8ddd-42b5-a6e1-d31bfe7afe94" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="135">
       <entries/>
@@ -395,7 +395,7 @@
             </entryGroup>
           </entryGroups>
           <modifiers>
-            <modifier type="decrement" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxPoints" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="6b29906f-fd6f-4604-979d-55a8bf9e78e9" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="3dfe021a-ff29-49ce-9e34-38b4807f0459" childId="0722ec4a-3612-4596-9381-0f6a10fbcc36" field="selections" type="equal to" value="1.0"/>
               </conditions>
@@ -406,7 +406,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9fc8d486-df1c-411c-968b-82262b3ed573" name="Battle Standard Bearer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="9fc8d486-df1c-411c-968b-82262b3ed573" name="Battle Standard Bearer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups>
             <entryGroup id="0722ec4a-3612-4596-9381-0f6a10fbcc36" name="Magic Standards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
