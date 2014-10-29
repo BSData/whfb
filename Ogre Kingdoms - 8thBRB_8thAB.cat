@@ -3664,6 +3664,255 @@
         </link>
       </links>
     </entry>
+    <entry id="e128c8d8-02a4-b561-93a9-19a461454f59" name="Grimhorn Rhinox Riders" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forgeworld Experimental Rules">
+      <entries>
+        <entry id="9af10376-8ec2-e857-c39a-b2f86721c4e8" name="Rhinox Rider" points="105.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="85cd62c0-8aed-1a14-2dce-4a85934c494e" name="Armour" defaultEntryId="b949d6cb-9365-6b14-6eb5-97385525e4d1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b949d6cb-9365-6b14-6eb5-97385525e4d1" name="Light Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="63d5b2c4-e59c-b4be-d7e4-a671fae2982f" targetId="4f5145ba-527e-b0b8-4c36-7c6307f82665" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="25767ba3-8548-10ed-756c-385afbc1988c" name="Heavy Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6b829e94-204a-88e0-e7a5-1c956aea8dbd" targetId="c413fa78-5302-c816-dd13-1568d1a91de1" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="d212c169-781c-7381-4576-bc2c0011751a" name="Armament" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="5c6e16c0-4430-4d5c-53d3-d086572140b9" name="Ironfists" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="a3f77db3-4cec-cb68-5dcd-977814b703a5" targetId="9d8dbe40-f821-fcf6-4ff4-07725e3b64ff" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="3522feaa-c3fe-2b9b-cc63-7abac56285db" name="Great Weapon" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7f60411e-4333-3c89-fdc0-8aaf9a06b4da" targetId="5e65fa01-c898-3fe2-7d5c-63f6917ac514" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="1d70a652-6c8d-6cae-d05e-827f7cb5be21" name="Additional Hand Weapon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="a3939d2d-188b-c783-1010-603274ebe853" targetId="29681f98-eb1b-c847-6d91-8f5cdd7bb959" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9b113563-cd79-8a23-43a4-02aaad26ef7d" profileTypeId="4d6f64656c23232344415441232323" name="Rhinox Rider" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Cavalry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="f4925865-cf54-2f0c-19f1-9f9ac7ab4798" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9d57aa69-6217-547b-1ae0-5b08a04f0809" name="Standard Bearer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="0e0a7939-9219-14e1-b265-5db3628e6531" name="Look-out Gnoblar" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="508bffe3-8a7b-2bca-6203-0ad039a3b2ec" targetId="db6bc6b3-bce9-6ce4-f9e6-1609b9462fc4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="31fd2a0d-5096-a88e-5f4d-2c39c3124a6b" name="Magic Standards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="41745c50-2c60-23a3-470b-878910957ecd" targetId="bbf2d561-f1bf-587b-1357-5d212bfda05d" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="8626b9a3-88fe-c37a-c84f-c329cc634243" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="74f269c3-3914-f22a-1cef-bb2d9c51f21e" name="A brace of Ogre Pistols" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="75335087-c481-4e0f-38a1-e6a3e0e2c017" targetId="074c7669-779b-d82e-cecc-8deee07e2e67" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1d726f48-bdfc-02a4-60a1-d07a69ff8921" profileTypeId="4d6f64656c23232344415441232323" name="Thunderlord" hidden="false" book="AB" page="43">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Cavalry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="67cb8de4-6b0a-aaa7-c60b-2a6fd7a1607a" name="Bellower" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="e4eff4bf-7d32-a1ec-8a56-036d077fcf09" name="Iron Skinned" hidden="false" book="Forgeworld">
+          <description>A rider atop a Grimhorn Rhinox receives an armour save bonus of +3, rather than the usual +1 for cavalry mounts.</description>
+          <modifiers/>
+        </rule>
+        <rule id="660b4d36-f647-30b9-3d32-49b3c9728507" name="Broad Backed" hidden="false" book="Forgeworld">
+          <description>The broad back of a Grimhorn Rhinox allows the Ogre mounted upon it to use an additional hand weapon at no penalty.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="017824c6-d53c-840f-c4b2-ebf3f0f327aa" profileTypeId="4d6f64656c23232344415441232323" name="Grimhorn Rhinox" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="736a7ba7-efae-0957-33a5-e0ab18a85000" targetId="29681f98-eb1b-c847-6d91-8f5cdd7bb959" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="25067505-d7ca-4292-532f-ab224868628d" targetId="3cff919a-56e4-8e44-dd13-dd52e12ca847" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b58c3d8e-69c0-0764-3d24-a8325bcf77b4" targetId="5be58f16-8394-43d8-fae5-02b6203b1eae" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="17c6483e-1b5c-a0be-82a2-872400a13ce1" targetId="424308ef-15ff-a818-d43c-3d315b51b4c3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="422660d3-90f0-d73c-4e1c-6a56ca58ac1b" targetId="a0383c5b-2193-1d3f-50b2-03ce72e59485" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="13936907-1cb8-3705-e36f-1e23379e3385" targetId="02abb782-7019-0ebf-9a2a-a855942d7a13" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d8b692e3-9f25-0a4d-8492-552ef0c81f63" targetId="80474c77-b110-4c3c-0d65-2aa1899eab88" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -5663,6 +5912,10 @@ up to 12&quot;[...]”.</description>
       <modifiers/>
     </rule>
     <rule id="0a24f1c8-953d-1b62-b19f-26a374abe325" name="Ward Save (*)" hidden="false" book="BRB" page="44">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="80474c77-b110-4c3c-0d65-2aa1899eab88" name="Monstrous Cavalry" hidden="false">
       <description>.</description>
       <modifiers/>
     </rule>
