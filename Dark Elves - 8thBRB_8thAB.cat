@@ -11728,7 +11728,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
               <profiles/>
               <links/>
             </entry>
-            <entry id="559a373b-7fda-3e28-c758-99edb1c0ff75" name="Dark Steed" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="559a373b-7fda-3e28-c758-99edb1c0ff75" name="Dark Steed" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -11799,7 +11799,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
         <entry id="7e30ab1f-7d6e-0c82-22fe-ec944f10cd9c" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="332b14fa-304a-5f33-560f-4c04f33f58af" name="Magic Items (50 pts)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
+            <entryGroup id="332b14fa-304a-5f33-560f-4c04f33f58af" name="Magic Items (100 pts)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
               <entries>
                 <entry id="37a16e2e-042c-d94f-6523-81dac5cb1663" name="Arcane Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -12661,7 +12661,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="722f4886-dd31-4535-a253-7eea9a0536c9" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="722f4886-dd31-4535-a253-7eea9a0536c9" name="Wizard Level" defaultEntryId="e5cfa118-01cb-424c-9b9b-bd5388ca0f72" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="f565db7a-0576-4049-b0e2-c11f8aeb1ed5" name="Wizard Level 4" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -12671,7 +12671,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
               <profiles/>
               <links/>
             </entry>
-            <entry id="e5cfa118-01cb-424c-9b9b-bd5388ca0f72" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="e5cfa118-01cb-424c-9b9b-bd5388ca0f72" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -12683,7 +12683,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
           <entryGroups/>
           <modifiers/>
           <links/>
-        </entryGroup>
+        </entryGroup>        
         <entryGroup id="058ff34b-ec4d-ac09-c3bf-a8d1bde0182e" name="Mounts" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="6d7a36c9-3d7d-a3b3-37e2-27a6ce5e592f" name="Cold One" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
