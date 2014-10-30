@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="66" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="67" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6d34a2e9-1de8-3343-6d9d-2fb151f4f54e" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -7579,7 +7579,7 @@ A unit is ummune to the effects of Abyssal Howl if the majority of its models ha
         <entry id="38297731-3be9-19ea-4da9-169a1d875bd3" name="Lore of Dark Magic" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="df726c69-b2b2-c6cd-2688-2e4fd52af620" name="Lore of Dark Magic" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="df726c69-b2b2-c6cd-2688-2e4fd52af620" name="Lore of Dark Magic" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="567cd6a3-9a49-dcf2-dd03-849c672ba254" name="6. Black Horror" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -9232,7 +9232,7 @@ Opponent receives +1 To Hit in close combat.</description>
         <entry id="782d32b2-16c0-b0db-2077-eea7d92b78eb" name="Lore of Dark Magic" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups>
-            <entryGroup id="e0dc7cab-908a-546b-9935-3ae5a9483be4" name="Lore of Dark Magic" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="e0dc7cab-908a-546b-9935-3ae5a9483be4" name="Lore of Dark Magic" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="111c5cc4-6fcf-93f2-798d-86e5e3effb65" name="6. Black Horror" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -11327,7 +11327,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
             <entry id="ab26dc2a-e675-e560-1ca0-79776b47c800" name="Lore of Dark Magic" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups>
-                <entryGroup id="9655c9f4-cbde-cb10-1ead-53c282d29a10" name="Lore of Dark Magic" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="9655c9f4-cbde-cb10-1ead-53c282d29a10" name="Lore of Dark Magic" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="cb120f87-1b58-65e4-6cae-74d6eb2a4266" name="6. Black Horror" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -12683,7 +12683,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
           <entryGroups/>
           <modifiers/>
           <links/>
-        </entryGroup>        
+        </entryGroup>
         <entryGroup id="058ff34b-ec4d-ac09-c3bf-a8d1bde0182e" name="Mounts" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="6d7a36c9-3d7d-a3b3-37e2-27a6ce5e592f" name="Cold One" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -13108,7 +13108,7 @@ If the rider is slain, Manticore affected by &quot;Raaargh!&quot; Monster Reacti
             <entry id="aa3b7637-0343-4ef1-fa42-a862a85c7393" name="Lore of Dark Magic" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups>
-                <entryGroup id="b534c356-d089-b335-d0a9-03f99bd9369c" name="Lore of Dark Magic" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="b534c356-d089-b335-d0a9-03f99bd9369c" name="Lore of Dark Magic" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="0ec23ad9-a081-7c98-51c3-f885e236a9ba" name="6. Black Horror" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
