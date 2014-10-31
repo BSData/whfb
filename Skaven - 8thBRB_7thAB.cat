@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -677,7 +677,7 @@ Move in a Random Direction.”</description>
         </link>
       </links>
     </entry>
-    <entry id="121463b5-80ef-4184-bd71-1d340a786f83" name="Giant Rats" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="121463b5-80ef-4184-bd71-1d340a786f83" name="Giant Rats" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="805cdf34-7625-4bb9-95c6-d21105fd69e7" name="Giant Rats" points="3.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -734,7 +734,7 @@ an extra rank even in the turn they charge.”</description>
             </link>
           </links>
         </entry>
-        <entry id="9186593c-bb00-4ba0-b3e4-80ff2e28f08e" name="Packmaster" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="9186593c-bb00-4ba0-b3e4-80ff2e28f08e" name="Packmaster" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups>
             <entryGroup id="8e5f230f-98d9-4877-b28f-d552ef92c758" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -865,7 +865,11 @@ an extra rank even in the turn they charge.”</description>
               </entries>
               <entryGroups/>
               <modifiers/>
-              <links/>
+              <links>
+                <link id="1b6b3329-6f0f-39a2-d76b-6816da7d9318" targetId="c60a2eb1-9a89-9fd1-2b31-a8f35c3233b2" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
             </entryGroup>
           </entryGroups>
           <modifiers>
@@ -919,83 +923,6 @@ an extra rank even in the turn they charge.”</description>
               <modifiers/>
             </link>
             <link id="5c9d0784-8148-3169-0358-52934dc0eb78" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="648c71c7-2e76-402c-9173-6db7629746fb" name="Packmaster Skweel Gnawtooth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="bb7be7c6-d1a3-445d-a9ba-a1e26a1572a3" name="Magic Items - Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="f2119525-92c7-4900-8cda-0a19cad31127" name="AB - Warp-lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="1bab35d0-0251-f8a6-8803-6bf9a45faef3" profileTypeId="576561706f6e23232344415441232323" name="Warp-lash" hidden="false" book="AB" page="71">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Counts as Whip: Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed). No Armour Saves, Multiple Wounds (2) (BRB-73)"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules>
-            <rule id="2f8a8c14-728d-0629-77c7-3f336aa96933" name="Exceptional Pack" hidden="false" book="AB" page="71">
-              <description>.</description>
-              <modifiers/>
-            </rule>
-            <rule id="87d62c07-ddee-b2b3-aa99-ac0c79b018b7" name="Verminous Bodyguard" hidden="false" book="AB" page="71">
-              <description>.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="7664b4f4-a952-a0f3-98ee-56a3fde4fc9e" profileTypeId="4d6f64656c23232344415441232323" name="Skweel Gnawtooth" hidden="false" book="AB" page="71">
-              <characteristics>
-                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
-                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="93a1daa2-4d2f-db6b-aa7f-879766a0095d" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d2b551ef-d774-ca8a-c09d-c7a5c0796dbe" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="6385028f-5eae-9870-116b-3b7cb4f71fd4" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="f9a44cb6-bb5f-0d6b-6a52-ad7fd519bdc1" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="944fea8f-f379-c896-5898-72db9d0fac68" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -4027,7 +3954,7 @@ template are hit.”</description>
             </link>
           </links>
         </entry>
-        <entry id="3f854170-5685-4cf3-a2f0-325c69ae866a" name="Packmaster" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="3f854170-5685-4cf3-a2f0-325c69ae866a" name="Packmaster" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups>
             <entryGroup id="a794db3a-e58b-4757-8801-6b30705f302a" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4158,7 +4085,11 @@ template are hit.”</description>
               </entries>
               <entryGroups/>
               <modifiers/>
-              <links/>
+              <links>
+                <link id="8a5a6661-ea48-d7ce-48b9-38f5f222c192" targetId="c60a2eb1-9a89-9fd1-2b31-a8f35c3233b2" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
             </entryGroup>
           </entryGroups>
           <modifiers>
@@ -4212,83 +4143,6 @@ template are hit.”</description>
               <modifiers/>
             </link>
             <link id="9542ba82-888d-34bb-a451-40e6c6a8a585" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2098fe16-bbf5-4609-94e5-18d29ec51939" name="Packmaster Skweel Gnawtooth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="ef601bfa-94e9-4d3a-9eb6-22791a959b97" name="Magic Items - Weapons" defaultEntryId="25cbe5e8-b449-42bc-a00f-bb6f66b0eeba" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="25cbe5e8-b449-42bc-a00f-bb6f66b0eeba" name="AB - Warp-lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="407e69e5-f7ac-ad52-c97d-70057336efc7" profileTypeId="576561706f6e23232344415441232323" name="Warp-lash" hidden="false" book="AB" page="71">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Counts as Whip: Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed). No Armour Saves, Multiple Wounds (2) (BRB-73)"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules>
-            <rule id="a8483b14-1bd1-b117-f7b5-54f2cea0dfce" name="Exceptional Pack" hidden="false" book="AB" page="71">
-              <description>.</description>
-              <modifiers/>
-            </rule>
-            <rule id="b1be82d6-372d-6bf6-db7d-bde906902bde" name="Verminous Bodyguard" hidden="false" book="AB" page="71">
-              <description>.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="80e0f629-980c-3e97-beba-07deeee37114" profileTypeId="4d6f64656c23232344415441232323" name="Skweel Gnawtooth" hidden="false" book="AB" page="71">
-              <characteristics>
-                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
-                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="f03ce17f-efab-484c-c92c-ecccb1e52ba9" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d70feeae-a903-424a-ab9d-a3e9fdcf74ad" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="24d646bd-c020-545d-6f0a-85f5ec28f915" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="09353836-ec41-f1fc-3259-36ffc0fb62fd" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="99abaa83-1dfd-aaf9-5e7f-4b158040ed3e" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -6567,6 +6421,83 @@ Initiative.”</description>
           <modifiers/>
         </link>
         <link id="c1e1da29-9c73-964b-40f1-ee83f5bcafc3" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c60a2eb1-9a89-9fd1-2b31-a8f35c3233b2" name="Packmaster Skweel Gnawtooth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8bb3e2fb-9fd6-fb7e-0775-b3413a7a2041" name="Magic Items - Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="49e269ef-2edb-5a4a-0067-aea36ef7f859" name="AB - Warp-lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="4fef4077-3add-41cb-14a5-30f9444ef703" profileTypeId="576561706f6e23232344415441232323" name="Warp-lash" hidden="false" book="AB" page="71">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Counts as Whip: Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed). No Armour Saves, Multiple Wounds (2) (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="30bb8d73-96c9-ab1b-3be9-75b67ba7bd7d" name="Exceptional Pack" hidden="false" book="AB" page="71">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="1260ae17-2f95-e223-0b39-185c1dfec898" name="Verminous Bodyguard" hidden="false" book="AB" page="71">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9b0f26af-a204-f82c-6c90-7f279ca2cdb1" profileTypeId="4d6f64656c23232344415441232323" name="Skweel Gnawtooth" hidden="false" book="AB" page="71">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e082a427-79a5-3703-936c-d7ce7ee956b3" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6b44e9e4-3f80-13f8-2066-972c4cf15659" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="aa8615c4-08c3-a5ff-a6c7-7061d727f17c" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0738ba1c-db73-8fe9-37af-c2e37a0d2019" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="31567510-464f-735b-4ea7-03180966c58a" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
           <modifiers/>
         </link>
       </links>
