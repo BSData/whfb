@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="67" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="68" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6d34a2e9-1de8-3343-6d9d-2fb151f4f54e" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -43,14 +43,6 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="ff0e125b-111c-fb46-d9e3-27ef4e6f54b2" name="Light armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="f639eab1-2c73-df23-6e32-4cae321fdb51" name="Sea Dragon cloak" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
@@ -59,878 +51,30 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="781e4fc6-6f64-9af8-d748-ae157ce15523" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="17720012-9497-ab26-1d36-0ef2003299b5" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="d5fda1be-c417-ba9b-1a5a-643bd8cecb17" name="Magic Items (50 pts)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
-              <entries>
-                <entry id="b64a832e-9a8b-7cae-07db-785a9a7285c4" name="Arcane Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="e43f2bb0-5c08-5d41-20f4-ec890cc65abe" name="Arcane Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="356ffddd-9d75-721a-b8e9-75a517cb6702" name="DE - Sacrificial Dagger" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="33ae5c48-3de2-5556-3241-3590e657f2cf" name="Sacrificial Dagger" hidden="false" page="0">
-                              <description>Once per spell casting attempt, after rolling power dice but before dispel attempts, can sacrifice a model. then roll a D6. On a 4+ the sorceress may roll an additional die. If it fails another attempt can be made.</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="03fc837b-9211-64fe-18f1-1a6538dd4a80" name="Book of Ashur" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="0a70e8ee-1d02-d7a5-9987-62b3e5390c67" name="Book of Ashur" hidden="false" page="0">
-                              <description>+1 bonus on cast and dispel attempts. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="cb1e9f01-557d-25fe-d553-c6bb03746ba6" name="DE - Tome of Furion" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="88053df7-f897-497a-9392-c6a74798e80c" name="Tome of Furion" hidden="false" page="0">
-                              <description>Bearer is able to choose the first spell, from Dark Magic only.</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="1bf9d1f1-6945-4fdf-cf95-9dc10870fae9" name="Forbidden Rod" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="928a4de6-9cdd-c3e2-a3f0-5ab6735a38ee" name="Forbidden Rod" hidden="false" page="0">
-                              <description>One use. Adds +D6 dice to the power pool, also inflicts D3 wounds, no armor save. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="fcf0039e-14a5-6ac5-129e-9cc56d0a6904" name="Feedback Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="03f6a0ac-645e-d6ec-2a31-76019f5a1027" name="Feedback Scroll" hidden="false" page="0">
-                              <description>One use. Instead of a dispel attempt, can use this to force the caster to  roll a duce for every power dice used to cast the spell, wounds on 5+, no armor saves. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="b6e13067-c5ca-4f79-07f8-f2883411f23f" name="Scroll of Leeching" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="175ca2e5-3937-8ce7-372b-c4bdbcad07f9" name="Scroll of Leeching" hidden="false" page="0">
-                              <description>One use. Instead of a dispel attempt,  Can read this to add a number of dispel dice to his pool equal to the power dice used to cast the spell. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="e26258f6-b30c-caa3-ed12-9683c72d69a6" name="Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="1629351d-d651-ada6-a234-7f769fdcaf10" name="Sivejir&apos;s Hex Scroll" hidden="false" page="0">
-                              <description>One use. Instead of a dispel attempt, can read this scroll to attempt to turn the caster into a toad. The caster rolls a D6 equal to or under his spell level, on a failure he becomes a toad. 
-
-Toad effects - all stats except wounds are 1,  no magic items work or any kind. Toad&apos;s owner can attempt to dispel the toad hex with a 4+ roll at the beginning of his subsequent magic phases. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="b508b187-bc37-800d-887d-2024c01b4454" name="Power Scroll" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="45677b0a-48a6-41b9-5e69-e24b6a2933c1" name="Power Scroll" hidden="false" page="0">
-                              <description>Any double roll will cause Irresistable force. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="8ea2111e-8bc3-0de1-1f2e-de0df1f1e4aa" name="Wand of Jet" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="12f9ead3-b07e-55b4-0fe7-e43132ce4f49" name="Wand of Jet" hidden="false" page="0">
-                              <description>One use. Can increase one of your casting results by an additional +D6, after casting dice have been rolled. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="c678a0d0-f818-6fec-a9bd-2d56b25b2592" name="Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="82e09c49-42b1-fd6d-e110-2e33f03b7111" name="Trickster&apos;s Shard" hidden="false" page="0">
-                              <description>One use. Declare you are using at the beginning of your magic phase. When one of your spells are dispelled, the dispelling wizard takes a wound on 5+ roll on a D6. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="b892cafd-a4ce-a2db-49a4-10cd62df25c1" name="Dispel Scroll" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="dc77d82d-89e7-9739-97c9-52b1a15729e9" name="Power Stone" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="12ee6a95-e3ec-877d-fe83-08333a1652f4" name="Power Stone" hidden="false" page="0">
-                              <description>One use. Two extra dice rolled on the casting attempt (not taken from the power pool), one dice from the power pool must still be included in the casting attempt. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="97b3e76a-e7d5-4f30-eab9-44a0b6c1d74c" name="Sceptre of Stability" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="62c93a52-d728-0602-9b5b-27804cf4b532" name="Scepter of Stability" hidden="false" page="0">
-                              <description>One use. Can choose to increase a dispel attempt +D6, choice made after rolling the dispel attempt. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="8a66225c-5683-e26a-168c-0ecabc108e9b" name="Channelling Staff" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="e1da83fd-d127-713b-fbd0-6e21d8027a0a" name="Channeling Staff" hidden="false" page="0">
-                              <description>+1 to all channeling attempts</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="557c4009-6984-a241-b330-cb0e41104865" name="Scroll of Shielding" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="83920fac-f6be-29da-796b-5e39c8a1bfd5" name="Scroll of Shielding" hidden="false" page="0">
-                              <description>One use. Instead of a dispel attempt. Can read this scroll to give the spell&apos;s target a +4 ward save against the spell. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="123de566-8f3c-b790-c918-d9a203074b9d" name="Earthing Rod" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="42615303-2030-81b4-a0d7-d3de8649a0f6" name="Earthling Rod" hidden="false" page="0">
-                              <description>One use, re-roll miscast table result. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="3f8d7495-9220-a5f4-2677-584f55efd8e5" name="DE - The Gem of Spite" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="acede072-fa71-defc-2723-1c5dfbca7f19" name="The Gem of Spite" hidden="false" page="0">
-                              <description>Whenever the bearer suffers a miscast, the Gem of Spite inflicts a single Strength 6 hit on every enemy wizard within 12&quot;. Each time a wound is caused by the Gem of Spite, your opponent can discard a dice from his despel pool. If they do so, the wound caused by Gem of Spite is negated.</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="ef2a1c26-59f1-0f0a-f487-d9b4cdbd15c3" name="Enchanted Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="b35b1676-6862-1f89-1f01-4d79e08a8e72" name="Enchanted Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="b48b0eda-2416-3c14-6e05-dca841c7a0ff" name="The terrifying Mask of Eee!" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="ca0b8848-b174-c147-8e2a-82d07328f072" name="Wizarding Hat" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="cb57cdf8-a00e-2b73-81e9-76574bd831c8" name="Fozzrik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="0e54b15b-ee78-40f1-327d-09307bc01722" name="DE - Black Dragon Egg" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="5bd4b1f4-2878-05e2-45c8-15275367b01d" name="Black Dragon Egg" hidden="false" page="0">
-                              <description>One use. Remainder of the turn the model has S6, T6 and a Strength 2 Breath Weapon (no armor saves allowed)</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="21749a4f-8d8c-eecf-e382-7e1971b295a6" name="DE - Cloak of Twilight" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="e0932200-4475-683b-5760-592f1eb80ad8" name="Cloak of Twilight" hidden="false" page="0">
-                              <description>3+ ward save against shooting and spells.
-Furthermore, in the first round of any close combat, the wearer of the Cloak of Twilight has both the Killing Blow and Multiple wounds (D3) special rules.</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="5a321497-1bc0-3345-1041-3916d38692d5" name="Arabyan Carpet" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="f7e17d9e-5753-173c-7c54-1f3b6ee87b9d" name="Arabyan Carpet" hidden="false" page="0">
-                              <description>Infantry Unit has Fly Special Rule. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="f1ae5991-0af3-683a-4246-92069739dded" name="Crown of Command" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="b1064bda-81d0-e2c0-576a-580ec9279217" name="Crown of Command" hidden="false" page="0">
-                              <description>Has Stubborn</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="f0a6d9c9-3311-5c52-72e1-585b938299d9" name="Healing Potion" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="1983aa8f-c359-c909-5dc9-1f9d80007f3c" name="Healing Potion" hidden="false" page="0">
-                              <description>One use. Recover D6 wounds. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="5cb34c38-9357-1635-a063-8a61290e286b" name="Featherfoe Torc" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="0a58fda4-5b4b-59f5-0c3e-1454fc93a08c" name="Featherfoe Torc" hidden="false" page="0">
-                              <description>Flying creatures must re-roll successful rolls to hit against the bearer in close combat. </description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="a588fd84-5391-d7cd-a362-4c752bc1559d" name="Ruby Ring of Ruin" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="353cde4f-6a30-5a46-5c78-ee5447d84b4d" name="Potion of Toughness" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="52345f40-055b-6183-43f7-204a0bf6c2d5" name="The other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="71e54a51-d303-a6df-7a49-56b4d3ded7d2" name="Ironcurse Icon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="ee61d72f-255e-7583-8efd-5c2b3fc19220" name="Potion of Foolhardiness" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="4b43133a-5c70-5803-b8e8-fec0850cecb5" name="Potion of Speed" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="3795ce7d-dc95-9af9-6b54-e235ec2c5177" name="Potion of Strength" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="ccbf8da7-120e-2499-c82b-f738fb5f0a19" name="Potion of Strength" hidden="false" page="0">
-                              <description>One use; drunk at start of any player&apos;s turn; drinker has +3 strength until the end of the turn</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="8a6f0107-0188-2153-6f1f-179bce7825f8" name="Talismans" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="8f818083-e5a7-0566-29d1-47921bad54ed" name="Talismans" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="8fec0c94-5990-6380-f503-1be8655d372e" name="DE - The Black Amulet" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="07ab5443-9072-1852-e6b8-c53bd8e1a226" name="Talisman of Preservation" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="2aa4401b-1a13-4b30-7169-40375a4c5a4d" name="Obsidian Lodestone" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="1197822c-b457-c3a6-8423-2ad13d3fc204" name="Talisman of Endurance" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="a407aaff-a9c9-1415-07bd-be7e2aabfd6f" name="Obsidian Amulet" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="bf204391-3d2b-194c-38f8-6f6cb3a20b4f" name="Dawnstone" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="19a56c50-a1f8-4f22-5faf-b0c3111952db" name="Opal Amulet" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="64d88111-01f5-7a10-6300-5dd790bb269b" name="Obsidian Trinket" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="2a65420c-0fb5-25cb-ba73-48662eacbc40" name="Talisman of Protection" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="e74c01d6-a628-78de-3c27-6bd2dc551981" name="Seed of Rebirth" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="e3cc585d-f523-dd45-47fc-4559f42f75f5" name="Dragonbane Gem" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="4848dadc-baea-fe05-cfbd-d1525a8e91e8" name="Pidgeon Plucker Pendant" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="ef3958dc-0ab8-99c7-bc46-ad64cb68823b" name="Luckstone" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="74111e29-204d-aa72-2fb5-dfc2d520713b" name="DE - Ring of Hotek" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="ff27b9ce-c075-61c8-248c-c3650052d47d" name="Magic Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="4ea5ca10-a694-7af8-e9e4-9943a49997b4" name="Magic Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="7c6c4d65-7f2d-6141-fc8f-3e8fea5ebc8f" name="Sword of Anti-Heroes" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="0101f873-ef70-ab87-bd45-87ea799fef91" name="Giant Blade" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="73781103-29c2-6cee-83d1-c1a955b891ee" name="Obsidian Blade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="865c4e00-8f44-da73-8f34-d5026630b85e" name="Ogre Blade" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="c1993c72-de63-c589-52d8-92512c809eff" name="DE - ChillBlade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="7967a974-6e5e-6baf-a0b1-a04a26e0122b" name="Chillblade" hidden="false" page="0">
-                              <description>Attacks wound automaticly. Any model that suffers one or more unsaved wounds by the Chillblade must immediately pass a Toughness test or suffer -3 to it&apos;s Attacks charasteric (to a minimum of 1) until the end of the following close combat fase.</description>
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="8235912f-f7d2-1b0f-306e-9039600f4c53" name="Spellthieving Sword" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="219012d7-6a40-2c11-039f-9738ac1cc8d6" name="Sword of Swift Slaying" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="bc10e9a0-4e9c-cffe-26e0-6c6a12338be2" name="Sword of Battle" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="98c92703-e389-9883-098a-4478b202853a" name="Sword of Battle" hidden="false" page="0">
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="c03feabf-36d6-3490-5004-cc36e3665f44" name="Berserker Sword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="4e87085b-ba61-7c96-d93e-2080fe74844d" name="Sword of Might" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="3104fe0f-bc9d-9490-c1b4-abb37fcd4677" name="Sword of Might" hidden="false" page="0">
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="1e185990-7fc0-0d84-994a-cde3c0995aa4" name="Sword of Striking" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="1ed4a762-d30f-b217-189a-a5ed23517c22" name="Biting Blade" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="24f7189f-7e3b-cd07-5749-f8f7fc7dc376" name="Biting Blade" hidden="false" page="0">
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="583afeba-498b-11e6-a37e-fe558727cdad" name="Relic Sword" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="854cc763-f221-fe03-b94d-ed39ab7d0512" name="Shrieking Blade" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="ed7fdffc-92f4-1290-5890-2a56535823e0" name="Tormentor Sword" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="fa9e3efc-73e5-2d5d-a82e-15411727673d" name="Warrior Bane" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="0bbc98a1-3625-397e-7d93-60a4e38d2cc8" name="Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="051689f6-38b6-cfe9-3fdc-e276a5314c6a" name="Gold Sigil Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="1d03c8c1-09fb-2d0d-a7fe-0935a17e6738" name="DE - HydraBlade" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="65dad888-663e-fb6d-ddf6-7621fc77ab48" name="Hydrablade" hidden="false" page="0">
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="94dfc483-433f-733b-72eb-3c73eb798c8e" name="Sword of Strife" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="862b5e98-68b8-4ef0-b860-459d150bf2b2" name="Sword of Bloodshed" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="fd978358-15eb-14e8-f458-5a7d9da45bee" name="Magic Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="24a7e2f5-342c-35fa-f281-519c617774e9" name="Magic Armour" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="456fcf41-9668-8114-7263-e267db3ca58a" name="Charmed Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="42858ea1-c5b3-6bd3-f283-9d6637fb12d9" name="Enchanted Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules>
-                            <rule id="18379a10-0086-cc72-7880-5f99da5a9df3" name="Enchanted Shield" hidden="false" page="0">
-                              <modifiers/>
-                            </rule>
-                          </rules>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="4be3b40c-dace-b021-5892-897a17d595d8" name="Dragonhelm" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="50d8fc05-e4b5-bec8-f693-e6167bd02759" name="Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="aeed2e93-5c25-8712-6d0a-9276609c40dc" name="Spellshield" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="9dd0863c-2428-1362-ea21-99de8665b266" name="Shield of Ptolos" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="d8411bff-97a1-7acd-45d6-64cfe5946d5f" name="Glittering Scales" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="01f7d84d-23d3-a7b1-7b22-0f4550a0c469" name="Armour of Fortune" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="4a8e6904-efeb-7355-fe24-63eec2d6a038" name="Armour of Silvered Steel" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="cd70bc6b-118c-9681-6f4c-fc67dc202971" name="Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="2ebf8126-ce56-ef13-2b84-067209d46782" name="Armour of Destiny" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                        <entry id="f53e2b37-6a76-9aa2-395a-2e34dc79547a" name="Helm of Discord" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
+            <entryGroup id="eed3a057-9085-889f-0c4b-c1d31663c094" name="Magic Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
               <entryGroups/>
               <modifiers/>
-              <links/>
+              <links>
+                <link id="21f1be18-48e8-00a6-1d5a-24cc0f1a3486" targetId="4d0a7a70-f6c3-866b-d986-a6fcec20c6f6" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="a1c17299-ed4c-bca0-1d30-185778c3cb2e" targetId="23554070-fa06-a04a-ea22-07d46d83322d" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="727de3cd-ca65-3210-8079-9ac04370e6d1" targetId="3f61263e-cf0e-d908-fd6e-fc77e320b3cd" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="3952fb05-d408-e937-fe3f-d7cea19e32de" targetId="e2e63f99-0260-ca16-aa2c-61eab97cf065" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="cd34ddec-796f-92f7-4078-943e1e162e14" targetId="37ddefae-c72e-40c1-d5d1-57f3d7cd6171" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entryGroup>
           </entryGroups>
           <modifiers/>
@@ -941,25 +85,44 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
       </entries>
       <entryGroups/>
       <modifiers/>
-      <rules>
-        <rule id="cc1f8512-3cea-b2b0-3f6a-93c79702f2dd" name="Always Strikes First" hidden="false" page="0">
-          <description>Unit always strikes first</description>
+      <rules/>
+      <profiles>
+        <profile id="6e780ef3-a655-b5a7-5c18-849651f65a71" profileTypeId="4d6f64656c23232344415441232323" name="Black Ark Fleetmaster" hidden="false" book="Dark Elves" page="87">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Character)"/>
+          </characteristics>
           <modifiers/>
-        </rule>
-        <rule id="b5c4eb61-913b-2e47-a2d9-c005e5812778" name="Hatred (High Elves)" hidden="false" page="0">
-          <description>Re-roll Missed attacks in close combat against High Elves</description>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c0b0da69-3368-a66b-beaf-27209cd52d94" targetId="b4254ed7-65af-394c-69f4-5495c42e89cf" linkType="rule">
           <modifiers/>
-        </rule>
-        <rule id="909ab99e-7994-13e4-b7b7-844e5c4d01b1" name="Murderous Prowess" hidden="false" page="0">
+        </link>
+        <link id="409accaf-0f09-6b84-0dbe-362c5c55fe86" targetId="4c166434-f4cf-7021-ed7e-dc120e87729e" linkType="rule">
           <modifiers/>
-        </rule>
-        <rule id="9ecc5954-2b8c-d4a6-0016-aecf9ddf28de" name="Show no Weakness" hidden="false" page="0">
-          <description>If this models fights in a challange or kills an enemy character, and is alive, he (and all models  in his unit) gain the Unbreakable special rule untill the end of the turn.</description>
+        </link>
+        <link id="1871c984-de3c-c13b-057c-cc4ef89780cd" targetId="d0278406-cc36-47dd-3b48-7854ce7b0a68" linkType="rule">
           <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
+        </link>
+        <link id="31e27e2b-e4aa-4a7a-fbd0-5a13983d01f6" targetId="4c203db6-604e-697b-013b-13423bf96cb6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dae4696a-c431-a13e-cb60-f916a780972e" targetId="f2a5bf92-218d-ba69-5c28-1359de7c890d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="a024eea7-8a71-4e49-93fa-cb564d118c63" name="Black Guard of Naggarond" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
@@ -13937,7 +13100,1523 @@ Armor piercing</description>
   </rules>
   <links/>
   <sharedEntries/>
-  <sharedEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
+  <sharedEntryGroups>
+    <entryGroup id="4d0a7a70-f6c3-866b-d986-a6fcec20c6f6" name="Arcane Items" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e405b37b-7090-8c90-e217-27eeadbcb82f" name="BRB - Power Stone" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="286927e4-d885-d71f-1f15-c5477e3ca2fa" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Power Stone" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Before casting a spell. Add 2 Powerdice to roll for spell (use atleast 1 dice from powerdice pool)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8805f464-a679-6892-1153-d98855250fff" name="BRB - Dispel Scroll" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="61e533a6-0d08-e860-54fd-46ab271993ad" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Dispel Scroll" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Dispel spell if no IF."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1ca2c434-d044-a545-67fb-67e2e17c8a81" name="BRB - Scroll of Shielding" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="151417f5-151c-7fcc-0e9e-34baf078a966" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scroll of Shielding" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Target gets 4+ Ward Save against cast spell."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="37235497-318b-9fcd-3cca-3f33a7da4d8c" name="BRB - Channeling Staff" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a21b5b15-7d79-0265-9e70-19355cb10477" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Channeling Staff" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 to channeling."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e4e51e10-7edd-4521-8ac5-718c73eec378" name="BRB - Sceptre of Stability" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="08a44fe9-f0de-2d73-c341-8ca9e2037df5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sceptre of Stability" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can increase dispel result with another +D6. Can contribute to IF dispel."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9601c30c-c314-9ce5-6d38-3ee805855cd5" name="BRB - Earthing Rod" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="90e3a4c1-e587-ccda-d20a-a5bb97b4086a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Earthing Rod" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can re-roll result on miscast table."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f00feb2c-1a05-1bb5-f242-e7f139e6141c" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="89b15f61-1cf7-fde8-0359-c8292c0a377b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cff335bd-f77d-cbed-6af1-ca7a77ffa24b" name="BRB - Forbidden Rod" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="22b62537-6d12-cd8d-cb49-92807a159d89" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Forbidden Rod" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Add +D6 dice to the power pool, also D3 wounds on the bearer (no armour save)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="01c7a26b-f19b-9bd9-9ffb-06b0366b937b" name="BRB - Wand of Jet" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a9b1eec3-8991-4114-6313-e987564fee3d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wand of Jet" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can increase cast result with another +D6. Can contribute to IF dispel."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="75d40f22-4574-6064-9202-2bf3b244aa6a" name="BRB - Power Scroll" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b1c7853e-c4c4-1845-eb36-6059690c1510" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Power Scroll" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. A Power Scroll can be used when the Wizard makes a casting attempt. During that casting attempt, the casting value of the spell is halved. You cannot choose to boost a spell when using the Power Scroll."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f99daa25-8d14-5b38-ac72-ac732dd441f5" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ebf46964-feaf-d801-cd28-7c382dc7aec0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bc04775b-5dcc-5348-91ef-16784e0e9b89" name="BRB - Scroll of Leeching" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b7840285-3972-ec50-43a9-93156e3794c1" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scroll of Leeching" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. After spell cast add number of power dice used as dispel dice (limit of 12)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="238247d0-c5d8-8ee0-e95e-525d6de64989" name="BRB - Feedback Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b1a634b8-8a0d-f0e7-309e-43c6d03f6998" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Feedback Scroll" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of Dispel. Roll a dice for every dice used to cast the spell. The casting wizard takes a wound for every 5+, no armour saves."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bd69c264-e059-3e1c-d274-6443fe7424a6" name="BRB - Book of Ashur" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cb13bd51-5c75-6f16-a786-c6f34db35533" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Book of Ashur" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 to cast and dispel"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4d4b5cb4-f6a1-24d2-e8ec-70754af17b29" name="BRB - Staff of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="aac7f47f-41fd-a03d-d384-97bcacef6033" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (FAQ&apos;ed)" hidden="false" book="BRB" page="504">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 bonus on attempts to dispel"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2dea2df7-c95c-b521-b688-6e3db263a181" name="AB - Sacrificial Dagger" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ffcb42ba-772c-42a4-ea48-44fc31680740" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="AB - Sacrificial Dagger" hidden="false" book="Dark Elves" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Once per spell casting attempt, after rolling power dice but before dispel attempts, can sacrifice a model. then roll a D6. On a 4+ the sorceress may roll an additional die. If it fails another attempt can be made."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="10913db3-70d2-bb54-993f-16a3d13f2843" name="AB - The Gem of Spite" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="24a40b7a-0131-40e9-bc7e-e7fd5c20a845" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="AB - The Gem of Spite" hidden="false" book="Dark Elves" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Whenever the bearer suffers a miscast, the Gem of Spite inflicts a single Strength 6 hit on every enemy wizard within 12&quot;. Each time a wound is caused by the Gem of Spite, your opponent can discard a dice from his despel pool. If they do so, the wound caused by Gem of Spite is negated."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3cea621f-9291-3bca-a7d7-667e096df524" name="AB - Tome of Furion" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="45fbc5db-420a-ba0a-f87a-77ba7597df89" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="AB - Tome of Furion" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bearer is able to choose the first spell, from Dark Magic only."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="23554070-fa06-a04a-ea22-07d46d83322d" name="Enchanted Items" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="6db9ffc7-d80f-1e34-a44d-730610937838" name="BRB - Potion of Speed" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="011f5a61-4f6c-cd91-4758-0e7dcc7dd5f4" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ce048983-1289-250c-44b8-f5f76a8f9619" name="BRB - Potion of Foolhardiness" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6a28bcd2-c154-6235-6104-c1a6b3628bbf" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1e8a7d53-4e64-e9e9-60c6-b6171db5cad8" name="BRB - Ironcurse Icon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9e9fdaa7-7c46-d3e6-1658-b616f582f2d5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ironcurse Icon" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bearer + unit he is with have 6+ WardSave against war machine weapons."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7095fd2b-8099-4fe2-053e-9906db559556" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="93d79809-416a-ee55-9c7e-186856101903" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ada9cdfa-ae7d-c380-09e9-7300bd95f8bf" name="BRB - Potion of Toughness" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="60f49eb2-0b0e-c7fd-99f2-72b55839d89d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0d66a3f1-f707-aef8-251d-cb7e5b3fd104" name="BRB - Potion of Strength" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b7ec08b2-aecd-8098-04ad-a335ab5502be" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="51c70f36-f3a5-a223-bc2e-5cd411ab1d8a" name="BRB - The Terrifying Mask of Eee!" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="61ddb0a3-e43d-0851-9a2f-32d27a2874a9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Terrifying Mask of Eee!" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Cause Terror (BRB-78). Other models cannot use his Ld."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="40a8d81e-57a9-ed1f-c79f-fdbb4bb8e112" name="BRB - Ruby Ring of Ruin" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f5b5b656-573b-6e9f-084d-7ab324377771" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Ruby Ring of Ruin" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power Level 3. Fireball spell (BRB-492)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="11a9d9c5-f548-acab-6239-e3d0ccd875ca" name="BRB - Featherfoe Torc" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="403106ee-acc5-77e3-1de6-47b5283208c7" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Featherfoe Torc" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Flying creatures (and their riders) must re-roll succesfull rolls to hit against the bearer (and the unit he is with) in close combat."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c767aa2a-8f33-8730-d9e7-6e0a4734749c" name="BRB - Healing Potion" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1428f778-a16b-78aa-9a59-eae14674ec05" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ab009eba-1db6-998a-5975-e623c3df8eae" name="BRB - Crown of Command" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7a3940eb-a850-b5af-72dd-e5c82292a265" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Crown of Command" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Stubborn (BRB-76)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="60f1fc4b-6e7d-5275-8211-e7f1a426f814" name="BRB - Arabyan Carpet" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="76baeca8-b1c7-c78a-a4a8-a1e6eb03a975" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Arabyan Carpet" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Fly rule (BRB-70), cannot join units."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4e49618f-45dd-3bbc-8bb5-5dbc42e642b7" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="dd0f0063-007b-c116-eae7-e1e5cdda9eba" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="452cbafe-68bd-f015-c34f-407e7d05c872" name="BRB - Wizarding Hat" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e743f88a-342f-178b-ef8e-dbe141922783" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizarding Hat" hidden="false" book="BRB" page="505">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="As lvl 2 Wizard with random chosen Battle Magic lore. Stupidity (BRB-76)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2f2dc180-028b-4ffa-0f31-6143eaf49150" name="AB - Black Dragon Egg" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5cd6d349-7a21-59d3-5a81-81fbba69f9cf" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="AB - Black Dragon Egg" hidden="false" book="Dark Elves" page="62">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use. Remainder of the turn the model has S6, T6 and a Strength 2 Breath Weapon (no armor saves allowed)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4755e728-a18f-fa2d-ea23-cb3415dd1182" name="AB - Cloak of Twilight" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="039c408c-81f2-83d3-3871-15185ce7b9d2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="AB - Cloak of Twilight" hidden="false" book="Dark Elves" page="62">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="3+ ward save against shooting and spells. Furthermore, in the first round of any close combat, the wearer of the Cloak of Twilight has both the Killing Blow and Multiple wounds (D3) special rules."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="3f61263e-cf0e-d908-fd6e-fc77e320b3cd" name="Magic Armour" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e93999c7-9623-a5bf-886b-88d52ef61150" name="BRB - Enchanted Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="05b92631-8067-a775-bf5a-5b8e7648eb50" profileTypeId="41726d6f757223232344415441232323" name="Enchanted Shield" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-2"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Higher Saving Throw modifier then normal"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="30eb48cf-1a1f-6e5e-2a01-731799e672dc" name="BRB - Charmed Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c3aa10cf-c4d5-80a0-a3d7-3aad3394c162" profileTypeId="41726d6f757223232344415441232323" name="Charmed Shield" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="One use only. The first hit suffered by the bearer is discounted on a roll of 2+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5547767c-5781-18ce-f05c-856aa261f40d" name="BRB - Dragonhelm" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c800858f-ad7d-738c-b63a-f929c18eb5a8" profileTypeId="41726d6f757223232344415441232323" name="Dragonhelm" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="The wearer has a WardSave (2+) against flaming attacks"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="eb2da304-ed1f-1347-fe33-d9d22fcda829" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c8f5c3a2-ed43-ca32-38ec-563591430169" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c1ec7573-7aea-a302-c4a6-bfbd090339ca" name="BRB - Spellshield" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2b4cfb6c-be50-593c-48ca-03c4e5e7118a" profileTypeId="41726d6f757223232344415441232323" name="Spellshield" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Magic Resistance (1) (BRB-72)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b5d3f157-5266-239c-2911-82220de9939a" name="BRB - Shield of Ptolos" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="652204c5-6a83-2dc4-dead-e4c269ed8d27" profileTypeId="41726d6f757223232344415441232323" name="Shield of Ptolos" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="The bearer has a 1+ ArmourSave against shooting attacks"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="887d0b3d-541a-3e99-3314-12e8c87fef9d" name="BRB - Glittering Scales" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3b79d11b-25e6-6033-ce33-2d97e0918fb5" profileTypeId="41726d6f757223232344415441232323" name="Glittering Scales" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="6+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Enemies suffer a -1 to hit penalty in close combat"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fdcb7305-28f7-61f5-61cc-52aa64657412" name="BRB - Helm of Discord" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d967305a-2a0a-132c-a0b3-de08c2d4fdc2" profileTypeId="41726d6f757223232344415441232323" name="Helm of Discord" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="At the start of each Close Combat phase, choose an enemy character in base contact with the bearer or his unit. That character must immediately take a Leadership test. If the test is failed, the character cannot make attacks and is hit automatically."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bc9cab09-46b1-fcc9-0745-ebcd5bcfc4e8" name="BRB - Armour of Fortune" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="000fbfb4-415b-e58d-6b6d-4b66d6f01b45" profileTypeId="41726d6f757223232344415441232323" name="Armour of Fortune" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer WardSave (5+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b229c316-6e08-4905-491e-f7e568ee30c2" name="BRB - Armour of Silvered Steel" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ce3b1934-316c-5e89-ffe3-b215113fca7e" profileTypeId="41726d6f757223232344415441232323" name="Armour of Silvered Steel" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="2+ ArmourSave no improvement"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f7274e3f-920a-a93e-a55d-e6768ad16096" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="deb29b2c-b32e-1acf-1572-05604d961a75" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="75926a7c-5748-e190-1a7d-5c012cb7b0de" name="BRB - Armour of Destiny" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bc465e73-e825-c1c8-4b17-74afb0120bfd" profileTypeId="41726d6f757223232344415441232323" name="Armour of Destiny" hidden="false" book="BRB" page="502">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer WardSave (4+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="080d5ab6-b45c-aa20-4e9f-d45b23b97b86" name="Magic Standards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="adc7c28c-f9e4-498d-f495-13695fc48376" name="BRB - War Banner" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="03308893-6675-2522-da0c-48e28e7c6544" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="War Banner" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Combat Resolution."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fda6df3c-296e-76b7-cb8b-7012420b5dce" name="BRB - Scarecrow Banner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7ea8aed4-d6a7-fde1-a367-26369ef72835" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Scarecrow Banner" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Fear (BRB-69) in models with Fly."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e73e0750-c848-51e9-ba9a-4859801b9a5f" name="BRB - Gleaming Pennant" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3afaafd8-a755-2bc5-a00e-b1d95d6ee474" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d1a12c97-ed29-1b4b-c285-e6c42737a57f" name="BRB - Banner of Eternal Flame" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f1ba8695-87e9-3cf4-aab8-4b4cb881caf3" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Eternal Flame" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Flaming Attacks (BRB-69)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8067e696-f941-6268-467a-82ae074521fa" name="BRB - Standard of Discipline" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f73ba5f2-275f-43de-9d4c-3bc393b67233" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Standard of Discipline" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1 Ld, but cannot use Generals Inspiring Presence."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="585959a2-6541-3f03-2fdb-d6b472d2b804" name="BRB - Lichebone Pennant" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c33a9a46-0906-9427-bc25-76644ab710dd" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Lichebone Pennant" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Magic Resistance (1) (BRB-72)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1515fa0e-9a8d-9329-2d78-81acddc3440b" name="BRB - Banner of Swiftness" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0f7ab3d8-da70-85de-01cb-f0222843b527" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Swiftness" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1M"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1e9f726d-f7a9-0da9-1d49-593759c5fc50" name="BRB - Razor Standard" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7b53c186-299f-b608-1a24-76298fd2d00e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Razor Standard" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Armour Piercing (BRB-67)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="edeb33e5-5edd-e3d7-ef8f-14e62f64645c" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e3372272-9a5b-7b87-1c14-29dbd8f1ab64" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2f5877a0-ee03-79a2-926f-f8f012e12549" name="BRB - Wailing Banner" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="db2eb5c6-f9c5-8746-5097-09681b4da1b7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Wailing Banner" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Terror (BRB-78)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9223b841-be8e-6f05-b502-677eb3b621d9" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fb3a6f96-cf19-e6ca-9647-2bf46a752f04" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="91004b76-5ced-5e14-c0a0-a19b7333ceb3" name="AB - Banner of Nagarythe" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="76a532a9-c4b7-6060-dfb5-2e9efd13a80c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="AB - Banner of Nagarythe" hidden="false" book="Dark Elves" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All models in unit have Unbreakable, As do Alith Anar, any Shadow Warriors, and any Shadow Walkers (from HE) if unit is within 12&quot; of Banner. "/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="e2e63f99-0260-ca16-aa2c-61eab97cf065" name="Magic Weapons" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c26295ae-675a-b7dc-6608-38a72916cfa5" name="BRB - Sword of Striking" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a3fb4738-b14f-d1a7-98e1-a7ee14ac4d59" profileTypeId="576561706f6e23232344415441232323" name="Sword of Striking" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1 to hit"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c8c71684-4e60-a6d4-e60a-e838c85e48a0" name="BRB - Sword of Battle" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cc71c41a-3b3e-948d-5259-401ba364b104" profileTypeId="576561706f6e23232344415441232323" name="Sword of Battle" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c348bd18-e79a-c06a-3ac8-220793c1d7a7" name="BRB - Sword of Might" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d209dfc5-4470-560c-1f9e-7f82237b761f" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1175e835-3a62-1d95-1991-9894b9259966" name="BRB - Biting Blade" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fb567826-54bc-f373-fed6-daf9beb4d7bb" profileTypeId="576561706f6e23232344415441232323" name="Biting Blade" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Armour Piercing (BRB-67)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="76662e43-107b-2f34-7f5f-d74c5a3f69f3" name="BRB - Shrieking Blade" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4bae9275-958d-c1d1-ecb0-9ea8c015f086" profileTypeId="576561706f6e23232344415441232323" name="Shrieking Blade" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Fear (BRB-69)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0531b161-440a-587f-91b9-ca4cd8f07fc9" name="BRB - Tormentor Sword" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2a5b9e60-4a52-6d4d-9b8f-ac605e3dda29" profileTypeId="576561706f6e23232344415441232323" name="Tormentor Sword" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Stupidity (BRB-76) for a Monster or Character that suffers an unsaved wound for the rest of the game."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7285fdc9-11fd-e511-d761-46f9c288c0e4" name="BRB - Warrior Bane" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="23f98096-5266-4103-d76d-17d9c9a733bc" profileTypeId="576561706f6e23232344415441232323" name="Warrior Bane" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Monster or Character that suffers an unsaved wound loses 1A (to min of 1)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="aa89e991-3fec-4185-87a0-ec68090398e7" name="BRB - Relic Sword" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="65089b9a-4368-7e80-1564-b7aeede0964b" profileTypeId="576561706f6e23232344415441232323" name="Relic Sword" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="wound on 5+ unless they would normally need a lower result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c9e52cb9-246a-9da1-ef55-f2a0793c575c" name="BRB - Gold Sigil Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ccb34df1-eb10-abcc-edfc-024194b7be6d" profileTypeId="576561706f6e23232344415441232323" name="Gold Sigil Sword" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="I10"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d8ffa891-e0cc-5f20-2aad-bfab9d0f5d07" name="BRB - Berserker Sword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b6cf9ca9-4767-ff0a-811c-cd65da5b71fa" profileTypeId="576561706f6e23232344415441232323" name="Berserker Sword" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Frenzy (can never loose it) (BRB-70)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e8729574-5b66-0c07-b29c-597f78759f49" name="BRB - Sword of Swift Slaying" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="dc080125-4488-4eaf-02bf-c7e0217068c3" profileTypeId="576561706f6e23232344415441232323" name="Sword of Swift Slaying" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6db30dd0-c932-9390-7cfd-0bb7d08a489b" name="BRB - Spellthieving Sword" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e743914c-cec4-2d44-ef50-c3c7f618bf6f" profileTypeId="576561706f6e23232344415441232323" name="Spellthieving Sword" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Wizard looses randomly one spell for each unsaved wound."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="feedad8c-d5fc-1cac-ae6a-d821eb937d1c" name="BRB - Sword of Anti-Heroes" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9f38f906-0841-17c9-a6c2-28a48eeebb63" profileTypeId="576561706f6e23232344415441232323" name="Sword of Anti-Heroes" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1*"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1S and +1A for every enemy character in base contact."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cd123cba-b9f1-c116-1ccf-8926f8f28a34" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c33efc07-b110-dd9f-6d59-2477dafbe6bc" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons (FAQ&apos;ed)(BRB-501). WS 10."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7b1b9ca1-cbae-dbf9-21a7-7cf9900a084b" name="BRB - Sword of Strife" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fa4676fc-10af-a90f-1128-72894b92cb69" profileTypeId="576561706f6e23232344415441232323" name="Sword of Strife" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+2A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="31846e19-5dbb-d332-7af6-80aaf523b58d" name="BRB - Ogre Blade" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="731316fe-f006-4f61-b341-cf12c931d44a" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0cf4283f-f681-8219-39ea-51ff133010cf" name="BRB - Obsidian Blade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="14a13e62-72d6-cf89-739b-6eb782481b6c" profileTypeId="576561706f6e23232344415441232323" name="Obsidian Blade" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="no Armour Saves allowed"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="471c9675-31ac-ace7-fe43-9f2c59a0fb7d" name="BRB - Sword of Bloodshed" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5dbecdd7-df99-2665-fead-10d482fd2c59" profileTypeId="576561706f6e23232344415441232323" name="Sword of Bloodshed" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+3A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b8cff4bf-da0a-23b2-fd5d-9b53ed0be9a1" name="BRB - Giant Blade" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="52d9c8e0-a4db-df92-3bb8-83a244dc0177" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" book="BRB" page="501">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ccf9e077-95d9-1a17-ff55-5b191928c0c4" name="AB - ChillBlade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="76647913-a07d-14a4-1495-0fae251d1a20" profileTypeId="576561706f6e23232344415441232323" name="AB - ChillBlade" hidden="false" book="Dark Elves" page="62">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Attacks wound automaticly. Any model that suffers one or more unsaved wounds by the Chillblade must immediately pass a Toughness test or suffer -3 to it&apos;s Attacks charasteric (to a minimum of 1) until the end of the following close combat fase."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ffabe3dc-e998-764f-dbf8-b71f017e6c4f" name="AB - HydraBlade" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0c8550dc-d01f-e298-fe0f-99c3777ef56a" profileTypeId="576561706f6e23232344415441232323" name="AB - HydraBlade" hidden="false" book="Dark Elves" page="62">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="37ddefae-c72e-40c1-d5d1-57f3d7cd6171" name="Talismans" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="dc679622-3e9c-f986-ffce-99e5975d91af" name="BRB - Talisman of Protection" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1ccae8a2-d834-3cff-b309-8a16eb788ad3" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Protection" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (6+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="a02fc021-c907-dd0a-8c87-1a1c5a77bc59" name="BRB - Luckstone" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9df686ca-e141-0ab7-ce3a-7fc0bca67d52" profileTypeId="54616c69736d616e23232344415441232323" name="Luckstone" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Re-roll a single failed armour save."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f90cb38c-7756-8a95-dfc5-73c5cccbb7f5" name="BRB - Pidgeon Plucker Pendant" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="00b08a97-af4f-6b80-8b88-df6268e706e0" profileTypeId="54616c69736d616e23232344415441232323" name="Pidgeon Plucker Pendant" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Ward Save (5+) against wounds caused in close combat by models with Fly rule."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="83ab7e26-28f3-7f1c-2752-6df0f3e95f3f" name="BRB - Dragonbane Gem" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="32c0d565-97b0-3a33-d32e-b1c1bc783f9f" profileTypeId="54616c69736d616e23232344415441232323" name="Dragonbane Gem" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (2+) against Flaming Attacks."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="49d8792d-aa11-e948-0bef-fbee89f7302e" name="BRB - Seed of Rebirth" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b3d43477-ca06-ae9a-65f8-a1bad230102c" profileTypeId="54616c69736d616e23232344415441232323" name="Seed of Rebirth" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Regeneration (6+) (BRB-74)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="aea461dd-7bd9-9a18-a77d-0189a2cc262d" name="BRB - Obsidian Trinket" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="89764ab0-420c-7705-7ac9-fd34f9b2d854" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Trinket" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (1) (BRB-72)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3f13fa94-b672-d579-de40-82725166fed1" name="BRB - Opal Amulet" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="64a197fd-f038-96e0-ac3d-56445b000547" profileTypeId="54616c69736d616e23232344415441232323" name="Opal Amulet" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Ward Save (4+) against first wound suffered."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0e66b3bb-1bd2-71c8-a238-9bdc44a937fa" name="BRB - Dawnstone" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5fe1dd6e-f02b-3936-7d58-e38e0e55a635" profileTypeId="54616c69736d616e23232344415441232323" name="Dawn Stone" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Re-roll failed armour saves."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="84fa1b58-b26e-f556-e787-e754927b5674" name="BRB - Obsidian Amulet" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fd0e5d0c-e3fa-e627-fc4e-fed09f624e6c" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Amulet" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (2) (BRB-72)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c8b31257-7eb5-a0d1-50f1-25c528314402" name="BRB - Talisman of Endurance" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4996b45c-cb48-ca58-4a59-60a932cfd3db" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Endurance" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (5+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="26040689-3268-95af-db6d-51b6974fd3e0" name="BRB - Obsidian Lodestone" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="505e509a-ed35-ff50-0fac-f88cc51fb915" profileTypeId="54616c69736d616e23232344415441232323" name="Obsidian Lodestone" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (3) (BRB-72)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2084b056-e8b9-8780-0fcb-77b7359ebcba" name="BRB - Talisman of Preservation" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4035bba6-ac20-03cf-2274-7ff139db51c3" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Preservation" hidden="false" book="BRB" page="503">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="WardSave (4+)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f6b41caf-2274-5c6b-37e9-537fc63e6a20" name="AB - Ring of Hotek" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f0466cbe-89ca-d53f-8a03-9121636d6a6b" profileTypeId="54616c69736d616e23232344415441232323" name="AB - Ring of Hotek" hidden="false" book="Dark Elves" page="63">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Bearer has Magis Resistance (3). In addition enemy Wizards attempting to cast or target spell on units within 6&quot; of bearer will suffer miscast on double 1&apos;s as well as double 6. Miscasts from double 1&apos;s do not benefit from irresistible force."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="25e9bcca-ac2a-aabb-539e-9576d8e150cd" name="AB - The Black Amulet" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c80dc559-af6f-e12c-070a-f1faef86a5be" profileTypeId="54616c69736d616e23232344415441232323" name="AB - The Black Amulet" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Bearer gets 4+ ward. Succeful ward saves during challange inflicts 1 wound agaisnt opponent with no armour save."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="b4254ed7-65af-394c-69f4-5495c42e89cf" name="Always Strikes First" hidden="false" page="0">
+      <description>Unit always strikes first</description>
+      <modifiers/>
+    </rule>
+    <rule id="4c166434-f4cf-7021-ed7e-dc120e87729e" name="Hatred (High Elves)" hidden="false" page="0">
+      <description>Re-roll Missed attacks in close combat against High Elves</description>
+      <modifiers/>
+    </rule>
+    <rule id="d0278406-cc36-47dd-3b48-7854ce7b0a68" name="Murderous Prowess" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="4c203db6-604e-697b-013b-13423bf96cb6" name="Show no Weakness" hidden="false" page="0">
+      <description>If this models fights in a challange or kills an enemy character, and is alive, he (and all models  in his unit) gain the Unbreakable special rule untill the end of the turn.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="f2a5bf92-218d-ba69-5c28-1359de7c890d" profileTypeId="41726d6f757223232344415441232323" name="Light Armour" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier"/>
+        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>
