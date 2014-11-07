@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d0f6d5ae-af44-401a-9a02-e6df49652942" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Empire - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d0f6d5ae-af44-401a-9a02-e6df49652942" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Empire - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="578a5b26-b90b-4c1d-a24d-72d54d6114d5" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -7779,6 +7779,111 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
         </link>
         <link id="0eea7330-3f68-0235-6bde-bee0e93df6a2" targetId="496c0e45-bac5-4762-0e70-6467bb98fe43" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="57dcc387-9ee4-3d93-3fd8-d3f04a07c8ef" name="Valten (End Times - Nagash)" points="330.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="46">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e5e75fbd-d321-9819-5a11-72a5874b50f5" name="Equipment" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="42f5cf17-55b1-c48c-711b-1ea2e7c81145" name="Two hand weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d297b09e-aefa-e727-56d3-b0eb800845c2" targetId="494e8289-5f23-d17f-365e-e25fc7fe250d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2deccdd5-ae20-b0ef-f651-c835f14e68ff" name="Full Plate, Barded Warhorse and Ghal Maraz" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="9f4676c8-04a9-f38f-26c5-57d904cce3f9" profileTypeId="576561706f6e23232344415441232323" name="Ghal Maraz" hidden="false" book="AB" page="54">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Auto wound no armour saves allowed. Multiple Wounds (D3) (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="ba5f6c8f-5351-36e9-b777-a75893255e06" profileTypeId="4d6f64656c23232344415441232323" name="Barded Warhorse" hidden="false" book="">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-2"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="3cf85216-2b3f-8c4b-9075-5c094ccc8708" targetId="9f4ff25d-c4c5-33e4-e5a5-f01a6e4635bc" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="c1fa447b-1dde-d752-2795-0de0087b1626" targetId="b65335cd-c572-49ae-fbb8-48f59ffb85d9" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="a0190a63-dda5-2ff3-511a-68b22b6a5490" targetId="0fbf0d55-00e1-dc6c-e693-296829aaf3c5" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="727400f4-6989-5e87-7ba3-59e035a4c776" name="Chosen of Sigmar" hidden="false" book="">
+          <description>Valten has a 4+ ward save. In addition, once per game, he may harness the very power of Sigmar. Valten must declare that he is harnessig this power at the start of any Close Combat phase. If he does so, roll a d3 - Valten adds this number to his Weapon Skill, Strength, Toughness and Attacks characteristics until the end of the turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c44a3d4e-58bd-00db-2498-f55670696ce0" name="Iron Resolve" hidden="false">
+          <description>The first time Valten suffers a Wound that removes him as a casualty (including unsaved Wounds that killed him as a result of the Killing Blow, Heroic killing Blow or Multiple Wounds special rules), roll 2d6 before removing him as a casualty; if the total is less than or equal to 9, Valten negates the Wound; otherwise, Valten is removed as a casualty as normal.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="348be09d-af1e-4962-3240-be75c879499f" profileTypeId="4d6f64656c23232344415441232323" name="Valten" hidden="false" book="End Times - Nagash" page="46">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="37a19700-47fe-5a2a-0496-f2118bdb132f" targetId="7773aa81-a348-8909-1588-57f04e8d9e91" linkType="rule">
           <modifiers/>
         </link>
       </links>
