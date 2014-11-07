@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1294,6 +1294,64 @@
           <modifiers/>
         </link>
         <link id="e93161ed-bc93-2f86-a071-0a4a6f54673e" targetId="e766f518-e3ed-ad7d-1808-ec3fa044f846" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="233087b6-fbe7-fe81-e87b-ee5914de4096" name="Exalted Flamer (Battlescroll)" points="90.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer Battlescroll: Exalted Flamer of Tzeentch">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f07d8a4b-d5e9-dbfd-955a-281e4c853ff5" name="Exalted Fire of Tzeentch" hidden="false" book="AB" page="40">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="84f94a93-ce5d-0914-c816-e10495838f7b" profileTypeId="576561706f6e23232344415441232323" name="Blue Fire (Grapeshot)" hidden="false" book="AB" page="40">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="D6+3"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Slow to Fire (BRB-75), Warpflame (AB-40)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f233ec5f-b59e-aa95-de99-7ba5a689476b" profileTypeId="4d6f64656c23232344415441232323" name="Exalted Flamer" hidden="false" book="AB" page="40">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b22a0ac4-46a7-f613-d594-11ec90482476" profileTypeId="576561706f6e23232344415441232323" name="Pink Fire (Fire thrower)" hidden="false" book="AB" page="40">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="n/a"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="D6"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Slow to Fire (BRB-75), Warpflame (AB-40)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fb4a631c-01a1-832d-a3d7-2b1cd50ad4f5" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5847cc34-e97b-5f42-e146-6792abd3c71c" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b5a978e0-816d-4c97-384f-40295079cef0" targetId="90d0a1f5-f5b0-39da-071d-d3157b8933f9" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7127,6 +7185,13 @@ up to 12&quot;[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="a62a306d-4613-7bb6-06c5-97af292b06da" profileTypeId="41726d6f757223232344415441232323" name="Chaos Armour" hidden="false" book="AB" page="24">
+      <characteristics>
+        <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="4+"/>
+        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Even a wizard can wear the armor and cast spells."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="d857dcc4-6550-8a12-c9df-2be6ab6ab419" profileTypeId="576561706f6e23232344415441232323" name="Crossbow" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="30&quot;"/>
@@ -7289,13 +7354,6 @@ up to 12&quot;[...]”.</description>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a62a306d-4613-7bb6-06c5-97af292b06da" profileTypeId="41726d6f757223232344415441232323" name="Chaos Armour" hidden="false" book="AB" page="24">
-      <characteristics>
-        <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="4+"/>
-        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Even a wizard can wear the armor and cast spells."/>
       </characteristics>
       <modifiers/>
     </profile>
