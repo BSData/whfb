@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1791,7 +1791,7 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="586898b2-9991-4c7d-15af-710a12e97a3f" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="586898b2-9991-4c7d-15af-710a12e97a3f" name="Lore" defaultEntryId="539123b5-9cff-558a-6173-519fb91938f0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="539123b5-9cff-558a-6173-519fb91938f0" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -2326,7 +2326,7 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="4b65f2f5-36a5-a7c5-4001-8921a0c7353f" name="Lore" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4b65f2f5-36a5-a7c5-4001-8921a0c7353f" name="Lore" defaultEntryId="efebc4f1-0a90-b910-cfd4-6ce48587e7a4" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="efebc4f1-0a90-b910-cfd4-6ce48587e7a4" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -2714,9 +2714,9 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="0e5b5c48-6f00-b02e-227d-aa7928e736eb" name="Lore" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="0e5b5c48-6f00-b02e-227d-aa7928e736eb" name="Lore" defaultEntryId="68b1159c-4bee-8e76-7112-2846661b2045" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="68b1159c-4bee-8e76-7112-2846661b2045" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="68b1159c-4bee-8e76-7112-2846661b2045" name="Lore of Slaanesh" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2724,7 +2724,7 @@ Add the following sentence to the end of the third paragraph:
               <profiles/>
               <links/>
             </entry>
-            <entry id="d1217b61-dd46-47d6-b839-a8a635a90def" name="Lore of Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="d1217b61-dd46-47d6-b839-a8a635a90def" name="Lore of Shadow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -3076,7 +3076,7 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="3d8129c2-4493-8582-10cb-38c589219eff" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="3d8129c2-4493-8582-10cb-38c589219eff" name="Lore" defaultEntryId="259bb426-7ccf-9daf-78f2-aa44e2aa3176" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="259bb426-7ccf-9daf-78f2-aa44e2aa3176" name="Lore of Tzeentch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -3382,7 +3382,7 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="1484015d-7dca-d4f2-33eb-08ee2e996c1b" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1484015d-7dca-d4f2-33eb-08ee2e996c1b" name="Lore" defaultEntryId="ec726aad-3567-77d8-25cd-d886e50fc58e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="ec726aad-3567-77d8-25cd-d886e50fc58e" name="Lore of Slaanesh" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -3627,7 +3627,7 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="cdaeec4c-adfe-5aae-8867-187386d204fe" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="cdaeec4c-adfe-5aae-8867-187386d204fe" name="Lore" defaultEntryId="800ff7c3-6ade-093a-e3c4-702a71fc43a0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="800ff7c3-6ade-093a-e3c4-702a71fc43a0" name="Lore of Tzeentch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
