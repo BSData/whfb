@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="68" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="69" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6d34a2e9-1de8-3343-6d9d-2fb151f4f54e" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -8148,7 +8148,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
         </entryGroup>
         <entryGroup id="b5234c9d-62c4-4c6c-8b90-f288d0110783" name="Additional Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="d72ba4e6-bc9e-45d4-80cd-bdf49f48f3d7" name="Lance" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="d72ba4e6-bc9e-45d4-80cd-bdf49f48f3d7" name="Lance" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -8156,7 +8156,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
               <profiles/>
               <links/>
             </entry>
-            <entry id="1b0fd041-1ff6-4ef6-b594-b3102acc70a4" name="Halberd" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="1b0fd041-1ff6-4ef6-b594-b3102acc70a4" name="Halberd" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -8172,7 +8172,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
               <profiles/>
               <links/>
             </entry>
-            <entry id="b1eb00f8-54ec-4b30-9629-c24e4de54adb" name="Additional Hand Weapon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="b1eb00f8-54ec-4b30-9629-c24e4de54adb" name="Additional Hand Weapon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -8182,14 +8182,6 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
                   <modifiers/>
                 </rule>
               </rules>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="b2503203-137b-4ef9-8508-e3628014a34a" name="Beastmaster&apos;s Scourge" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
               <profiles/>
               <links/>
             </entry>
