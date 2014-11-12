@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6d2bd945-b04e-6da5-26bb-7968529e33ec" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="High Elves - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6d2bd945-b04e-6da5-26bb-7968529e33ec" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="High Elves - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="82bb2dc3-461b-f42c-0138-f68b0c9b503b" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -2690,6 +2690,54 @@
                   <modifiers/>
                 </link>
                 <link id="37fd98e3-5f9b-1371-3db9-017becf3872a" targetId="3fd99a6d-25f8-e3d9-56c2-9ae8664f4a93" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="9bd414bf-e1e2-162d-f240-e9637ae4f287" name="Battle Standard Bearer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="e2d6127b-19b4-b07c-600c-53a03a396e44" name="Magic Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="38a985ea-610a-1869-6719-9416c7676aeb" name="Banner of Avelorn" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition parentId="roster" childId="57f78194-c953-310c-7b67-7b737d746eac" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="1f3259b6-eb28-133e-71b4-ebea49605ce2" childId="3351cc4a-a0f0-1f2a-3fc3-507f0559955f" field="selections" type="equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles>
+                    <profile id="47f70ebd-aa4a-4307-6f51-80eec3bbf4e0" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Avelorn" hidden="false" book="AB" page="59">
+                      <characteristics>
+                        <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Spells from Lore of Light and Life cast by a friendly wizard on a unit with this banner receive a +4 to cast. If Alarielle is slain the ability is lost."/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="3351cc4a-a0f0-1f2a-3fc3-507f0559955f" targetId="41ba4614-95ff-5d9a-3c13-96bd6090bdd8" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
