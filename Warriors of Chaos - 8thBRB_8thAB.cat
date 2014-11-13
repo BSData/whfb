@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -391,6 +391,115 @@
           <modifiers/>
         </link>
         <link id="a44e3f71-f346-93eb-76f4-fa379a19869d" targetId="796eecee-991c-42a0-d48c-8c03dc09387a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="200f89b9-ead1-3e27-8226-cfe946cb646d" name="Bloab Rotspawned (End Times - Glottkin)" points="415.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="32">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="c2b99759-7839-badd-60c9-668990b1e72d" name="Lore" defaultEntryId="835b1437-8468-02bd-1460-edc8d72b8062" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="835b1437-8468-02bd-1460-edc8d72b8062" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="0818b6b6-e604-ae3b-a785-062f0261bf18" name="Wizard Level" defaultEntryId="959e6e18-0de5-4856-1ae6-f358e28cdc36" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="959e6e18-0de5-4856-1ae6-f358e28cdc36" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="f6fd93f7-3ec4-a092-392b-588e9ae6d765" name="Magic Items: Arcane Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="bd9aa685-be9c-ec7d-9c8b-9ef79f4fc7a1" name="Doombells" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0383504a-c4bd-9335-a92f-2e208fde7088" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Doombells" hidden="false" book="End Times - Glottkin" page="32">
+                  <characteristics>
+                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="The bearer adds 1 to all of his casting results. Enemy Wizards within 12&apos;&apos; of the bearer must substract 1 from all of their casting results."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="5124b2bd-49c8-4a5c-a2ab-d3fe0a2fb877" name="Daemon Flies" hidden="false" book="End Times - Glottkin" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="84aa71b0-d3f1-b3a3-f8c6-9f1676107a3d" profileTypeId="4d6f64656c23232344415441232323" name="Bloab Rotspawned" hidden="false" book="End Times - Glottkin" page="32">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="8"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5a39bb66-0235-c471-0726-934fdaa66c3c" profileTypeId="576561706f6e23232344415441232323" name="Bilespurter" hidden="false" book="End Times - Glottkin" page="36">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="24&apos;&apos;"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3(4)"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Vile Bile"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ac168a6e-c807-1c50-dcdc-9a2281fb8408" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8fdc0bbf-15aa-969d-5679-75ad497984f2" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9bd01003-f98f-33ce-b2bc-454a998a9178" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="50116231-8c0e-a2fb-a502-908d8ace8377" targetId="c3679465-3661-39e3-1205-1bcd375d1c68" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="f5de1d97-c7c9-7dcf-f6bd-f933714d13be" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4573,6 +4682,123 @@ Armour Piercing</description>
         </link>
       </links>
     </entry>
+    <entry id="103e3a11-c81c-2471-7d64-e9573822f49c" name="Festus Empowered (End Times - Glottkin)" points="320.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="45">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="cd171999-251b-b04c-0dc0-1f06de51fa78" name="Wizard Level" defaultEntryId="0b0cef43-a3fa-e918-19cc-fd0a04a63b84" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="0b0cef43-a3fa-e918-19cc-fd0a04a63b84" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="e371ecf9-9440-6c9d-8860-79d6631b0c5c" name="Lore" defaultEntryId="b8d3f3a9-c87b-4bc0-23ca-045a6279d0f8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b8d3f3a9-c87b-4bc0-23ca-045a6279d0f8" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="7555fd7a-18be-a5d5-8273-4270ad19f03b" name="Magic Items: Enchanted Items" defaultEntryId="a21788fc-4e28-54f4-e87e-f04f48a5f887" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a21788fc-4e28-54f4-e87e-f04f48a5f887" name="AB - Pestilent Potions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d1e8c6cd-a942-5a2d-6498-feda79cf8e7a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Pestilent Potions" hidden="false" book="End Times - Glottkin" page="45">
+                  <characteristics>
+                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="At beginning of each combat phase. May drink to regain 1 lost wound or give it to an enemy. Both players roll a D6 and add result to unmodified S, if Festus has equal or higher Victim suffers D3 Wounds (no armour saves) and count towards CR otherwise nothing happens."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="d444a9b2-4cf1-c0c5-4c36-49d965c01fb6" name="Harbinger of Pestilence" hidden="false" book="AB" page="52">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="9244f1fe-fb96-2070-46b3-16af190d0860" name="Healing Elixers" hidden="false" book="AB" page="52">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="335829af-a909-b26e-7dd9-c78532447adb" name="Gardener of Nurgle" hidden="false" book="End Times - Glottkin" page="45">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5cc4adc9-5763-d47f-656d-fcea898b7911" name="Destined for Daemonhood" hidden="false" book="End Times - Glottkin" page="45">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a1bf20a7-97fc-6c51-a4ee-e6a8862c2611" name="Shroundlings" hidden="false" book="End Times - Glottkin" page="45">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1cdfd09d-15ae-d588-dc9e-32c4ac2fc3e1" profileTypeId="4d6f64656c23232344415441232323" name="Festus Empowered" hidden="false" book="End Times - Glottkin" page="45">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7be58ca4-ba5e-3c11-ed68-7df86400ce03" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d1e8f337-3a1c-60ab-776d-c82ede633f7a" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c4f3a07b-4de8-58b2-cb7f-e02f59d84b99" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f9bdbf5e-8c5b-8685-4f9d-633e207fa931" targetId="c12719d1-da13-dde7-6aea-b760968e1dac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f3067cc5-9d24-cdd1-288f-a48fe9db3f1e" targetId="49245792-ee44-8ffb-6db1-dda21b55431f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="fa3bda16-03d9-5f4c-ad27-828190149238" name="Festus the Leechlord" points="190.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -5056,6 +5282,79 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="cf1d618f-3841-506f-4395-1abe7534a3c8" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bd7eee8f-e793-9ebc-996e-f0569e934833" name="Gutrot Spume (End Times - Glottking)" points="250.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="43">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="4a98b81a-0102-4065-56eb-48a512110609" name="Mount" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c85e5fe4-bb0c-46bf-810f-eb31ab91bb1d" name="Chaos Warshrine" points="125.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5775429a-6e71-7746-5054-d3f8698a03c1" targetId="d85b55ea-5ee1-a126-6dcc-5aba35f5ca96" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="9d70df1b-b12a-e4c5-0a34-2bc2c7473973" name="At Home On Land or Sea" hidden="false" book="End Times - Glottkin" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="caadd306-9104-f3b0-0b60-7474e2cb1c0a" name="Flailing Tentacles" hidden="false" book="End Times - Glottkin" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="33e28019-57ee-0826-f2a3-e576b14b3a5a" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
+          <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1f94ee65-29ec-cd63-ac9d-cba06d0c4fb9" profileTypeId="4d6f64656c23232344415441232323" name="Gutrot Spume" hidden="false" book="End Times - Glottkin" page="43">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7b4bf5a8-822f-ff57-9d69-68659d1448b3" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d69d87e6-ea9c-4bd4-cba4-f3ca768c4945" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f766f8c3-f4c7-9c98-dc76-e280356e0493" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="ebed218f-a9dc-180c-39eb-e2536da21f2e" targetId="c3679465-3661-39e3-1205-1bcd375d1c68" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -5685,6 +5984,73 @@ Armour Piercing</description>
         </link>
       </links>
     </entry>
+    <entry id="b0fd54ad-45aa-2d41-75e2-09d73167fe6c" name="Morbidex Twiceborn (End Times - Glottkin)" points="385.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="36">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="69725ad8-3402-7c33-09b9-f2ef4679c251" name="Daemon Flesh" hidden="false" book="End Times - Glottkin" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="fc676a6b-98ec-cba2-a192-6f34da94b644" name="Lord of Nurglings" hidden="false" book="End Times - Glottkin" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="73ca7722-135a-e47e-a0a4-8b92a265f986" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
+          <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f81d511d-689a-a6dc-2a63-6e43a42fd89e" profileTypeId="4d6f64656c23232344415441232323" name="Morbidex Twiceborn" hidden="false" book="End Times - Glottkin" page="36">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="8"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="7"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="6+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1feb1b56-aa00-f57e-77db-945b143eaf89" profileTypeId="576561706f6e23232344415441232323" name="Tripletongue" hidden="false" book="End Times - Glottkin" page="36">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&apos;&apos;"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="6"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Poisoned Attacks Quick To Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b9e8fb07-c08b-c585-d6f8-08b283dbf83c" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="09248742-e844-37f0-bdf2-6e31ca05e26d" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d26d1b33-7109-678f-815a-e5b19a991404" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b9a964a9-6c54-fe75-0506-123f7bc254ec" targetId="c3679465-3661-39e3-1205-1bcd375d1c68" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="f31777c0-bc7d-ad74-9931-6b83824570d2" targetId="49245792-ee44-8ffb-6db1-dda21b55431f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e3d4a5e1-6ffc-2003-4d19-c372f7fe1539" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="15cb9411-22cd-bf5e-ee8e-eeda3042ba27" name="Mutalith Vortex Beast" points="240.0" categoryId="5261726523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -5739,6 +6105,212 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="058907a9-b445-3a32-481e-f21802e6908e" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="00ad9326-56e4-5f6d-1833-e9d6e49a19c9" name="Orghotts Daemonspew (End Times - Glottkin)" points="430.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="29">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="0d756a3b-1034-103d-d52f-251048f63e66" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ed5b1c9c-e4b8-7e8f-7c59-ec0ebe82f04e" name="The Rotaxes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="dd9cfa03-6898-19b1-8d78-8dbccbab66e0" profileTypeId="576561706f6e23232344415441232323" name="The Rotaxes" hidden="false" book="End Times - Glottkin" page="29">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons Poisoned Attacks"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="96341965-86d2-ef1e-8dc6-fcdb66c85722" name="Daemon Flesh" hidden="false" book="End Times - Glottkin" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c070cb7c-a690-b2fe-f207-6525e24e04ef" name="Acid Ichor" hidden="false" book="AB" page="61">
+          <description>Model that inflicts an unsaved Wound must pass I test or suffer a S4 hit, wounds caused this way count to combat result.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="fd39a2a5-8c8b-25f1-c0c1-8ac8c4d8eef4" profileTypeId="4d6f64656c23232344415441232323" name="Orghotts Daemonspew" hidden="false" book="End Times - Glottkin" page="29">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="9"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="8"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="6+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="91ea7a30-2ca8-5d06-6108-f0fcaae13767" profileTypeId="576561706f6e23232344415441232323" name="Whippermaw" hidden="false" book="End Times - Glottkin" page="36">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&apos;&apos;"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Killing Blow Poisoned Attacks Quick To Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c7fc26e1-0975-101a-dd3c-95c57e1455b4" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7b0c0516-0843-621c-47b1-9fc4ef611da6" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b010370d-692c-5c6c-99e4-1e68ba9bde56" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3fdedcef-47e7-d8fd-e686-98c0ce8e80f5" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4731f238-1a1e-edf4-2b02-a92e2fc64023" name="Putrid Blightkings (End Times - Glottkin)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin">
+      <entries>
+        <entry id="5597c17b-7366-77f1-8600-7619c4bb4314" name="Putrid Blightking" points="40.0" categoryId="(No Category)" type="unit" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="40">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="af53edb6-34a1-2389-9d47-2539db917a21" profileTypeId="4d6f64656c23232344415441232323" name="Putrid Blightking" hidden="false" book="End Times - Glottkin" page="40">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="be2ca2d8-8936-7d5c-ce0d-ab830825751b" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d2c16eb6-b172-6a9d-be59-5c8f3c45457c" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="WD37">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="b91cd8ef-1087-e696-1e87-a4773c5a90af" profileTypeId="4d6f64656c23232344415441232323" name="Putrid Blightking Champion" hidden="false" book="WD37">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="c45a03b2-910f-a219-8f10-1e10f982040b" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="WD37">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="b570ab64-e8d0-7bbe-5d09-8e526070fed8" name="Standard Bearer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="7aa4622d-c900-8540-0538-507f0f1236bf" name="Magic Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="89c92cdc-f750-5f3a-de6e-0e36e1da82c4" targetId="d01c5b44-78d7-092a-a413-ae690515f04c" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b122228a-44fd-7f32-4a2e-d0fbca6406e8" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="85fdce97-f5e8-e02c-7ccf-d71b494485db" profileTypeId="576561706f6e23232344415441232323" name="Bountiful Blades" hidden="false" book="WD37">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As User"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="At the start of each combat, a unit of Putrid Blightkings can choose to fight with a great weapon, two hand weapons or a hand weapon and shield."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e612af2c-adee-d8f7-358a-5ac327158573" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3115e336-4fbf-7f80-45bd-da669bbf7941" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6b6bef89-945b-b108-9e49-f618685aca9c" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6153,6 +6725,119 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="609478fa-6ff8-268b-e0b0-2713c0ca43db" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="683efa34-d76c-0e69-269b-1e721d563648" name="The Glottkin (End Times - Glottkin)" points="810.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="24">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b0a1c760-12aa-de0f-cf9f-17c9fff837db" name="Lore" defaultEntryId="c9dc9621-3609-89f2-ee7b-00228c388833" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c9dc9621-3609-89f2-ee7b-00228c388833" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="3f4b3975-9c45-deec-8d3d-7927e0b6cd4a" name="Wizard Level" defaultEntryId="5ca41e18-73ee-76ca-5688-52fd9d18f783" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5ca41e18-73ee-76ca-5688-52fd9d18f783" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="8650b996-d9c0-0ea7-9590-29747a8bf7d4" name="Lords of Nurgle" hidden="false" book="End Times - Glottkin" page="24">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="4652c803-8c16-c4a4-6bf5-18d9a11fe6ee" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
+          <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="91258123-61fa-5dfb-8b72-4f95577c9fed" profileTypeId="4d6f64656c23232344415441232323" name="The Glottkin" hidden="false" book="End Times - Glottkin" page="24">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="12"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="1"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="35a2c49d-f7aa-3ea6-21ba-79c0751f2b80" profileTypeId="576561706f6e23232344415441232323" name="Ghurk Glott" hidden="false" book="End Times - Glottkin" page="36">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="10"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="78243f0a-c09a-d5f2-36a8-90fc992bb8f0" profileTypeId="576561706f6e23232344415441232323" name="Otto Glott" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As User"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+D6 Attacks until the end of the phase"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d62c854a-8ca3-af6e-ddbe-c3308fe32c30" profileTypeId="576561706f6e23232344415441232323" name="The Glottkin (End Times - Glottkin)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3"/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Breath Weapon No armour saves are allowed against Wounds caused by this Breat Weapon"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bf1b931f-8564-3e47-837f-57801e47802c" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2d59d410-9839-1a84-20e3-34b1c529d234" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cd15d2f9-33ab-1f16-9927-cda1c7ef7911" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1be8abf9-7b55-ca95-0044-3a28e1555a9a" targetId="49245792-ee44-8ffb-6db1-dda21b55431f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="828de1e2-e9f2-186b-cb79-4ae11912f95f" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="84da1ada-9945-7490-b464-9174ac41faad" targetId="c12719d1-da13-dde7-6aea-b760968e1dac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d9e66ae0-65cf-0b57-e269-84500a23616a" targetId="2419c318-01e1-0a71-4db1-12f934b69583" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6595,696 +7280,6 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="a131e2d7-ea59-b743-564a-7ba81942ac6b" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="103e3a11-c81c-2471-7d64-e9573822f49c" name="Festus Empowered (End Times - Glottkin)" points="320.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="45">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="cd171999-251b-b04c-0dc0-1f06de51fa78" name="Wizard Level" defaultEntryId="0b0cef43-a3fa-e918-19cc-fd0a04a63b84" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="0b0cef43-a3fa-e918-19cc-fd0a04a63b84" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="e371ecf9-9440-6c9d-8860-79d6631b0c5c" name="Lore" defaultEntryId="b8d3f3a9-c87b-4bc0-23ca-045a6279d0f8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="b8d3f3a9-c87b-4bc0-23ca-045a6279d0f8" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="7555fd7a-18be-a5d5-8273-4270ad19f03b" name="Magic Items: Enchanted Items" defaultEntryId="a21788fc-4e28-54f4-e87e-f04f48a5f887" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="a21788fc-4e28-54f4-e87e-f04f48a5f887" name="AB - Pestilent Potions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="d1e8c6cd-a942-5a2d-6498-feda79cf8e7a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Pestilent Potions" hidden="false" book="End Times - Glottkin" page="45">
-                  <characteristics>
-                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="At beginning of each combat phase. May drink to regain 1 lost wound or give it to an enemy. Both players roll a D6 and add result to unmodified S, if Festus has equal or higher Victim suffers D3 Wounds (no armour saves) and count towards CR otherwise nothing happens."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="d444a9b2-4cf1-c0c5-4c36-49d965c01fb6" name="Harbinger of Pestilence" hidden="false" book="AB" page="52">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="9244f1fe-fb96-2070-46b3-16af190d0860" name="Healing Elixers" hidden="false" book="AB" page="52">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="335829af-a909-b26e-7dd9-c78532447adb" name="Gardener of Nurgle" hidden="false" book="End Times - Glottkin" page="45">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="5cc4adc9-5763-d47f-656d-fcea898b7911" name="Destined for Daemonhood" hidden="false" book="End Times - Glottkin" page="45">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="a1bf20a7-97fc-6c51-a4ee-e6a8862c2611" name="Shroundlings" hidden="false" book="End Times - Glottkin" page="45">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="1cdfd09d-15ae-d588-dc9e-32c4ac2fc3e1" profileTypeId="4d6f64656c23232344415441232323" name="Festus Empowered" hidden="false" book="End Times - Glottkin" page="45">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7be58ca4-ba5e-3c11-ed68-7df86400ce03" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="d1e8f337-3a1c-60ab-776d-c82ede633f7a" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c4f3a07b-4de8-58b2-cb7f-e02f59d84b99" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f9bdbf5e-8c5b-8685-4f9d-633e207fa931" targetId="c12719d1-da13-dde7-6aea-b760968e1dac" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f3067cc5-9d24-cdd1-288f-a48fe9db3f1e" targetId="49245792-ee44-8ffb-6db1-dda21b55431f" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4731f238-1a1e-edf4-2b02-a92e2fc64023" name="Putrid Blightkings (End Times - Glottkin)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin">
-      <entries>
-        <entry id="5597c17b-7366-77f1-8600-7619c4bb4314" name="Putrid Blightking" points="40.0" categoryId="(No Category)" type="unit" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="40">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="af53edb6-34a1-2389-9d47-2539db917a21" profileTypeId="4d6f64656c23232344415441232323" name="Putrid Blightking" hidden="false" book="End Times - Glottkin" page="40">
-              <characteristics>
-                <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="be2ca2d8-8936-7d5c-ce0d-ab830825751b" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d2c16eb6-b172-6a9d-be59-5c8f3c45457c" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="WD37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="b91cd8ef-1087-e696-1e87-a4773c5a90af" profileTypeId="4d6f64656c23232344415441232323" name="Putrid Blightking Champion" hidden="false" book="WD37">
-                  <characteristics>
-                    <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
-                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
-                    <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="c45a03b2-910f-a219-8f10-1e10f982040b" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="WD37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="b570ab64-e8d0-7bbe-5d09-8e526070fed8" name="Standard Bearer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="7aa4622d-c900-8540-0538-507f0f1236bf" name="Magic Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="89c92cdc-f750-5f3a-de6e-0e36e1da82c4" targetId="d01c5b44-78d7-092a-a413-ae690515f04c" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="b122228a-44fd-7f32-4a2e-d0fbca6406e8" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="85fdce97-f5e8-e02c-7ccf-d71b494485db" profileTypeId="576561706f6e23232344415441232323" name="Bountiful Blades" hidden="false" book="WD37">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As User"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="At the start of each combat, a unit of Putrid Blightkings can choose to fight with a great weapon, two hand weapons or a hand weapon and shield."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e612af2c-adee-d8f7-358a-5ac327158573" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="3115e336-4fbf-7f80-45bd-da669bbf7941" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6b6bef89-945b-b108-9e49-f618685aca9c" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="bd7eee8f-e793-9ebc-996e-f0569e934833" name="Gutrot Spume (End Times - Glottking)" points="250.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="43">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="4a98b81a-0102-4065-56eb-48a512110609" name="Mount" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c85e5fe4-bb0c-46bf-810f-eb31ab91bb1d" name="Chaos Warshrine" points="125.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="5775429a-6e71-7746-5054-d3f8698a03c1" targetId="d85b55ea-5ee1-a126-6dcc-5aba35f5ca96" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="9d70df1b-b12a-e4c5-0a34-2bc2c7473973" name="At Home On Land or Sea" hidden="false" book="End Times - Glottkin" page="43">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="caadd306-9104-f3b0-0b60-7474e2cb1c0a" name="Flailing Tentacles" hidden="false" book="End Times - Glottkin" page="43">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="33e28019-57ee-0826-f2a3-e576b14b3a5a" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
-          <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="1f94ee65-29ec-cd63-ac9d-cba06d0c4fb9" profileTypeId="4d6f64656c23232344415441232323" name="Gutrot Spume" hidden="false" book="End Times - Glottkin" page="43">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7b4bf5a8-822f-ff57-9d69-68659d1448b3" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d69d87e6-ea9c-4bd4-cba4-f3ca768c4945" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f766f8c3-f4c7-9c98-dc76-e280356e0493" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="ebed218f-a9dc-180c-39eb-e2536da21f2e" targetId="c3679465-3661-39e3-1205-1bcd375d1c68" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b0fd54ad-45aa-2d41-75e2-09d73167fe6c" name="Morbidex Twiceborn (End Times - Glottkin)" points="385.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="36">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="69725ad8-3402-7c33-09b9-f2ef4679c251" name="Daemon Flesh" hidden="false" book="End Times - Glottkin" page="43">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="fc676a6b-98ec-cba2-a192-6f34da94b644" name="Lord of Nurglings" hidden="false" book="End Times - Glottkin" page="43">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="73ca7722-135a-e47e-a0a4-8b92a265f986" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
-          <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="f81d511d-689a-a6dc-2a63-6e43a42fd89e" profileTypeId="4d6f64656c23232344415441232323" name="Morbidex Twiceborn" hidden="false" book="End Times - Glottkin" page="36">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="8"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="7"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="6+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1feb1b56-aa00-f57e-77db-945b143eaf89" profileTypeId="576561706f6e23232344415441232323" name="Tripletongue" hidden="false" book="End Times - Glottkin" page="36">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&apos;&apos;"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="6"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Poisoned Attacks
-Quick To Fire"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b9e8fb07-c08b-c585-d6f8-08b283dbf83c" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="09248742-e844-37f0-bdf2-6e31ca05e26d" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d26d1b33-7109-678f-815a-e5b19a991404" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="b9a964a9-6c54-fe75-0506-123f7bc254ec" targetId="c3679465-3661-39e3-1205-1bcd375d1c68" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="f31777c0-bc7d-ad74-9931-6b83824570d2" targetId="49245792-ee44-8ffb-6db1-dda21b55431f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e3d4a5e1-6ffc-2003-4d19-c372f7fe1539" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="200f89b9-ead1-3e27-8226-cfe946cb646d" name="Bloab Rotspawned (End Times - Glottkin)" points="415.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="32">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="c2b99759-7839-badd-60c9-668990b1e72d" name="Lore" defaultEntryId="835b1437-8468-02bd-1460-edc8d72b8062" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="835b1437-8468-02bd-1460-edc8d72b8062" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="0818b6b6-e604-ae3b-a785-062f0261bf18" name="Wizard Level" defaultEntryId="959e6e18-0de5-4856-1ae6-f358e28cdc36" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="959e6e18-0de5-4856-1ae6-f358e28cdc36" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="f6fd93f7-3ec4-a092-392b-588e9ae6d765" name="Magic Items: Arcane Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="bd9aa685-be9c-ec7d-9c8b-9ef79f4fc7a1" name="Doombells" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="32">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="0383504a-c4bd-9335-a92f-2e208fde7088" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Doombells" hidden="false" book="End Times - Glottkin" page="32">
-                  <characteristics>
-                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="The bearer adds 1 to all of his casting results. Enemy Wizards within 12&apos;&apos; of the bearer must substract 1 from all of their casting results."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="5124b2bd-49c8-4a5c-a2ab-d3fe0a2fb877" name="Daemon Flies" hidden="false" book="End Times - Glottkin" page="43">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="84aa71b0-d3f1-b3a3-f8c6-9f1676107a3d" profileTypeId="4d6f64656c23232344415441232323" name="Bloab Rotspawned" hidden="false" book="End Times - Glottkin" page="32">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="8"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="5a39bb66-0235-c471-0726-934fdaa66c3c" profileTypeId="576561706f6e23232344415441232323" name="Bilespurter" hidden="false" book="End Times - Glottkin" page="36">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="24&apos;&apos;"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3(4)"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Vile Bile"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ac168a6e-c807-1c50-dcdc-9a2281fb8408" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8fdc0bbf-15aa-969d-5679-75ad497984f2" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9bd01003-f98f-33ce-b2bc-454a998a9178" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="50116231-8c0e-a2fb-a502-908d8ace8377" targetId="c3679465-3661-39e3-1205-1bcd375d1c68" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="f5de1d97-c7c9-7dcf-f6bd-f933714d13be" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="00ad9326-56e4-5f6d-1833-e9d6e49a19c9" name="Orghotts Daemonspew (End Times - Glottkin)" points="430.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="29">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="0d756a3b-1034-103d-d52f-251048f63e66" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="ed5b1c9c-e4b8-7e8f-7c59-ec0ebe82f04e" name="The Rotaxes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="dd9cfa03-6898-19b1-8d78-8dbccbab66e0" profileTypeId="576561706f6e23232344415441232323" name="The Rotaxes" hidden="false" book="End Times - Glottkin" page="29">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons
-Poisoned Attacks"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="96341965-86d2-ef1e-8dc6-fcdb66c85722" name="Daemon Flesh" hidden="false" book="End Times - Glottkin" page="43">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="c070cb7c-a690-b2fe-f207-6525e24e04ef" name="Acid Ichor" hidden="false" book="AB" page="61">
-          <description>Model that inflicts an unsaved Wound must pass I test or suffer a S4 hit, wounds caused this way count to combat result.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="fd39a2a5-8c8b-25f1-c0c1-8ac8c4d8eef4" profileTypeId="4d6f64656c23232344415441232323" name="Orghotts Daemonspew" hidden="false" book="End Times - Glottkin" page="29">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="9"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="8"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="6+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="91ea7a30-2ca8-5d06-6108-f0fcaae13767" profileTypeId="576561706f6e23232344415441232323" name="Whippermaw" hidden="false" book="End Times - Glottkin" page="36">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&apos;&apos;"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Killing Blow
-Poisoned Attacks
-Quick To Fire"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c7fc26e1-0975-101a-dd3c-95c57e1455b4" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7b0c0516-0843-621c-47b1-9fc4ef611da6" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b010370d-692c-5c6c-99e4-1e68ba9bde56" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="3fdedcef-47e7-d8fd-e686-98c0ce8e80f5" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="683efa34-d76c-0e69-269b-1e721d563648" name="The Glottkin (End Times - Glottkin)" points="810.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="24">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="b0a1c760-12aa-de0f-cf9f-17c9fff837db" name="Lore" defaultEntryId="c9dc9621-3609-89f2-ee7b-00228c388833" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c9dc9621-3609-89f2-ee7b-00228c388833" name="Lore of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="3f4b3975-9c45-deec-8d3d-7927e0b6cd4a" name="Wizard Level" defaultEntryId="5ca41e18-73ee-76ca-5688-52fd9d18f783" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="5ca41e18-73ee-76ca-5688-52fd9d18f783" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="8650b996-d9c0-0ea7-9590-29747a8bf7d4" name="Lords of Nurgle" hidden="false" book="End Times - Glottkin" page="24">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="4652c803-8c16-c4a4-6bf5-18d9a11fe6ee" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
-          <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="91258123-61fa-5dfb-8b72-4f95577c9fed" profileTypeId="4d6f64656c23232344415441232323" name="The Glottkin" hidden="false" book="End Times - Glottkin" page="24">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="12"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="1"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="35a2c49d-f7aa-3ea6-21ba-79c0751f2b80" profileTypeId="576561706f6e23232344415441232323" name="Ghurk Glott" hidden="false" book="End Times - Glottkin" page="36">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="10"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds D6"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="78243f0a-c09a-d5f2-36a8-90fc992bb8f0" profileTypeId="576561706f6e23232344415441232323" name="Otto Glott" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As User"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+D6 Attacks until the end of the phase"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="d62c854a-8ca3-af6e-ddbe-c3308fe32c30" profileTypeId="576561706f6e23232344415441232323" name="The Glottkin (End Times - Glottkin)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="3"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Breath Weapon
-No armour saves are allowed against Wounds caused by this Breat Weapon"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="bf1b931f-8564-3e47-837f-57801e47802c" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2d59d410-9839-1a84-20e3-34b1c529d234" targetId="4c371e2c-7808-631c-4164-3cd410cf792d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cd15d2f9-33ab-1f16-9927-cda1c7ef7911" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1be8abf9-7b55-ca95-0044-3a28e1555a9a" targetId="49245792-ee44-8ffb-6db1-dda21b55431f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="828de1e2-e9f2-186b-cb79-4ae11912f95f" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="84da1ada-9945-7490-b464-9174ac41faad" targetId="c12719d1-da13-dde7-6aea-b760968e1dac" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d9e66ae0-65cf-0b57-e269-84500a23616a" targetId="2419c318-01e1-0a71-4db1-12f934b69583" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -9946,6 +9941,15 @@ Add the following sentence to the end of the third paragraph:
 ‘“Look Out Sir!” rolls cannot be taken against Impact Hits.’</description>
       <modifiers/>
     </rule>
+    <rule id="2419c318-01e1-0a71-4db1-12f934b69583" name="Impact Hits (D3) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
+      <description>ERRATA:
+Change “[...]this rule has no effect.” to “[...]no Impact Hits
+are inflicted.”
+
+Add the following sentence to the end of the third paragraph:
+‘“Look Out Sir!” rolls cannot be taken against Impact Hits.’</description>
+      <modifiers/>
+    </rule>
     <rule id="231efdbc-0f28-6280-f7bb-c2d2bc6eb219" name="Impact Hits (D6) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
       <description>ERRATA:
 Change “[...]this rule has no effect.” to “[...]no Impact Hits
@@ -10141,15 +10145,6 @@ up to 12&quot;[...]”.</description>
     </rule>
     <rule id="9ab2e33b-5412-5076-2811-4f8ea9a631dc" name="Ward Save (x+)" hidden="false" book="BRB" page="44">
       <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="2419c318-01e1-0a71-4db1-12f934b69583" name="Impact Hits (D3) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
-      <description>ERRATA:
-Change “[...]this rule has no effect.” to “[...]no Impact Hits
-are inflicted.”
-
-Add the following sentence to the end of the third paragraph:
-‘“Look Out Sir!” rolls cannot be taken against Impact Hits.’</description>
       <modifiers/>
     </rule>
   </sharedRules>
