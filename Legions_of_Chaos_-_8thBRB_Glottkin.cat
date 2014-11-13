@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="3" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5156,6 +5156,24 @@ Add the following sentence to the end of the third paragraph:
   <rules/>
   <links/>
   <sharedEntries>
+    <entry id="e8fa5029-7d8b-d86b-1adf-3eb4d3fcd9a5" name="Barded Chaos Steed" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c0ce059f-c5a5-1263-0aa0-716cb7ef4878" targetId="8ec1129c-5d31-5c3a-09b1-9c69611e6f5b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a903f1bc-567a-7791-1d9b-8e72da47d1c7" targetId="145a29a2-1366-7055-ec34-a476525fc2df" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="bfff980f-086e-ebd7-91b2-31d024db667e" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8ababb6d-b89e-8326-f749-a9e7ee69a9f8" name="Blood Throne of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="33">
       <entries/>
       <entryGroups/>
@@ -5228,190 +5246,6 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="a38724e5-8c16-e368-7b94-8fb41e5d7dbb" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b6232dcc-60a3-5a63-8c80-8fdabcf15afd" name="Disc of Tzeentch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="39">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="81eff88e-f566-ca61-5f59-8e35c449f5e7" profileTypeId="4d6f64656c23232344415441232323" name="Disc of Tzeentch" hidden="false" book="AB" page="39">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="1"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c9da02ea-44e5-5cc1-d99e-b0512e8d2ebb" targetId="90d0a1f5-f5b0-39da-071d-d3157b8933f9" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="918a2c27-ab8d-0c07-49b2-7f610eed01fd" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b6269d19-fa0d-185a-292e-6de1230f16c9" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c9d67204-16be-b9d2-3356-ae957b162457" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a06616d0-bf07-9ee8-1464-5f2f14479b25" name="Juggernaut of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="30">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="40da8ae6-32cc-a424-5307-f2b710dbbbb2" profileTypeId="4d6f64656c23232344415441232323" name="Juggernaut of Khorne" hidden="false" book="AB" page="30">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="+2"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b0d85ae4-04af-8836-d2d5-570d28b809f4" targetId="369fec70-ec57-7af3-0b40-e7d54bdaa850" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fecdb51f-e4ce-e22c-d38c-98dbbaafef2c" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2b548a43-2a28-2393-1cda-269dd91331c7" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f65741e2-562c-867b-15af-8d892d5e3f8d" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1a5558c6-f4d4-fe63-3080-81f7c183aa39" targetId="b33a2923-5b62-c43b-9168-fa8f20db175b" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="51ad1a6c-985d-1b68-0f75-e9b97042cc22" name="Palanquin of Nurgle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="47">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5d22a738-cc95-967b-0b8e-40fed8c06911" profileTypeId="4d6f64656c23232344415441232323" name="Palanquin of Nurgle" hidden="false" book="AB" page="47">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="dbdb003a-3e4e-61d6-9ded-94b29d9b6dec" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e0af854a-1a2a-787e-d981-1886da722511" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2e67b574-2678-e280-cc6e-068d2ce6cc5d" targetId="fb04ebd2-c6e0-c8eb-0fe6-25fd751197b7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d48cbd91-b5b3-ec17-2519-b7338e095201" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="cb189b1f-a499-dd46-5a07-f1d379f4efc8" name="Steed of Slaanesh" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="52">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="de77debb-cbe3-f14f-d95e-21798522114f" profileTypeId="4d6f64656c23232344415441232323" name="Steed of Slaanesh" hidden="false" book="AB" page="52">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="80f3674c-a6ca-6dcd-5f63-e64622787c98" targetId="6301cb65-9a0b-1027-15d6-4363b247c876" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="707970ff-0209-b5a9-ea5a-f431f9ebe628" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5a78a717-7f35-2571-5de2-66afa0d0445a" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3420292f-3e5f-1e4f-5316-913a48af5b1c" targetId="8ee18f2e-fd0f-109f-1707-00f7424518f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e1251c80-a6e9-7aff-a89c-9fa1f8a7baa7" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e8fa5029-7d8b-d86b-1adf-3eb4d3fcd9a5" name="Barded Chaos Steed" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="c0ce059f-c5a5-1263-0aa0-716cb7ef4878" targetId="8ec1129c-5d31-5c3a-09b1-9c69611e6f5b" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a903f1bc-567a-7791-1d9b-8e72da47d1c7" targetId="145a29a2-1366-7055-ec34-a476525fc2df" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="bfff980f-086e-ebd7-91b2-31d024db667e" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5555,6 +5389,752 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="3ebb4dd0-f732-f362-f29c-81bde5622e5e" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bdd0495a-45e8-e391-8211-f7d181b7b077" name="Chaos Dragon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="96b043d3-cf11-904e-dead-ea092a981c51" name="Dark Fire of Chaos" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3af7c610-878b-988c-aa79-2fde66cc7d4f" profileTypeId="576561706f6e23232344415441232323" name="Dark Fire of Chaos" hidden="false" book="AB" page="28">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Flame Template"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks (BRB-69)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="70e9ea35-65e3-15dc-d8c5-866f78351e98" targetId="79a31248-4d71-d2d3-83e4-3bc45d7c898d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="da4845fb-4e90-591b-d889-90449fa99eb6" name="Fumes of Contagion" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b0ce95f5-81d2-da23-5c5f-be3240279163" profileTypeId="576561706f6e23232344415441232323" name="Fumes of Contagion" hidden="false" book="AB" page="28">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Flame Template"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="2"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="No armour saves allowed."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="95b4d220-756e-20c1-af67-0108b5ed5525" targetId="79a31248-4d71-d2d3-83e4-3bc45d7c898d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3c9a2313-e577-e1b5-288e-0dc3bb0f0aed" targetId="6b5b570e-cd22-90fd-714f-b6fad217e547" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="beb5ed47-547c-2ebe-7c01-614c1e19c73b" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1bd2a37a-47bf-bf89-5b2d-7bbf772109da" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5de2be47-d963-88f2-bf92-7145152c4256" targetId="1c52ed5f-2143-24e8-a86f-7602320facbe" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="498288bf-a790-7937-6282-efece89b1978" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1b874208-a0a4-d937-e1f4-3a83ea92ffbb" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d38613f3-2c55-d2ab-1248-9876816580cf" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="aba783cb-83d7-6723-a2f1-80e9a44b8c12" name="Chaos Warshrine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="cbf5ef6d-7bd2-c5db-637f-647265fdf45f" name="Chaos Shrine Bearers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="06eddb84-1ee2-5266-7fc9-373e8b31f20f" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Shrine Bearers" hidden="false" book="AB" page="43">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="D6+2"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e005d784-05d5-38d5-755f-ebeba6b76876" targetId="6b08972f-c81b-51aa-3f05-87c0d1779ac1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0a2688d7-89fd-96f4-ffb8-061641c51575" name="Marks of Chaos" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="00dbf932-51b4-13f0-6a18-e9e12ca829a8" name="Mark of Khorne" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e99152bc-3214-85d1-5dd3-aa4a22be7b5d" targetId="332ae62e-8588-315b-c2b5-f2141f98f1a1" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4d275da2-b720-6eb7-8314-e0096de1b112" name="Mark of Tzeentch" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5e72d2b9-08f0-9f14-4ead-f56a86d330eb" targetId="cc963c20-13dd-8d2c-23ab-d473f9b1d08a" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4dcd0312-adda-7ce4-7cdb-672232a7552f" name="Mark of Nurgle" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="299c5497-a99d-6fea-b912-7a309d2a65c1" targetId="99c75fcc-5e71-7fe5-9cc2-50a31caabfef" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="cbdf13a3-798a-f2e7-f2ca-e6b2f04cd699" name="Mark of Slaanesh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="54b2199e-6dad-c9d7-df45-f7c1e88f4b40" targetId="f37d89d3-90a0-aa06-3ff3-d5cd80244b28" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="b1dfc896-def8-dd27-285a-a04be66cdf47" name="Favour of the Ruinous Powers" hidden="false" book="AB" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="b364dbd9-c270-39f2-c83f-04eafcbe33c5" name="Giver of Glory" hidden="false" book="AB" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="2cfe8d8e-1952-b73c-1256-fac47c2dc1cd" name="Protection of the Dark Gods" hidden="false" book="AB" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a4b39153-be3f-c029-e8f2-fb607b9af1ea" name="War Platform" hidden="false" book="AB" page="43">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="798d071a-1386-eee6-9b36-aa9ceb1d772f" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Warshrine" hidden="false" book="AB" page="43">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="-"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="-"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="-"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="-"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Chariot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cace0397-8184-bae7-28bb-f983f5769338" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="012e807f-4072-0ef0-8e82-4cb0517fdb5f" name="Daemonic Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="edad64c8-eb02-68d9-3b8e-aef4ed2030e4" name="Barding" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ffdae9ee-73aa-0658-d886-dd067478613d" targetId="8ec1129c-5d31-5c3a-09b1-9c69611e6f5b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b2e822ae-eccd-d2cc-3666-c6960d4292dc" targetId="3a3280e7-0c1d-285e-6e5a-89536c3ded50" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35477278-2047-1719-224e-bd3971c5af4c" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="852ca60c-aa94-41e0-c951-4641873838ac" targetId="bcabd30c-7e3d-618b-5d20-177483337ddc" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="9a196117-f2f8-54b7-c938-e19a712f6428" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1b6b60c7-80ae-7669-6e52-45a3a206f976" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b6232dcc-60a3-5a63-8c80-8fdabcf15afd" name="Disc of Tzeentch (DoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="39">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="81eff88e-f566-ca61-5f59-8e35c449f5e7" profileTypeId="4d6f64656c23232344415441232323" name="Disc of Tzeentch" hidden="false" book="AB" page="39">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="1"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c9da02ea-44e5-5cc1-d99e-b0512e8d2ebb" targetId="90d0a1f5-f5b0-39da-071d-d3157b8933f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="918a2c27-ab8d-0c07-49b2-7f610eed01fd" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b6269d19-fa0d-185a-292e-6de1230f16c9" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c9d67204-16be-b9d2-3356-ae957b162457" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="55470c40-9ae5-b91d-a88f-fb6d30f6a673" name="Disc of Tzeentch (WoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6bf8b8d2-7a64-c2dd-84f3-799eadaba36d" targetId="58cf590e-906c-6548-0c2a-f570da9eeed6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8e62f3f1-fd9e-3056-f041-8f0e801fcd8b" targetId="3a3280e7-0c1d-285e-6e5a-89536c3ded50" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="44d688f6-49ed-f2f1-640c-ad7f4b93ee7e" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="95d33e64-053a-930c-2aa8-47d3b04092db" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7d0e0f8e-a803-7286-5689-a881e037c323" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e419f5f5-e822-8dc4-6ffd-9d7e6cb1a2b0" name="Gorebeast Chariot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="f07e7c93-e054-22cf-ff45-ac7ccffb3d18" name="Chaos Charioteer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="97335fe2-24b7-72c1-f518-e4e71b26c09c" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Charioteer" hidden="false" book="AB" page="36">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e8f4badb-49d5-3651-3536-ed71e60dd7ec" targetId="f31b0b5f-7c96-d333-66a3-ab3b59aa9a3a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="98eeb135-55b3-6066-6ee2-0087ae9c997e" name="Marks of Chaos" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="24d8a78e-f571-c9f8-13d8-8d6de0ca74c5" name="Mark of Khorne" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="2218f4ca-57b0-e66c-831a-9b0aeed48064" targetId="332ae62e-8588-315b-c2b5-f2141f98f1a1" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f1094f67-8a7a-6c88-1b79-c682c2608868" name="Mark of Tzeentch" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="dd47efdd-162c-0470-5b24-96ce0aabc180" targetId="cc963c20-13dd-8d2c-23ab-d473f9b1d08a" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2af8e7f5-5562-7a9d-8c2c-a557e7b3a138" name="Mark of Nurgle" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="91162f22-09e0-f7da-7e14-1b9072605b35" targetId="99c75fcc-5e71-7fe5-9cc2-50a31caabfef" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="a0bce3e0-ae7b-be3e-cc56-0591a1ae836d" name="Mark of Slaanesh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="996b4207-0602-eb23-31ee-f9af0cd75561" targetId="f37d89d3-90a0-aa06-3ff3-d5cd80244b28" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="2a56ce2b-672d-be21-69e8-95180a7d2055" name="Gorebeast Charge" hidden="false" book="AB" page="36">
+          <description>Impact hits have Killing Blow (BRB-72)</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c086e17d-3c0b-dd30-a761-990da15e19e9" profileTypeId="4d6f64656c23232344415441232323" name="Gorebeast" hidden="false" book="AB" page="36">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a0af35f3-4582-e50c-1ce5-4d6cacd55891" profileTypeId="4d6f64656c23232344415441232323" name="Gorebeast Chariot" hidden="false" book="AB" page="36">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="-"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="-"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="-"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="3+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Chariot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="02ec6572-7740-4ce9-5ba6-17561acfcd93" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="99165185-b84a-f7e9-269a-6229c643854d" targetId="85e2396c-bb1c-e72d-9307-70294f45fcb7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="620df728-ea13-5865-8261-e875ff18bc5e" targetId="50c920af-ff7c-7fb1-34ab-74db9b77a26d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f5d90fd6-9083-b0d7-995e-d5a8636f8b4e" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a06616d0-bf07-9ee8-1464-5f2f14479b25" name="Juggernaut of Khorne (DoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="30">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="40da8ae6-32cc-a424-5307-f2b710dbbbb2" profileTypeId="4d6f64656c23232344415441232323" name="Juggernaut of Khorne" hidden="false" book="AB" page="30">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="+2"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b0d85ae4-04af-8836-d2d5-570d28b809f4" targetId="369fec70-ec57-7af3-0b40-e7d54bdaa850" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fecdb51f-e4ce-e22c-d38c-98dbbaafef2c" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2b548a43-2a28-2393-1cda-269dd91331c7" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f65741e2-562c-867b-15af-8d892d5e3f8d" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1a5558c6-f4d4-fe63-3080-81f7c183aa39" targetId="b33a2923-5b62-c43b-9168-fa8f20db175b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="02b0eaa6-ac14-b0d4-0a78-6c3def1e4260" name="Juggernaut of Khorne (WoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="73a623af-141c-695d-a79f-748b7fc42ed9" name="Brass Behemoth" hidden="false" book="AB" page="35">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="10815211-52f1-f1ef-1523-e02d1faf8b11" name="Murderous Charge" hidden="false" book="AB" page="35">
+          <description>+1S on charge</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="c1dd5286-3f41-79dc-6902-d7168c794d3b" targetId="bc39af4c-4c7b-1f78-813e-e71da5c42429" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="00470acd-143b-739a-a3de-026abb08fdaa" targetId="3a3280e7-0c1d-285e-6e5a-89536c3ded50" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0119fdfd-6f82-0745-1d2e-e20ebd80e699" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9ef292b2-e2df-1524-c321-2bb6a8f4af71" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e454d68f-ecb3-c805-7882-7d45d2932c49" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5088587f-3607-756f-6000-0a3976a31f4f" name="Manticore" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="2ac533e2-507f-a94d-2a1a-87c8a267477e" name="Iron Hard Skin" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="850a9c6c-eece-df65-fc79-6c03e2f39eab" targetId="3cebc916-d83b-9036-adc5-f1b7e11d14ea" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5b0f77f9-639a-de5c-b5c3-cdf366e8c30d" name="Venom Tail" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cb124e66-a7e8-4d77-a8a6-8c84d30a0dba" profileTypeId="576561706f6e23232344415441232323" name="Venom Tail" hidden="false" book="AB" page="29">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Poisoned Attacks (BRB-73), Multiple Wounds (2) (BRB-73), +1 to hit if in rear arc."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="d30df389-6ceb-fe6d-2a48-a6be2e76bc8b" targetId="3edf97a2-10a9-ec03-2b23-a5fd61f73cc3" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="984efdcf-bb76-192d-6fa5-0fdf6722a5f5" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b3f756c0-831d-41da-6e88-06e6ed1fefa1" name="Uncontrollable" hidden="false" book="AB" page="29">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="cfaa0f49-3210-a74c-842a-14ac72b68d47" targetId="3d836403-532b-2e1d-28ab-79577a92a6d7" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d0308372-a065-6869-8b1e-2cd936ef374b" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9d22e319-6862-ae7e-2e3a-d3e65d20b659" targetId="9ef8c891-9b78-7abf-6210-3b67e7cc1260" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="05969fad-2bc9-fc9a-f884-ca0fd17203fd" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41c73ee8-461f-33e7-a217-bb553a6dc03a" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="91bd1287-6bf9-cd04-1a10-747077827c2b" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="78fb5505-b743-c662-cd7b-1ccf2c955997" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="51ad1a6c-985d-1b68-0f75-e9b97042cc22" name="Palanquin of Nurgle (DoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="47">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5d22a738-cc95-967b-0b8e-40fed8c06911" profileTypeId="4d6f64656c23232344415441232323" name="Palanquin of Nurgle" hidden="false" book="AB" page="47">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dbdb003a-3e4e-61d6-9ded-94b29d9b6dec" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e0af854a-1a2a-787e-d981-1886da722511" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2e67b574-2678-e280-cc6e-068d2ce6cc5d" targetId="fb04ebd2-c6e0-c8eb-0fe6-25fd751197b7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d48cbd91-b5b3-ec17-2519-b7338e095201" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="baa3f98d-03a3-56e7-7f29-235282d5cdd7" name="Palanquin of Nurgle (WoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6233a522-ba05-528c-f0a0-0a14f9e073ad" targetId="cfd10a25-4af3-6bfe-b502-0544b54fd1e1" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="17cef9ef-1bd8-1273-5f64-f8cb25816602" targetId="3a3280e7-0c1d-285e-6e5a-89536c3ded50" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d221937a-f63f-c005-175a-738344eb03d1" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="86966cea-273b-8b9f-4212-486173c53e67" targetId="be0b75ca-3ae8-6640-5d28-6b57808de4eb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="73fe24c5-a8f3-31ea-1cb9-d09a14baaffe" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cb189b1f-a499-dd46-5a07-f1d379f4efc8" name="Steed of Slaanesh (DoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="52">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="de77debb-cbe3-f14f-d95e-21798522114f" profileTypeId="4d6f64656c23232344415441232323" name="Steed of Slaanesh" hidden="false" book="AB" page="52">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="80f3674c-a6ca-6dcd-5f63-e64622787c98" targetId="6301cb65-9a0b-1027-15d6-4363b247c876" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="707970ff-0209-b5a9-ea5a-f431f9ebe628" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5a78a717-7f35-2571-5de2-66afa0d0445a" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3420292f-3e5f-1e4f-5316-913a48af5b1c" targetId="8ee18f2e-fd0f-109f-1707-00f7424518f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e1251c80-a6e9-7aff-a89c-9fa1f8a7baa7" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ff758fc2-335e-d4b4-6317-019cdac61541" name="Steed of Slaanesh (WoC)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5e524cb9-f9f4-732c-0b1d-5be5da501f97" targetId="56d6ad2c-a4e1-8484-c5c2-3be07874b9a4" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a91fbbd8-976b-59d8-3830-7113be25f1be" targetId="200bef81-8b7c-03d6-25e1-205ce25ffd7b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="646d8dd2-a33e-5a13-6882-4bbe3d4aedf4" targetId="3a3280e7-0c1d-285e-6e5a-89536c3ded50" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac358b4c-1ff4-d276-59f6-9a8cfa459267" targetId="8ee18f2e-fd0f-109f-1707-00f7424518f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="23ae9ecc-067a-8e9f-728c-ed08b311ad2d" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="945f3c41-3b73-d875-1ef0-2953ed9c3b46" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="66f5b00b-0fac-bb2a-8bac-0799178cf06f" targetId="d792566c-f2d5-416b-7039-3f304828f720" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5788,6 +6368,21 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
+        <entry id="72b83538-675f-2711-b283-50a1e255a3f4" name="AB - Skull of Katam" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7c0ccd55-07f5-2834-b0e6-855226ff35e8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Skull of Katam" hidden="false" book="AB" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="May roll 6 dice to channel, but for every 1 rolled -1Ld. At 0Ld removed as casualty. Wizard with Mark of Tzeentch may not re-roll 1&apos;s when using this."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -6015,6 +6610,46 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
+        <entry id="cbea77eb-8952-9c47-bef2-b77abb85e962" name="AB - Chalice of Chaos" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="28f752c9-0407-b8b3-f120-fee72da2a2f6" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Chalice of Chaos" hidden="false" book="AB" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. May drink at start of any phase. Roll D6 and apply result from table."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1488e802-c0d2-9adf-a8c7-1f4a52fcea2d" name="AB - Pendant of Slaanesh" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="2a633b5d-88fd-39ee-0529-14d37faac461" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Pendant of Slaanesh" hidden="false" book="AB" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bearer can only join units with Mark of Slaanesh (no other characters allowed). Take breaktest with 1 dice less (no insane courage!). For each unsaved wound the bearer gains 1A for the rest of the battle."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -6214,6 +6849,21 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
+        <entry id="3e9ff601-5e2d-a913-6b4e-7a49690ab97c" name="AB - Helm of Many Eyes" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9137b93f-624a-0132-1001-710c22879b0c" profileTypeId="54616c69736d616e23232344415441232323" name="Profile Magic Armour Army Item 1" hidden="false" book="AB" page="0">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="x"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -6380,6 +7030,36 @@ Add the following sentence to the end of the third paragraph:
             <profile id="09a24998-7390-8d84-61c0-c5b85222c8b7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="38a3c469-e4e2-4642-d3c4-efdc285d548f" name="AB - Banner of Rage (Khorne only)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="df742185-cf77-5d18-aafd-b261b2855299" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Rage" hidden="false" book="AB" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Bearer or his unit suffer a hit from shooting roll a D6 before to wound rolls. On a 2+ S is halved, on a 1 S is doubled! Only attacks with To Wound are affected."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8ef88049-89b1-691c-afc8-ba5cdb13cad3" name="AB - Blasted Standard (Tzeentch only)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d4844af2-2900-42b1-6914-d84c212848a9" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Blasted Standard" hidden="false" book="AB" page="63">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Roll a D6 every time bearer or his unit suffer a hit from shooting. On a 2+ S is halved of that hit, on a 1 S is doubled. Attacks that do not roll to wound or auto wound are not affected."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -6716,6 +7396,67 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
+        <entry id="86b9814c-8752-0490-6676-cf3feb3e65a4" name="AB - Filth Mace" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="73c1dbdf-b1ff-3e30-3195-8e7c0e6c5166" profileTypeId="576561706f6e23232344415441232323" name="Filth Mace" hidden="false" book="AB" page="62">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Poisoned Attacks (BRB-73), If enemy killed with this mace he gains Terror (BRB-78) immediately, and (from start of next combat phase) Multiple Wounds (D3)(BRB-73)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="043512f6-a44f-a869-5251-9c471e0cab59" name="AB - Hellfire Sword" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="625a26e4-863a-4961-a02b-10df1acd107f" profileTypeId="576561706f6e23232344415441232323" name="Hellfire Sword" hidden="false" book="AB" page="62">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks (BRB-69), Multiple Wounds (D3)(BRB-73), No Armour saves allowed.Roll D6 for every foe slain by this sword, on every 6 unit gets another D6S4 hit. Wielder at end of turn roll a D6 with a 1 he suffers 1 Wound, no armour save."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1f3b17fe-c5e1-b8a9-266d-afdcf7f6c681" name="AB - Sword of Change" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d628c750-10da-c2c4-4728-c1f50817494a" profileTypeId="576561706f6e23232344415441232323" name="Sword of Change" hidden="false" book="AB" page="62">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="If enemy character or monster is slain by this sword, roll a D6. On 4+ it transforms into a Chaos Spawn as Spawndom result EotG table (AB-25)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -6908,6 +7649,262 @@ Add the following sentence to the end of the third paragraph:
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="26d1a170-62f8-038d-3ec2-06bfea8cac61" name="Chaos Mutations &amp; Powers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ecf5bed5-1ec3-d264-4645-7504cab005d6" name="Daemonblade" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2edaea83-8808-57dd-079a-8dcf95cf2006" profileTypeId="576561706f6e23232344415441232323" name="Daemonblade" hidden="false" book="AB" page="61">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Random Attacks (D6+3)(BRB-74), To Hit rolls of 1 resolved against bearer. Can never re-roll To Hit of 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9fb0285a-4947-2ee3-ba95-6e7ac08f2c42" name="Collar of Khorne" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="b0417e13-90ee-bf2b-810f-6d0af8b826c9" profileTypeId="54616c69736d616e23232344415441232323" name="Collar of Khorne" hidden="false" book="AB" page="61">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (3)(BRB-72)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bfd5ab1b-1d19-2310-ba0f-176ba079ce2b" name="Unholy Strike" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="6b8cac1f-9137-b0d7-2606-4bd578c14274" name="Unholy Strike" hidden="false" book="AB" page="61">
+              <description>Instead of normal attacks, make single attack. If it hits resolve it at double S and with Multiple Wounds (D3)(BRB-73).</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="02e3aba2-9f94-27d3-0e3a-64102ded48fd" name="Flaming Breath" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="35b74694-60c4-b0ba-6de9-273fad111458" profileTypeId="576561706f6e23232344415441232323" name="Flaming Breath" hidden="false" book="AB" page="37">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Flame template"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks (BRB-69)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="33a0240b-36f1-7565-c748-4ccc6d1372dc" targetId="79a31248-4d71-d2d3-83e4-3bc45d7c898d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b1ea6ad5-9ae8-a6f9-a08e-72741e27e6d7" name="Chaos Familiar" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d4dd113d-5fda-506b-6062-8105226ed676" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Chaos Familiar" hidden="false" book="AB" page="61">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Add +1 to all channel attempts and knows 1 more spell."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0faa1400-af28-e1e8-eb2c-1ea37da1cc40" name="Scaled Skin" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="16d655c8-f1a5-741d-916f-32ff29d6d718" targetId="5304c429-89f7-51d2-6c08-62ea9cd59329" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7d6a0b5b-b1fb-1e60-d35a-aa181617c4c1" name="Allure of Slaanesh" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="ab31da98-72ed-26c6-667b-896be946d184" name="Allure of Slaanesh" hidden="false" book="AB" page="61">
+              <description>any opponent whising to strike the character needs to pass Ld test.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="fc0593d6-393e-b71d-344a-ba861f4a426d" name="Poisonous Slime" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="4c18a039-529f-96eb-65b0-2aa70338a484" name="Poisonous Slime" hidden="false" book="AB" page="61">
+              <description>Ward Save (5+) against Poisoned Attacks.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="7141a511-d993-6a62-fb95-bf54067e3103" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="213fdc31-7661-f65f-7467-9ff4f50ad697" name="Acid Ichor" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="c50ca148-dcf7-e960-fea6-546b86786793" name="Acid Ichor" hidden="false" book="AB" page="61">
+              <description>Model that inflicts an unsaved Wound must pass I test or suffer a S4 hit, wounds caused this way count to combat result.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="b91fb43e-87d7-a982-b86a-38b1cc3b6d31" name="Burning Body" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="7abbb08d-3002-a778-7bf3-c572fcc41fc5" name="Burning Body" hidden="false" book="AB" page="61">
+              <description>Ward Save (5+) against Flaming Attacks.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="42383999-81df-b683-b930-2da11bb003fc" targetId="6256f6e2-3724-cd4a-d646-aadb2ef481bc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8a4b5c0e-8f27-e974-dc46-d116feeead15" name="Soul Feeder" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="0452a434-7dd0-749c-c120-042730ef2418" name="Soul Feeder" hidden="false" book="AB" page="61">
+              <description>Roll a D6 for every unsaved Wound inflicted by the character in close combat. For each result of a 6 regain a single lost Wound.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="799e6951-f3f4-14ce-b3f5-ac422fc87414" name="Third Eye of Tzeentch" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="19bccdfa-c0bf-7b54-7ed2-31868962db57" name="Third Eye of Tzeentch" hidden="false" book="AB" page="61">
+              <description>re-roll ward save results of 1</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="b5c0f575-4254-3eed-0426-456254a321a9" name="Nurgle&apos;s Rot" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="688dee0e-08bc-d1c2-e64b-fe2687979385" name="Nurgle&apos;s Rot" hidden="false" book="AB" page="61">
+              <description>At start of every Magic Phase, every enemy model in base contact suffers a single S1 hit, no armour saves.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="2c22d073-35cc-fc64-bc0e-c7a5aa992251" name="Hideous Visage" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="dbe2940d-1a12-5dc6-523f-a8cc687f299e" name="Hideous Visage" hidden="false" book="AB" page="61">
+              <description>Models can&apos;t use bearer&apos;s Ld.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="23df185c-8ebc-7035-7a33-5e3c7bc2595c" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="bc0d8b5d-6720-1d06-7387-230518ee8791" name="Always Strikes First (FAQ&apos;ed)" hidden="false" book="BRB" page="66">
@@ -6978,6 +7975,10 @@ turn[...]” in the second paragraph</description>
       <description>ERRATA:
 Add “Unlike most special rules, the effects of multiple Extra
 Attack special rules are cumulative.”</description>
+      <modifiers/>
+    </rule>
+    <rule id="0a753dd0-7b6c-3e55-3fce-bb7f8013a6c6" name="Eye of the Gods" hidden="false" book="AB" page="24">
+      <description>.</description>
       <modifiers/>
     </rule>
     <rule id="8ee18f2e-fd0f-109f-1707-00f7424518f8" name="Fast Cavalry" hidden="false" book="BRB" page="68">
@@ -7077,6 +8078,37 @@ Add the following sentence to the end of the third paragraph:
       <description>.</description>
       <modifiers/>
     </rule>
+    <rule id="e6c394b9-0b91-dae2-d7f4-bb44da38834c" name="Magic Resistance (1)" hidden="false" book="BRB" page="72">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="934d36aa-c714-48c1-7805-ccc7d124c62d" name="Magic Resistance (2)" hidden="false" book="BRB" page="72">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e25551b7-c7db-edc1-c0cd-e2b8a872dfeb" name="Magic Resistance (3)" hidden="false" book="BRB" page="72">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="332ae62e-8588-315b-c2b5-f2141f98f1a1" name="Mark of Khorne (FAQ&apos;ed)" hidden="false" book="AB" page="24">
+      <description>ERRATA:
+Add the following line to the second paragraph: ‘In the case of
+models with the cavalry, monstrous cavalry, chariot or monster
+unit type, only the rider has the Extra Attack special rule.’</description>
+      <modifiers/>
+    </rule>
+    <rule id="99c75fcc-5e71-7fe5-9cc2-50a31caabfef" name="Mark of Nurgle" hidden="false" book="AB" page="24">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f37d89d3-90a0-aa06-3ff3-d5cd80244b28" name="Mark of Slaanesh" hidden="false" book="AB" page="24">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cc963c20-13dd-8d2c-23ab-d473f9b1d08a" name="Mark of Tzeentch" hidden="false" book="AB" page="24">
+      <description>.</description>
+      <modifiers/>
+    </rule>
     <rule id="bec8d0b1-c9a6-7a6a-8cba-4ea0632b4d9f" name="Monster and Handlers" hidden="false" book="BRB" page="73">
       <description>.</description>
       <modifiers/>
@@ -7117,11 +8149,23 @@ first paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
+    <rule id="207b87b0-002f-825b-e40e-557cd3f18ad0" name="Regeneration (5+)" hidden="false" book="BRB" page="74">
+      <description>.</description>
+      <modifiers/>
+    </rule>
     <rule id="f8fee24a-390b-51c0-0f93-07e01db5e043" name="Requires Two Hands" hidden="false" book="BRB" page="75">
       <description>.</description>
       <modifiers/>
     </rule>
+    <rule id="1c52ed5f-2143-24e8-a86f-7602320facbe" name="Scaly Skin (3+)" hidden="false" book="BRB" page="75">
+      <description>.</description>
+      <modifiers/>
+    </rule>
     <rule id="3cebc916-d83b-9036-adc5-f1b7e11d14ea" name="Scaly Skin (4+)" hidden="false" book="BRB" page="75">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5304c429-89f7-51d2-6c08-62ea9cd59329" name="Scaly Skin (5+)" hidden="false" book="BRB" page="75">
       <description>.</description>
       <modifiers/>
     </rule>
@@ -7214,53 +8258,6 @@ up to 12&quot;[...]”.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="0a753dd0-7b6c-3e55-3fce-bb7f8013a6c6" name="Eye of the Gods" hidden="false" book="AB" page="24">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e6c394b9-0b91-dae2-d7f4-bb44da38834c" name="Magic Resistance (1)" hidden="false" book="BRB" page="72">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="934d36aa-c714-48c1-7805-ccc7d124c62d" name="Magic Resistance (2)" hidden="false" book="BRB" page="72">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e25551b7-c7db-edc1-c0cd-e2b8a872dfeb" name="Magic Resistance (3)" hidden="false" book="BRB" page="72">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="332ae62e-8588-315b-c2b5-f2141f98f1a1" name="Mark of Khorne (FAQ&apos;ed)" hidden="false" book="AB" page="24">
-      <description>ERRATA:
-Add the following line to the second paragraph: ‘In the case of
-models with the cavalry, monstrous cavalry, chariot or monster
-unit type, only the rider has the Extra Attack special rule.’</description>
-      <modifiers/>
-    </rule>
-    <rule id="99c75fcc-5e71-7fe5-9cc2-50a31caabfef" name="Mark of Nurgle" hidden="false" book="AB" page="24">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="f37d89d3-90a0-aa06-3ff3-d5cd80244b28" name="Mark of Slaanesh" hidden="false" book="AB" page="24">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="cc963c20-13dd-8d2c-23ab-d473f9b1d08a" name="Mark of Tzeentch" hidden="false" book="AB" page="24">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="207b87b0-002f-825b-e40e-557cd3f18ad0" name="Regeneration (5+)" hidden="false" book="BRB" page="74">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="1c52ed5f-2143-24e8-a86f-7602320facbe" name="Scaly Skin (3+)" hidden="false" book="BRB" page="75">
-      <description>.</description>
-      <modifiers/>
-    </rule>
-    <rule id="5304c429-89f7-51d2-6c08-62ea9cd59329" name="Scaly Skin (5+)" hidden="false" book="BRB" page="75">
-      <description>.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="8ec1129c-5d31-5c3a-09b1-9c69611e6f5b" profileTypeId="41726d6f757223232344415441232323" name="Barding" hidden="false" book="BRB" page="83">
@@ -7301,11 +8298,83 @@ unit type, only the rider has the Extra Attack special rule.’</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="6b5b570e-cd22-90fd-714f-b6fad217e547" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Dragon" hidden="false" book="AB" page="28">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="145a29a2-1366-7055-ec34-a476525fc2df" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Steed" hidden="false" book="AB" page="34">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry (War Beast)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="d857dcc4-6550-8a12-c9df-2be6ab6ab419" profileTypeId="576561706f6e23232344415441232323" name="Crossbow" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="30&quot;"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Move or Fire (BRB-73)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bcabd30c-7e3d-618b-5d20-177483337ddc" profileTypeId="4d6f64656c23232344415441232323" name="Daemonic Mount" hidden="false" book="AB" page="28">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="58cf590e-906c-6548-0c2a-f570da9eeed6" profileTypeId="4d6f64656c23232344415441232323" name="Disc of Tzeentch" hidden="false" book="AB" page="29">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="1"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -7364,6 +8433,24 @@ unit type, only the rider has the Extra Attack special rule.’</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="bc39af4c-4c7b-1f78-813e-e71da5c42429" profileTypeId="4d6f64656c23232344415441232323" name="Juggernaut of Khorne" hidden="false" book="AB" page="35">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-2"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="cb8454d8-f6d3-92ca-c6d3-36f18ea58f3a" profileTypeId="576561706f6e23232344415441232323" name="Lance (mounted models only)" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
@@ -7387,11 +8474,47 @@ unit type, only the rider has the Extra Attack special rule.’</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="3d836403-532b-2e1d-28ab-79577a92a6d7" profileTypeId="4d6f64656c23232344415441232323" name="Manticore" hidden="false" book="AB" page="29">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="c4800071-755a-a57c-8da0-1ff85e1e7e95" profileTypeId="576561706f6e23232344415441232323" name="Morning Star" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1 in first round of close combat"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cfd10a25-4af3-6bfe-b502-0544b54fd1e1" profileTypeId="4d6f64656c23232344415441232323" name="Palanquin of Nurgle" hidden="false" book="AB" page="29">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -7442,6 +8565,24 @@ unit type, only the rider has the Extra Attack special rule.’</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="56d6ad2c-a4e1-8484-c5c2-3be07874b9a4" profileTypeId="4d6f64656c23232344415441232323" name="Steed of Slaanesh" hidden="false" book="AB" page="33">
+      <characteristics>
+        <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
+        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+        <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry (War Beast)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="000923c5-bdad-71ba-ed23-877e9285b24d" profileTypeId="576561706f6e23232344415441232323" name="Throwing Axes" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&quot;"/>
@@ -7463,150 +8604,6 @@ unit type, only the rider has the Extra Attack special rule.’</description>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="6b5b570e-cd22-90fd-714f-b6fad217e547" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Dragon" hidden="false" book="AB" page="28">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="145a29a2-1366-7055-ec34-a476525fc2df" profileTypeId="4d6f64656c23232344415441232323" name="Chaos Steed" hidden="false" book="AB" page="34">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry (War Beast)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="bcabd30c-7e3d-618b-5d20-177483337ddc" profileTypeId="4d6f64656c23232344415441232323" name="Daemonic Mount" hidden="false" book="AB" page="28">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="58cf590e-906c-6548-0c2a-f570da9eeed6" profileTypeId="4d6f64656c23232344415441232323" name="Disc of Tzeentch" hidden="false" book="AB" page="29">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="1"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="bc39af4c-4c7b-1f78-813e-e71da5c42429" profileTypeId="4d6f64656c23232344415441232323" name="Juggernaut of Khorne" hidden="false" book="AB" page="35">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-2"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="3d836403-532b-2e1d-28ab-79577a92a6d7" profileTypeId="4d6f64656c23232344415441232323" name="Manticore" hidden="false" book="AB" page="29">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="cfd10a25-4af3-6bfe-b502-0544b54fd1e1" profileTypeId="4d6f64656c23232344415441232323" name="Palanquin of Nurgle" hidden="false" book="AB" page="29">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Beast"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="56d6ad2c-a4e1-8484-c5c2-3be07874b9a4" profileTypeId="4d6f64656c23232344415441232323" name="Steed of Slaanesh" hidden="false" book="AB" page="33">
-      <characteristics>
-        <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
-        <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-        <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-        <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-        <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-        <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-        <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-        <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
-        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry (War Beast)"/>
       </characteristics>
       <modifiers/>
     </profile>
