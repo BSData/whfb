@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="8" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -11242,6 +11242,76 @@ Add the following sentence to the end of the third paragraph:
         </link>
       </links>
     </entry>
+    <entry id="bd3ed319-ca64-1255-fac8-24109d5c8da1" name="Slaughterbrute" points="205.0" categoryId="5261726523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="4a4c76c0-1aa0-1929-bd7b-8438b9caf490" name="Extra Claws" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="0319d60e-bed6-714e-0c70-3d7acf06973a" name="Extra Claws" hidden="false" book="AB" page="47">
+              <description>+2A at S5</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="d21495d5-e99e-e51f-19af-603d02b847fb" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="3f375f63-a51b-9485-f679-cb1223758802" name="Runes of Binding" hidden="false" book="AB" page="47">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="2e3885c0-92c3-2039-6e89-eb37b25d7c16" name="Unbound" hidden="false" book="AB" page="47">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8472daea-4fef-9de1-2224-a545ea35b20a" profileTypeId="4d6f64656c23232344415441232323" name="Slaughterbrute" hidden="false" book="AB" page="47">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="7"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b965fc46-57d0-04cd-8632-eadcbc9ae8d4" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="92407859-481f-36f1-3dd0-4604de6e6c0b" targetId="3cebc916-d83b-9036-adc5-f1b7e11d14ea" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="82f0b0d2-b25f-d1dc-eb76-f93cb33128dc" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e2bc2d82-c73d-af5c-d336-fa9fcf53e8ee" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="bf930bdd-cb6f-ece2-d328-95ea52e3e8c2" name="Soul Grinder" points="250.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="57">
       <entries>
         <entry id="720fdb25-060a-3c63-d544-5af429e5edac" name="Daemonbone Claw" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="57">
@@ -11588,126 +11658,6 @@ Add the following sentence to the end of the third paragraph:
         </link>
       </links>
     </entry>
-    <entry id="40fac52e-0739-c47e-9c11-19b310758551" name="The Masque of Slaanesh" points="140.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="55">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="e2654d91-a278-5cb5-ff21-8347b56a663c" name="Dance Alone" hidden="false" book="AB" page="55">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="d8ae6c6f-1881-6afc-63bb-b913398cf329" name="The Eternal Dance" hidden="false" book="AB" page="55">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="e3877f18-668e-da55-7ac0-3224d0420be7" name="Unnatural Reflexes" hidden="false" book="AB" page="55">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="9e8839d8-edbe-bdda-0c32-acabfdc70462" profileTypeId="4d6f64656c23232344415441232323" name="The Masque of Slaanesh" hidden="false" book="AB" page="55">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="3+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2ea417c2-8914-e111-d978-277888015d2e" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4a93ed04-64b5-9bae-ba4a-d0338c22d86d" targetId="6301cb65-9a0b-1027-15d6-4363b247c876" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="23308711-485c-0b4c-2041-fa582f002502" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="bd3ed319-ca64-1255-fac8-24109d5c8da1" name="Slaughterbrute" points="205.0" categoryId="5261726523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries>
-        <entry id="4a4c76c0-1aa0-1929-bd7b-8438b9caf490" name="Extra Claws" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="0319d60e-bed6-714e-0c70-3d7acf06973a" name="Extra Claws" hidden="false" book="AB" page="47">
-              <description>+2A at S5</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="d21495d5-e99e-e51f-19af-603d02b847fb" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules>
-        <rule id="3f375f63-a51b-9485-f679-cb1223758802" name="Runes of Binding" hidden="false" book="AB" page="47">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="2e3885c0-92c3-2039-6e89-eb37b25d7c16" name="Unbound" hidden="false" book="AB" page="47">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="8472daea-4fef-9de1-2224-a545ea35b20a" profileTypeId="4d6f64656c23232344415441232323" name="Slaughterbrute" hidden="false" book="AB" page="47">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="7"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b965fc46-57d0-04cd-8632-eadcbc9ae8d4" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="92407859-481f-36f1-3dd0-4604de6e6c0b" targetId="3cebc916-d83b-9036-adc5-f1b7e11d14ea" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="82f0b0d2-b25f-d1dc-eb76-f93cb33128dc" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e2bc2d82-c73d-af5c-d336-fa9fcf53e8ee" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="e0dd18df-01fb-3ce1-4499-34c16eaa726a" name="The Glottkin (End Times - Glottkin)" points="810.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Glottkin" page="24">
       <entries/>
       <entryGroups>
@@ -11817,6 +11767,56 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="34228104-b374-371e-2d09-b272b99e723f" targetId="ad3c7fb4-fd3c-2306-3fc9-7c4307767c4a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="40fac52e-0739-c47e-9c11-19b310758551" name="The Masque of Slaanesh" points="140.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="55">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e2654d91-a278-5cb5-ff21-8347b56a663c" name="Dance Alone" hidden="false" book="AB" page="55">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d8ae6c6f-1881-6afc-63bb-b913398cf329" name="The Eternal Dance" hidden="false" book="AB" page="55">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="e3877f18-668e-da55-7ac0-3224d0420be7" name="Unnatural Reflexes" hidden="false" book="AB" page="55">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9e8839d8-edbe-bdda-0c32-acabfdc70462" profileTypeId="4d6f64656c23232344415441232323" name="The Masque of Slaanesh" hidden="false" book="AB" page="55">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="3+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2ea417c2-8914-e111-d978-277888015d2e" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4a93ed04-64b5-9bae-ba4a-d0338c22d86d" targetId="6301cb65-9a0b-1027-15d6-4363b247c876" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="23308711-485c-0b4c-2041-fa582f002502" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -13250,6 +13250,204 @@ Add the following sentence to the end of the third paragraph:
         </link>
       </links>
     </entry>
+    <entry id="21946275-652e-8e57-fbe2-95f92f6a7080" name="Razorgor Chariot" points="0.0" categoryId="5370656369616c23232344415441232323" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="45">
+      <entries>
+        <entry id="df0c530a-e72a-6acc-9088-26a6f9f91ebb" name="Gor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="07b02a2d-ebf4-37d2-38ea-572557c71e61" profileTypeId="4d6f64656c23232344415441232323" name="Gor" hidden="false" book="AB" page="44">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="8e8529cf-4d8c-7a97-c965-2db644d28c15" targetId="ceef476c-e269-d625-9b95-5634617ea876" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e4b41013-0b1e-ab9b-5eb5-ee1f5af0b67f" name="Razorgor" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8ea3b24c-3966-0786-989f-a3e75e0acc89" profileTypeId="4d6f64656c23232344415441232323" name="Razorgor" hidden="false" book="AB" page="45">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="90b9a714-dd19-4e73-dcc7-95fcec7389b8" profileTypeId="4d6f64656c23232344415441232323" name="Tuskgor Chariot" hidden="false" book="AB" page="44">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="-"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="-"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="-"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Chariot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="65bd8576-4dcb-368d-b95d-b86b407ad1b0" targetId="0f92ddaf-dc6a-28c0-1b00-3410f8f805f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="808a41ab-5373-6c8b-e53e-17929d41a9ce" targetId="85e2396c-bb1c-e72d-9307-70294f45fcb7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a5806e32-5b56-6cab-3668-271ee3776590" targetId="f3fbb079-2561-866e-72a2-d84b57bcbad8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7f81dede-45cb-3e23-d343-f7c43a897233" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3fe8b712-d353-e38a-1ed4-0bc54dfab151" targetId="1482f90e-3759-6ae1-6251-3f86f387b72d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0b20f096-d0e3-3032-6b03-8d9d9afdc3f5" name="Tuskgor Chariot" points="0.0" categoryId="436f726523232344415441232323" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="307753c2-ef79-1d36-5fa2-0dce460550f4" name="Gor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1df5d9fe-8437-e488-d6ff-4c6a18a4fb5c" profileTypeId="4d6f64656c23232344415441232323" name="Gor" hidden="false" book="AB" page="44">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="77d46ebf-a260-f550-a163-5ce73c90e6ad" targetId="ceef476c-e269-d625-9b95-5634617ea876" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9253fbca-bb9b-e141-115c-fe140a55a70a" name="Tuskgor" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c4f776d3-d057-713d-c327-aa8ea969441d" profileTypeId="4d6f64656c23232344415441232323" name="Tuskgor" hidden="false" book="AB" page="44">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="-"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="-"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="2"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c0d0300e-ab9c-6d01-364e-85db0e2efba3" profileTypeId="4d6f64656c23232344415441232323" name="Tuskgor Chariot" hidden="false" book="AB" page="44">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="-"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="-"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="-"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="-"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="-"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Chariot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f45ce9a6-fd3e-15ec-9ef0-72cc8ae5a4df" targetId="85e2396c-bb1c-e72d-9307-70294f45fcb7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8aaa8b20-768f-3979-5486-67a1b6295604" targetId="f3fbb079-2561-866e-72a2-d84b57bcbad8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e0a19bd-15e6-959e-570e-0fc085da1fd2" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="687c6ff3-d9c9-18fb-cd8b-d3a2260ea02a" name="Arcane Items" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -13479,7 +13677,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="72b83538-675f-2711-b283-50a1e255a3f4" name="AB - Skull of Katam" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="72b83538-675f-2711-b283-50a1e255a3f4" name="WoC - Skull of Katam" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -13488,6 +13686,66 @@ Add the following sentence to the end of the third paragraph:
             <profile id="7c0ccd55-07f5-2834-b0e6-855226ff35e8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Skull of Katam" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="May roll 6 dice to channel, but for every 1 rolled -1Ld. At 0Ld removed as casualty. Wizard with Mark of Tzeentch may not re-roll 1&apos;s when using this."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bca597b3-12f8-24c7-4700-58e6e9f72cc5" name="Beastmen - Hagtree Fetish" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="dfc94b1f-ef27-2d98-ed64-fc0324b303dc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Hagtree Fetish" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Choose one enemy unit within 24&quot; at start of each Magic phase. May re-roll failed To Wound rolls on that unit."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8bbf9b5d-9c91-661b-0e82-dc8e9ffaa4c1" name="Beastmen - Jagged Dagger" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2400d186-b11f-e8dc-b525-5d87350caafd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Jagged Dagger" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Every model killed by bearer is put aside and can be expended for an extra PD"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8fe59e21-1800-28da-0bc2-822f64f46fd4" name="Beastmen - Skull of Rarkos" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6fc1d4d7-a84a-0dce-7f7d-edc6d6f18bae" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Skull of Rarkos" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="All friendly Beastman Wizards in 6&quot; (incl bearer) add 1 to casting result"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="770c5cc3-3b0a-5313-a5ec-70be8623138d" name="Beastmen - Staff of Darkoth" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="08eace3a-c517-d078-e179-9d3b7d5e9244" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Darkoth" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell. Power level 3. Viletide spell (AB-37)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -13999,7 +14257,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="cbea77eb-8952-9c47-bef2-b77abb85e962" name="AB - Chalice of Chaos" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="cbea77eb-8952-9c47-bef2-b77abb85e962" name="WoC - Chalice of Chaos" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -14014,7 +14272,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="1488e802-c0d2-9adf-a8c7-1f4a52fcea2d" name="AB - Pendant of Slaanesh" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="1488e802-c0d2-9adf-a8c7-1f4a52fcea2d" name="WoC - Pendant of Slaanesh" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -14033,6 +14291,96 @@ Add the following sentence to the end of the third paragraph:
             <profile id="2a633b5d-88fd-39ee-0529-14d37faac461" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Pendant of Slaanesh" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bearer can only join units with Mark of Slaanesh (no other characters allowed). Take breaktest with 1 dice less (no insane courage!). For each unsaved wound the bearer gains 1A for the rest of the battle."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9da91c85-5add-14a9-8a3a-b7adf9723af4" name="Beastmen - Cacophonous Dirge" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c7f8f7b0-f828-3fa9-3e2a-b9853f9430fe" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Cacophonous Dirge" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Enemy musicians in same combat have no effect."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fc09dfe9-3dac-9fdf-8b76-c6b395d1abe6" name="Beastmen - Horn of the First Beast (Beastlord or Wargor only)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="22264070-636d-1f7a-8022-1d357ec1ba79" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Horn of the First Beast" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="All Beastmen units within 36&quot; can re-roll failed Primal Fury tests"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2da69397-5f8c-c354-aae9-ac34d0921067" name="Beastmen - Horn of the Great Hunt (Beastlord or Wargor only)" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e06f7f96-2f0f-07e2-c542-aa47d54a3967" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Horn of the Great Hunt" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell. Power Level 3. Bestial Surge (AB-37) spell, but every friendly Beastman unit within 36&quot; is affected."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5fbe3e0b-79c8-cbee-9ef9-a7244287ca9f" name="Beastmen - Shard of the Herdstone" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e8a04da5-ed73-ef4e-6ffd-4a8531717f6d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Shard of the Herdstone" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Terrain piece. +1PD for every friendly wizard within 6&quot;."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b102be59-5210-768e-3c00-2a3dea76b44a" name="Beastmen - Skin of Man (Bray-Shaman only)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1a4061da-bdda-f435-bb56-3630947ebbbc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Skin of Man" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Scouts (BRB-79)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="84ae2969-609b-3fa3-8bc6-2120294a9412" name="Beastmen - Stone of Spite" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0697df61-33bc-4cd2-e6c1-a9b5e9ee2ea3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Stone of Spite" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Bound Spell. Power level 5. Every Arcane Items within 18&quot; explode doing D6 S4 hits per item on bearer. Items are destroyed."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -14238,7 +14586,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="3e9ff601-5e2d-a913-6b4e-7a49690ab97c" name="AB - Helm of Many Eyes" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="3e9ff601-5e2d-a913-6b4e-7a49690ab97c" name="WoC - Helm of Many Eyes" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -14247,6 +14595,86 @@ Add the following sentence to the end of the third paragraph:
             <profile id="9137b93f-624a-0132-1001-710c22879b0c" profileTypeId="54616c69736d616e23232344415441232323" name="Profile Magic Armour Army Item 1" hidden="false" book="AB" page="0">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="x"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7cefa87e-8385-b318-ca3d-1d9449306e2e" name="Beastmen - Blackened Plate" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1b10e421-e8b0-e512-a2dc-bb7f54115751" profileTypeId="41726d6f757223232344415441232323" name="Blackened Plate" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="2+ Ward Save against Flaming Attacks. Unit he is with have a 4+ Ward Save against Flamming Attacks"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bbceb1ff-545b-c438-43ea-9da0b230c681" name="Beastmen - Blade-Blunter Armour" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e9b377de-2419-d1fc-70d4-87f12a07cd6f" profileTypeId="41726d6f757223232344415441232323" name="Blade-Blunter Armour" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="At end of each round of combat roll a D6 for each magic weapon that hit the wearer. On 2+ item will count as its normal type for the rest of the battle"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9040573e-74f4-06f5-a628-3199ad6637a3" name="Beastmen - Pelt of the Shadowgave" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ed4c5917-1ed7-2b32-2525-df0b84352f74" profileTypeId="41726d6f757223232344415441232323" name="Pelt of the Shadowgave" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="6+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Shooting attacks suffer -1 to hit on wearer or his unit. Spells targeted at wearer or unit deduct 2 from casting roll"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ad29f1b0-6eeb-a338-878b-4d1f3b3717e6" name="Beastmen - Ramhorn Helm" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="be4c40b5-1074-6ba4-5849-65d384e3f3ea" profileTypeId="41726d6f757223232344415441232323" name="Ramhorn Helm (FAQ&apos;ed)" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="6+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Change the last sentence to read “For every armour save he passes in close combat, the bearer may immediately make a bonus attack at his basic Strength.”"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="408fba1c-5201-3fcf-ad22-956468c3522f" name="Beastmen - Trollhide" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5b9ce1f3-e212-53d8-b971-5a205b3b62b0" profileTypeId="41726d6f757223232344415441232323" name="Trollhide" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="6+"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Regeneration (BRB-74)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -14425,7 +14853,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="38a3c469-e4e2-4642-d3c4-efdc285d548f" name="AB - Banner of Rage (Khorne only)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="38a3c469-e4e2-4642-d3c4-efdc285d548f" name="WoC - Banner of Rage (Khorne only)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -14440,7 +14868,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="8ef88049-89b1-691c-afc8-ba5cdb13cad3" name="AB - Blasted Standard (Tzeentch only)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="8ef88049-89b1-691c-afc8-ba5cdb13cad3" name="WoC - Blasted Standard (Tzeentch only)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -14449,6 +14877,66 @@ Add the following sentence to the end of the third paragraph:
             <profile id="d4844af2-2900-42b1-6914-d84c212848a9" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Blasted Standard" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Roll a D6 every time bearer or his unit suffer a hit from shooting. On a 2+ S is halved of that hit, on a 1 S is doubled. Attacks that do not roll to wound or auto wound are not affected."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6051b7e4-afc1-a7bc-fc8e-84845a556c06" name="Beastmen - Manbane Standard" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="15db7cab-9d91-61cc-8bd1-563a1458586c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Manbane Standard" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All enemy units within 6&quot; suffer -1Ld"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="577bb6fe-eda9-7a88-5c49-992a7644e507" name="Beastmen - The Banner of Outrage" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d8201408-57ac-57c2-0ecd-5ffad32f6be9" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="The Banner of Outrage" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Bearer&apos;s unit auto passes Primal Fury tests. Enemy units Hate bearer&apos;s unit"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="124bab93-c0e8-a57b-4ecf-67d77587924f" name="Beastmen - The Beast Banner" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="af9bcb68-aaa9-8f48-9451-991a5c5460b0" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="The Beast Banner" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="+1S to bearer and unit he is with."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="66a38607-c82a-e26b-fcef-3887f83e9f04" name="Beastmen - Totem of Rust" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c9183b8d-0fff-84ce-8d1b-ddebbb2d4fe4" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Totem of Rust" hidden="false" book="AB" page="95">
+              <characteristics>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All Units within 6&quot; have +1 AS (1 worse!). All Units in base contact +2 AS (2 worse!). Does not affect Scaly Skin."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -14785,7 +15273,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="86b9814c-8752-0490-6676-cf3feb3e65a4" name="AB - Filth Mace" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="86b9814c-8752-0490-6676-cf3feb3e65a4" name="WoC - Filth Mace" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -14812,7 +15300,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="043512f6-a44f-a869-5251-9c471e0cab59" name="AB - Hellfire Sword" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="043512f6-a44f-a869-5251-9c471e0cab59" name="WoC - Hellfire Sword" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -14829,7 +15317,7 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="1f3b17fe-c5e1-b8a9-266d-afdcf7f6c681" name="AB - Sword of Change" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="1f3b17fe-c5e1-b8a9-266d-afdcf7f6c681" name="WoC - Sword of Change" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -14840,6 +15328,159 @@ Add the following sentence to the end of the third paragraph:
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="If enemy character or monster is slain by this sword, roll a D6. On 4+ it transforms into a Chaos Spawn as Spawndom result EotG table (AB-25)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4a93d48a-56a7-0103-85e1-7c780fbb3ecd" name="Beastmen - Axe of Men" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="045d8423-e581-6eff-d935-b8a6864bcab2" profileTypeId="576561706f6e23232344415441232323" name="Axe of Men" hidden="false" book="AB" page="92">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Killing Blow (BRB-72). If enemy character killed in challenge bearer and unit gain Unbreakable (BRB-78) and Terror (BRB-78)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ceaee215-234a-09dd-1518-80d286781c9f" name="Beastmen - Axes of Khorgor" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0a8dfc4b-7b26-762d-e76a-12510e14d8f2" profileTypeId="576561706f6e23232344415441232323" name="Axes of Khorgor" hidden="false" book="AB" page="92">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75). Extra Attack(FAQ&apos;ed) (BRB-69). May re-roll failed To Hit rolls in close combat"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c9f9501e-0187-93a2-b7af-f43ae65d5739" name="Beastmen - Everbleed" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c3decc27-bc87-75d9-cf08-31e267a8be58" profileTypeId="576561706f6e23232344415441232323" name="Everbleed" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="For every unsaved wound caused roll D6. On 6 another wound caused with no saves allowed, then keep re-rolling as long as the result is 6."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9ae8d84e-99ad-696b-524b-884000d1f354" name="Beastmen - Hunting Spear" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="31880c2d-47b4-a838-243b-d611ac7713ca" profileTypeId="576561706f6e23232344415441232323" name="Hunting Spear (FAQ&apos;ed)" hidden="false" book="AB" page="92">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="24&quot;, Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user , (see Spear (foot/mounted))"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="&quot;The Hunting Spear is a throwing weapon with a range of 24&quot;. Like Bolt thrower bolt. May shoot after moving (not marching) and stand &amp; shoot."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="34185928-e56a-28f7-60fb-8dda94a87569" name="Beastmen - Mangelder" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="77eaa8ec-e156-1653-e3af-6f1b69394624" profileTypeId="576561706f6e23232344415441232323" name="Mangelder" hidden="false" book="AB" page="92">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Terror (BRB-78). -1Ld on enemy for every wound the enemmy suffers"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9995fdaa-9cb6-ee2d-04f2-b9241faafb1a" name="Beastmen - Primeval Club" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="46775bee-e1db-cae9-e60f-2d4553b1cf28" profileTypeId="576561706f6e23232344415441232323" name="Primeval Club" hidden="false" book="AB" page="92">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user*"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="S as unmodified Ld of Enemy when rolling to Wound"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c6623601-1542-a250-27f4-5087c4175640" name="Beastmen - Stonecrusher Mace" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="99be19db-6ca9-1b73-ad14-45f3f4fe3cda" profileTypeId="576561706f6e23232344415441232323" name="Stonecrusher Mace" hidden="false" book="AB" page="92">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+3(+10)"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+10S when rolling To Wound against War Machines, Chariots and Buildings"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c9309357-528a-02f8-09d3-fa2b9809d926" name="Beastmen - The Brass Cleaver" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e25fc7a4-2c15-d790-f713-217f0bff2535" profileTypeId="576561706f6e23232344415441232323" name="The Brass Cleaver" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1A per model in base contact (max +1A in challenge)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8af947da-d318-b78e-0d97-c5cc673dbf41" name="Beastmen - The Steel-Claws" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ec9f68f9-2e93-008d-087a-5e0cc974c8dd" profileTypeId="576561706f6e23232344415441232323" name="The Steel-Claws" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75). Roll every round of close combat D3 extra attacks on roll of 6 all attacks Ignore Armour Saves"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -15027,6 +15668,163 @@ Add the following sentence to the end of the third paragraph:
             <profile id="6473fd57-9745-5b8a-7635-1513a9c9ae90" profileTypeId="54616c69736d616e23232344415441232323" name="Talisman of Preservation" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="4+ WardSave."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cae4bcb8-2c04-0596-0599-f104fb4c434c" name="Beastmen - Chalice of Dark Rain" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="62d12bc1-1452-9e8a-00c5-5ba71cbc8fd3" profileTypeId="54616c69736d616e23232344415441232323" name="Chalice of Dark Rain" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. At start of enemy shooting phase all BS shooting -1 to hit. No BS shooting only on 4+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6afff099-f27a-3e89-ad2e-ee7423f88a9e" name="Beastmen - Eye of Night" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="68a94342-f9cc-f74d-e2aa-a9e51cddc486" profileTypeId="54616c69736d616e23232344415441232323" name="Eye of Night" hidden="false" book="AB" page="94">
+              <characteristics>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (2)(BRB-72). If enemy wizard within 24&quot; attempts to cast a Life, Heavens or Light spell and suffers a miscast, you may force them to re-roll miscast table result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="1790f720-594d-9251-1a33-e11198730413" name="Gifts of Chaos" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="13d0e616-fa05-22f8-7d69-dfb9510c77a0" name="Crown of Horns" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="871dcbe9-2ce7-8b78-9dff-80121cb34c14" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Crown of Horns" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Model and unit he is with are Stubborn (BRB-76)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6e1cbe63-dc27-c6e1-a524-005adfb69cd2" name="Slug-Skin" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b6a84322-e898-b1ce-64b5-a4349961c2bc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Slug-Skin" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Enemy models in base contact at start of close combat suffer a S3 hit"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7f7895b9-9551-5e9a-b4cd-a37893fad9ab" name="Many-Limbed Fiend" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ceb10603-b8d0-e281-1afd-6d54cbf2e802" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Many-Limbed Fiend" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bonus Attack at unmodified S"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="23e1958a-bfc1-e58b-a572-3cb28965557b" name="Gouge-Tusks" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="99c7b4c1-da4f-759b-f2c9-9add458bbb46" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Gouge-Tusks" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="All close combat attacks are Armour Piercing (BRB-67)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="834056db-58d7-09d5-4e4c-486d1d4fc5bc" name="Gnarled Hide" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fd763105-ccec-aac6-8191-1bf851755321" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Gnarled Hide" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Scaly Skin (5+)(BRB-75)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4ffb2814-7af6-f1e4-239d-ea59275ea1b1" name="Rune of the True Beast" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bc2db5ea-f978-b7c2-9ff6-19b60f1e0b7b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Rune of the True Beast (FAQ&apos;ed)" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Page 91 – Gifts of Chaos, Rune of the True Beast. Change the start of the first sentence to “Monsters, War Beasts, Cavalry Mounts, the steeds pulling chariots and Swarms [...]”. suffer -1 to hit in combat, though their riders may attack as normal"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="90633255-ec7c-d5c3-78e0-580007a85e5b" name="Uncanny Senses" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="42f5b87a-bdc8-23aa-6dc9-d64d12d254e1" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Uncanny Senses" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1I"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3613f94a-f6ea-973c-e96f-ea4d5d803da2" name="Shadow-Hide" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="861acbb0-11e8-59fc-dd6f-fc4b200c7021" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Shadow-Hide (FAQ&apos;ed)" hidden="false" book="AB" page="91">
+              <characteristics>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Page 91 – Gifts of Chaos, Shadow-hide. Change to “When in soft or hard cover, a further -1 To Hit modifier is applied when enemies make a shooting attack at the character”."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -15388,6 +16186,30 @@ up to 12&quot;[...]”.</description>
       <modifiers/>
     </rule>
     <rule id="52f724aa-2232-2f70-b7ca-86c3ec4105a5" name="Warpflame" hidden="false" book="AB" page="40">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="84f1afe0-c274-0121-f1c2-292c4730e726" name="Beastmen Ambush" hidden="false" book="AB" page="33">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1d115c79-e87a-a735-af54-25458c3501fe" name="Bloodgreed" hidden="false" book="AB" page="43">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7381e593-c31e-79e3-16a0-c595f60b1d54" name="Man-bane" hidden="false" book="AB" page="34">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f3fbb079-2561-866e-72a2-d84b57bcbad8" name="Primal Fury" hidden="false" book="AB" page="33">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2a7d1525-d494-2416-1c03-da8a8e2a0be7" name="Slaughterer&apos;s Call" hidden="false" book="AB" page="35">
+      <description>.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1482f90e-3759-6ae1-6251-3f86f387b72d" name="Thunderous Charge" hidden="false" book="AB" page="45">
       <description>.</description>
       <modifiers/>
     </rule>
