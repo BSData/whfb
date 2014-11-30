@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="12" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="13" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -6718,7 +6718,7 @@ Add the following sentence to the end of the third paragraph:
               <modifiers>
                 <modifier type="decrement" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
-                    <condition parentId="6360e38a-d8b6-84dd-ed87-120dd98cbaac" childId="f5244c5e-0125-4aa5-b6af-acf2f2b5fdb1" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="6360e38a-d8b6-84dd-ed87-120dd98cbaac" childId="f5244c5e-0125-4aa5-b6af-acf2f2b5fdb1" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -16402,7 +16402,7 @@ can join the unit.”</description>
                   <modifiers>
                     <modifier type="decrement" field="maxPoints" value="50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions>
-                        <condition parentId="4f54630c-e015-8f65-3b50-85fdd4abd68f" childId="ae14d16b-1487-0b1f-8548-83fda41f1465" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="4f54630c-e015-8f65-3b50-85fdd4abd68f" childId="2a3dd848-bda7-d9ee-a009-8c0eb503ee78" field="selections" type="equal to" value="1.0"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -18452,9 +18452,9 @@ can join the unit.”</description>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition parentId="direct parent" childId="b6aa83f3-93bb-6b9f-e889-e27e0ca30c92" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="95124be5-137d-26c5-92d0-e58162ed514e" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="15ac7e60-b007-3179-bc57-2c87eb94678b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="b6aa83f3-93bb-6b9f-e889-e27e0ca30c92" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="95124be5-137d-26c5-92d0-e58162ed514e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="15ac7e60-b007-3179-bc57-2c87eb94678b" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -18542,11 +18542,11 @@ can join the unit.”</description>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition parentId="direct parent" childId="c1dba0ba-5e11-bc59-2921-f410cfb5e28c" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="51bc0ace-dad3-332c-26c1-57664546f731" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="e32669f8-bb83-a548-37ba-56c97ab823c9" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="02273280-7a7e-908b-255f-fe75526302ed" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="27abfd7f-3aaf-145f-0924-5757fb8c969f" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="c1dba0ba-5e11-bc59-2921-f410cfb5e28c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="51bc0ace-dad3-332c-26c1-57664546f731" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="e32669f8-bb83-a548-37ba-56c97ab823c9" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="02273280-7a7e-908b-255f-fe75526302ed" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="27abfd7f-3aaf-145f-0924-5757fb8c969f" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -18631,11 +18631,11 @@ can join the unit.”</description>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition parentId="direct parent" childId="310c4262-9bc6-8544-5af2-c6d32bdb6e41" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="4a2e3389-4e79-56ed-9426-7da053e33e93" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="5ca4ac2e-6aee-f42b-c494-617406107966" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="6a6d30dc-4fe8-5b76-cf29-af4a725c3d8d" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="fdd3c1f9-c35f-c8c8-cfac-5390b316172f" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="310c4262-9bc6-8544-5af2-c6d32bdb6e41" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="4a2e3389-4e79-56ed-9426-7da053e33e93" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="5ca4ac2e-6aee-f42b-c494-617406107966" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="6a6d30dc-4fe8-5b76-cf29-af4a725c3d8d" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="fdd3c1f9-c35f-c8c8-cfac-5390b316172f" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -18660,11 +18660,11 @@ can join the unit.”</description>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition parentId="direct parent" childId="0f153c93-1bcf-11b0-849a-f8e53785872e" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="f1ef9bd3-7ea9-f776-1b66-2d07a53fb4b2" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="dc8789cf-1539-4df3-4db0-b5534bb12351" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="59c0c981-ff27-3676-1f08-9082d866be02" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="direct parent" childId="7e803c2e-972f-916a-5073-0ce45b405dae" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="0f153c93-1bcf-11b0-849a-f8e53785872e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="f1ef9bd3-7ea9-f776-1b66-2d07a53fb4b2" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="dc8789cf-1539-4df3-4db0-b5534bb12351" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="59c0c981-ff27-3676-1f08-9082d866be02" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="7e803c2e-972f-916a-5073-0ce45b405dae" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
