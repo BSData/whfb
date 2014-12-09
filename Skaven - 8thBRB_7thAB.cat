@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -940,7 +940,23 @@ an extra rank even in the turn they charge.”</description>
           <entries/>
           <entryGroups>
             <entryGroup id="e5d7d3ca-cc4e-0366-34cd-0464c964f208" name="Magic Items and Scavenge-pile items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="f7baf4ac-cb6f-08b8-93e8-6f898d39f6da" name="AB - Warpstone Tokens (FAQ&apos;ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="40cd8a2c-040b-ef10-5de2-8768b9399086" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Warpstone Tokens" hidden="false" book="AB" page="108">
+                      <characteristics>
+                        <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can be bought unlimited within limit of magic point allowance. Before casting may consume a token. Add a single dice to casting. At a roll of a 1 on that dice Wizard suffers a wound no Armour saves allowed.(FAQ: cannot roll more then max 6 allowed dice)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <links>
@@ -967,7 +983,7 @@ an extra rank even in the turn they charge.”</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="e3be4485-279a-a42a-6779-492b3179f18d" name="Warpstone Tokens (FAQ&apos;ed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e3be4485-279a-a42a-6779-492b3179f18d" name="Warpstone Tokens (FAQ&apos;ed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5559,7 +5575,30 @@ automatically and will not strike back.”</description>
           <entries/>
           <entryGroups>
             <entryGroup id="24ec1760-030e-9fb2-1af2-38a7bf0fd22e" name="Magic Items and Scavenge-pile items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="aa2817be-4c64-0269-fa46-b34814aa008a" name="AB - Warpstone Tokens (FAQ&apos;ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="4c870d1a-af1a-9bc2-083d-617721632e39" childId="0be0d70f-d56a-be80-50f5-8442d20a42e9" field="selections" type="not equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles>
+                    <profile id="e6dfc0f0-db09-7a53-28c5-5a533b56c1f7" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Warpstone Tokens" hidden="false" book="AB" page="108">
+                      <characteristics>
+                        <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can be bought unlimited within limit of magic point allowance. Before casting may consume a token. Add a single dice to casting. At a roll of a 1 on that dice Wizard suffers a wound no Armour saves allowed.(FAQ: cannot roll more then max 6 allowed dice)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <links>
@@ -6242,6 +6281,83 @@ machine with three crew.”</description>
         </link>
       </links>
     </entry>
+    <entry id="c60a2eb1-9a89-9fd1-2b31-a8f35c3233b2" name="Packmaster Skweel Gnawtooth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8bb3e2fb-9fd6-fb7e-0775-b3413a7a2041" name="Magic Items - Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="49e269ef-2edb-5a4a-0067-aea36ef7f859" name="AB - Warp-lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="4fef4077-3add-41cb-14a5-30f9444ef703" profileTypeId="576561706f6e23232344415441232323" name="Warp-lash" hidden="false" book="AB" page="71">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Counts as Whip: Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed). No Armour Saves, Multiple Wounds (2) (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="30bb8d73-96c9-ab1b-3be9-75b67ba7bd7d" name="Exceptional Pack" hidden="false" book="AB" page="71">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="1260ae17-2f95-e223-0b39-185c1dfec898" name="Verminous Bodyguard" hidden="false" book="AB" page="71">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9b0f26af-a204-f82c-6c90-7f279ca2cdb1" profileTypeId="4d6f64656c23232344415441232323" name="Skweel Gnawtooth" hidden="false" book="AB" page="71">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e082a427-79a5-3703-936c-d7ce7ee956b3" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6b44e9e4-3f80-13f8-2066-972c4cf15659" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="aa8615c4-08c3-a5ff-a6c7-7061d727f17c" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0738ba1c-db73-8fe9-37af-c2e37a0d2019" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="31567510-464f-735b-4ea7-03180966c58a" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f30d54ad-5514-6e52-0cab-3a501145f004" name="Poisoned Wind Mortar" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -6421,83 +6537,6 @@ Initiative.”</description>
           <modifiers/>
         </link>
         <link id="c1e1da29-9c73-964b-40f1-ee83f5bcafc3" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c60a2eb1-9a89-9fd1-2b31-a8f35c3233b2" name="Packmaster Skweel Gnawtooth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="8bb3e2fb-9fd6-fb7e-0775-b3413a7a2041" name="Magic Items - Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="49e269ef-2edb-5a4a-0067-aea36ef7f859" name="AB - Warp-lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="4fef4077-3add-41cb-14a5-30f9444ef703" profileTypeId="576561706f6e23232344415441232323" name="Warp-lash" hidden="false" book="AB" page="71">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Counts as Whip: Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed). No Armour Saves, Multiple Wounds (2) (BRB-73)"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="30bb8d73-96c9-ab1b-3be9-75b67ba7bd7d" name="Exceptional Pack" hidden="false" book="AB" page="71">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="1260ae17-2f95-e223-0b39-185c1dfec898" name="Verminous Bodyguard" hidden="false" book="AB" page="71">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="9b0f26af-a204-f82c-6c90-7f279ca2cdb1" profileTypeId="4d6f64656c23232344415441232323" name="Skweel Gnawtooth" hidden="false" book="AB" page="71">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e082a427-79a5-3703-936c-d7ce7ee956b3" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6b44e9e4-3f80-13f8-2066-972c4cf15659" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="aa8615c4-08c3-a5ff-a6c7-7061d727f17c" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0738ba1c-db73-8fe9-37af-c2e37a0d2019" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="31567510-464f-735b-4ea7-03180966c58a" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6740,21 +6779,6 @@ Initiative.”</description>
             <profile id="e1a83e84-b1ab-c178-5529-e0d8608ba0e3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Warp-energy Condenser" hidden="false" book="AB" page="108">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="During each friendly magic phase on a D6 roll of a 5+ generate an extra power dice. When casting Warp Lightning caster does not D6 but D6+2. Not applied to rolls of 1."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="88d4d715-72c9-2d2a-d513-e3dda23832d0" name="AB - Warpstone Tokens (FAQ&apos;ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="6b5cc1ba-41ed-ea7e-83b5-344ce6a157f5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Warpstone Tokens" hidden="false" book="AB" page="108">
-              <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Can be bought unlimited within limit of magic point allowance. Before casting may consume a token. Add a single dice to casting. At a roll of a 1 on that dice Wizard suffers a wound no Armour saves allowed.(FAQ: cannot roll more then max 6 allowed dice)"/>
               </characteristics>
               <modifiers/>
             </profile>
