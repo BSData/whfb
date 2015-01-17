@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="69" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" revision="70" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Dark Elves  - Army Book (2013-10) -V8.8.0." authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6d34a2e9-1de8-3343-6d9d-2fb151f4f54e" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -10956,7 +10956,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
           <entryGroups>
             <entryGroup id="332b14fa-304a-5f33-560f-4c04f33f58af" name="Magic Items (100 pts)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
               <entries>
-                <entry id="37a16e2e-042c-d94f-6523-81dac5cb1663" name="Arcane Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
+                <entry id="37a16e2e-042c-d94f-6523-81dac5cb1663" name="Arcane Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="a3c8d83b-c5b8-e063-f77f-c2fc90a101ee" name="Arcane Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11190,7 +11190,7 @@ Toad effects - all stats except wounds are 1,  no magic items work or any kind. 
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="3b9cdeaa-db6c-fb66-f968-e7f2ffd3542e" name="Enchanted Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
+                <entry id="3b9cdeaa-db6c-fb66-f968-e7f2ffd3542e" name="Enchanted Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="30a70321-aaa4-399b-3676-79ac3e3e34bd" name="Enchanted Items" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11498,7 +11498,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="65f5ef0d-a64d-6034-5816-ec925be2717d" name="Magic Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
+                <entry id="65f5ef0d-a64d-6034-5816-ec925be2717d" name="Magic Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="edffcfcb-2848-f5ba-20a1-7c0f31d049b8" name="Magic Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11691,7 +11691,7 @@ Furthermore, in the first round of any close combat, the wearer of the Cloak of 
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="db5ede60-f561-bf58-b2f5-8946a21bda9d" name="Magic Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="50.0" collective="false" hidden="false" page="0">
+                <entry id="db5ede60-f561-bf58-b2f5-8946a21bda9d" name="Magic Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="d2c107fe-ab1a-f04c-09e0-7dc616cf6686" name="Magic Armour" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
