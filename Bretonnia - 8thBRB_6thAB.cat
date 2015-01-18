@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3a81ff07-f518-e6bd-5da8-43be15dd967e" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Bretonnia - Army Book (2013-4) -V8.6.6." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3a81ff07-f518-e6bd-5da8-43be15dd967e" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Bretonnia - Army Book (2013-4) -V8.6.6." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -805,7 +804,7 @@
         </modifier>
       </modifiers>
       <rules>
-        <rule id="6bd98a7a-df98-ca11-c94a-efa35208455a" name="Grail Reliquae (FAQ&apos;ed)" hidden="false" book="AB" page="52">
+        <rule id="6bd98a7a-df98-ca11-c94a-efa35208455a" name="Grail Reliquae (FAQ'ed)" hidden="false" book="AB" page="52">
           <description>AMENDMENTS:
 Page 52 – Battle Pilgrims and the Grail Reliquae, Grail
 Reliquae.
@@ -943,13 +942,13 @@ third paragraph.</description>
         </entryGroup>
         <entryGroup id="ea5bb967-fd2b-16ed-8240-91a8d36ae8e6" name="Magic Items: Magic Armour" defaultEntryId="a65bd132-8952-a973-ad08-17ba4a63b6b6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="a65bd132-8952-a973-ad08-17ba4a63b6b6" name="AB - The Lion&apos;s Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="a65bd132-8952-a973-ad08-17ba4a63b6b6" name="AB - The Lion's Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="90a7940c-0747-19ba-3b60-df5a7467a583" profileTypeId="41726d6f757223232344415441232323" name="The Lion&apos;s Shield (FAQ&apos;ed)" hidden="false" book="AB" page="79">
+                <profile id="90a7940c-0747-19ba-3b60-df5a7467a583" profileTypeId="41726d6f757223232344415441232323" name="The Lion's Shield (FAQ'ed)" hidden="false" book="AB" page="79">
                   <characteristics>
                     <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="+1"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Magic Resistance (number of dice used to cast the spell)(BRB-72)"/>
@@ -993,7 +992,7 @@ third paragraph.</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="af9bbae4-4752-ad05-0c86-c87a4d51b529" name="Beloved Son of Bretonnia (FAQ&apos;ed)" hidden="false" book="AB" page="79">
+        <rule id="af9bbae4-4752-ad05-0c86-c87a4d51b529" name="Beloved Son of Bretonnia (FAQ'ed)" hidden="false" book="AB" page="79">
           <description>AMENDMENTS:
 Page 79 – King Louen Leoncoeur, Beloved Son of
 Bretonnia.
@@ -1004,7 +1003,7 @@ Ignore “even if normally immune to psychology.”</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="80a2abcc-14d8-f409-bc7c-87a1d8da260f" name="The Lady&apos;s Champion" hidden="false" book="AB" page="79">
+        <rule id="80a2abcc-14d8-f409-bc7c-87a1d8da260f" name="The Lady's Champion" hidden="false" book="AB" page="79">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -1415,7 +1414,7 @@ Ignore “even if normally immune to psychology.”</description>
         </link>
       </links>
     </entry>
-    <entry id="c5da1a9b-0e8b-970f-202a-912cef47589c" name="Men-at-arms (King&apos;s Army)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="c5da1a9b-0e8b-970f-202a-912cef47589c" name="Men-at-arms (King's Army)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="ae02e31b-0d6e-bab4-1d8f-8afd4a83bcc9" name="Man-at-arms" points="5.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="52">
           <entries/>
@@ -2139,7 +2138,7 @@ Ignore “even if normally immune to psychology.”</description>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="c962f461-6fa8-fbfb-2f29-b33e6b60c5e7" name="Defensive Stakes (FAQ&apos;ed)" hidden="false" book="AB" page="54">
+            <rule id="c962f461-6fa8-fbfb-2f29-b33e6b60c5e7" name="Defensive Stakes (FAQ'ed)" hidden="false" book="AB" page="54">
               <description>AMENDMENTS:
 Page 54 – Peasant Bowmen, Defensive Stakes.
 Ignore “[...] turning [...]” in the second paragraph.
@@ -2227,7 +2226,7 @@ Obstacles, Fences.”</description>
         </link>
       </links>
     </entry>
-    <entry id="2162c30c-b8f7-c233-a27e-d966b9298d42" name="Peasant Bowmen (King&apos;s Army)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="2162c30c-b8f7-c233-a27e-d966b9298d42" name="Peasant Bowmen (King's Army)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="2da7b9b8-fd43-9fa7-d66d-2a4f15cd8bde" name="Peasant Bowman" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="53">
           <entries>
@@ -2286,7 +2285,7 @@ Obstacles, Fences.”</description>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="c17a4591-d98a-5199-6ccb-dd4389929f78" name="Defensive Stakes (FAQ&apos;ed)" hidden="false" book="AB" page="54">
+            <rule id="c17a4591-d98a-5199-6ccb-dd4389929f78" name="Defensive Stakes (FAQ'ed)" hidden="false" book="AB" page="54">
               <description>AMENDMENTS:
 Page 54 – Peasant Bowmen, Defensive Stakes.
 Ignore “[...] turning [...]” in the second paragraph.
@@ -2506,7 +2505,7 @@ Obstacles, Fences.”</description>
         </link>
       </links>
     </entry>
-    <entry id="e9503594-7d8f-12a5-1da9-03812d63144e" name="Peasant Bowmen (Skirmishers) (King&apos;s Army)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="e9503594-7d8f-12a5-1da9-03812d63144e" name="Peasant Bowmen (Skirmishers) (King's Army)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="ba9f8ffa-6c5e-5603-c9d9-ab8dfd6540f8" name="Peasant Bowman" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="53">
           <entries>
@@ -2751,7 +2750,7 @@ Obstacles, Fences.”</description>
         </modifier>
       </modifiers>
       <rules>
-        <rule id="37fe8c15-dd48-b4cd-7ee3-dd169e5d1f20" name="Flying Cavalry (FAQ&apos;ed)" hidden="false" book="AB" page="55">
+        <rule id="37fe8c15-dd48-b4cd-7ee3-dd169e5d1f20" name="Flying Cavalry (FAQ'ed)" hidden="false" book="AB" page="55">
           <description>AMENDMENTS:
 Page 55 – Pegasus Knights, Flying Cavalry.
 Ignore all the text after the words “Flying Cavalry”.</description>
@@ -3078,7 +3077,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
               <entryGroups/>
               <modifiers/>
               <rules>
-                <rule id="0bad8220-d23c-994b-01b1-10d7c8361cdb" name="Silvaron (FAQ&apos;ed)" hidden="false" book="AB" page="77">
+                <rule id="0bad8220-d23c-994b-01b1-10d7c8361cdb" name="Silvaron (FAQ'ed)" hidden="false" book="AB" page="77">
                   <description>AMENDMENTS
 Page 77 – The Fay Enchantress, Silvaron.
 Ignore “Remember that even though both Silvaron and the
@@ -3223,7 +3222,7 @@ their dice into dispelling a spell affecting them.”</description>
               <entryGroups/>
               <modifiers/>
               <rules>
-                <rule id="c8f3ecd1-e591-77ff-bbc3-726bf6788ae3" name="The Chalice of Potions (FAQ&apos;ed)" hidden="false" book="AB" page="77">
+                <rule id="c8f3ecd1-e591-77ff-bbc3-726bf6788ae3" name="The Chalice of Potions (FAQ'ed)" hidden="false" book="AB" page="77">
                   <description>AMENDMENTS:
 Page 77 – The Chalice of Potions Change “[...]equal to the
 minimum casting level for the spell).” to “[...]equal to the
@@ -3237,7 +3236,7 @@ used for the remainder of the battle.”</description>
                 </rule>
               </rules>
               <profiles>
-                <profile id="8da28f69-9477-c358-1330-d83bf8fa3c73" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Chalice of Potions (FAQ&apos;ed)" hidden="false" book="AB" page="77">
+                <profile id="8da28f69-9477-c358-1330-d83bf8fa3c73" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Chalice of Potions (FAQ'ed)" hidden="false" book="AB" page="77">
                   <characteristics>
                     <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="During each own Magic phase may roll D6. Number is which spell from Lore of Heavens is auto cast at Power Level (cast cost). ends with roll of 6 (after spell is cast)"/>
                   </characteristics>
@@ -3302,7 +3301,7 @@ used for the remainder of the battle.”</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="82ecb7d6-9626-7ad9-dd53-724d211749e9" name="Supreme Aura of the Lady (FAQ&apos;ed)" hidden="false" book="AB" page="77">
+        <rule id="82ecb7d6-9626-7ad9-dd53-724d211749e9" name="Supreme Aura of the Lady (FAQ'ed)" hidden="false" book="AB" page="77">
           <description>AMENDMENTS
 Page 77 – The Fay Enchantress, Supreme Aura of the Lady.
 Replace Beasts of Chaos with Beastmen.</description>
@@ -3431,7 +3430,7 @@ Replace Beasts of Chaos with Beastmen.</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="149d4fc0-65f9-6d4c-442f-3ca6b2e34463" name="Guardian of the Sacred Sites (FAQ&apos;ed)" hidden="false" book="AB" page="75">
+        <rule id="149d4fc0-65f9-6d4c-442f-3ca6b2e34463" name="Guardian of the Sacred Sites (FAQ'ed)" hidden="false" book="AB" page="75">
           <description>AMENDMENTS:
 Page 75 – The Green Knight, Guardian of the Sacred Sites.
 Change the second paragraph to “When the Green Knight is
@@ -3811,15 +3810,15 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="9dcdd006-2b84-e8aa-2b57-099d23ad7874" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="9dcdd006-2b84-e8aa-2b57-099d23ad7874" name="BRB - Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="6cb13d5c-44c3-85e9-1cf6-3536d50ea45b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" page="0">
+            <profile id="6cb13d5c-44c3-85e9-1cf6-3536d50ea45b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster's Shard" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer's spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3871,13 +3870,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="3a8d9bc3-d2e4-a161-1d5d-6309b672efa1" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="3a8d9bc3-d2e4-a161-1d5d-6309b672efa1" name="BRB - Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="aab57434-6d1a-2528-744e-f8552c031470" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" page="0">
+            <profile id="aab57434-6d1a-2528-744e-f8552c031470" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir's Hex Scroll" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
               </characteristics>
@@ -3967,7 +3966,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="34a0e6a2-2dbe-d3f9-19f7-17ed665eaea9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Verdant Heart (FAQ&apos;ed)" hidden="false" book="AB" page="63">
+            <profile id="34a0e6a2-2dbe-d3f9-19f7-17ed665eaea9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Verdant Heart (FAQ'ed)" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Any wood or forest the bearer is in counts as Dangerous terrain for all enemy models. +1 to casting spells from Lore of Life"/>
               </characteristics>
@@ -3999,7 +3998,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="1f185ce7-ffc2-0326-feb0-dfc026939769" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Chalice of Malfleur" hidden="false" book="AB" page="63">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="May drink at the start of opponent&apos;s Magic Phase. Roll a D6, on a 1 bearer suffers 1 wound (no saves allowed), on 2-6 extra Dispell Dice is added."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="May drink at the start of opponent's Magic Phase. Roll a D6, on a 1 bearer suffers 1 wound (no saves allowed), on 2-6 extra Dispell Dice is added."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4012,7 +4011,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="1acca0c0-14dd-5550-982b-ca907b6f4f69" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion Sacre (FAQ&apos;ed)" hidden="false" book="AB" page="63">
+            <profile id="1acca0c0-14dd-5550-982b-ca907b6f4f69" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion Sacre (FAQ'ed)" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Use before rolling to cast or dispel a spell. add +1 to the result. May cause Irresistible Force."/>
               </characteristics>
@@ -4036,7 +4035,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="4344c69f-a2ff-8d42-0ea3-5684453233ae" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4051,7 +4050,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="2d3bdb32-45ef-3d02-688d-06f727aec3e0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4073,13 +4072,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="98804bdb-a2eb-cb45-5ba9-c5a79ecbbb5d" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="98804bdb-a2eb-cb45-5ba9-c5a79ecbbb5d" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="48e24f5c-4ee6-1c30-fdf3-dabce53e316a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+            <profile id="48e24f5c-4ee6-1c30-fdf3-dabce53e316a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
               </characteristics>
@@ -4096,7 +4095,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="5401735e-0cb3-037b-2781-1c5981b85ada" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4111,7 +4110,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="717e4728-3233-de1a-ad6c-4321b250ce1a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4171,7 +4170,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="75e60167-3e50-76c4-6654-f73686155485" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4208,13 +4207,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="cb8d886c-8198-0716-8097-ba36f907a34b" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="cb8d886c-8198-0716-8097-ba36f907a34b" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="1aea69f6-489f-88cc-1465-322dae8198f1" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+            <profile id="1aea69f6-489f-88cc-1465-322dae8198f1" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
               </characteristics>
@@ -4244,7 +4243,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="15390f2a-404a-0d7e-5892-37bcf406d258" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Falcon-horn of Fredemund (FAQ&apos;ed)" hidden="false" book="AB" page="62">
+            <profile id="15390f2a-404a-0d7e-5892-37bcf406d258" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Falcon-horn of Fredemund (FAQ'ed)" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Use at own turn in effect till next own turn. No enemy unit may fly"/>
               </characteristics>
@@ -4304,7 +4303,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="8c0752d0-a3b3-4c72-87f8-e6fe8b4e3ef1" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Antlers of the Great Hunt (FAQ&apos;ed)" hidden="false" book="AB" page="62">
+            <profile id="8c0752d0-a3b3-4c72-87f8-e6fe8b4e3ef1" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Antlers of the Great Hunt (FAQ'ed)" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="The Knight (and any unit he is with) may roll an additional dice when pursuing and use the highest two."/>
               </characteristics>
@@ -4398,13 +4397,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="17b968eb-31ea-5352-e8c5-4c0c7f243af5" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="17b968eb-31ea-5352-e8c5-4c0c7f243af5" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="86c4f858-73b5-e026-7f9a-727cf8839691" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+            <profile id="86c4f858-73b5-e026-7f9a-727cf8839691" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -4510,16 +4509,16 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="b9d45a61-7397-4937-187d-e8b89d6902c3" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="b9d45a61-7397-4937-187d-e8b89d6902c3" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9f3755ad-772e-d8de-5436-3f7b13d2b2e8" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+            <profile id="9f3755ad-772e-d8de-5436-3f7b13d2b2e8" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4699,7 +4698,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <profiles>
             <profile id="fe8b50c1-9bfc-54ad-695e-897306debcc1" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4781,13 +4780,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="474e1793-ce2b-3634-8b55-a442ebd39a7b" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="474e1793-ce2b-3634-8b55-a442ebd39a7b" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="19b85a6d-0358-465a-c1b7-b889c86d54b7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+            <profile id="19b85a6d-0358-465a-c1b7-b889c86d54b7" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
               </characteristics>
@@ -4811,13 +4810,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="c5699504-15ac-2af3-a584-05629add672b" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="c5699504-15ac-2af3-a584-05629add672b" name="BRB - Rampager's Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f18889c8-7053-0652-1e6d-ee96c4cb40bc" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
+            <profile id="f18889c8-7053-0652-1e6d-ee96c4cb40bc" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager's Standard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
               </characteristics>
@@ -4832,7 +4831,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="667ae6a1-9559-ac84-4401-3cafc057ea65" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of the Lady (FAQ&apos;ed)" hidden="false" book="AB" page="63">
+            <profile id="667ae6a1-9559-ac84-4401-3cafc057ea65" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of the Lady (FAQ'ed)" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="All enemy units with at least one model in base contact with the bearer of the Banner of the Lady are disrupted (see page 52 of the Warhammer rulebook). Furthermore, Skaven units in base contact with the Banner of the Lady cannot use their Strength in Numbers special rule whilst they remain in base contact with the bearer of the Banner of the Lady."/>
               </characteristics>
@@ -4886,13 +4885,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="8d72b0bb-a7a8-c785-1d95-d8fa38acfcb4" name="AB - Conqueror&apos;s Tapestry" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="8d72b0bb-a7a8-c785-1d95-d8fa38acfcb4" name="AB - Conqueror's Tapestry" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ccdd8eed-6def-62e5-67b2-8494924ae946" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Conqueror&apos;s Tapestry (FAQ&apos;ed)" hidden="false" book="AB" page="63">
+            <profile id="ccdd8eed-6def-62e5-67b2-8494924ae946" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Conqueror's Tapestry (FAQ'ed)" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Every enemy standard bearer slain in close combat by the unit possessing the Conqueror’s Tapestry, or that was removed due to the Last Stand rule in a fight involving this unit, is worth double its normal victory points. If the bearer of the Conqueror’s Tapestry is slain, the enemy gains 50 victory points rather than 25."/>
               </characteristics>
@@ -4981,7 +4980,7 @@ Green Knight may move normally on the turn he appears.”</description>
             <profile id="51cce454-29aa-a823-0060-76e270f1c932" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -5159,13 +5158,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="7e35fe36-7039-4617-dd0a-b0f3513d7f38" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="7e35fe36-7039-4617-dd0a-b0f3513d7f38" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="809ae1d6-3487-a248-62d5-a38aa9d4ad44" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+            <profile id="809ae1d6-3487-a248-62d5-a38aa9d4ad44" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -5202,7 +5201,7 @@ Green Knight may move normally on the turn he appears.”</description>
             <profile id="882675e1-d739-9dc4-c2fe-56e8cbe778fc" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -5253,7 +5252,7 @@ Green Knight may move normally on the turn he appears.”</description>
             <profile id="50412fc7-72af-005b-5266-b2b5b4a8f6c3" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -5295,13 +5294,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="a822ac01-6fa1-c098-ce47-58cba175d801" name="AB - Sword of the Lady&apos;s Champion" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="a822ac01-6fa1-c098-ce47-58cba175d801" name="AB - Sword of the Lady's Champion" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="45fa8c21-5b81-1752-5983-3a5143474119" profileTypeId="576561706f6e23232344415441232323" name="Sword of the Lady&apos;s Champion" hidden="false" book="AB" page="60">
+            <profile id="45fa8c21-5b81-1752-5983-3a5143474119" profileTypeId="576561706f6e23232344415441232323" name="Sword of the Lady's Champion" hidden="false" book="AB" page="60">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+x*"/>
@@ -5601,13 +5600,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="2ebdcdf0-38b0-31f2-ab34-21d84ebef287" name="AB - Sirienne&apos;s Locket (Brettonian Lord Only)" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="2ebdcdf0-38b0-31f2-ab34-21d84ebef287" name="AB - Sirienne's Locket (Brettonian Lord Only)" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0f206fc7-c81b-91aa-8f63-e008d12c279a" profileTypeId="54616c69736d616e23232344415441232323" name="Sirienne&apos;s Locket" hidden="false" book="AB" page="61">
+            <profile id="0f206fc7-c81b-91aa-8f63-e008d12c279a" profileTypeId="54616c69736d616e23232344415441232323" name="Sirienne's Locket" hidden="false" book="AB" page="61">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Wearer can not suffer more then 1 wound per phase from non-magical attacks."/>
               </characteristics>
@@ -5661,13 +5660,13 @@ Green Knight may move normally on the turn he appears.”</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="d5c9dc53-4c80-e205-ca90-b65ebbf0fbda" name="AB - Dragon&apos;s Claw" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="d5c9dc53-4c80-e205-ca90-b65ebbf0fbda" name="AB - Dragon's Claw" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ce32fa44-0bb0-d4be-1725-78c0f46e11e5" profileTypeId="54616c69736d616e23232344415441232323" name="Dragon&apos;s Claw (FAQ&apos;ed)" hidden="false" book="AB" page="62">
+            <profile id="ce32fa44-0bb0-d4be-1725-78c0f46e11e5" profileTypeId="54616c69736d616e23232344415441232323" name="Dragon's Claw (FAQ'ed)" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Ward Save by Blessing of the Lady increased to 5+. Ward Save 2+ against Flaming Attacks"/>
               </characteristics>
@@ -5755,7 +5754,7 @@ Green Knight may move normally on the turn he appears.”</description>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="46b07eba-d7da-517a-2b46-4cb4b545e5b0" name="Virtue of Heroism (FAQ&apos;ed)" hidden="false" book="AB" page="58">
+            <rule id="46b07eba-d7da-517a-2b46-4cb4b545e5b0" name="Virtue of Heroism (FAQ'ed)" hidden="false" book="AB" page="58">
               <description>AMENDMENTS:
 Page 58 – Virtues of the Chvalric Knights, Virtue of
 Heroism.
@@ -5772,7 +5771,7 @@ rule.”</description>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="8ecac8eb-01c4-cb22-a3b0-3e9fc7eba0bf" name="Virtue of Heroism (FAQ&apos;ed)" hidden="false" book="AB" page="58">
+            <rule id="8ecac8eb-01c4-cb22-a3b0-3e9fc7eba0bf" name="Virtue of Heroism (FAQ'ed)" hidden="false" book="AB" page="58">
               <description>AMENDMENTS:
 Page 58 – Virtues of the Chvalric Knights, Virtue of
 Heroism.
@@ -6142,7 +6141,7 @@ rule.”</description>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First (FAQ&apos;ed)" hidden="false" book="BRB" page="66">
+    <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First (FAQ'ed)" hidden="false" book="BRB" page="66">
       <description>ERRATA
 Change “[...]re-roll failed misses[...]” to “[...]re-roll
 misses[...]” in the first sentence of the third paragraph.</description>
@@ -6152,7 +6151,7 @@ misses[...]” in the first sentence of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="51bc8283-c9af-58da-7fb6-26db57953123" name="Ambushers (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
+    <rule id="51bc8283-c9af-58da-7fb6-26db57953123" name="Ambushers (FAQ'ed)" hidden="false" book="BRB" page="79">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
 turn[...]” in the second paragraph</description>
@@ -6178,7 +6177,7 @@ turn[...]” in the second paragraph</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="339e1112-3ae9-9a19-cf25-9630a0f418b0" name="Extra Attack (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
+    <rule id="339e1112-3ae9-9a19-cf25-9630a0f418b0" name="Extra Attack (FAQ'ed)" hidden="false" book="BRB" page="69">
       <description>ERRATA:
 Add “Unlike most special rules, the effects of multiple Extra
 Attack special rules are cumulative.”</description>
@@ -6192,7 +6191,7 @@ Attack special rules are cumulative.”</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="89030c82-ff54-718d-7b50-0f6082aab34a" name="Fight in Extra Ranks (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
+    <rule id="89030c82-ff54-718d-7b50-0f6082aab34a" name="Fight in Extra Ranks (FAQ'ed)" hidden="false" book="BRB" page="69">
       <description>ERRATA
 Add “Unlike most special rules, the effects of multiple Fight
 In Extra Ranks special rules are cumulative.”</description>
@@ -6234,7 +6233,7 @@ In Extra Ranks special rules are cumulative.”</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="2ae965fd-cad2-7c59-87f6-3aebac1ca166" name="Impact Hits (xx) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
+    <rule id="2ae965fd-cad2-7c59-87f6-3aebac1ca166" name="Impact Hits (xx) (FAQ'ed)" hidden="false" book="BRB" page="71">
       <description>ERRATA:
 Change “[...]this rule has no effect.” to “[...]no Impact Hits
 are inflicted.”
@@ -6287,7 +6286,7 @@ Add the following sentence to the end of the third paragraph:
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="356b5e6f-0f72-8e33-0cdf-bc05e9627c15" name="Random Movement (FAQ&apos;ed)" hidden="false" book="BRB" page="74">
+    <rule id="356b5e6f-0f72-8e33-0cdf-bc05e9627c15" name="Random Movement (FAQ'ed)" hidden="false" book="BRB" page="74">
       <description>ERRATA:
 Add “If a model has the Random Movement and Swiftstride
 special rules (a chariot with Random Movement, for example),
@@ -6315,7 +6314,7 @@ first paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="bca315e8-9608-a292-10d8-4cc24530d609" name="Skirmishers (FAQ&apos;ed)" hidden="false" book="BRB" page="77">
+    <rule id="bca315e8-9608-a292-10d8-4cc24530d609" name="Skirmishers (FAQ'ed)" hidden="false" book="BRB" page="77">
       <description>ERRATA
 Free Reform.
 Change “[...]move, provided[...]” to “[...]move, even if it
@@ -6331,7 +6330,7 @@ combat[...]”.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="7f959639-6572-032d-d6d5-330f8499c3ef" name="Sniper (FAQ&apos;ed)" hidden="false" book="BRB" page="75">
+    <rule id="7f959639-6572-032d-d6d5-330f8499c3ef" name="Sniper (FAQ'ed)" hidden="false" book="BRB" page="75">
       <description>ERRATA:
 Change “A model making a[...]” to “unless making a Stand
 and Shoot charge reaction, a model making a[...]” at the start
@@ -6366,18 +6365,18 @@ of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="6f0d6579-84ef-a434-aad0-033cdc23d04d" name="The Knight&apos;s Vow" hidden="false" book="AB" page="43">
+    <rule id="6f0d6579-84ef-a434-aad0-033cdc23d04d" name="The Knight's Vow" hidden="false" book="AB" page="43">
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="937ec604-c9ce-a0ad-3c46-926f75fdf87b" name="The Peasant&apos;s Duty (FAQ&apos;ed)" hidden="false" book="AB" page="42">
+    <rule id="937ec604-c9ce-a0ad-3c46-926f75fdf87b" name="The Peasant's Duty (FAQ'ed)" hidden="false" book="AB" page="42">
       <description>AMENDMENTS:
 Page 42 – Vow’s of Bretonnia, The Peasant’s Duty
 Change the second sentence to “Unit standards in units with
 the Peasant’s Duty do not confer any additional victory points.”</description>
       <modifiers/>
     </rule>
-    <rule id="88e15dd5-8875-2e97-8d7a-395ca9babc0f" name="The Questing Vow (FAQ&apos;ed)" hidden="false" book="AB" page="43">
+    <rule id="88e15dd5-8875-2e97-8d7a-395ca9babc0f" name="The Questing Vow (FAQ'ed)" hidden="false" book="AB" page="43">
       <description>AMENDMENTS:
 Page 43 – Vow’s of Bretonnia,The Questing Vow
 Change “[...] failed Psychology tests [...]” to “[...] failed Fear
@@ -6396,10 +6395,10 @@ and Terror tests [...]”.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="923ffa4c-0e4a-2519-75cc-24414fe9744b" name="Vanguard (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
+    <rule id="923ffa4c-0e4a-2519-75cc-24414fe9744b" name="Vanguard (FAQ'ed)" hidden="false" book="BRB" page="79">
       <description>ERRATA:
-Change “[...]make a 12&quot; move[...]” to “[...]make a move of
-up to 12&quot;[...]”.</description>
+Change “[...]make a 12" move[...]” to “[...]make a move of
+up to 12"[...]”.</description>
       <modifiers/>
     </rule>
     <rule id="ba4f0bef-d731-3f34-7261-466b3c4f850f" name="Volley Fire" hidden="false" book="BRB" page="78">
@@ -6427,7 +6426,7 @@ up to 12&quot;[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c6ba9990-f2e6-1132-fa4c-06c1b5cfc39e" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Combat) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
+    <profile id="c6ba9990-f2e6-1132-fa4c-06c1b5cfc39e" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Combat) (FAQ'ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -6435,7 +6434,7 @@ up to 12&quot;[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="866ddd4e-16af-f6b9-e10e-cadcfe88ba6f" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Shooting) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
+    <profile id="866ddd4e-16af-f6b9-e10e-cadcfe88ba6f" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Shooting) (FAQ'ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
@@ -6462,7 +6461,7 @@ up to 12&quot;[...]”.</description>
     <profile id="67d33b9a-28c8-3a33-3797-812d693a0c22" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)"/>
       </characteristics>
       <modifiers/>
@@ -6470,7 +6469,7 @@ up to 12&quot;[...]”.</description>
     <profile id="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
       </characteristics>
       <modifiers/>
@@ -6587,7 +6586,7 @@ up to 12&quot;[...]”.</description>
     <profile id="83a76509-2b94-5fc0-6bce-e8ae38bc46dd" profileTypeId="576561706f6e23232344415441232323" name="Throwing Axes" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&quot;"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Quick to Fire (BRB-73)"/>
       </characteristics>
       <modifiers/>
@@ -6600,7 +6599,7 @@ up to 12&quot;[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="25af9efc-0177-dbc3-8774-02de2a2d63b7" profileTypeId="576561706f6e23232344415441232323" name="Two/Additional Hand Weapons (Models on foot only) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
+    <profile id="25af9efc-0177-dbc3-8774-02de2a2d63b7" profileTypeId="576561706f6e23232344415441232323" name="Two/Additional Hand Weapons (Models on foot only) (FAQ'ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>

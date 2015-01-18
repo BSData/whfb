@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -524,7 +523,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="7e68012c-28a9-ab91-c343-9baa69c80203" profileTypeId="4d6f64656c23232344415441232323" name="Lord&apos;s Bowman" hidden="false" book="AB" page="0">
+                <profile id="7e68012c-28a9-ab91-c343-9baa69c80203" profileTypeId="4d6f64656c23232344415441232323" name="Lord's Bowman" hidden="false" book="AB" page="0">
                   <characteristics>
                     <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -1681,7 +1680,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="af0e19b0-4579-f288-eeeb-588673bb372f" name="Predator&apos;s Descent" hidden="false" page="0">
+        <rule id="af0e19b0-4579-f288-eeeb-588673bb372f" name="Predator's Descent" hidden="false" page="0">
           <description>Warhawk only : Killing Blow on charge</description>
           <modifiers/>
         </rule>
@@ -2122,7 +2121,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="158cb0ba-b904-dbc7-3e05-c081ab1f8ba4" name="(AB) Calaingor&apos;s Staff" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="158cb0ba-b904-dbc7-3e05-c081ab1f8ba4" name="(AB) Calaingor's Staff" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2130,7 +2129,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="388eabb8-e93b-6ff0-6101-1eccb1969e74" name="(AB) Daith&apos;s Reaper" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="388eabb8-e93b-6ff0-6101-1eccb1969e74" name="(AB) Daith's Reaper" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2354,7 +2353,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="8bac118c-8fbb-807e-cb3d-9010e4b74420" name="(BRB) Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="8bac118c-8fbb-807e-cb3d-9010e4b74420" name="(BRB) Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2370,7 +2369,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="a8cf3577-cd32-b14d-2323-a9697783edcd" name="(BRB) Fozzrik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="505">
+    <entry id="a8cf3577-cd32-b14d-2323-a9697783edcd" name="(BRB) Fozzrik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="505">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2378,7 +2377,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="7ceed7c6-8123-5b8e-58b1-59399023b1c5" name="(BRB) Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="7ceed7c6-8123-5b8e-58b1-59399023b1c5" name="(BRB) Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2562,7 +2561,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="abe94997-3329-322c-6ae8-815a9bd045ec" name="(BRB) Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="abe94997-3329-322c-6ae8-815a9bd045ec" name="(BRB) Rampager's Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2570,7 +2569,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="b86e7440-45fc-3bcb-8077-94bebade0b89" name="(BRB) Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="b86e7440-45fc-3bcb-8077-94bebade0b89" name="(BRB) Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2658,7 +2657,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="fe3ff636-97ee-599a-ae4c-a09e66aef2c0" name="(BRB) Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB (8th Ed)" page="504">
+    <entry id="fe3ff636-97ee-599a-ae4c-a09e66aef2c0" name="(BRB) Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB (8th Ed)" page="504">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2778,7 +2777,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="66716da2-c670-1f9c-7cfd-b5d85d77698a" name="(BRB) The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="505">
+    <entry id="66716da2-c670-1f9c-7cfd-b5d85d77698a" name="(BRB) The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="505">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2802,7 +2801,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="288e49e0-b8d2-13d3-c02e-43b365094a64" name="(BRB) Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="288e49e0-b8d2-13d3-c02e-43b365094a64" name="(BRB) Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2810,7 +2809,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="c2d8adba-0b5d-1aa2-b383-02a6d8538cbf" name="(BRB) Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB (8th Ed)" page="504">
+    <entry id="c2d8adba-0b5d-1aa2-b383-02a6d8538cbf" name="(BRB) Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB (8th Ed)" page="504">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3700,7 +3699,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <description>- VANGUARD : Fast Cavalry  has the Vanguard special rule 
 - FREE REFORM : Unless it charges, this kind of  unit is allowed to reform as many times as it wishes during its move, even if it marches. No model can move for a number of inches higher than double its movement.
 - FEIGNED FLIGHT : A unit that flee as a charge reaction and then rallies at the beginning of their next turn may reform as normal, and is also free to move during the remaining moves part of the movement phase. The unit is can also shoot as normal (counts as moved). If they  flee and then is caught by the opponent , the unit is destroyed .
-- FIRE ON THE MARCH: Fast Cavalry armed with missile weapons are expert at shooting from horseback (or wolfback!) and can therefore shoot during a turn in which they marched or reformed (providing their weapon doesn&apos;t have the Move or Fire special rule). However, the normal -1 To Hit penalty for moving and shooting still applies.
+- FIRE ON THE MARCH: Fast Cavalry armed with missile weapons are expert at shooting from horseback (or wolfback!) and can therefore shoot during a turn in which they marched or reformed (providing their weapon doesn't have the Move or Fire special rule). However, the normal -1 To Hit penalty for moving and shooting still applies.
 Warning :  if a character without this rule join this unit , all the models lose the fast cavalry rule</description>
       <modifiers/>
     </rule>
@@ -3726,7 +3725,7 @@ Warning :  if a character without this rule join this unit , all the models lose
 If more than half of the models are within a forest :
 - all the model shoot in one more rank than normal 
 - all the models can make support attack with one extra rank (this rule is cumulative with other rules)
-- all the models (but not their mounts) re-roll 1&apos;s on close combat To-Wound rolls</description>
+- all the models (but not their mounts) re-roll 1's on close combat To-Wound rolls</description>
       <modifiers/>
     </rule>
     <rule id="05f89eed-e552-7c4b-552c-465e9045b3f6" name="Frenzy" hidden="false" book="BRB" page="0">
@@ -3755,7 +3754,7 @@ Break tests (and other Leadership tests) are taken normally </description>
     <rule id="e93ba593-97a7-170a-007e-352537bfd5e0" name="Impale" hidden="false" page="0">
       <modifiers/>
     </rule>
-    <rule id="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" name="Loec&apos;s Shadow Dance" hidden="false" book="AB" page="45">
+    <rule id="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" name="Loec's Shadow Dance" hidden="false" book="AB" page="45">
       <description>Every round they must choose one of the following dances :
 * Armour Piercing &amp; Deadly Strike
 * +1 Attack
@@ -3770,14 +3769,14 @@ The same dance cannot be chosen for two consecutive rounds</description>
     </rule>
     <rule id="6eff3a92-944b-73b2-202a-09c40ae826c0" name="Scout" hidden="false" book="BRB" page="0">
       <description>Can be deployed normally or anyhwere on the field.
-in the second case they must be at 12&apos;&apos; from enemy unit and if their side start first they cannot charge
+in the second case they must be at 12'' from enemy unit and if their side start first they cannot charge
 
 if both have scout units roll , and then deploy alternatively the scout units 
 </description>
       <modifiers/>
     </rule>
     <rule id="a7ec9af5-0ef4-c4e8-a4bf-61579b5f9980" name="Skirmisher" hidden="false" book="BRB" page="0">
-      <description>the miniatures are about 1/2&apos; apart one from another.
+      <description>the miniatures are about 1/2' apart one from another.
 if they charge or stand they change to a normal formation for free , without changing front and number of ranks.
 Unless it charges , it can reform freely as many time as it wishes ( always move less than double the Movement characteristic)
 They can  shoot if they marched or reformed earlier in the turn (with the usual-1 To Hit penalty for moving and shooting )

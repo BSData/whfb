@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e839a02e-1aa1-b1dc-fa19-52d99bd81a1c" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.14b" name="High Elves - Army Book (2013-4) -V8.7.4." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e839a02e-1aa1-b1dc-fa19-52d99bd81a1c" revision="1" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="High Elves - Army Book (2013-4) -V8.7.4." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124">
   <entries>
     <entry id="82bb2dc3-461b-f42c-0138-f68b0c9b503b" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -542,10 +541,10 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="f0ca4206-6f04-2178-16a2-6c152ca52cd9" profileTypeId="576561706f6e23232344415441232323" name="The Phoenix Blade (FAQ&apos;ed)" hidden="false" book="AB" page="71">
+                <profile id="f0ca4206-6f04-2178-16a2-6c152ca52cd9" profileTypeId="576561706f6e23232344415441232323" name="The Phoenix Blade (FAQ'ed)" hidden="false" book="AB" page="71">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Flaming Attacks (BRB-69), Multiple Wounds (D3) (BRB-73)"/>
                   </characteristics>
                   <modifiers/>
@@ -690,7 +689,7 @@
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="b6454bca-e218-afc2-6717-34421ad5992e" name="Reckless (FAQ&apos;ed)" hidden="false" book="AB" page="63">
+        <rule id="b6454bca-e218-afc2-6717-34421ad5992e" name="Reckless (FAQ'ed)" hidden="false" book="AB" page="63">
           <description>Amendments:
 Change “This extra dice can cause a irresistible force or a
 miscast as normal, and can cause the Dragon Mage to roll
@@ -1065,7 +1064,7 @@ can cause irresistible force as normal.”</description>
                 <profile id="4ff58563-bdba-1dc5-4390-370a87750da2" profileTypeId="576561706f6e23232344415441232323" name="The Fangsword of Eltharion" hidden="false" book="AB" page="69">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2 (on charge)"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2 (on charge)"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="No armour saves allowed."/>
                   </characteristics>
                   <modifiers/>
@@ -1377,7 +1376,7 @@ can cause irresistible force as normal.”</description>
                 <profile id="c73ed3fb-12e1-5ae2-452a-02f62f329c7e" profileTypeId="576561706f6e23232344415441232323" name="Chayal" hidden="false" book="AB" page="70">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapon (BRB-501), Killing Blow (BRB-72)"/>
                   </characteristics>
                   <modifiers/>
@@ -3408,7 +3407,7 @@ can cause irresistible force as normal.”</description>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="b07988ca-fc6e-8c9f-00aa-4253522fd72f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="War Crown of Saphery (FAQ&apos;ed)" hidden="false" book="AB" page="66">
+                <profile id="b07988ca-fc6e-8c9f-00aa-4253522fd72f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="War Crown of Saphery (FAQ'ed)" hidden="false" book="AB" page="66">
                   <characteristics>
                     <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="May ignore the effects of the first miscast he makes each turn. The spell is still cast with irresistible force, but Teclis is able to dissipate the magical energies harmlessly and suffers no ill effects."/>
                   </characteristics>
@@ -3447,7 +3446,7 @@ can cause irresistible force as normal.”</description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="c2d84f86-7984-6e10-4d43-347c9f2b54c2" name="High Loremaster (FAQ&apos;ed)" hidden="false" book="AB" page="66">
+        <rule id="c2d84f86-7984-6e10-4d43-347c9f2b54c2" name="High Loremaster (FAQ'ed)" hidden="false" book="AB" page="66">
           <description>ERRATA
 Page 66 – Teclis, High Loremaster
 Add “Teclis is an Archmage.” to the start of the second
@@ -3620,7 +3619,7 @@ a miscast if the roll includes a double 6.”</description>
                 <profile id="5fa97ea8-3769-ca3b-b981-54e931cbd1f5" profileTypeId="576561706f6e23232344415441232323" name="Sunfang" hidden="false" book="AB" page="64">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks (BRB-69), Once per battle in shooting phase, Breath Attack S4 (BRB-67)"/>
                   </characteristics>
                   <modifiers/>
@@ -3662,7 +3661,7 @@ a miscast if the roll includes a double 6.”</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="1765e886-7f85-b019-b34f-d7d468a9607f" name="Malhandir (FAQ&apos;ed)" hidden="false" book="AB" page="64">
+        <rule id="1765e886-7f85-b019-b34f-d7d468a9607f" name="Malhandir (FAQ'ed)" hidden="false" book="AB" page="64">
           <description>Page 64 – Tyrion, Malhandir.
 Ignore the second sentence.</description>
           <modifiers/>
@@ -4321,15 +4320,15 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="d16fe13c-63d7-9083-fa56-9db343e6bd43" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="d16fe13c-63d7-9083-fa56-9db343e6bd43" name="BRB - Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f8fa3cad-3948-0633-c90c-900f3d509c8b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" page="0">
+            <profile id="f8fa3cad-3948-0633-c90c-900f3d509c8b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster's Shard" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer's spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4381,13 +4380,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="9175e21a-8cd9-33fd-0a0f-897a310d0d42" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="9175e21a-8cd9-33fd-0a0f-897a310d0d42" name="BRB - Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="07dc6b36-1ed5-5a43-3ee2-3593b9800b20" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" page="0">
+            <profile id="07dc6b36-1ed5-5a43-3ee2-3593b9800b20" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir's Hex Scroll" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
               </characteristics>
@@ -4456,7 +4455,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="14d732c3-40cb-474f-1024-efa8dd8186a0" name="AB - Book of Hoeth(FAQ&apos;ed)" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="14d732c3-40cb-474f-1024-efa8dd8186a0" name="AB - Book of Hoeth(FAQ'ed)" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4494,7 +4493,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="35364ac4-1d55-933c-d34a-d115393f9854" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Annulian Crystal" hidden="false" book="AB" page="102">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="During enemy&apos;s magic phase. remove 1 power dice and add it to your dispell dice."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="During enemy's magic phase. remove 1 power dice and add it to your dispell dice."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4546,13 +4545,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="e3ce13e5-e847-4d6a-396e-be6d341e7eac" name="AB - The Trickster&apos;s Pendant" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="e3ce13e5-e847-4d6a-396e-be6d341e7eac" name="AB - The Trickster's Pendant" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="25e6b952-e0e6-3c4f-9005-d3883cee91a9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Trickster&apos;s Pendant" hidden="false" book="AB" page="102">
+            <profile id="25e6b952-e0e6-3c4f-9005-d3883cee91a9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Trickster's Pendant" hidden="false" book="AB" page="102">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="If enemy wizard suffers a miscast, he must roll twice on the miscast table. Bearer then chooses one of the two results to apply."/>
               </characteristics>
@@ -4576,7 +4575,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="b4223574-9ef8-9ab4-ddbe-9012a8774810" name="AB - Ring of Corin(FAQ&apos;ed)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="b4223574-9ef8-9ab4-ddbe-9012a8774810" name="AB - Ring of Corin(FAQ'ed)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4591,7 +4590,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="a7084570-c8b4-39e9-a97c-10c769c673a8" name="AB - Staff of Solidity(FAQ&apos;ed)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="a7084570-c8b4-39e9-a97c-10c769c673a8" name="AB - Staff of Solidity(FAQ'ed)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4651,7 +4650,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="b899c56d-b6b3-0993-53e4-5e6881e8fab9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4666,7 +4665,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="fb37484a-699f-bcac-110d-c8185fbcea56" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4688,13 +4687,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="72e29722-2822-9b72-31e7-a49631f55973" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="72e29722-2822-9b72-31e7-a49631f55973" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="843a477a-9e29-331f-65c9-59fa79bcad51" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+            <profile id="843a477a-9e29-331f-65c9-59fa79bcad51" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
               </characteristics>
@@ -4711,7 +4710,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="ab5d1bd7-b69f-9216-c1f6-52d9d67699fb" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4726,7 +4725,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="a94ecdfd-d59a-6d41-5b8c-51ffadff3347" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4786,7 +4785,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="8090c1cc-28fb-cfbd-87a9-c9ab8c132a81" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4823,13 +4822,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="d6f3424c-611b-1ee4-7205-53d6cdf08f31" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="d6f3424c-611b-1ee4-7205-53d6cdf08f31" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d59e5870-081a-2de5-7148-199600af2c58" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+            <profile id="d59e5870-081a-2de5-7148-199600af2c58" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
               </characteristics>
@@ -4876,7 +4875,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="35b4d408-01b8-bfcb-595f-2c376d4ee915" profileTypeId="54616c69736d616e23232344415441232323" name="Healing Potion" hidden="false" book="AB" page="103">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Bearer or character in base contact may drink at the start of any phase in either player&apos;s turn. Restores all wounds lost so far."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Bearer or character in base contact may drink at the start of any phase in either player's turn. Restores all wounds lost so far."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4898,13 +4897,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="dda7793e-b858-c5ca-9911-a5a0569cebde" name="AB - Folariath&apos;s Robe" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="dda7793e-b858-c5ca-9911-a5a0569cebde" name="AB - Folariath's Robe" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="bf7af8b9-fd8e-6bd3-9b3d-322b249fb501" profileTypeId="54616c69736d616e23232344415441232323" name="Folariath&apos;s Robe" hidden="false" book="AB" page="103">
+            <profile id="bf7af8b9-fd8e-6bd3-9b3d-322b249fb501" profileTypeId="54616c69736d616e23232344415441232323" name="Folariath's Robe" hidden="false" book="AB" page="103">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Model on foot only. Bearer can only be hit by magical attacks, but cannot strike blows in combat or shoot with a ranged weapon."/>
               </characteristics>
@@ -4913,7 +4912,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="aaafc888-d371-ce36-66ba-18e27e285bcd" name="AB - Ring of Fury(FAQ&apos;ed)" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="aaafc888-d371-ce36-66ba-18e27e285bcd" name="AB - Ring of Fury(FAQ'ed)" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4936,7 +4935,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="2f7c7cfd-938e-6b7e-30d2-d3e73663bc2f" profileTypeId="54616c69736d616e23232344415441232323" name="Cloak of Beards" hidden="false" book="AB" page="103">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Dwarfs both Hate (BRB-71) and Fear (BRB-69) the bearer. Each model in base contact looses all runes from one of their runic items (randomly). Treat it as it&apos;s normal kind."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Dwarfs both Hate (BRB-71) and Fear (BRB-69) the bearer. Each model in base contact looses all runes from one of their runic items (randomly). Treat it as it's normal kind."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -5088,13 +5087,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="7ca2cf98-227e-6d8a-4f8a-db5f4c351d15" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="7ca2cf98-227e-6d8a-4f8a-db5f4c351d15" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="1d05eeee-5212-bf6e-8d7b-a1bcf222e820" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+            <profile id="1d05eeee-5212-bf6e-8d7b-a1bcf222e820" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -5200,16 +5199,16 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="5bb26343-67d9-98b9-4514-128c15fa712e" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="5bb26343-67d9-98b9-4514-128c15fa712e" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="fb8042b9-80b3-99c5-1ccc-08285c4b9c5c" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+            <profile id="fb8042b9-80b3-99c5-1ccc-08285c4b9c5c" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -5296,13 +5295,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="17e9c5af-1664-4b90-3b24-fd72d9ec3636" name="AB - Temakador&apos;s Gauntlets" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="17e9c5af-1664-4b90-3b24-fd72d9ec3636" name="AB - Temakador's Gauntlets" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="395e6f13-1573-8b77-8336-a781f81ffe3d" profileTypeId="41726d6f757223232344415441232323" name="Temakador&apos;s Gauntlets" hidden="false" book="AB" page="100">
+            <profile id="395e6f13-1573-8b77-8336-a781f81ffe3d" profileTypeId="41726d6f757223232344415441232323" name="Temakador's Gauntlets" hidden="false" book="AB" page="100">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="5+ Ward Save against S4 or greater."/>
@@ -5437,7 +5436,7 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="76b34f76-2412-ae89-90a8-1ef8ce30913a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
               <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -5519,13 +5518,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="c9c4def8-e036-98cb-c93d-374180b55902" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="c9c4def8-e036-98cb-c93d-374180b55902" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="309b054c-bc4d-33a8-8ba9-c38cfa155d1e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+            <profile id="309b054c-bc4d-33a8-8ba9-c38cfa155d1e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
               </characteristics>
@@ -5549,13 +5548,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="8afbf044-b635-a1bb-f711-1ede5ae249e8" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="8afbf044-b635-a1bb-f711-1ede5ae249e8" name="BRB - Rampager's Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="b38412de-5e73-3ea9-7c29-87880e715eb5" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
+            <profile id="b38412de-5e73-3ea9-7c29-87880e715eb5" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager's Standard" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
               </characteristics>
@@ -5609,7 +5608,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="63699977-c208-b0be-5c48-2a19dccbe782" name="AB - Standard of Balance(FAQ&apos;ed)" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="63699977-c208-b0be-5c48-2a19dccbe782" name="AB - Standard of Balance(FAQ'ed)" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5654,7 +5653,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="1d6aec23-9095-b500-0bbe-96c0646c88de" name="AB - Banner of Ellyrion(FAQ&apos;ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="1d6aec23-9095-b500-0bbe-96c0646c88de" name="AB - Banner of Ellyrion(FAQ'ed)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5719,7 +5718,7 @@ Ignore the second sentence.</description>
             <profile id="c533f104-b258-4544-0289-47dd4182e544" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -5897,13 +5896,13 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="7c29f117-7841-77bf-475e-d2069f625d65" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="7c29f117-7841-77bf-475e-d2069f625d65" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="66aec1ca-d6be-398c-aaa8-e07fbf5c0833" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+            <profile id="66aec1ca-d6be-398c-aaa8-e07fbf5c0833" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -5940,7 +5939,7 @@ Ignore the second sentence.</description>
             <profile id="98c3f84e-4f2f-ed1a-4444-fd3b13b62533" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -5991,7 +5990,7 @@ Ignore the second sentence.</description>
             <profile id="f261ea93-c192-20d1-c7cd-d943521281ed" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -6345,20 +6344,20 @@ Ignore the second sentence.</description>
           <profiles>
             <profile id="2caad3b5-b374-f74c-e46f-26ca919b7202" profileTypeId="54616c69736d616e23232344415441232323" name="Golden Crown of Atrazar" hidden="false" book="AB" page="101">
               <characteristics>
-                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Discount first unsaved wound even if it&apos;s a killing blow."/>
+                <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="One use only. Discount first unsaved wound even if it's a killing blow."/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="8f84cde8-90ff-5001-6c41-8b437714bec0" name="AB - Loremaster&apos;s Cloak" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="8f84cde8-90ff-5001-6c41-8b437714bec0" name="AB - Loremaster's Cloak" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="44244221-4fa2-225e-60fc-25081e236ec6" profileTypeId="54616c69736d616e23232344415441232323" name="Loremaster&apos;s Cloak" hidden="false" book="AB" page="101">
+            <profile id="44244221-4fa2-225e-60fc-25081e236ec6" profileTypeId="54616c69736d616e23232344415441232323" name="Loremaster's Cloak" hidden="false" book="AB" page="101">
               <characteristics>
                 <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="2+ Ward Save for wearer and unit he is with against wounds caused by spells."/>
               </characteristics>
@@ -6412,7 +6411,7 @@ Ignore the second sentence.</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="5fc2fa73-0585-4f57-e68c-3df5b6243f92" name="AB - Amulet of Fire (FAQ&apos;ed)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+        <entry id="5fc2fa73-0585-4f57-e68c-3df5b6243f92" name="AB - Amulet of Fire (FAQ'ed)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6466,7 +6465,7 @@ Ignore the second sentence.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="563f53b0-4ec1-6464-e2ae-a610205b6070" name="Martial Prowess (FAQ&apos;ed)" hidden="false" book="AB" page="49">
+    <rule id="563f53b0-4ec1-6464-e2ae-a610205b6070" name="Martial Prowess (FAQ'ed)" hidden="false" book="AB" page="49">
       <description>Page 49 – Spearmen, Martial Prowess.
 Ignore the last sentence.</description>
       <modifiers/>
@@ -6515,7 +6514,7 @@ Ignore the last sentence.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" name="Valour of Ages (FAQ&apos;ed)" hidden="false" book="AB" page="43">
+    <rule id="1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" name="Valour of Ages (FAQ'ed)" hidden="false" book="AB" page="43">
       <description>Amendments:
 Page 43 – The Forces of Ulthuan, Valour of Ages.
 Change “[...] any failed psychology tests[...]” to “[...]” any
@@ -6547,7 +6546,7 @@ failed fear, terror or panic tests[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d7b73082-c75c-5eaf-4752-4f29778647c6" profileTypeId="41726d6f757223232344415441232323" name="Dragon Armour (FAQ&apos;ed)" hidden="false" book="AB" page="57">
+    <profile id="d7b73082-c75c-5eaf-4752-4f29778647c6" profileTypeId="41726d6f757223232344415441232323" name="Dragon Armour (FAQ'ed)" hidden="false" book="AB" page="57">
       <characteristics>
         <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="have a 2+ ward save against all Breath Attacks (BRB-67) and Flaming Attacks (BRB-69)"/>
@@ -6575,7 +6574,7 @@ failed fear, terror or panic tests[...]”.</description>
     <profile id="ae7c0304-461f-3a67-ff96-6f1d6832754d" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)"/>
       </characteristics>
       <modifiers/>
@@ -6583,7 +6582,7 @@ failed fear, terror or panic tests[...]”.</description>
     <profile id="52974315-baff-8b83-8ce6-ccc52b9a9776" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
       </characteristics>
       <modifiers/>

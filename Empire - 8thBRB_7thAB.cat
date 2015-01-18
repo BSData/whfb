@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f0ad034-948c-4fab-98fe-60e1d53fa9c3" revision="10" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Empire - Army Book (2013-4) -V8.7.4." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f0ad034-948c-4fab-98fe-60e1d53fa9c3" revision="10" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Empire - Army Book (2013-4) -V8.7.4." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124">
   <entries>
     <entry id="58271744-2a5a-44ae-9a69-31f27ea71cee" name="Arch Lector of Sigmar" points="125.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -57,13 +56,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="7a7245a4-c6ea-4360-bdda-d747bdc42f1c" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="7a7245a4-c6ea-4360-bdda-d747bdc42f1c" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="e0fd5920-1296-11ea-6e1c-7d7584372e0b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="e0fd5920-1296-11ea-6e1c-7d7584372e0b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -117,13 +116,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="f0a7b56c-de21-40fb-b22d-0e564952de15" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="f0a7b56c-de21-40fb-b22d-0e564952de15" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="d99a12ac-dfbe-191c-cc68-43e352d911b8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="d99a12ac-dfbe-191c-cc68-43e352d911b8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -170,7 +169,7 @@
                       <profiles>
                         <profile id="f8ac0fc0-39e5-4020-5dcf-68a746d81f6d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -185,7 +184,7 @@
                       <profiles>
                         <profile id="88bcd2f8-ab29-8de0-e629-1beb21cd14a2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -207,13 +206,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="8fde9344-a169-43ab-8f96-d0575985d2c0" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="8fde9344-a169-43ab-8f96-d0575985d2c0" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="ec4dff2e-9ec7-ff0e-724d-5640d02e524f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="ec4dff2e-9ec7-ff0e-724d-5640d02e524f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -230,7 +229,7 @@
                       <profiles>
                         <profile id="3889d44e-b31c-d42d-c767-699902da2c35" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -245,7 +244,7 @@
                       <profiles>
                         <profile id="63e3fe72-e302-1519-cb92-f1d7bf22eafb" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -305,7 +304,7 @@
                       <profiles>
                         <profile id="c6e5c6fd-e3df-3959-7095-7f11533480c7" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -349,13 +348,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="75466696-7444-45c7-8f49-7fb4fcd07441" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="75466696-7444-45c7-8f49-7fb4fcd07441" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="cb58ef5e-882e-1175-b36e-cf0d68e30d49" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+                        <profile id="cb58ef5e-882e-1175-b36e-cf0d68e30d49" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
                           </characteristics>
@@ -546,13 +545,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="aef2179b-3f46-4e4f-aa44-f5d75ec36186" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="aef2179b-3f46-4e4f-aa44-f5d75ec36186" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="22256494-2d83-ef5a-bbd1-0570791dfad9" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+                        <profile id="22256494-2d83-ef5a-bbd1-0570791dfad9" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -658,16 +657,16 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="271e3564-0cb6-4f88-b6c0-cb1122f6d02f" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="271e3564-0cb6-4f88-b6c0-cb1122f6d02f" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="1e1194ea-7805-d588-832f-4cf6069b49a3" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+                        <profile id="1e1194ea-7805-d588-832f-4cf6069b49a3" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -740,7 +739,7 @@
                         <profile id="d1e86c40-66c6-e52b-9200-a28a3a1db258" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -774,7 +773,7 @@
                         <profile id="2103cd12-6755-4b44-aab1-a4216f2d803e" profileTypeId="576561706f6e23232344415441232323" name="Sword of Sigismund" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
                           </characteristics>
                           <modifiers/>
@@ -808,7 +807,7 @@
                         <profile id="887edf40-b956-d3b1-7aff-74f79c83c37c" profileTypeId="576561706f6e23232344415441232323" name="Sword of Power" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -1054,13 +1053,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="9abf1ef0-54ab-41fb-8c73-ba1156861a77" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="9abf1ef0-54ab-41fb-8c73-ba1156861a77" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="b345686d-4025-d34c-e80a-23f8ba0682e6" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="b345686d-4025-d34c-e80a-23f8ba0682e6" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -1097,7 +1096,7 @@
                         <profile id="798fd847-8fb7-f444-26d9-9321935aacbf" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -1148,7 +1147,7 @@
                         <profile id="34768a14-d1e7-740a-6908-24b036a558fa" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -1478,7 +1477,7 @@
                 <profile id="ff0b48f5-3c68-4221-dd27-6bf1c56d3c81" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
                   </characteristics>
                   <modifiers/>
@@ -2019,13 +2018,13 @@
               <entryGroups>
                 <entryGroup id="e2ff49d8-0720-421f-9f54-29cf7dd553c3" name="Arcane Items" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="650b0c97-2fd2-4c75-a86b-5ccd2119035f" name="AB - Wizard&apos;s Staff" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="650b0c97-2fd2-4c75-a86b-5ccd2119035f" name="AB - Wizard's Staff" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="df4b30f0-0236-e6bf-2f1b-4662a5f34d95" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizard&apos;s Staff" hidden="false" page="0">
+                        <profile id="df4b30f0-0236-e6bf-2f1b-4662a5f34d95" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizard's Staff" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="The Wizard’s Staff allows the bearer to roll up to seven dice to cast spells."/>
                           </characteristics>
@@ -2042,7 +2041,7 @@
                       <profiles>
                         <profile id="0df37711-6e34-b89d-c9b6-cf60628d566d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Crystal Ball" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Know all &apos;secrets&apos; within 24&quot; (AB-68)."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Know all 'secrets' within 24&quot; (AB-68)."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -2214,15 +2213,15 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="7100beb6-f9f6-48ec-a9bd-16336337a528" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="7100beb6-f9f6-48ec-a9bd-16336337a528" name="BRB - Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="bc4ee1b2-1c0f-f83c-03ba-4f6cf91d08e4" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="bc4ee1b2-1c0f-f83c-03ba-4f6cf91d08e4" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster's Shard" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer's spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -2274,13 +2273,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="41195417-ef34-456d-a965-9bc3dcc4d69a" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="41195417-ef34-456d-a965-9bc3dcc4d69a" name="BRB - Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="650f48c6-9051-95be-65d4-90f47848af9b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" page="0">
+                        <profile id="650f48c6-9051-95be-65d4-90f47848af9b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir's Hex Scroll" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
                           </characteristics>
@@ -2407,7 +2406,7 @@
                         <profile id="ba2602ac-5291-566b-c9f3-ecd2046149d3" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -2441,7 +2440,7 @@
                         <profile id="876082d4-1711-2d3b-3db9-cb1c297bae94" profileTypeId="576561706f6e23232344415441232323" name="Sword of Sigismund" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
                           </characteristics>
                           <modifiers/>
@@ -2475,7 +2474,7 @@
                         <profile id="cc482d7b-ab2a-2a08-bdb5-179913f926a1" profileTypeId="576561706f6e23232344415441232323" name="Sword of Power" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -2721,13 +2720,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="f74e71b9-9ad8-4425-90d8-67aeeaf99757" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="f74e71b9-9ad8-4425-90d8-67aeeaf99757" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="a399afce-531b-d0a4-9b80-bb3a54028986" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="a399afce-531b-d0a4-9b80-bb3a54028986" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -2764,7 +2763,7 @@
                         <profile id="25ef1516-a20f-dac4-bb6d-f07719dab030" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -3103,13 +3102,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="d2bc1155-df2a-49cf-8fc6-333de592b392" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="d2bc1155-df2a-49cf-8fc6-333de592b392" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="f8345bdf-aa8a-8002-aa83-167ccaed1936" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="f8345bdf-aa8a-8002-aa83-167ccaed1936" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -3163,13 +3162,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="cdf97f73-167e-4e06-979d-564a633279a0" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="cdf97f73-167e-4e06-979d-564a633279a0" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="6a3ac39c-bbd8-7cc0-4f69-5e7dfd0bf7d3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="6a3ac39c-bbd8-7cc0-4f69-5e7dfd0bf7d3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -3201,7 +3200,7 @@
                       <profiles>
                         <profile id="d0c22f5d-5581-c7f8-4f60-15689a6668e6" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -3216,7 +3215,7 @@
                       <profiles>
                         <profile id="bb69f770-baa0-cd43-479b-ea632da2b3f5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -3238,13 +3237,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="ae9e4fec-41d4-40ed-bd39-0a31d7eccbdc" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="ae9e4fec-41d4-40ed-bd39-0a31d7eccbdc" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="5f35ec56-40aa-5f88-1580-856b9cc1391a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="5f35ec56-40aa-5f88-1580-856b9cc1391a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -3261,7 +3260,7 @@
                       <profiles>
                         <profile id="1337a798-64e9-efe2-0147-017db77bf0a0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -3276,7 +3275,7 @@
                       <profiles>
                         <profile id="0df80a87-d96e-87a5-9150-93883c1b7e79" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -3336,7 +3335,7 @@
                       <profiles>
                         <profile id="48ffad9a-9171-1bcd-c68f-077ff8beea8b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -3603,7 +3602,7 @@
             <profile id="c5615b3e-63f6-3a74-31a8-63de4495620a" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
               </characteristics>
               <modifiers/>
@@ -3627,7 +3626,7 @@
             <profile id="797a4495-06b2-7d54-8e2e-33d5930a8f77" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands"/>
               </characteristics>
               <modifiers/>
@@ -3864,7 +3863,7 @@
                   <profiles>
                     <profile id="dae6e039-0203-dc68-2ce3-c91ec1155aba" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                       <characteristics>
-                        <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                        <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                       </characteristics>
                       <modifiers/>
                     </profile>
@@ -3946,13 +3945,13 @@
                   </profiles>
                   <links/>
                 </entry>
-                <entry id="80048d1c-d18d-4a84-9d4b-f320aae52d50" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                <entry id="80048d1c-d18d-4a84-9d4b-f320aae52d50" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
                   <rules/>
                   <profiles>
-                    <profile id="55d64e17-40d9-3476-dabf-02a0c2d92dc8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                    <profile id="55d64e17-40d9-3476-dabf-02a0c2d92dc8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                       <characteristics>
                         <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                       </characteristics>
@@ -3976,13 +3975,13 @@
                   </profiles>
                   <links/>
                 </entry>
-                <entry id="e74635fe-ea5b-4ab4-90d7-514b4fdd61c1" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                <entry id="e74635fe-ea5b-4ab4-90d7-514b4fdd61c1" name="BRB - Rampager's Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
                   <rules/>
                   <profiles>
-                    <profile id="20eec6cf-157f-4565-a6bb-c8dc2741dae6" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" page="0">
+                    <profile id="20eec6cf-157f-4565-a6bb-c8dc2741dae6" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager's Standard" hidden="false" page="0">
                       <characteristics>
                         <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
                       </characteristics>
@@ -4047,13 +4046,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="4ba2db2d-9ee4-42be-bc59-2641263fbd6d" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="4ba2db2d-9ee4-42be-bc59-2641263fbd6d" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="ce0d58e7-555b-60da-7bee-747cf3c7c305" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="ce0d58e7-555b-60da-7bee-747cf3c7c305" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -4107,13 +4106,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="1b69a1e5-72b8-4799-8bae-d210933ed191" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="1b69a1e5-72b8-4799-8bae-d210933ed191" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="26139769-5e86-21fa-2e07-346b782738a6" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="26139769-5e86-21fa-2e07-346b782738a6" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -4145,7 +4144,7 @@
                       <profiles>
                         <profile id="d6c9f0e2-8ed5-271f-256b-acd4aaafff8b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -4160,7 +4159,7 @@
                       <profiles>
                         <profile id="bb860041-338f-7eb7-1ce5-8b857304889d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -4182,13 +4181,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="66e94d6e-9b15-491c-8041-91dd823e02cd" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="66e94d6e-9b15-491c-8041-91dd823e02cd" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="e5b7419e-8978-b97a-0338-74264caa1ac8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="e5b7419e-8978-b97a-0338-74264caa1ac8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -4205,7 +4204,7 @@
                       <profiles>
                         <profile id="d9f4f0b3-a38c-f760-625f-1bdf661a04bb" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -4220,7 +4219,7 @@
                       <profiles>
                         <profile id="323639d6-8641-f1e7-c71e-9a5621c42977" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -4280,7 +4279,7 @@
                       <profiles>
                         <profile id="5a818cc1-ec07-9778-61c4-e8f5e6489d49" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -4491,13 +4490,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="82926354-86be-4c76-a487-e10e87f72807" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="82926354-86be-4c76-a487-e10e87f72807" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="c6a1e93c-061e-1086-56a5-1eef3fbd2786" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+                        <profile id="c6a1e93c-061e-1086-56a5-1eef3fbd2786" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -4603,16 +4602,16 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="038a7676-a9ad-44a7-9afb-9f074727915a" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="038a7676-a9ad-44a7-9afb-9f074727915a" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="9cba8627-2216-79e0-8ab9-ea39fb224d98" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+                        <profile id="9cba8627-2216-79e0-8ab9-ea39fb224d98" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -4685,7 +4684,7 @@
                         <profile id="90765a05-45d5-1b2d-9b6f-37fe9db29bed" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -4719,7 +4718,7 @@
                         <profile id="7a10bbae-bd7a-1396-e34d-0293dc9c8345" profileTypeId="576561706f6e23232344415441232323" name="Sword of Sigismund" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
                           </characteristics>
                           <modifiers/>
@@ -4753,7 +4752,7 @@
                         <profile id="2dd8f18d-68a7-b740-17a3-7f2616781828" profileTypeId="576561706f6e23232344415441232323" name="Sword of Power" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -4999,13 +4998,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="0cd3fb92-0db0-4127-928f-70b728bb6d27" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="0cd3fb92-0db0-4127-928f-70b728bb6d27" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="74f8c83c-3da2-6abc-cae0-06f091e47ae8" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="74f8c83c-3da2-6abc-cae0-06f091e47ae8" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -5042,7 +5041,7 @@
                         <profile id="7efac652-a4a6-7e1a-5472-8c76dbc517b5" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -5765,7 +5764,7 @@
                       <profiles>
                         <profile id="ca3f0368-118a-c72f-bf8a-47e836dbd894" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -5847,13 +5846,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="50759475-574b-4b75-ac36-6ae14682be2b" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="50759475-574b-4b75-ac36-6ae14682be2b" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="8959b688-ec18-7e8e-c8f5-8f90c7d7e76e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="8959b688-ec18-7e8e-c8f5-8f90c7d7e76e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -6351,7 +6350,7 @@
             <profile id="daab15d2-8db2-3402-c48d-cde345006bd7" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
               </characteristics>
               <modifiers/>
@@ -6471,13 +6470,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="976df6b0-bcdc-45b4-a1fe-4240ed56e5bd" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="976df6b0-bcdc-45b4-a1fe-4240ed56e5bd" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="d254f942-ab75-a3b8-d28a-53d564026f79" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="d254f942-ab75-a3b8-d28a-53d564026f79" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -6531,13 +6530,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="52898b94-18c4-447d-a8b9-3dc727e93489" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="52898b94-18c4-447d-a8b9-3dc727e93489" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="57de8b4d-c6bf-411c-0335-0a25a1eb8644" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="57de8b4d-c6bf-411c-0335-0a25a1eb8644" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -6584,7 +6583,7 @@
                       <profiles>
                         <profile id="68822210-391e-1d4c-470f-d333b14b0de9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -6599,7 +6598,7 @@
                       <profiles>
                         <profile id="cb921d08-e22f-5ff5-507b-6814aaed8e42" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -6621,13 +6620,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="2e6ac7e3-0096-41a0-82b7-1546059c541c" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="2e6ac7e3-0096-41a0-82b7-1546059c541c" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="972dcdce-df78-9e08-5663-968081b624cd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="972dcdce-df78-9e08-5663-968081b624cd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -6644,7 +6643,7 @@
                       <profiles>
                         <profile id="4dfd5667-cd0b-5ffa-0d80-86e6fa95a3d5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -6659,7 +6658,7 @@
                       <profiles>
                         <profile id="1d02c4bc-02e2-03b8-2a87-3e4ec42bf0f6" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -6719,7 +6718,7 @@
                       <profiles>
                         <profile id="7f32d84c-2b81-89a3-c65d-c0be603927d7" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -6763,13 +6762,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="209b6017-b122-4ed7-8012-e47f50c04b9e" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="209b6017-b122-4ed7-8012-e47f50c04b9e" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="97ed89a5-c89c-d6c7-8b55-9b5460ab47cb" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+                        <profile id="97ed89a5-c89c-d6c7-8b55-9b5460ab47cb" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
                           </characteristics>
@@ -6960,13 +6959,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="5cf5acb7-47ed-490a-8b13-c3eadf56bbe3" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="5cf5acb7-47ed-490a-8b13-c3eadf56bbe3" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="6a81ab43-ed76-0d25-836c-ad2db0de813e" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+                        <profile id="6a81ab43-ed76-0d25-836c-ad2db0de813e" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -7072,16 +7071,16 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="c4938956-a8fd-45e8-acd8-f2ce9075c42f" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="c4938956-a8fd-45e8-acd8-f2ce9075c42f" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="0c027f76-cfef-1bb8-ab85-02058bdf9c4e" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+                        <profile id="0c027f76-cfef-1bb8-ab85-02058bdf9c4e" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -7154,7 +7153,7 @@
                         <profile id="e24663ac-0ca0-b877-d220-117e1c4c518f" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -7188,7 +7187,7 @@
                         <profile id="8ccab6e4-4ccc-fac3-c45f-7c3c5011475d" profileTypeId="576561706f6e23232344415441232323" name="Sword of Sigismund" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
                           </characteristics>
                           <modifiers/>
@@ -7222,7 +7221,7 @@
                         <profile id="687443fc-29aa-28d9-030b-e8bddbe15fd6" profileTypeId="576561706f6e23232344415441232323" name="Sword of Power" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -7468,13 +7467,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="a9c52249-946a-43ee-b060-81caf2444761" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="a9c52249-946a-43ee-b060-81caf2444761" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="41b76719-59d9-04ac-f300-a46a93f6c8ca" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="41b76719-59d9-04ac-f300-a46a93f6c8ca" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -7511,7 +7510,7 @@
                         <profile id="5639d2e0-eddf-e0d4-909a-7c7de3b6597b" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -7562,7 +7561,7 @@
                         <profile id="bb8b9223-b058-bf42-0a94-049afc61401d" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -8223,7 +8222,7 @@
                 <profile id="dbeb2d75-0af4-842b-daea-70ac03eccdb6" profileTypeId="576561706f6e23232344415441232323" name="The Staff of Command" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Iif the War Altar is destroyed then the S bonus is lost and the staff will count as a hand weapon."/>
                   </characteristics>
                   <modifiers/>
@@ -8393,7 +8392,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="3623c471-ee1e-937f-7405-d022326111ae" profileTypeId="4d6f64656c23232344415441232323" name="Count&apos;s Champion" hidden="false" page="0">
+                <profile id="3623c471-ee1e-937f-7405-d022326111ae" profileTypeId="4d6f64656c23232344415441232323" name="Count's Champion" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -8510,7 +8509,7 @@
                       <profiles>
                         <profile id="c6412b01-79f5-e1d3-7c34-9a648b0a9286" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -8592,13 +8591,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="9678bb06-fc94-49f4-8bc9-21432b50830a" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="9678bb06-fc94-49f4-8bc9-21432b50830a" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="b135ebdd-7368-855e-f212-40ecf3961737" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="b135ebdd-7368-855e-f212-40ecf3961737" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -8659,7 +8658,7 @@
         <profile id="f4ea1a61-c38f-b3d5-09b0-9bc9764ca84b" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
           </characteristics>
           <modifiers/>
@@ -8847,7 +8846,7 @@
                       <profiles>
                         <profile id="781859d0-0ad7-420f-3aa0-7d67cd1d3c9b" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -8929,13 +8928,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="729065bc-519c-4837-be07-73064eaf3b6a" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="729065bc-519c-4837-be07-73064eaf3b6a" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="299b54cb-b588-14de-5c7e-d3a264c824b8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="299b54cb-b588-14de-5c7e-d3a264c824b8" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -8993,7 +8992,7 @@
         <profile id="cdab489c-be53-caad-4dc4-8fd29906a58a" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
           </characteristics>
           <modifiers/>
@@ -9066,7 +9065,7 @@
         <profile id="6b099ee4-f5bd-d817-5abc-368cc7c72849" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
           </characteristics>
           <modifiers/>
@@ -9313,7 +9312,7 @@
                       <profiles>
                         <profile id="777f691f-2e3e-6c01-645e-4d61eb323193" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -9395,13 +9394,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="0a6f52b8-59ad-4be5-9e50-6faa2b362c44" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="0a6f52b8-59ad-4be5-9e50-6faa2b362c44" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="79d96d18-4d8c-21be-327a-2973037a2632" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="79d96d18-4d8c-21be-327a-2973037a2632" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -9693,7 +9692,7 @@
                 <profile id="477f4ac2-b5fc-bff4-0dd8-07d39dabcb05" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
                   </characteristics>
                   <modifiers/>
@@ -9831,7 +9830,7 @@
                       <profiles>
                         <profile id="c58bae50-ccfc-072f-e37c-ba0d9be0424e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -9913,13 +9912,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="cb8eadb0-e921-465f-8278-8b6b12a87450" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="cb8eadb0-e921-465f-8278-8b6b12a87450" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="c27db0cb-6e46-89a3-3963-3d8d4ffa0101" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="c27db0cb-6e46-89a3-3963-3d8d4ffa0101" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -10091,7 +10090,7 @@
                 <profile id="83f8974a-9692-f0bf-2f1d-d4e485f47f00" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
                   </characteristics>
                   <modifiers/>
@@ -10229,7 +10228,7 @@
                       <profiles>
                         <profile id="18845298-d493-b1de-9b54-9aa8e8628e8d" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -10311,13 +10310,13 @@
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="9b8b0f17-be33-44d5-8c15-205c528a4f2a" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="9b8b0f17-be33-44d5-8c15-205c528a4f2a" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="30678f2d-e518-8a0a-610c-192763000f7e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="30678f2d-e518-8a0a-610c-192763000f7e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -10479,7 +10478,7 @@
           <description>You may only field Kurt Helborg if your army contains a unit of Reiksguard Knights</description>
           <modifiers/>
         </rule>
-        <rule id="16384add-57d1-842e-dd8e-476b027050c4" name="The Emperor&apos;s Chosen (AB-58)" hidden="false" page="0">
+        <rule id="16384add-57d1-842e-dd8e-476b027050c4" name="The Emperor's Chosen (AB-58)" hidden="false" page="0">
           <modifiers/>
         </rule>
         <rule id="72a15dc6-9d23-fc77-7091-ec68e493dde6" name="Swiftstride (BRB-76)" hidden="false" page="0">
@@ -10567,7 +10566,7 @@
           <description>If you field Ludwig Schwarzhelm, you cannot take a Captain of the Empire carrying the battle standard.</description>
           <modifiers/>
         </rule>
-        <rule id="47b2cf48-fc34-fce1-fbdf-1c3a70c2c63d" name="The Emperor&apos;s Standard (AB-59)" hidden="false" page="0">
+        <rule id="47b2cf48-fc34-fce1-fbdf-1c3a70c2c63d" name="The Emperor's Standard (AB-59)" hidden="false" page="0">
           <modifiers/>
         </rule>
         <rule id="cb66902b-2777-a939-4f59-7ac3beaa6001" name="Killing Blow (BRB-72)" hidden="false" page="0">
@@ -10638,7 +10637,7 @@
             <profile id="5c5edae6-92fa-67d4-90cd-acba5f211dbd" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
               </characteristics>
               <modifiers/>
@@ -10927,8 +10926,8 @@
       <modifiers/>
       <rules>
         <rule id="a81601bf-ab0f-7c2c-14e1-7c0abe66b7ef" name="Master of Ballistics (FAQ-v1.2)" hidden="false" page="0">
-          <description>A Master Engineer within 3&quot; of a war machine is allowed to take a ‘Look Out Sir!’
-roll as if he was within 3&quot; of a unit of five or more models. In addition, one war machine that is within 3&quot; of a Master Engineer may re-roll either one scatter dice or one artillery dice per turn. This may not be used to re-roll the distance bounced by a cannonball. If the Engineer uses his re-roll ability, he cannot shoot with his own missile weapon in the same Shooting
+          <description>A Master Engineer within 3" of a war machine is allowed to take a ‘Look Out Sir!’
+roll as if he was within 3" of a unit of five or more models. In addition, one war machine that is within 3" of a Master Engineer may re-roll either one scatter dice or one artillery dice per turn. This may not be used to re-roll the distance bounced by a cannonball. If the Engineer uses his re-roll ability, he cannot shoot with his own missile weapon in the same Shooting
 phase.</description>
           <modifiers/>
         </rule>
@@ -11514,7 +11513,7 @@ phase.</description>
                       <profiles>
                         <profile id="ee27f78f-439c-53a6-d985-921e5f5a31a2" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -11596,13 +11595,13 @@ phase.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="8a2d005c-fadc-4fb8-a225-54de51f11c28" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="8a2d005c-fadc-4fb8-a225-54de51f11c28" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="0bf66b4c-a159-5566-b25e-f4ef2ed05289" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="0bf66b4c-a159-5566-b25e-f4ef2ed05289" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -11756,10 +11755,10 @@ phase.</description>
         <rule id="b3a262f4-a8ac-9962-f45b-0c0d28231926" name="Steam Points (FAQ-v1.2)" hidden="false" page="0">
           <description>Change the rules on page 51 as described below:
 Steam Tank, Movement phase
-Change to “Each SP allows you to move the Steam Tank 3&quot;.
+Change to “Each SP allows you to move the Steam Tank 3".
 To charge with a Steam Tank, first declare the charge as
 normal, and then specify how many SP you are using to charge
-with. The charge range of the Steam Tank is equal to 3&quot; per SP
+with. The charge range of the Steam Tank is equal to 3" per SP
 that is spent. In addition, each SP spent on the charge adds D3
 to the number of Impact Hits inflicted by the Steam Tank in
 the Close Combat phase. Note that you do not add the roll of
@@ -12043,7 +12042,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="a26fbb82-5077-f667-1420-9a253e2c8bf6" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
+                            <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -12125,13 +12124,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="6dac1e03-aa53-4ab2-840b-cabe63c97ffd" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="6dac1e03-aa53-4ab2-840b-cabe63c97ffd" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="a8e91e90-dbbb-2995-3e67-c5cf4d5d6c05" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" page="0">
+                        <profile id="a8e91e90-dbbb-2995-3e67-c5cf4d5d6c05" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
                           </characteristics>
@@ -12298,13 +12297,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="2bfe5c85-0a5d-4772-b0d2-44c18db8941b" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="2bfe5c85-0a5d-4772-b0d2-44c18db8941b" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="6aff0c32-e155-7972-b0fb-f6d51273b404" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="6aff0c32-e155-7972-b0fb-f6d51273b404" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -12358,13 +12357,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="daea93d1-1a79-4463-bcab-e3fcd1613417" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="daea93d1-1a79-4463-bcab-e3fcd1613417" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="bab2fe7e-0238-d182-72c0-8fe730d2e2dc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="bab2fe7e-0238-d182-72c0-8fe730d2e2dc" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -12411,7 +12410,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="3eb033a9-1a3b-8b65-7b4f-4c2e421d67e7" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -12426,7 +12425,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="18a52fbc-4a1c-1f97-1e20-9f587e3bd930" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -12448,13 +12447,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="0532ae39-80dc-41ae-9a10-9914d4c86a30" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="0532ae39-80dc-41ae-9a10-9914d4c86a30" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="01c27230-1c72-31d5-485d-be98e3a3adb5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="01c27230-1c72-31d5-485d-be98e3a3adb5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -12471,7 +12470,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="049b76ad-edd6-8500-56f7-1f7d72c77f7a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -12486,7 +12485,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="8f5f5d35-2ecd-7b6f-4b4e-c206fad2d941" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -12546,7 +12545,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="eb7ab369-ec44-e031-09fa-7bae10d052e5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -12568,13 +12567,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="92b65997-6ba6-48dd-9ec6-7d9031b8bee2" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="92b65997-6ba6-48dd-9ec6-7d9031b8bee2" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="e596c632-8c0b-7359-1ad3-979bba349910" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+                        <profile id="e596c632-8c0b-7359-1ad3-979bba349910" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
                           </characteristics>
@@ -12765,13 +12764,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="ec39eb45-c6e1-4155-9a97-6a12ab903bda" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="ec39eb45-c6e1-4155-9a97-6a12ab903bda" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="5e0d51f0-aabe-8f08-7c8b-78aceeda2613" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+                        <profile id="5e0d51f0-aabe-8f08-7c8b-78aceeda2613" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -12877,16 +12876,16 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="c48183b5-f181-4fde-bcbf-16e5105ada4f" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="c48183b5-f181-4fde-bcbf-16e5105ada4f" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="82508436-ea13-4789-d149-8fc26c3e301b" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+                        <profile id="82508436-ea13-4789-d149-8fc26c3e301b" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -13273,13 +13272,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="9fa4e7d6-7fe2-4cab-8fb0-a9a5317808a3" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="9fa4e7d6-7fe2-4cab-8fb0-a9a5317808a3" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="d91da01f-20cb-d452-908d-e93885df7e36" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="d91da01f-20cb-d452-908d-e93885df7e36" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -13721,7 +13720,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                 <profile id="a4487574-f540-fe07-9087-0ff6c7a53b92" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
                   </characteristics>
                   <modifiers/>
@@ -14085,7 +14084,7 @@ Ignore the last sentence of the fourth paragraph.</description>
             <profile id="a32fb48d-2318-2caa-54b6-2224159bb5f4" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" page="0">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands, Always Strikes Last"/>
               </characteristics>
               <modifiers/>
@@ -14164,13 +14163,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="253ed7fa-0eba-45e6-b201-f33a22f95ebf" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="253ed7fa-0eba-45e6-b201-f33a22f95ebf" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="b439ebe5-d825-b906-2a42-7e6de9157f20" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="b439ebe5-d825-b906-2a42-7e6de9157f20" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -14224,13 +14223,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="9972222e-1f91-460e-824e-e765c6ab048b" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="9972222e-1f91-460e-824e-e765c6ab048b" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="b83f83d6-923a-f065-27fc-c73e326a0f9e" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="b83f83d6-923a-f065-27fc-c73e326a0f9e" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -14262,7 +14261,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="1cb274c1-bc54-f97a-7ce2-b8b3bca09c40" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -14277,7 +14276,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="9666f570-bee5-5fa3-a255-c513293d4db2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -14299,13 +14298,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="b79314f8-5b22-4c84-8fbd-56d752a7dcd7" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="b79314f8-5b22-4c84-8fbd-56d752a7dcd7" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="326b05f7-e8cb-2aeb-796c-ee00ea4d601f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="326b05f7-e8cb-2aeb-796c-ee00ea4d601f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -14322,7 +14321,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="49609d6e-efde-5e2a-1b87-1bdc180f9b3e" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -14337,7 +14336,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="5049b42d-3b72-55f9-1cc7-8e46eb4d7ea5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -14397,7 +14396,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="088a6550-809c-883f-913f-534e3c279ff8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -14608,13 +14607,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="137c811b-2a43-48ed-802d-db6f4722b6db" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="137c811b-2a43-48ed-802d-db6f4722b6db" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="7da90509-6084-4dee-0869-17943b14f5c8" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" page="0">
+                        <profile id="7da90509-6084-4dee-0869-17943b14f5c8" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -14720,16 +14719,16 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="3f479641-d309-4d9c-84f1-48899004aad9" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="3f479641-d309-4d9c-84f1-48899004aad9" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="9d3e6c2f-b6a2-8c60-106f-328dfc55f33a" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" page="0">
+                        <profile id="9d3e6c2f-b6a2-8c60-106f-328dfc55f33a" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
+                            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -14802,7 +14801,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="66c65568-6717-c8b7-6554-efe424773034" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -14836,7 +14835,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="be6f7636-1988-ad77-984a-0c18bdc6b7fb" profileTypeId="576561706f6e23232344415441232323" name="Sword of Sigismund" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
                           </characteristics>
                           <modifiers/>
@@ -14870,7 +14869,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="eb792ff1-51df-0a0d-113e-3ca4e9322d0d" profileTypeId="576561706f6e23232344415441232323" name="Sword of Power" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -15116,13 +15115,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="26e688b4-17eb-4872-bd60-fa3b1af98ea4" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="26e688b4-17eb-4872-bd60-fa3b1af98ea4" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="a9b9ceba-86e5-5311-5992-03d24b4981e0" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="a9b9ceba-86e5-5311-5992-03d24b4981e0" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -15159,7 +15158,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="8f05df14-a6e1-bd03-1f2f-1cc9ba06bafd" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -15631,13 +15630,13 @@ Ignore the last sentence of the fourth paragraph.</description>
               <entryGroups>
                 <entryGroup id="5f33d644-157c-4c62-83fc-d02e8964621c" name="Arcane Items" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="2d6d44d7-40ec-48bd-9f85-32cc8b0a5ce0" name="AB - Wizard&apos;s Staff" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="2d6d44d7-40ec-48bd-9f85-32cc8b0a5ce0" name="AB - Wizard's Staff" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="d8b14e50-d72a-bb35-ed1c-5ba5380614f5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizard&apos;s Staff" hidden="false" page="0">
+                        <profile id="d8b14e50-d72a-bb35-ed1c-5ba5380614f5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Wizard's Staff" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="The Wizard’s Staff allows the bearer to roll up to seven dice to cast spells."/>
                           </characteristics>
@@ -15654,7 +15653,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="f72b9e1d-c6d4-44f9-ff58-5d75f6ab1b58" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Crystal Ball" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Know all &apos;secrets&apos; within 24&quot; (AB-68)."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Know all 'secrets' within 24&quot; (AB-68)."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -15826,15 +15825,15 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="c02e4e84-8374-4b7e-83b9-cb7559a119b2" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="c02e4e84-8374-4b7e-83b9-cb7559a119b2" name="BRB - Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="f36d1472-0ce7-e8c4-dc13-e3e2cec7f7ab" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="f36d1472-0ce7-e8c4-dc13-e3e2cec7f7ab" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster's Shard" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer's spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -15886,13 +15885,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="7f7b2375-a4be-431a-97e4-951835195f5f" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="7f7b2375-a4be-431a-97e4-951835195f5f" name="BRB - Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="226a43c0-b44a-8a2c-7ea7-b2eb3777f92b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" page="0">
+                        <profile id="226a43c0-b44a-8a2c-7ea7-b2eb3777f92b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir's Hex Scroll" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
                           </characteristics>
@@ -15998,13 +15997,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="684f1135-efdb-4549-b19d-0501fec9c7c9" name="AB - Van Horstmann&apos;s Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="684f1135-efdb-4549-b19d-0501fec9c7c9" name="AB - Van Horstmann's Speculum" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="576e467e-cdaa-b53d-b98f-5bd0f59a3d94" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" page="0">
+                        <profile id="576e467e-cdaa-b53d-b98f-5bd0f59a3d94" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Can swap all WS, S, T, I and A values with enemy in a challenge"/>
                           </characteristics>
@@ -16058,13 +16057,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="7d4fe962-f8e5-46c2-a7fe-98d9ecc15ff0" name="AB - Aldred&apos;s Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="7d4fe962-f8e5-46c2-a7fe-98d9ecc15ff0" name="AB - Aldred's Casket of Sorcery" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="2f92f859-9c4e-7322-f503-047f2aa7a3ad" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred&apos;s Casket of Sorcery" hidden="false" page="0">
+                        <profile id="2f92f859-9c4e-7322-f503-047f2aa7a3ad" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Aldred's Casket of Sorcery" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Bound Spell: Power level variable. Remove/capture random 1 spell within 12&quot; on 4+. Power level is normal casting value of spell."/>
                           </characteristics>
@@ -16111,7 +16110,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="72f6defa-4a5b-c372-c331-09069b26a2b0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -16126,7 +16125,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="e54a039a-9497-3a67-049a-f4fe18bc75cd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -16148,13 +16147,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="e16d809c-bde5-44de-a662-de7478d6fec3" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="e16d809c-bde5-44de-a662-de7478d6fec3" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="91ab6bfc-3ef2-c11b-6a67-4092c181c17d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" page="0">
+                        <profile id="91ab6bfc-3ef2-c11b-6a67-4092c181c17d" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
                           </characteristics>
@@ -16171,7 +16170,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="b7b37702-6fd5-b769-e391-f21218b0e9c6" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -16186,7 +16185,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="fc907500-75d7-7da4-4940-4489890ac634" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -16246,7 +16245,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                       <profiles>
                         <profile id="b391cda5-1fad-c9fa-777a-7a592cf0cfd2" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" page="0">
                           <characteristics>
-                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
+                            <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
                           </characteristics>
                           <modifiers/>
                         </profile>
@@ -16290,13 +16289,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="b6b55aa8-ffd1-45eb-9fb9-bcb3b0c14a31" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="b6b55aa8-ffd1-45eb-9fb9-bcb3b0c14a31" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="0e0971d3-5e82-8e6c-e5ec-a4adaf5f8daa" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" page="0">
+                        <profile id="0e0971d3-5e82-8e6c-e5ec-a4adaf5f8daa" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
                           </characteristics>
@@ -16393,7 +16392,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="e8047640-7077-26b8-4058-4d2cd17c2584" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -16427,7 +16426,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="0f19e820-4c7e-f9ea-6ac9-54ff22bd6bd5" profileTypeId="576561706f6e23232344415441232323" name="Sword of Sigismund" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First (BRB-66)"/>
                           </characteristics>
                           <modifiers/>
@@ -16461,7 +16460,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="d61de15c-9d52-9d5c-1f5d-23e04b19223b" profileTypeId="576561706f6e23232344415441232323" name="Sword of Power" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -16707,13 +16706,13 @@ Ignore the last sentence of the fourth paragraph.</description>
                       </profiles>
                       <links/>
                     </entry>
-                    <entry id="d48337e1-181e-4d46-94a7-1ec331aff16c" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+                    <entry id="d48337e1-181e-4d46-94a7-1ec331aff16c" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="a4fc8eb1-1d8f-14f2-f2f7-5888b99efc7d" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" page="0">
+                        <profile id="a4fc8eb1-1d8f-14f2-f2f7-5888b99efc7d" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -16750,7 +16749,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="ef9ad7b1-6592-2222-9462-c53e1c337429" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
@@ -16801,7 +16800,7 @@ Ignore the last sentence of the fourth paragraph.</description>
                         <profile id="fded3187-e116-5209-d80b-aabd90277f73" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                            <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
                             <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
                           </characteristics>
                           <modifiers/>
