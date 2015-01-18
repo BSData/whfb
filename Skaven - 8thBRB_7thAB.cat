@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5530,6 +5530,10 @@ automatically and will not strike back.”</description>
           <description>may choose to substitue any one of his spells for the Dreaded Thirteenth Spell.</description>
           <modifiers/>
         </rule>
+        <rule id="633f-4623-8826-425d" name="Daemonic Attacks" hidden="false">
+          <description>Attacks made by a model with this special rule are magical. This includes any special, ranged or Stomp attacks they make.</description>
+          <modifiers/>
+        </rule>
       </rules>
       <profiles>
         <profile id="c5a5d53c-3509-6a97-46fe-20c17c3fe18c" profileTypeId="4d6f64656c23232344415441232323" name="Vermin Lord" hidden="false" book="AB" page="40">
@@ -6203,6 +6207,147 @@ machine with three crew.”</description>
           <modifiers/>
         </link>
         <link id="f918068a-63db-5a4c-fc3a-989566b0c42a" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bea1-ffe1-de40-6a04" name="Lord Skreech - Verminking (The End Times)" points="650.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="7056-969d-e19e-22bf" name="Magic Items: Weapons" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="898e-f879-db09-fb7f" name="AB - Doom Glaive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="967c-9ab6-df2b-600f" profileTypeId="576561706f6e23232344415441232323" name="Doom Glaive" hidden="false" book="AB" page="40">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="a1ec-2431-c4d1-cbad" name="Plaguereaper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="c655-f975-d7ec-2a61" profileTypeId="576561706f6e23232344415441232323" name="Plaguereaper" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="763b-dae8-251e-0ee6" targetId="bd9ce5b4-f620-a8c3-e552-671e5a95cfae" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="7fc6-8aa4-ebe8-eb81" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="08bb-c211-de5f-48a5" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="86ef-6271-eeb6-83e7" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="eb06-8d18-dde4-0270" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="6ce1-e500-2637-e3fa" name="Rat Daemon" hidden="false" book="AB" page="40">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="0db2-2db7-af0f-3c89" name="the Dreaded Thirteenth Spell" hidden="false" book="">
+          <description>One of his spells must be The Dreaded Thirteenth SPell; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
+          <modifiers/>
+        </rule>
+        <rule id="dcad-c40c-d2e5-c821" name="Ruinous Arsenal" hidden="false">
+          <description>Skreech Verminking is armed with two Magic Weapons: a Doom Glaive and a Plaguereaper. At the start of each CC phase, you must declare which weapon he is going to use for that turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5c76-4ab2-9b75-a202" name="Daemonic Attacks" hidden="false">
+          <description>Attacks made by a model with this special rule are magical. This includes any special, ranged or Stomp attacks they make.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ea9f-82df-7b43-57fe" name="Master of Ruin" hidden="false">
+          <description>Skreech Verminking re-rolls failed casting attempts when attempthing to cast The Dreaded Thirteenth Spell.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="fc45-52ca-cd73-e29a" profileTypeId="4d6f64656c23232344415441232323" name="Lord Skreech" hidden="false" book="AB" page="40">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="10"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="13a8-7e6e-6fd0-ea94" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6b7-cc6b-c9ef-ca91" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f386-d2f4-68e4-5728" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="354b-5cf4-6405-b420" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41bb-ac2a-299a-27f4" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
           <modifiers/>
         </link>
       </links>
