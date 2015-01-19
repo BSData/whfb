@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="8" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1672,6 +1672,147 @@ Ignore the second sentence.</description>
           <modifiers/>
         </link>
         <link id="76f9b6b9-7800-2f00-2623-2505e4471162" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bea1-ffe1-de40-6a04" name="Lord Skreech - Verminking (The End Times)" points="650.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="7056-969d-e19e-22bf" name="Magic Items: Weapons" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="898e-f879-db09-fb7f" name="AB - Doom Glaive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="967c-9ab6-df2b-600f" profileTypeId="576561706f6e23232344415441232323" name="Doom Glaive" hidden="false" book="AB" page="40">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="a1ec-2431-c4d1-cbad" name="Plaguereaper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="c655-f975-d7ec-2a61" profileTypeId="576561706f6e23232344415441232323" name="Plaguereaper" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="763b-dae8-251e-0ee6" targetId="bd9ce5b4-f620-a8c3-e552-671e5a95cfae" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="7fc6-8aa4-ebe8-eb81" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="08bb-c211-de5f-48a5" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="86ef-6271-eeb6-83e7" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="eb06-8d18-dde4-0270" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="6ce1-e500-2637-e3fa" name="Rat Daemon" hidden="false" book="AB" page="40">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="0db2-2db7-af0f-3c89" name="the Dreaded Thirteenth Spell" hidden="false" book="">
+          <description>One of his spells must be The Dreaded Thirteenth SPell; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
+          <modifiers/>
+        </rule>
+        <rule id="dcad-c40c-d2e5-c821" name="Ruinous Arsenal" hidden="false">
+          <description>Skreech Verminking is armed with two Magic Weapons: a Doom Glaive and a Plaguereaper. At the start of each CC phase, you must declare which weapon he is going to use for that turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5c76-4ab2-9b75-a202" name="Daemonic Attacks" hidden="false">
+          <description>Attacks made by a model with this special rule are magical. This includes any special, ranged or Stomp attacks they make.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ea9f-82df-7b43-57fe" name="Master of Ruin" hidden="false">
+          <description>Skreech Verminking re-rolls failed casting attempts when attempthing to cast The Dreaded Thirteenth Spell.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="fc45-52ca-cd73-e29a" profileTypeId="4d6f64656c23232344415441232323" name="Lord Skreech" hidden="false" book="AB" page="40">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="10"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="13a8-7e6e-6fd0-ea94" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6b7-cc6b-c9ef-ca91" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f386-d2f4-68e4-5728" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="354b-5cf4-6405-b420" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41bb-ac2a-299a-27f4" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5573,6 +5714,133 @@ automatically and will not strike back.”</description>
         </link>
       </links>
     </entry>
+    <entry id="87be-8c55-53a1-7273" name="Verminlord Corruptor" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3148-c407-811c-2d2f" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e0ba-c211-0be8-363d" name="Plaguereaper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="db9a-49f0-1f30-06b4" profileTypeId="576561706f6e23232344415441232323" name="Plaguereaper" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="e412-4895-94c3-e0af" targetId="bd9ce5b4-f620-a8c3-e552-671e5a95cfae" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="bf86-bb97-07b0-e018" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8f06-7279-953c-6576" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="6a5f-db24-f0c2-8e77" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="d94f-1230-29d1-c648" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="b853-3cb0-bc25-46f3" name="Rat Daemon" hidden="false" book="AB" page="40">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7da4-1474-b049-3bf2" name="Plague Spell" hidden="false" book="">
+          <description>One of his spells must be Plague; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7ec4-9bf6-6aa3-6152" name="Protection of the Horned Rat" hidden="false">
+          <description>A model with this special rule has a 5+ ward save.</description>
+          <modifiers/>
+        </rule>
+        <rule id="46c4-3f84-5fd7-2751" name="Daemonic Attacks" hidden="false">
+          <description>Attacks made by a model with this special rule are magical. This includes any special, ranged or Stomp attacks they make.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8683-cd1f-bf13-d15b" name="Plaguemaster" hidden="false">
+          <description>A Verminlord Corruptor can re-roll failed casting attempts when attempting to cast Plague.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f1ce-e727-5eea-ce43" profileTypeId="4d6f64656c23232344415441232323" name="Verminlord Corruptor" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="10"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="037d-1e53-de8b-cf81" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3745-2154-255c-6b8f" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e54-4a9c-c496-6d70" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a444-daa6-6bcd-3df7" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8088-e5f3-b865-0c67" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cdc0-2515-6358-cff3" targetId="93fdd5b7-4314-a026-0a3f-b9f3b40afe12" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="4c870d1a-af1a-9bc2-083d-617721632e39" name="Warlock Engineer" points="15.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="a694085e-4c68-173f-bc78-0b6780051399" name="Magic Items and Scavenge-pile items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -6211,62 +6479,43 @@ machine with three crew.”</description>
         </link>
       </links>
     </entry>
-    <entry id="bea1-ffe1-de40-6a04" name="Lord Skreech - Verminking (The End Times)" points="650.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="8837-cbac-9b2d-6ae6" name="Verminlord Warbringer" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="7056-969d-e19e-22bf" name="Magic Items: Weapons" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="b2a2-c270-b71c-f079" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="898e-f879-db09-fb7f" name="AB - Doom Glaive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
+            <entry id="531e-53fe-1f77-df5e" name="Doom Glaive and Punch-dagger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="967c-9ab6-df2b-600f" profileTypeId="576561706f6e23232344415441232323" name="Doom Glaive" hidden="false" book="AB" page="40">
+                <profile id="ed8a-8120-0a05-8ae9" profileTypeId="576561706f6e23232344415441232323" name="Doom Glaive and Punch-dagger" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
                     <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73)"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons
+Killing Blow
+Multiple Wounds (D3)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
               </profiles>
               <links/>
             </entry>
-            <entry id="a1ec-2431-c4d1-cbad" name="Plaguereaper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="c655-f975-d7ec-2a61" profileTypeId="576561706f6e23232344415441232323" name="Plaguereaper" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="763b-dae8-251e-0ee6" targetId="bd9ce5b4-f620-a8c3-e552-671e5a95cfae" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="7fc6-8aa4-ebe8-eb81" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="d851-6dfb-b4db-b485" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="08bb-c211-de5f-48a5" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="203a-3b69-04dc-293e" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups>
-                <entryGroup id="86ef-6271-eeb6-83e7" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="c22c-5880-536c-558c" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
-                    <entry id="eb06-8d18-dde4-0270" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="3020-4a80-ea1e-b46c" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -6293,29 +6542,29 @@ machine with three crew.”</description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="6ce1-e500-2637-e3fa" name="Rat Daemon" hidden="false" book="AB" page="40">
+        <rule id="eaec-a117-a274-75a8" name="Rat Daemon" hidden="false" book="AB" page="40">
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="0db2-2db7-af0f-3c89" name="the Dreaded Thirteenth Spell" hidden="false" book="">
-          <description>One of his spells must be The Dreaded Thirteenth SPell; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
+        <rule id="415a-2dd3-849b-a602" name="Death Frenzy Spell" hidden="false" book="">
+          <description>One of his spells must be Death Frenzy; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
           <modifiers/>
         </rule>
-        <rule id="dcad-c40c-d2e5-c821" name="Ruinous Arsenal" hidden="false">
-          <description>Skreech Verminking is armed with two Magic Weapons: a Doom Glaive and a Plaguereaper. At the start of each CC phase, you must declare which weapon he is going to use for that turn.</description>
+        <rule id="40b8-2569-67b8-1a22" name="Protection of the Horned Rat" hidden="false">
+          <description>A model with this special rule has a 5+ ward save.</description>
           <modifiers/>
         </rule>
-        <rule id="5c76-4ab2-9b75-a202" name="Daemonic Attacks" hidden="false">
+        <rule id="c8f6-8135-63f0-af77" name="Daemonic Attacks" hidden="false">
           <description>Attacks made by a model with this special rule are magical. This includes any special, ranged or Stomp attacks they make.</description>
           <modifiers/>
         </rule>
-        <rule id="ea9f-82df-7b43-57fe" name="Master of Ruin" hidden="false">
-          <description>Skreech Verminking re-rolls failed casting attempts when attempthing to cast The Dreaded Thirteenth Spell.</description>
+        <rule id="698a-1c06-1391-c0c3" name="Verminous Fury" hidden="false">
+          <description>A Verminlord Corruptor can re-roll failed casting attempts when attempting to cast Death Frenzy.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="fc45-52ca-cd73-e29a" profileTypeId="4d6f64656c23232344415441232323" name="Lord Skreech" hidden="false" book="AB" page="40">
+        <profile id="9f1b-66d2-5ca1-a3b0" profileTypeId="4d6f64656c23232344415441232323" name="Verminlord Warbringer" hidden="false" book="">
           <characteristics>
             <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
@@ -6324,7 +6573,7 @@ machine with three crew.”</description>
             <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
             <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
             <characteristic characteristicId="4923232344415441232323" name="I" value="10"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
             <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
             <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
             <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
@@ -6335,62 +6584,58 @@ machine with three crew.”</description>
         </profile>
       </profiles>
       <links>
-        <link id="13a8-7e6e-6fd0-ea94" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+        <link id="3f10-11a0-9ba8-f598" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c6b7-cc6b-c9ef-ca91" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
+        <link id="4d94-6a0c-755c-3816" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f386-d2f4-68e4-5728" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
+        <link id="4ef7-6492-8bcd-5616" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
           <modifiers/>
         </link>
-        <link id="354b-5cf4-6405-b420" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
+        <link id="fe6d-9742-a65a-b848" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
           <modifiers/>
         </link>
-        <link id="41bb-ac2a-299a-27f4" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
+        <link id="84a4-cd8a-2f34-7037" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="87be-8c55-53a1-7273" name="Verminlord Corruptor" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="dce8-be7a-0186-50a0" name="Verminlord Warpseer" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="3148-c407-811c-2d2f" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="c5f1-9d7a-64ad-194e" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="e0ba-c211-0be8-363d" name="Plaguereaper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="e744-a331-4c86-3ee7" name="Doom Glaive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="db9a-49f0-1f30-06b4" profileTypeId="576561706f6e23232344415441232323" name="Plaguereaper" hidden="false">
+                <profile id="7c18-c6f8-cfac-d52e" profileTypeId="576561706f6e23232344415441232323" name="Doom Glaive" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
                     <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always Strikes First"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
               </profiles>
-              <links>
-                <link id="e412-4895-94c3-e0af" targetId="bd9ce5b4-f620-a8c3-e552-671e5a95cfae" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="bf86-bb97-07b0-e018" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e3aa-5944-f440-1b7d" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="8f06-7279-953c-6576" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="1308-e514-cacf-1d90" name="Wizard Level 4" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups>
-                <entryGroup id="6a5f-db24-f0c2-8e77" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="7eeb-8722-f906-0eea" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
-                    <entry id="d94f-1230-29d1-c648" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="2cdd-8aa1-d9ab-f323" name="Skaven Spells of Ruin and/or Plague" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -6414,32 +6659,54 @@ machine with three crew.”</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="12a1-f86b-1041-715e" name="Magic Items: Enchanted Item" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="96a3-8285-022f-7a4a" name="Scry-orb" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="a196-7a55-8717-1e80" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Scry-orb" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="A Verminlord Warpseer has a +1 bonus to its ward save while it carries this item. Once per game, in the Shooting phase, you may choose to throw the Scry-orb. If you do so, the bonus to its ward save is immediately lost for the rest of the game."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="b853-3cb0-bc25-46f3" name="Rat Daemon" hidden="false" book="AB" page="40">
+        <rule id="8b3b-d474-239f-be46" name="Rat Daemon" hidden="false" book="AB" page="40">
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="7da4-1474-b049-3bf2" name="Plague Spell" hidden="false" book="">
-          <description>One of his spells must be Plague; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
+        <rule id="7396-9f6e-18e3-0235" name="Warp Lightning Spell" hidden="false" book="">
+          <description>One of his spells must be Warp Lightning; the remainder of his spells can be generated from the Skaven Spells of Ruin or Plague in any combination.</description>
           <modifiers/>
         </rule>
-        <rule id="7ec4-9bf6-6aa3-6152" name="Protection of the Horned Rat" hidden="false">
+        <rule id="956f-6837-a57f-0528" name="Protection of the Horned Rat" hidden="false">
           <description>A model with this special rule has a 5+ ward save.</description>
           <modifiers/>
         </rule>
-        <rule id="46c4-3f84-5fd7-2751" name="Daemonic Attacks" hidden="false">
+        <rule id="afef-acbe-be09-d1fd" name="Daemonic Attacks" hidden="false">
           <description>Attacks made by a model with this special rule are magical. This includes any special, ranged or Stomp attacks they make.</description>
           <modifiers/>
         </rule>
-        <rule id="8683-cd1f-bf13-d15b" name="Plaguemaster" hidden="false">
-          <description>A Verminlord Corruptor can re-roll failed casting attempts when attempting to cast Plague.</description>
+        <rule id="e2e4-7b20-33ed-497d" name="Master of Lightning" hidden="false">
+          <description>A Verminlord Corruptor can re-roll failed casting attempts when attempting to cast Warp Lightning. Furthermore, he always counts as rolling a 6 when determining how many hits the spell causes.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="f1ce-e727-5eea-ce43" profileTypeId="4d6f64656c23232344415441232323" name="Verminlord Corruptor" hidden="false" book="">
+        <profile id="d97f-45bb-2b79-4c0a" profileTypeId="4d6f64656c23232344415441232323" name="Verminlord Warpseer" hidden="false" book="">
           <characteristics>
             <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
@@ -6459,22 +6726,19 @@ machine with three crew.”</description>
         </profile>
       </profiles>
       <links>
-        <link id="037d-1e53-de8b-cf81" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+        <link id="3737-3f40-4a54-d9f4" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
           <modifiers/>
         </link>
-        <link id="3745-2154-255c-6b8f" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
+        <link id="0804-b8e4-8de7-25c8" targetId="1848760f-f100-63a9-4e2f-bb6388799d9b" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e54-4a9c-c496-6d70" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
+        <link id="bc3b-d7f2-cd42-6bf7" targetId="7b8e35da-2336-e4b1-178a-8fc26cfc84c5" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a444-daa6-6bcd-3df7" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
+        <link id="9ccd-15c6-1ad6-5e19" targetId="fb37e069-f1a8-8df1-26ad-721aeb489622" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8088-e5f3-b865-0c67" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cdc0-2515-6358-cff3" targetId="93fdd5b7-4314-a026-0a3f-b9f3b40afe12" linkType="rule">
+        <link id="89d5-9f93-3cc6-ba5c" targetId="73ad9d22-af7a-a754-c1d6-8fcd13f4353d" linkType="rule">
           <modifiers/>
         </link>
       </links>
