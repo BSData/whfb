@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="11" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="12" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -2647,7 +2647,7 @@
             <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
             <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
             <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
             <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
             <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
             <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
@@ -9227,7 +9227,7 @@ Armour Piercing</description>
           <profiles>
             <profile id="f70ff93a-57fd-1744-049f-a7d941232170" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Banner of Rage" hidden="false" book="AB" page="63">
               <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Bearer or his unit suffer a hit from shooting roll a D6 before to wound rolls. On a 2+ S is halved, on a 1 S is doubled! Only attacks with To Wound are affected."/>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="The bearer of the Banner of Rage can only join units that are completely comprised of models with the Mark of Khorne. Only characters that have the Mark of Khorne may join the same unit as the berar. Whilst the bearer is alive, neither he, nor his unit, can ever lose their Frenzy special rule. If the berer joins a unit that has lost its Frenzy, the unit immediately regains the Frenzy special rule."/>
               </characteristics>
               <modifiers/>
             </profile>
