@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="72aec429-2263-fde8-4399-2cbddbcc6d11" revision="4" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Dwarfs - Army Book (2014-2) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="72aec429-2263-fde8-4399-2cbddbcc6d11" revision="5" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Dwarfs - Army Book (2014-2) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4035,10 +4035,6 @@
         </modifier>
       </modifiers>
       <rules>
-        <rule id="1017-8bfb-df35-93db" name="Slayer King" hidden="false" book="AB" page="53">
-          <description>.</description>
-          <modifiers/>
-        </rule>
         <rule id="c749-5311-0f07-e8ce" name="Lord of Fire" hidden="false">
           <description>Innate bound spell (power level 5). Lord of Fire is a magic missile with a range of 24&apos;&apos; and causes 2D6 Strength 4 hits with the Flaming Attacks special rule.</description>
           <modifiers/>
