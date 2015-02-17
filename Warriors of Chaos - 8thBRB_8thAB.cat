@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="14" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="15" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -7579,6 +7579,113 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="fa97-899a-201d-6eec" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="423d-6fce-1df9-b668" name="Skarr Bloodwrath" points="300.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="8f50-4ca2-19cd-c0f9" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="be73-5313-6123-3fa4" name="Magic Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
+              <entries>
+                <entry id="4ea9-0230-7410-97f8" name="Bloodstorm Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="a020-408f-2ae3-b0e6" profileTypeId="576561706f6e23232344415441232323" name="Bloodstorm Blades" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 in the first round of close combat"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra weapons (Paired weapons)
+Impact Hits (D3)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="33f6-d69a-0c9f-ea2a" targetId="2419c318-01e1-0a71-4db1-12f934b69583" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0435-7720-1b7c-84ae" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4615-b9e4-6973-b5c6" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b791-9af2-8dc8-db00" targetId="b591f626-817e-d241-249a-ef6310e79c0f" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="aa1d-191d-d0ca-3e12" name="Bloodborn" hidden="false">
+          <description>Keep a count of the number of times Skarr Bloodwrath kills an opponent in a challenge or kills a monster - this is referred to as the Blood Tally. If he is removed as a casualty as a result of anything other than Spawdom or Dark Apotheosis, mark his position with a counter (a small coin is ideal). At the end of the turn, roll a D6 and add the current total of the Blood Tally. If the result is 1-3, remove the counter from play - this rule has no further affect. If the result is 4+, Skarr is reborn: place Skarr anywhere within 6&apos;&apos; of the centre of the counter and at least 1&apos;&apos; away from any unit and impassable terrain, then reset the Blood Tally to 0. If it is not possible to place Skarr returns to play with D3 Wounds, and suffers no bonuses or penalties incurred from his former existance. For example, if Skarr was fleeing or affected by an augment or hex spell at the time of his death, the reborn model will not be. However, any bonuses or penalties conferred as a result of Skarr rolling on the Eye of the Gods table do remain in effect.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f05b-b701-59cf-8741" profileTypeId="4d6f64656c23232344415441232323" name="Skarr Bloodwrath" hidden="false" book="AB" page="26">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="1"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7ecd-06c7-4ea7-875c" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="13fa-e26f-13c2-27af" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4830-216f-8090-021a" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="94cc-d08e-1231-38b0" targetId="af5f72ab-9df0-c9ce-fd78-a5db954e9d88" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0838-cc09-b7fc-fe00" targetId="57f38234-b51e-26b9-206c-627ca7d7a386" linkType="rule">
           <modifiers/>
         </link>
       </links>
