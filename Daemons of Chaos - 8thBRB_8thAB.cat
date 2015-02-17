@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="10" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5148,6 +5148,164 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="23308711-485c-0b4c-2041-fa582f002502" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ac6d-7635-5577-2093" name="Wrath of Khorne Bloodthirster" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+      <entries>
+        <entry id="3ed8-01a8-e8fc-00a7" name="Hellfire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3018-18ae-fbb6-feaa" profileTypeId="576561706f6e23232344415441232323" name="Hellfire" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Breath weapon"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="7a60-ff00-ffd5-2a6e" targetId="79a31248-4d71-d2d3-83e4-3bc45d7c898d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d08e-d5cd-4d86-c472" targetId="6256f6e2-3724-cd4a-d646-aadb2ef481bc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="6f86-2bc8-b3ae-ab5c" name="Deamonic Gifts" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
+          <entries>
+            <entry id="039d-8ca2-2655-dc81" name="Exalted Gifts" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="874b-a2c4-4fcc-a2cd" name="Greater Gifts" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e7d0-4910-578c-bef3" name="Lesser Gifts" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7d25-0188-b7b9-19ea" targetId="e766f518-e3ed-ad7d-1808-ec3fa044f846" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="ea68-9a8a-afc9-e266" name="Magic Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5dce-23e7-4501-b6d4" name="Wrathaxe and Bloodflail" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d86c-88b5-cffe-4a2e" profileTypeId="576561706f6e23232344415441232323" name="Wrathaxe and Bloodflail" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 Strenth in the first round of close combat"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="c209-5fc4-95d0-da6d" targetId="f0565be3-4f66-511a-fcd1-f12eef5072a0" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="9114-8c32-a384-9669" name="Relentless Hunter" hidden="false">
+          <description>A Wrath of Khorne Bloodthirster has the Hatred (characters) special rule, and adds 3&apos;&apos; to its charge range if the unit it is charging is a character, or contains one or more characters.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5dac-aefb-20aa-6e09" profileTypeId="4d6f64656c23232344415441232323" name="Wrath of Khorne Bloodthirster" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="10"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="10"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="9"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="3"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="560c-dace-2068-a5d0" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e5ae-7262-f5a2-4596" targetId="369fec70-ec57-7af3-0b40-e7d54bdaa850" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0451-27b9-8da1-2c88" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41fe-1e17-f1d0-4203" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="56b6-b1ab-ecdd-1e41" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fa55-2c93-cdea-4ef0" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b13e-19fc-4e16-6d69" targetId="1bbbe12c-6638-85a9-4c5a-83cfa9a466c8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cf67-2b46-dd3e-edf0" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dae1-0915-c32f-6c40" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7c04-90a7-067a-40e8" targetId="a2b0bb0f-9f12-1df0-a536-c9e04b5d51dc" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7970-15d8-622d-1014" targetId="35c1a4b0-928d-1315-4624-e18b28911920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac26-5101-7bf0-6c52" targetId="c8c1cf99-0c2a-48db-d514-800d7938d6dc" linkType="rule">
           <modifiers/>
         </link>
       </links>
