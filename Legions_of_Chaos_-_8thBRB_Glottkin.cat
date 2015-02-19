@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="20" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="21" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1227,7 +1227,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7e54-58c0-9aa1-204a" name="Bloodthirster of Insensate Rage" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+    <entry id="7e54-58c0-9aa1-204a" name="Bloodthirster of Insensate Rage (The End Times - Archaon)" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups>
         <entryGroup id="743d-cdcf-23ce-1439" name="Deamonic Gifts" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
@@ -14394,6 +14394,112 @@ Add the following sentence to the end of the third paragraph:
         </link>
       </links>
     </entry>
+    <entry id="b03a-f844-992f-46a2" name="Skarr Bloodwrath (The End Times - Archaon)" points="300.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="3964-5679-def6-4a8f" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="ff19-8264-58fb-84a4" name="Magic Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
+              <entries>
+                <entry id="d965-ca01-b56b-8ce3" name="Bloodstorm Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="046d-f5fb-aec8-9a94" profileTypeId="576561706f6e23232344415441232323" name="Bloodstorm Blades" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 in the first round of close combat"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra weapons (Paired weapons) Impact Hits (D3)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="fb24-77f5-4142-457f" targetId="d1b7bbc2-5258-a0b6-2ff8-614a79e117c2" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="df90-6469-d9d1-c209" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4936-9ff1-63a2-d231" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d917-daf6-d578-d7bd" targetId="332ae62e-8588-315b-c2b5-f2141f98f1a1" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="de20-c207-f347-a93d" name="Bloodborn" hidden="false">
+          <description>Keep a count of the number of times Skarr Bloodwrath kills an opponent in a challenge or kills a monster - this is referred to as the Blood Tally. If he is removed as a casualty as a result of anything other than Spawdom or Dark Apotheosis, mark his position with a counter (a small coin is ideal). At the end of the turn, roll a D6 and add the current total of the Blood Tally. If the result is 1-3, remove the counter from play - this rule has no further affect. If the result is 4+, Skarr is reborn: place Skarr anywhere within 6&apos;&apos; of the centre of the counter and at least 1&apos;&apos; away from any unit and impassable terrain, then reset the Blood Tally to 0. If it is not possible to place Skarr returns to play with D3 Wounds, and suffers no bonuses or penalties incurred from his former existance. For example, if Skarr was fleeing or affected by an augment or hex spell at the time of his death, the reborn model will not be. However, any bonuses or penalties conferred as a result of Skarr rolling on the Eye of the Gods table do remain in effect.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="bc40-93d2-6a33-74c0" profileTypeId="4d6f64656c23232344415441232323" name="Skarr Bloodwrath" hidden="false" book="AB" page="26">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="1"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f712-a138-9b54-4b92" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="75f2-06df-455b-237b" targetId="a62a306d-4613-7bb6-06c5-97af292b06da" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="463b-c47c-8bbb-a6ab" targetId="0a753dd0-7b6c-3e55-3fce-bb7f8013a6c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3013-aa5a-74bc-1553" targetId="000edf47-fecd-2e7f-a901-30058bfab866" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e06-0479-0bcb-8619" targetId="e6c394b9-0b91-dae2-d7f4-bb44da38834c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9e761345-5716-50aa-a63c-65e077ae00f4" name="Skull Cannon of Khorne" points="135.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="32">
       <entries/>
       <entryGroups/>
@@ -14656,7 +14762,7 @@ Add the following sentence to the end of the third paragraph:
         </link>
       </links>
     </entry>
-    <entry id="f913-baf0-f80f-e3cd" name="Skullreapers" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="f913-baf0-f80f-e3cd" name="Skullreapers (The End Times - Archaon)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="c302-63c7-8d6b-ca29" name="Skullreapers" points="40.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -17128,7 +17234,7 @@ can join the unit.”</description>
         </link>
       </links>
     </entry>
-    <entry id="1742-aa13-ad1f-621e" name="Wrath of Khorne Bloodthirster" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+    <entry id="1742-aa13-ad1f-621e" name="Wrath of Khorne Bloodthirster (The End Times - Archaon)" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="b820-29a8-10b3-ea1b" name="Hellfire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -17286,7 +17392,7 @@ can join the unit.”</description>
         </link>
       </links>
     </entry>
-    <entry id="cbec-48ff-94c0-5f39" name="Wrathmongers" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="cbec-48ff-94c0-5f39" name="Wrathmongers (The End Times - Archaon)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="b5d8-71d2-7d50-3400" name="Wrathmongers" points="55.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -17482,113 +17588,6 @@ can join the unit.”</description>
           <modifiers/>
         </link>
         <link id="b361972d-3a77-3d0e-9c1e-312af0905155" targetId="0a753dd0-7b6c-3e55-3fce-bb7f8013a6c6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b03a-f844-992f-46a2" name="Skarr Bloodwrath" points="300.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries>
-        <entry id="3964-5679-def6-4a8f" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="ff19-8264-58fb-84a4" name="Magic Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
-              <entries>
-                <entry id="d965-ca01-b56b-8ce3" name="Bloodstorm Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="046d-f5fb-aec8-9a94" profileTypeId="576561706f6e23232344415441232323" name="Bloodstorm Blades" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 in the first round of close combat"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra weapons (Paired weapons)
-Impact Hits (D3)"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links>
-                    <link id="fb24-77f5-4142-457f" targetId="d1b7bbc2-5258-a0b6-2ff8-614a79e117c2" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="df90-6469-d9d1-c209" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="4936-9ff1-63a2-d231" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d917-daf6-d578-d7bd" targetId="332ae62e-8588-315b-c2b5-f2141f98f1a1" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="de20-c207-f347-a93d" name="Bloodborn" hidden="false">
-          <description>Keep a count of the number of times Skarr Bloodwrath kills an opponent in a challenge or kills a monster - this is referred to as the Blood Tally. If he is removed as a casualty as a result of anything other than Spawdom or Dark Apotheosis, mark his position with a counter (a small coin is ideal). At the end of the turn, roll a D6 and add the current total of the Blood Tally. If the result is 1-3, remove the counter from play - this rule has no further affect. If the result is 4+, Skarr is reborn: place Skarr anywhere within 6&apos;&apos; of the centre of the counter and at least 1&apos;&apos; away from any unit and impassable terrain, then reset the Blood Tally to 0. If it is not possible to place Skarr returns to play with D3 Wounds, and suffers no bonuses or penalties incurred from his former existance. For example, if Skarr was fleeing or affected by an augment or hex spell at the time of his death, the reborn model will not be. However, any bonuses or penalties conferred as a result of Skarr rolling on the Eye of the Gods table do remain in effect.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="bc40-93d2-6a33-74c0" profileTypeId="4d6f64656c23232344415441232323" name="Skarr Bloodwrath" hidden="false" book="AB" page="26">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="1"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f712-a138-9b54-4b92" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="75f2-06df-455b-237b" targetId="a62a306d-4613-7bb6-06c5-97af292b06da" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="463b-c47c-8bbb-a6ab" targetId="0a753dd0-7b6c-3e55-3fce-bb7f8013a6c6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3013-aa5a-74bc-1553" targetId="000edf47-fecd-2e7f-a901-30058bfab866" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7e06-0479-0bcb-8619" targetId="e6c394b9-0b91-dae2-d7f4-bb44da38834c" linkType="rule">
           <modifiers/>
         </link>
       </links>

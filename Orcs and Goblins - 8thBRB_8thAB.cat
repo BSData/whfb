@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f7b9cf3d-e3fd-4427-a930-88a59538c9c7" revision="12" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Orcs &amp; Goblins - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8f6e9c35-8ddd-42b5-a6e1-d31bfe7afe94" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="135">
       <entries/>
@@ -193,13 +194,13 @@
       <entryGroups>
         <entryGroup id="0649d881-c9af-4d14-85ea-26a3af1d65e7" name="Magic Items: Armour" defaultEntryId="eaf3107d-baab-46bc-a18f-e3023ed54d69" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="eaf3107d-baab-46bc-a18f-e3023ed54d69" name="AB - Azhag's 'Ard Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="eaf3107d-baab-46bc-a18f-e3023ed54d69" name="AB - Azhag&apos;s &apos;Ard Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="8203213b-8480-0d70-2679-03abe88942d7" profileTypeId="41726d6f757223232344415441232323" name="Azhag's 'Ard Armour" hidden="false" book="AB" page="65">
+                <profile id="8203213b-8480-0d70-2679-03abe88942d7" profileTypeId="41726d6f757223232344415441232323" name="Azhag&apos;s &apos;Ard Armour" hidden="false" book="AB" page="65">
                   <characteristics>
                     <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="WardSave (5+)"/>
@@ -238,13 +239,13 @@
         </entryGroup>
         <entryGroup id="7741a6d2-af56-4937-a687-168b0fb82106" name="Magic Items: Weapons" defaultEntryId="48d4d94e-2363-4bed-b75a-896057b89aca" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="48d4d94e-2363-4bed-b75a-896057b89aca" name="AB - Slagga's Slashas" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="48d4d94e-2363-4bed-b75a-896057b89aca" name="AB - Slagga&apos;s Slashas" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="795db733-3f2c-64c2-c87f-7d9275a6d87b" profileTypeId="576561706f6e23232344415441232323" name="Slagga's Slashas" hidden="false" book="AB" page="65">
+                <profile id="795db733-3f2c-64c2-c87f-7d9275a6d87b" profileTypeId="576561706f6e23232344415441232323" name="Slagga&apos;s Slashas" hidden="false" book="AB" page="65">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                     <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -3236,7 +3237,7 @@
         </modifier>
       </modifiers>
       <rules>
-        <rule id="e74427ed-2e27-ca7d-9711-fb3abc3a081a" name="Da Boss 'as a Plan!" hidden="false" book="AB" page="64">
+        <rule id="e74427ed-2e27-ca7d-9711-fb3abc3a081a" name="Da Boss &apos;as a Plan!" hidden="false" book="AB" page="64">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -3298,7 +3299,7 @@
                 <profile id="68114608-7a15-67a5-01df-134da133fc80" profileTypeId="576561706f6e23232344415441232323" name="Gitsnik" hidden="false" book="AB" page="71">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always First Strike (BRB-66)"/>
                   </characteristics>
                   <modifiers/>
@@ -3335,7 +3336,14 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6c49-e7d4-7e51-e7c7" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="3d93038d-0d67-efed-5d91-26e1fa4bb30e" name="Da Immortalz" hidden="false" book="AB" page="71">
           <description>.</description>
@@ -3376,6 +3384,114 @@
           <modifiers/>
         </link>
         <link id="a0f5a2a4-82ca-070f-a5a4-cf643c21df95" targetId="49a60da1-3d41-7d06-199d-f2a896ec0eca" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6c49-e7d4-7e51-e7c7" name="Grimgor, Incarnate of Beasts (The End Times - Archaon)" points="460.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b34d-dee8-33f7-e75a" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="95c5-b56b-cb62-7ace" name="AB - Gitsnik" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d52e-1580-af0a-60ea" profileTypeId="576561706f6e23232344415441232323" name="Gitsnik" hidden="false" book="AB" page="71">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always First Strike (BRB-66)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="1039-a0e9-91dd-ee77" name="Magic Items: Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="78ea-7dab-2c9b-c48c" name="AB - Blood-Forged Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0342-e147-6692-4d5e" profileTypeId="41726d6f757223232344415441232323" name="Blood-Forged Armour" hidden="false" book="AB" page="71">
+                  <characteristics>
+                    <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="1+"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="WardSave (5+)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="354fada1-1988-4353-82c8-820d74d2ae39" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="facd-04ce-83e9-27f5" name="Da Immortalz" hidden="false" book="AB" page="71">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a5b4-7b25-733e-d861" name="Best of da Best" hidden="false">
+          <description>Grimgor can re-roll failed To Hit rolls and To Wound rolls in a challenge.</description>
+          <modifiers/>
+        </rule>
+        <rule id="4d82-199f-720f-777f" name="Locus of Ghur" hidden="false">
+          <description>Innate Bound Spell (power level 6). Locus of Ghur is an augment spell which targets all friendly units chosen from Warhammer: Orcs &amp; Goblins and Warhammer: Ogre Kingdoms within 12&apos;&apos; (not including Grimgor himself). All target units have +1 S and +1 T until the start of the controlling player&apos;s next Magic phase.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9079-a726-674c-92f0" profileTypeId="4d6f64656c23232344415441232323" name="Grimgor, Ircarnate of Beasts" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="1"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="1+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character, Black Orc)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="58b1-d352-80a5-a1fe" targetId="5bc957bc-0aab-fe27-2584-6f7f90dbda41" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5a42-b447-5817-9153" targetId="cd61578a-ffdd-fac2-fbf7-976b33b4e2f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6d4c-2923-48d3-1a00" targetId="a9a3dba6-5070-b24c-2143-20a974aaf9a9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3160-291a-1337-cc86" targetId="49a60da1-3d41-7d06-199d-f2a896ec0eca" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3449,7 +3565,7 @@
                 <profile id="1bebf9a4-6414-beb6-9f6f-b1fd008fbf51" profileTypeId="576561706f6e23232344415441232323" name="Axe of Grom" hidden="false" book="AB" page="67">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Killing Blow (BRB-72). Against Elves on a roll of 5 or 6."/>
                   </characteristics>
                   <modifiers/>
@@ -3464,7 +3580,7 @@
         </entryGroup>
         <entryGroup id="b267cebe-6815-e2e0-d9e4-879be34c8dac" name="Mount" defaultEntryId="a8b11583-46fb-93ee-e0a9-69e2abeac8ff" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="a8b11583-46fb-93ee-e0a9-69e2abeac8ff" name="Grom's Chariot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="a8b11583-46fb-93ee-e0a9-69e2abeac8ff" name="Grom&apos;s Chariot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
                 <entry id="a78e60c3-04a6-2299-ccc6-01bc030aeaaa" name="Steeds" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -3483,7 +3599,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="88795562-dae5-cc5d-f7df-2acab7859ffb" profileTypeId="4d6f64656c23232344415441232323" name="Grom's Chariot" hidden="false" book="AB" page="67">
+                <profile id="88795562-dae5-cc5d-f7df-2acab7859ffb" profileTypeId="4d6f64656c23232344415441232323" name="Grom&apos;s Chariot" hidden="false" book="AB" page="67">
                   <characteristics>
                     <characteristic characteristicId="4d23232344415441232323" name="M" value="-"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="-"/>
@@ -3533,7 +3649,7 @@
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="fba5fa89-ab20-7a54-685a-4a8ea0f83398" name="Grom's Waaagh!" hidden="false" book="AB" page="67">
+        <rule id="fba5fa89-ab20-7a54-685a-4a8ea0f83398" name="Grom&apos;s Waaagh!" hidden="false" book="AB" page="67">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -4756,9 +4872,9 @@
         </link>
       </links>
     </entry>
-    <entry id="967f92e3-ec9a-46c2-8833-a832f8eb5215" name="Orc Big 'Uns" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="967f92e3-ec9a-46c2-8833-a832f8eb5215" name="Orc Big &apos;Uns" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="8356a588-7cad-46a2-a0a0-8265b239f2de" name="Orc Big 'Un" points="8.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="8356a588-7cad-46a2-a0a0-8265b239f2de" name="Orc Big &apos;Un" points="8.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
             <entry id="79fd8001-f8f5-467f-9c48-e231a24cab25" name="Shields" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
               <entries/>
@@ -4809,7 +4925,7 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d85abc0f-0a61-2260-d2d0-673a17fc43a9" profileTypeId="4d6f64656c23232344415441232323" name="Orc Big 'Un" hidden="false" book="AB" page="36">
+            <profile id="d85abc0f-0a61-2260-d2d0-673a17fc43a9" profileTypeId="4d6f64656c23232344415441232323" name="Orc Big &apos;Un" hidden="false" book="AB" page="36">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -5127,7 +5243,7 @@
         </link>
       </links>
     </entry>
-    <entry id="5bf95825-8753-448b-b000-6e3b0bda9256" name="Orc Boar Boy Big 'Uns" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="5bf95825-8753-448b-b000-6e3b0bda9256" name="Orc Boar Boy Big &apos;Uns" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="5ffb7399-bc4e-431a-b803-8c8b9a2249a4" name="Orc Boar Boyz" points="20.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -5167,7 +5283,7 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="2441a98b-8f70-3744-9f40-c40e00239230" profileTypeId="4d6f64656c23232344415441232323" name="Orc Boar Boy Big 'Un" hidden="false" book="AB" page="37">
+            <profile id="2441a98b-8f70-3744-9f40-c40e00239230" profileTypeId="4d6f64656c23232344415441232323" name="Orc Boar Boy Big &apos;Un" hidden="false" book="AB" page="37">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -6268,9 +6384,9 @@
         </link>
       </links>
     </entry>
-    <entry id="510b3fdd-898d-44f6-b974-89141727a0ec" name="Savage Orc Big 'Uns" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="510b3fdd-898d-44f6-b974-89141727a0ec" name="Savage Orc Big &apos;Uns" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="fc2769bc-6d3e-488d-aabc-bc7eb86f3fba" name="Savage Orc Big 'Un" points="10.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="fc2769bc-6d3e-488d-aabc-bc7eb86f3fba" name="Savage Orc Big &apos;Un" points="10.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
             <entry id="f3a9578e-ac87-40f5-b4b2-6522983e920c" name="Shields" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
               <entries/>
@@ -6333,7 +6449,7 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="64f1b822-0e72-7aca-3a5c-4610157f0539" profileTypeId="4d6f64656c23232344415441232323" name="Savage Orc Big 'Un" hidden="false" book="AB" page="40">
+            <profile id="64f1b822-0e72-7aca-3a5c-4610157f0539" profileTypeId="4d6f64656c23232344415441232323" name="Savage Orc Big &apos;Un" hidden="false" book="AB" page="40">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -6650,9 +6766,9 @@
         </link>
       </links>
     </entry>
-    <entry id="a74814e9-1eed-4fe4-8859-6a2490be7b3c" name="Savage Orc Boar Boy Big 'Uns" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="a74814e9-1eed-4fe4-8859-6a2490be7b3c" name="Savage Orc Boar Boy Big &apos;Uns" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="c8eb80c9-31ca-4c07-a703-e157634f3303" name="Savage Orc Boar Boy Big 'Uns" points="22.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="c8eb80c9-31ca-4c07-a703-e157634f3303" name="Savage Orc Boar Boy Big &apos;Uns" points="22.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
             <entry id="1bdad730-2898-49dc-8c14-921f1ec22c92" name="Shields" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
               <entries/>
@@ -6710,7 +6826,7 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="c86a3470-734b-1b70-7733-db55c4836d4b" profileTypeId="4d6f64656c23232344415441232323" name="Savage Orc Boar Boy Big 'Un" hidden="false" book="AB" page="41">
+            <profile id="c86a3470-734b-1b70-7733-db55c4836d4b" profileTypeId="4d6f64656c23232344415441232323" name="Savage Orc Boar Boy Big &apos;Un" hidden="false" book="AB" page="41">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -7683,13 +7799,13 @@
       <entryGroups>
         <entryGroup id="281a7ff9-2b0f-4a35-86d7-1b5503f17235" name="Magic Items: Weapons" defaultEntryId="d5a4753d-a3b7-4348-912b-0651da1c9c9e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="d5a4753d-a3b7-4348-912b-0651da1c9c9e" name="AB - Skarsnik's Prodder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="d5a4753d-a3b7-4348-912b-0651da1c9c9e" name="AB - Skarsnik&apos;s Prodder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="55aed565-c771-d1d0-fc70-192987e7bb84" profileTypeId="576561706f6e23232344415441232323" name="Skarsnik's Prodder" hidden="false" book="AB" page="68">
+                <profile id="55aed565-c771-d1d0-fc70-192987e7bb84" profileTypeId="576561706f6e23232344415441232323" name="Skarsnik&apos;s Prodder" hidden="false" book="AB" page="68">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                     <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -7892,7 +8008,7 @@
               <entryGroups/>
               <modifiers/>
               <rules>
-                <rule id="f724d3cd-b0a1-ec8d-f171-1dcb010a70bc" name="Flappa's" hidden="false" book="AB" page="59">
+                <rule id="f724d3cd-b0a1-ec8d-f171-1dcb010a70bc" name="Flappa&apos;s" hidden="false" book="AB" page="59">
                   <description>.</description>
                   <modifiers/>
                 </rule>
@@ -7900,12 +8016,12 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="dfab481f-9aae-4352-adec-276ece335248" name="Giant Explodin' Spores" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="dfab481f-9aae-4352-adec-276ece335248" name="Giant Explodin&apos; Spores" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules>
-                <rule id="b0a35ef5-0786-df33-852e-33b385426199" name="Giant Explodin' Spores" hidden="false" book="AB" page="59">
+                <rule id="b0a35ef5-0786-df33-852e-33b385426199" name="Giant Explodin&apos; Spores" hidden="false" book="AB" page="59">
                   <description>.</description>
                   <modifiers/>
                 </rule>
@@ -7928,7 +8044,7 @@
         </modifier>
       </modifiers>
       <rules>
-        <rule id="01af4f62-939b-02b6-6016-84dddbb96f5f" name="Impact Hits (2D6)(FAQ'ed)" hidden="false" book="BRB" page="71">
+        <rule id="01af4f62-939b-02b6-6016-84dddbb96f5f" name="Impact Hits (2D6)(FAQ&apos;ed)" hidden="false" book="BRB" page="71">
           <description>ERRATA:
 Change “[...]this rule has no effect.” to “[...]no Impact Hits
 are inflicted.”
@@ -7983,7 +8099,7 @@ Add the following sentence to the end of the third paragraph:
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="c6449b09-aa42-ed84-1381-9d58efbd4551" profileTypeId="576561706f6e23232344415441232323" name="Explodin' Spores" hidden="false" book="AB" page="58">
+        <profile id="c6449b09-aa42-ed84-1381-9d58efbd4551" profileTypeId="576561706f6e23232344415441232323" name="Explodin&apos; Spores" hidden="false" book="AB" page="58">
           <characteristics>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&quot;"/>
             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -8057,7 +8173,7 @@ Add the following sentence to the end of the third paragraph:
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="f1a351d6-4f2a-00d9-6a22-83eb9343df0d" profileTypeId="576561706f6e23232344415441232323" name="Explodin' Spores" hidden="false" book="AB" page="58">
+        <profile id="f1a351d6-4f2a-00d9-6a22-83eb9343df0d" profileTypeId="576561706f6e23232344415441232323" name="Explodin&apos; Spores" hidden="false" book="AB" page="58">
           <characteristics>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6&quot;"/>
             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -8349,7 +8465,7 @@ Add the following sentence to the end of the third paragraph:
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="edb4a6b3-2eed-37f2-ce00-24d9186460fb" name="Wurrzag's Revenge" hidden="false" book="AB" page="66">
+        <rule id="edb4a6b3-2eed-37f2-ce00-24d9186460fb" name="Wurrzag&apos;s Revenge" hidden="false" book="AB" page="66">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -9202,13 +9318,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="2358fb3e-f203-0e0d-f544-4f4b98362574" name="BRB - Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="2358fb3e-f203-0e0d-f544-4f4b98362574" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="52e557a9-92c5-345b-848d-6a134503dd70" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir's Hex Scroll" hidden="false" book="BRB" page="504">
+            <profile id="52e557a9-92c5-345b-848d-6a134503dd70" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
               </characteristics>
@@ -9223,7 +9339,7 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0578474c-ad98-8331-ba2c-f52945812e1b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (FAQ'ed)" hidden="false" book="BRB" page="504">
+            <profile id="0578474c-ad98-8331-ba2c-f52945812e1b" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (FAQ&apos;ed)" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 bonus on attempts to dispel"/>
               </characteristics>
@@ -9232,15 +9348,15 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="1f076797-b588-cc58-1333-06852bb1b099" name="BRB - Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="1f076797-b588-cc58-1333-06852bb1b099" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="568f5e12-3023-520d-1633-d467161972a5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster's Shard" hidden="false" book="BRB" page="504">
+            <profile id="568f5e12-3023-520d-1633-d467161972a5" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" book="BRB" page="504">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer's spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9329,13 +9445,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="ad7c1dd6-94b0-22d2-ed31-52060b4c337e" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="ad7c1dd6-94b0-22d2-ed31-52060b4c337e" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ed197b5a-5b28-00ec-84f8-37f271b1426f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" book="BRB" page="505">
+            <profile id="ed197b5a-5b28-00ec-84f8-37f271b1426f" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
               </characteristics>
@@ -9352,7 +9468,7 @@ Add the following sentence to the end of the third paragraph:
           <profiles>
             <profile id="5cfc1da1-1c4a-d353-ae76-da9eb4cda6a8" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9382,7 +9498,7 @@ Add the following sentence to the end of the third paragraph:
           <profiles>
             <profile id="3cc9f6a9-fe89-27de-8e7d-043d02b9c07c" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9397,7 +9513,7 @@ Add the following sentence to the end of the third paragraph:
           <profiles>
             <profile id="50f9a54d-51c0-4592-29cc-fe8de7c44a56" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9412,7 +9528,7 @@ Add the following sentence to the end of the third paragraph:
           <profiles>
             <profile id="a2e40355-48b0-a221-00f8-0a5b0528f4b0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9427,7 +9543,7 @@ Add the following sentence to the end of the third paragraph:
           <profiles>
             <profile id="aa3fb4e4-d075-9117-c572-054aae41ed32" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9449,13 +9565,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="876eb251-ffec-e264-4815-2b7ea0e2ecfa" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="876eb251-ffec-e264-4815-2b7ea0e2ecfa" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="568b21e9-097a-ac11-c0aa-70f562d30bee" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" book="BRB" page="505">
+            <profile id="568b21e9-097a-ac11-c0aa-70f562d30bee" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
               </characteristics>
@@ -9612,13 +9728,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="61b8cb20-244f-b3b8-84cc-978993efb4bc" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="61b8cb20-244f-b3b8-84cc-978993efb4bc" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="38561225-13ce-d63f-2a78-d3072670bbe9" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" book="BRB" page="502">
+            <profile id="38561225-13ce-d63f-2a78-d3072670bbe9" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -9692,16 +9808,16 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="0dbae190-881e-9e92-7ea4-6719aa796782" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="0dbae190-881e-9e92-7ea4-6719aa796782" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="63a1d859-a2d7-0669-b31f-6c6aa942b6ca" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" book="BRB" page="502">
+            <profile id="63a1d859-a2d7-0669-b31f-6c6aa942b6ca" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9746,13 +9862,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="0d4c5d45-11a2-bfd6-0f06-256578c20bc2" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="0d4c5d45-11a2-bfd6-0f06-256578c20bc2" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9e810442-b50c-66de-c274-bfcfe5730c0d" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" book="BRB" page="503">
+            <profile id="9e810442-b50c-66de-c274-bfcfe5730c0d" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
               </characteristics>
@@ -9859,7 +9975,7 @@ Add the following sentence to the end of the third paragraph:
           <profiles>
             <profile id="bf8a8163-d1f2-34c6-113a-526d0350d3f4" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9881,13 +9997,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="988900b5-2936-75b2-784d-6964259cf43c" name="BRB - Rampager's Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="988900b5-2936-75b2-784d-6964259cf43c" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="abab9ae9-109b-9ef8-351d-adcd18bb73ca" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager's Standard" hidden="false" book="BRB" page="503">
+            <profile id="abab9ae9-109b-9ef8-351d-adcd18bb73ca" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
               </characteristics>
@@ -9896,13 +10012,13 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="e04bee39-d1db-fed8-1c53-af576d7d599a" name="AB - Mork's War Banner" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="e04bee39-d1db-fed8-1c53-af576d7d599a" name="AB - Mork&apos;s War Banner" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="5eea48bd-10ea-01fa-95ac-83d2ccd4be13" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Mork's War Banner" hidden="false" book="AB" page="75">
+            <profile id="5eea48bd-10ea-01fa-95ac-83d2ccd4be13" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Mork&apos;s War Banner" hidden="false" book="AB" page="75">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Magic Resistance (D6) (BRB-72) (Determine first time Saving Throw against spells is used per turn), All magic items in base contact with bearer do not work."/>
               </characteristics>
@@ -9982,17 +10098,17 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="cfbce7c6-c9ef-96d1-aee9-0bcb81c53ea5" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="cfbce7c6-c9ef-96d1-aee9-0bcb81c53ea5" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="8cbb4bc4-3492-79f6-ca44-7046e0d47b0f" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" book="BRB" page="501">
+            <profile id="8cbb4bc4-3492-79f6-ca44-7046e0d47b0f" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons(FAQ'ed) (BRB-501). WS 10."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons(FAQ&apos;ed) (BRB-501). WS 10."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -10008,7 +10124,7 @@ Add the following sentence to the end of the third paragraph:
             <profile id="0c8b05ae-bff5-fd07-2891-3a216bd5c087" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -10059,7 +10175,7 @@ Add the following sentence to the end of the third paragraph:
             <profile id="74a6640b-b845-4acf-7523-c5c38165b466" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -10178,7 +10294,7 @@ Add the following sentence to the end of the third paragraph:
             <profile id="527adf50-65f8-817d-afb4-161c0b3277cb" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -10271,16 +10387,16 @@ Add the following sentence to the end of the third paragraph:
           </profiles>
           <links/>
         </entry>
-        <entry id="30819c61-4695-4d4c-0bf3-50b4628a9463" name="AB - Basha's Axe of Stunty Smashin'" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="30819c61-4695-4d4c-0bf3-50b4628a9463" name="AB - Basha&apos;s Axe of Stunty Smashin&apos;" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="23a70281-cfd7-bac6-158e-83491926485f" profileTypeId="576561706f6e23232344415441232323" name="Basha's Axe of Stunty Smashin'" hidden="false" book="AB" page="74">
+            <profile id="23a70281-cfd7-bac6-158e-83491926485f" profileTypeId="576561706f6e23232344415441232323" name="Basha&apos;s Axe of Stunty Smashin&apos;" hidden="false" book="AB" page="74">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1 (+2 if in contact with Dwarf)"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1 (+2 if in contact with Dwarf)"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1A (+2 if in contact with Dwarf), Armour Piercing (BRB-67), Fear (BRB-69) to Dwarfs"/>
               </characteristics>
               <modifiers/>
@@ -10499,7 +10615,7 @@ Add the following sentence to the end of the third paragraph:
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="897e593a-39c1-c4b6-eab7-c45aa919316d" name="Always Strikes First (FAQ'ed)" hidden="false" book="BRB" page="66">
+    <rule id="897e593a-39c1-c4b6-eab7-c45aa919316d" name="Always Strikes First (FAQ&apos;ed)" hidden="false" book="BRB" page="66">
       <description>ERRATA
 Change “[...]re-roll failed misses[...]” to “[...]re-roll
 misses[...]” in the first sentence of the third paragraph.</description>
@@ -10509,7 +10625,7 @@ misses[...]” in the first sentence of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="9f7b29bb-1d44-bfa6-9319-52b3dc67e70b" name="Ambushers (FAQ'ed)" hidden="false" book="BRB" page="79">
+    <rule id="9f7b29bb-1d44-bfa6-9319-52b3dc67e70b" name="Ambushers (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
 turn[...]” in the second paragraph</description>
@@ -10527,7 +10643,7 @@ turn[...]” in the second paragraph</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="bbe1626f-22db-e888-508c-185c61a0fde1" name="Big 'Uns" hidden="false" book="AB" page="33">
+    <rule id="bbe1626f-22db-e888-508c-185c61a0fde1" name="Big &apos;Uns" hidden="false" book="AB" page="33">
       <description>.</description>
       <modifiers/>
     </rule>
@@ -10551,7 +10667,7 @@ turn[...]” in the second paragraph</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="dbf68ebf-edb4-3d35-bc93-dd6a52927741" name="Extra Attack (FAQ'ed)" hidden="false" book="BRB" page="69">
+    <rule id="dbf68ebf-edb4-3d35-bc93-dd6a52927741" name="Extra Attack (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
       <description>ERRATA:
 Add “Unlike most special rules, the effects of multiple Extra
 Attack special rules are cumulative.”</description>
@@ -10573,7 +10689,7 @@ Attack special rules are cumulative.”</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="3ed373d3-7e73-ce97-0380-8ffb25693d59" name="Fight in Extra Ranks (FAQ'ed)" hidden="false" book="BRB" page="69">
+    <rule id="3ed373d3-7e73-ce97-0380-8ffb25693d59" name="Fight in Extra Ranks (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
       <description>ERRATA
 Add “Unlike most special rules, the effects of multiple Fight
 In Extra Ranks special rules are cumulative.”</description>
@@ -10623,7 +10739,7 @@ In Extra Ranks special rules are cumulative.”</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="d7d8310c-98be-ec3f-e08b-5939c86b5b37" name="Impact Hits (D6) (FAQ'ed)" hidden="false" book="BRB" page="71">
+    <rule id="d7d8310c-98be-ec3f-e08b-5939c86b5b37" name="Impact Hits (D6) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
       <description>ERRATA:
 Change “[...]this rule has no effect.” to “[...]no Impact Hits
 are inflicted.”
@@ -10688,7 +10804,7 @@ Add the following sentence to the end of the third paragraph:
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="2e104a4a-fe1e-12e5-dc30-59cafb953e99" name="Random Movement (FAQ'ed)" hidden="false" book="BRB" page="74">
+    <rule id="2e104a4a-fe1e-12e5-dc30-59cafb953e99" name="Random Movement (FAQ&apos;ed)" hidden="false" book="BRB" page="74">
       <description>ERRATA:
 Add “If a model has the Random Movement and Swiftstride
 special rules (a chariot with Random Movement, for example),
@@ -10720,7 +10836,7 @@ first paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="3a25ec23-8e0b-fe36-c2f8-78bf52652ea6" name="Skirmishers (FAQ'ed)" hidden="false" book="BRB" page="77">
+    <rule id="3a25ec23-8e0b-fe36-c2f8-78bf52652ea6" name="Skirmishers (FAQ&apos;ed)" hidden="false" book="BRB" page="77">
       <description>ERRATA
 Free Reform.
 Change “[...]move, provided[...]” to “[...]move, even if it
@@ -10736,7 +10852,7 @@ combat[...]”.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="9423deae-9949-edad-5c0b-8056cbe7c35e" name="Sniper (FAQ'ed)" hidden="false" book="BRB" page="75">
+    <rule id="9423deae-9949-edad-5c0b-8056cbe7c35e" name="Sniper (FAQ&apos;ed)" hidden="false" book="BRB" page="75">
       <description>ERRATA:
 Change “A model making a[...]” to “unless making a Stand
 and Shoot charge reaction, a model making a[...]” at the start
@@ -10811,10 +10927,10 @@ of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="3318cd43-d7a1-b20f-f361-34fc2201e68a" name="Vanguard (FAQ'ed)" hidden="false" book="BRB" page="79">
+    <rule id="3318cd43-d7a1-b20f-f361-34fc2201e68a" name="Vanguard (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
       <description>ERRATA:
-Change “[...]make a 12" move[...]” to “[...]make a move of
-up to 12"[...]”.</description>
+Change “[...]make a 12&quot; move[...]” to “[...]make a move of
+up to 12&quot;[...]”.</description>
       <modifiers/>
     </rule>
     <rule id="9e93f03e-75c6-1943-640d-36e97d61d265" name="Volley Fire" hidden="false" book="BRB" page="78">
@@ -10858,7 +10974,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="196f6986-05f2-a71d-c26a-ba726d58e9e7" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Combat) (FAQ'ed)" hidden="false" book="BRB" page="91">
+    <profile id="196f6986-05f2-a71d-c26a-ba726d58e9e7" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Combat) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -10866,7 +10982,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e5153ced-f632-e415-4dcd-7ceabae3e11a" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Shooting) (FAQ'ed)" hidden="false" book="BRB" page="91">
+    <profile id="e5153ced-f632-e415-4dcd-7ceabae3e11a" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Shooting) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
@@ -10911,7 +11027,7 @@ up to 12"[...]”.</description>
     <profile id="c0a9436a-9d9e-b6a4-3546-40fbbf63969f" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)"/>
       </characteristics>
       <modifiers/>
@@ -10919,7 +11035,7 @@ up to 12"[...]”.</description>
     <profile id="90dcca39-a5ad-63ba-b893-f454dac2bb91" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
       </characteristics>
       <modifiers/>
@@ -11049,7 +11165,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a4ea0354-a2a3-105f-66b5-e60a746c793e" profileTypeId="576561706f6e23232344415441232323" name="Two/Additional Hand Weapons (Models on foot only) (FAQ'ed)" hidden="false" book="BRB" page="91">
+    <profile id="a4ea0354-a2a3-105f-66b5-e60a746c793e" profileTypeId="576561706f6e23232344415441232323" name="Two/Additional Hand Weapons (Models on foot only) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>

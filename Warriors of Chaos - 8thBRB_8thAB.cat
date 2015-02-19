@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="15" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" revision="16" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a4cb073f-d622-39f0-896a-082cfaf125b6" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -6497,6 +6497,112 @@ Armour Piercing</description>
         </link>
       </links>
     </entry>
+    <entry id="423d-6fce-1df9-b668" name="Skarr Bloodwrath (The End Times - Archaon)" points="300.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="8f50-4ca2-19cd-c0f9" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="be73-5313-6123-3fa4" name="Magic Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
+              <entries>
+                <entry id="4ea9-0230-7410-97f8" name="Bloodstorm Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="a020-408f-2ae3-b0e6" profileTypeId="576561706f6e23232344415441232323" name="Bloodstorm Blades" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 in the first round of close combat"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra weapons (Paired weapons) Impact Hits (D3)"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="33f6-d69a-0c9f-ea2a" targetId="2419c318-01e1-0a71-4db1-12f934b69583" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0435-7720-1b7c-84ae" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4615-b9e4-6973-b5c6" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b791-9af2-8dc8-db00" targetId="b591f626-817e-d241-249a-ef6310e79c0f" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="aa1d-191d-d0ca-3e12" name="Bloodborn" hidden="false">
+          <description>Keep a count of the number of times Skarr Bloodwrath kills an opponent in a challenge or kills a monster - this is referred to as the Blood Tally. If he is removed as a casualty as a result of anything other than Spawdom or Dark Apotheosis, mark his position with a counter (a small coin is ideal). At the end of the turn, roll a D6 and add the current total of the Blood Tally. If the result is 1-3, remove the counter from play - this rule has no further affect. If the result is 4+, Skarr is reborn: place Skarr anywhere within 6&apos;&apos; of the centre of the counter and at least 1&apos;&apos; away from any unit and impassable terrain, then reset the Blood Tally to 0. If it is not possible to place Skarr returns to play with D3 Wounds, and suffers no bonuses or penalties incurred from his former existance. For example, if Skarr was fleeing or affected by an augment or hex spell at the time of his death, the reborn model will not be. However, any bonuses or penalties conferred as a result of Skarr rolling on the Eye of the Gods table do remain in effect.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f05b-b701-59cf-8741" profileTypeId="4d6f64656c23232344415441232323" name="Skarr Bloodwrath" hidden="false" book="AB" page="26">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="1"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7ecd-06c7-4ea7-875c" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="13fa-e26f-13c2-27af" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4830-216f-8090-021a" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="94cc-d08e-1231-38b0" targetId="af5f72ab-9df0-c9ce-fd78-a5db954e9d88" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0838-cc09-b7fc-fe00" targetId="57f38234-b51e-26b9-206c-627ca7d7a386" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d5006016-698a-5e1c-6036-da910d51273d" name="Skullcrushers of Khorne" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="4cb0a18b-112c-d084-c921-9de35441a7aa" name="Skullcrusher" points="75.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -6659,6 +6765,154 @@ Armour Piercing</description>
           <modifiers/>
         </link>
         <link id="f81cbdc6-0782-c4d4-9804-d9399745cfcd" targetId="cd5be81e-6ffb-681e-0e6c-fcf87d88f914" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="817b-8170-fde6-6d4d" name="Skullreapers (The End Times - Archaon)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="8cf5-5a1d-96b3-4e18" name="Skullreapers" points="40.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="c6df-891b-9a3b-acaf" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b385-3fdc-c3ea-90d5" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5c64-3122-0ddc-07cd" targetId="b591f626-817e-d241-249a-ef6310e79c0f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="2763-6284-5b2d-78dd" name="Armament" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="bc16-73a6-b021-43a7" name="Additional hand weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="10a2-2412-5878-3b19" targetId="bd1c1a48-da8a-6af8-04dc-d9ebf892118a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="4fa6-04a7-69c6-2266" name="Paired Ensorcelled Weapons" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="9633-e20c-528f-7772" targetId="b90b-f0e8-7c84-bab0" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a4a0-658e-114f-b53a" profileTypeId="4d6f64656c23232344415441232323" name="Skullreapers" hidden="false" book="">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="e2b9-7128-971e-09b2" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6883-d482-3a12-cae8" name="Standard Bearer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="bbbd-939b-d26c-e855" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="48b9-3733-ad51-1bcf" profileTypeId="4d6f64656c23232344415441232323" name="Skullreaper Champion" hidden="false" book="">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="366e-9a77-4e1a-c3a1" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b122228a-44fd-7f32-4a2e-d0fbca6406e8" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="82d8-ac08-8efa-7156" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8959-6191-00bf-4897" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -7235,208 +7489,7 @@ Armour Piercing</description>
         </link>
       </links>
     </entry>
-    <entry id="e94a640d-87f5-6d8f-8b1f-30839f03a0c2" name="Wulfrik the Wanderer" points="180.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="f6e8e5f1-53ee-ecb7-29f5-25ae298aba76" name="Gift of Tongues" hidden="false" book="AB" page="49">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="d3d0606f-6987-9259-488d-860d2efb0453" name="Hunter of Champions" hidden="false" book="AB" page="49">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-        <rule id="c01012df-fa38-4dc2-6d84-c16000d7dc19" name="Seafang" hidden="false" book="AB" page="49">
-          <description>.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="eb7bb795-19f6-afea-e1dc-4565bde12ab6" profileTypeId="4d6f64656c23232344415441232323" name="Wulfrik the Wanderer" hidden="false" book="AB" page="49">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="44694ab8-e182-b6df-784d-f2068d7680b8" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="83c1b6f6-c508-2846-c228-a2b6b985a830" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="12a58e34-0f98-3f1c-453c-17f2d8c80e80" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a131e2d7-ea59-b743-564a-7ba81942ac6b" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="817b-8170-fde6-6d4d" name="Skullreapers" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries>
-        <entry id="8cf5-5a1d-96b3-4e18" name="Skullreapers" points="40.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="c6df-891b-9a3b-acaf" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="b385-3fdc-c3ea-90d5" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="5c64-3122-0ddc-07cd" targetId="b591f626-817e-d241-249a-ef6310e79c0f" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="2763-6284-5b2d-78dd" name="Armament" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="bc16-73a6-b021-43a7" name="Additional hand weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="10a2-2412-5878-3b19" targetId="bd1c1a48-da8a-6af8-04dc-d9ebf892118a" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="4fa6-04a7-69c6-2266" name="Paired Ensorcelled Weapons" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="9633-e20c-528f-7772" targetId="b90b-f0e8-7c84-bab0" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a4a0-658e-114f-b53a" profileTypeId="4d6f64656c23232344415441232323" name="Skullreapers" hidden="false" book="">
-              <characteristics>
-                <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
-                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="e2b9-7128-971e-09b2" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="6883-d482-3a12-cae8" name="Standard Bearer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="bbbd-939b-d26c-e855" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="48b9-3733-ad51-1bcf" profileTypeId="4d6f64656c23232344415441232323" name="Skullreaper Champion" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
-                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="366e-9a77-4e1a-c3a1" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="b122228a-44fd-7f32-4a2e-d0fbca6406e8" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="82d8-ac08-8efa-7156" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="8959-6191-00bf-4897" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b6da-7cbc-5e57-04b0" name="Wrathmongers" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="b6da-7cbc-5e57-04b0" name="Wrathmongers (The End Times - Archaon)" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="63c9-2166-fa21-f8bb" name="Wrathmongers" points="55.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -7583,109 +7636,55 @@ Armour Piercing</description>
         </link>
       </links>
     </entry>
-    <entry id="423d-6fce-1df9-b668" name="Skarr Bloodwrath" points="300.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries>
-        <entry id="8f50-4ca2-19cd-c0f9" name="Magic Items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="be73-5313-6123-3fa4" name="Magic Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
-              <entries>
-                <entry id="4ea9-0230-7410-97f8" name="Bloodstorm Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="a020-408f-2ae3-b0e6" profileTypeId="576561706f6e23232344415441232323" name="Bloodstorm Blades" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2 in the first round of close combat"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra weapons (Paired weapons)
-Impact Hits (D3)"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links>
-                    <link id="33f6-d69a-0c9f-ea2a" targetId="2419c318-01e1-0a71-4db1-12f934b69583" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="0435-7720-1b7c-84ae" name="Marks of Chaos" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="4615-b9e4-6973-b5c6" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b791-9af2-8dc8-db00" targetId="b591f626-817e-d241-249a-ef6310e79c0f" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+    <entry id="e94a640d-87f5-6d8f-8b1f-30839f03a0c2" name="Wulfrik the Wanderer" points="180.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="aa1d-191d-d0ca-3e12" name="Bloodborn" hidden="false">
-          <description>Keep a count of the number of times Skarr Bloodwrath kills an opponent in a challenge or kills a monster - this is referred to as the Blood Tally. If he is removed as a casualty as a result of anything other than Spawdom or Dark Apotheosis, mark his position with a counter (a small coin is ideal). At the end of the turn, roll a D6 and add the current total of the Blood Tally. If the result is 1-3, remove the counter from play - this rule has no further affect. If the result is 4+, Skarr is reborn: place Skarr anywhere within 6&apos;&apos; of the centre of the counter and at least 1&apos;&apos; away from any unit and impassable terrain, then reset the Blood Tally to 0. If it is not possible to place Skarr returns to play with D3 Wounds, and suffers no bonuses or penalties incurred from his former existance. For example, if Skarr was fleeing or affected by an augment or hex spell at the time of his death, the reborn model will not be. However, any bonuses or penalties conferred as a result of Skarr rolling on the Eye of the Gods table do remain in effect.</description>
+        <rule id="f6e8e5f1-53ee-ecb7-29f5-25ae298aba76" name="Gift of Tongues" hidden="false" book="AB" page="49">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d3d0606f-6987-9259-488d-860d2efb0453" name="Hunter of Champions" hidden="false" book="AB" page="49">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c01012df-fa38-4dc2-6d84-c16000d7dc19" name="Seafang" hidden="false" book="AB" page="49">
+          <description>.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="f05b-b701-59cf-8741" profileTypeId="4d6f64656c23232344415441232323" name="Skarr Bloodwrath" hidden="false" book="AB" page="26">
+        <profile id="eb7bb795-19f6-afea-e1dc-4565bde12ab6" profileTypeId="4d6f64656c23232344415441232323" name="Wulfrik the Wanderer" hidden="false" book="AB" page="49">
           <characteristics>
             <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
             <characteristic characteristicId="575323232344415441232323" name="WS" value="8"/>
             <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
             <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
             <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
             <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
             <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="1"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="7ecd-06c7-4ea7-875c" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
+        <link id="44694ab8-e182-b6df-784d-f2068d7680b8" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" linkType="profile">
           <modifiers/>
         </link>
-        <link id="13fa-e26f-13c2-27af" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
+        <link id="83c1b6f6-c508-2846-c228-a2b6b985a830" targetId="bc09ffbe-55e5-77bf-1304-79e06274d011" linkType="profile">
           <modifiers/>
         </link>
-        <link id="4830-216f-8090-021a" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
+        <link id="12a58e34-0f98-3f1c-453c-17f2d8c80e80" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" linkType="profile">
           <modifiers/>
         </link>
-        <link id="94cc-d08e-1231-38b0" targetId="af5f72ab-9df0-c9ce-fd78-a5db954e9d88" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0838-cc09-b7fc-fe00" targetId="57f38234-b51e-26b9-206c-627ca7d7a386" linkType="rule">
+        <link id="a131e2d7-ea59-b743-564a-7ba81942ac6b" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -10795,6 +10794,22 @@ up to 12&quot;[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="b90b-f0e8-7c84-bab0" profileTypeId="576561706f6e23232344415441232323" name="Paired Ensorcelled Weapons" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1"/>
+        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Magical Attacks Extra Attack"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="69a7-1fcf-01f5-0c05" profileTypeId="576561706f6e23232344415441232323" name="Paired wrath-flails" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1 Strength in the first round of close combat."/>
+        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack Impact Hits (D)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="71191a0d-45e3-7e97-2097-6fe76c5fc905" profileTypeId="4d6f64656c23232344415441232323" name="Palanquin of Nurgle" hidden="false" book="AB" page="29">
       <characteristics>
         <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
@@ -10899,24 +10914,6 @@ up to 12&quot;[...]”.</description>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b90b-f0e8-7c84-bab0" profileTypeId="576561706f6e23232344415441232323" name="Paired Ensorcelled Weapons" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1"/>
-        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Magical Attacks
-Extra Attack"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="69a7-1fcf-01f5-0c05" profileTypeId="576561706f6e23232344415441232323" name="Paired wrath-flails" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1 Strength in the first round of close combat."/>
-        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack
-Impact Hits (D)"/>
       </characteristics>
       <modifiers/>
     </profile>
