@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="13" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="14" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4516,6 +4516,198 @@ first one.”</description>
         </link>
       </links>
     </entry>
+    <entry id="7d1e-8a2a-f150-16d1" name="Stormfiends" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2fbf-b828-816f-cd94" name="Stormfiends" points="85.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="6f59-d6a7-fc57-bcb6" name="Armament" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="bb4c-236a-46f9-df61" name="Doom-flayer gauntlets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="8291-73b5-3404-62a1" name="Warpstone-laced Armour" hidden="false">
+                      <description>Warpstone-laced armour gives a 4+ armour save.</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="f0af-cf89-654c-6689" profileTypeId="576561706f6e23232344415441232323" name="Doom-flayer gauntlets" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Whirling Doom"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="1d15-4181-244c-39d4" name="Grinderfists" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="3ed0-b05b-99b3-2fc6" profileTypeId="576561706f6e23232344415441232323" name="Grinderfists" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Tunneler Warp-strike Warpstone Weapon"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="051f-039d-746e-7d6a" name="Ratling cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="1937-c974-09a0-10a8" profileTypeId="576561706f6e23232344415441232323" name="Ratling cannons" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="18&apos;&apos;"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Armour Piercing Hot Warplead Multiple Shots (3D6) Quick to Fire Warpstone Weapon Wildfire"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="bd5d-5569-3a0e-a0e3" name="Shock gauntlets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="0200-5925-d770-6f20" name="Warpstone-laced Armour" hidden="false">
+                      <description>Warpstone-laced armour gives a 4+ armour save.</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="ed92-f5d7-e7d0-ffb4" profileTypeId="576561706f6e23232344415441232323" name="Shock gauntlets" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Warp Lightining Discharge"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="b33e-7dfa-08ec-5f93" name="Warpfire projetors" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="0f59-e35c-8736-8cfb" profileTypeId="576561706f6e23232344415441232323" name="Warpfire projetors" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="n/a"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flamig Attacks Multiple Wounds (D3) Move or Fire Quick to Fire Warpstone Weapon Wildly Off-target"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="1851-92d7-a976-f6f4" name="Windlaunchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="c062-8d27-71c1-e734" profileTypeId="576561706f6e23232344415441232323" name="Windlaunchers" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6-24&apos;&apos;"/>
+                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="n/a"/>
+                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Plague Wind Slow to Fire Warpsotne Weapon Wild Misfire"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8e60-0554-6ce5-810b" profileTypeId="4d6f64656c23232344415441232323" name="Stormfiends" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Infrantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="f782-85d7-7cad-c7a6" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="50c2-6dcd-db39-85d3" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e9e52978-fc66-4a5d-9761-d2eb93a24920" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="6dbe-e4d5-fb71-4585" name="Big and Bulky" hidden="false">
+          <description>Stormfiends cannot use the Fire On The March and Light Troops rules that normally apply to units with the Skirmishers special rule.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8faf-197c-3de7-49e1" name="Double the Death" hidden="false">
+          <description>Stormfiends equipped with doom-flayer gauntlets, grinderfists or shock gauntlets re-roll all failed To Wound rolls in the Close Combat phase (including Impact Hits and Stomps). Stormfiends equipped with ratling cannons, warpfire projectors or windlaunchers re-roll all failed To Wound rolls when shooting with these weapons.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7939-2a42-0a7f-6cc5" name="Warpstone-laced Armour" hidden="false">
+          <description>Stormfiends equipped with doom-flayer gauntlets or shock gauntlets have warpstone-laced armour that gives them a 4+ armour save. If a unit of Stormfiends includes one or more models with warpstone-laced armour when armour saves are taken, then use their armour save of 4+ against all of the Wounds that have been inflicted. However, any Wounds that are not saved must be applied to models with warpstone-laced armour before any are applied to models with light armour. If this creates a gap in the unit, move a model up from the back rank to fill the gap. If the unit consists of only a single rank, close the gap by moving the remaining models sideways towards the centre of the gap.
+
+Any attacks, spells or special rules which allow you to target a specific model ignore this special rule, and use the armour save of the model that is targeted; if the target has warpstone-laced armour save it has a 4+ save, and if not it has a 6+ armour save.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="a84e-1a5e-f921-1768" targetId="80a8d44b-ae46-93c1-4e80-2c912cb2838b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6b1e-ce4a-b0b8-d07f" targetId="cc6363ad-11c6-c706-c108-23aa809d12a7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="bbfaea1e-f702-444c-9ddb-634d744e1106" name="Stormvermin" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="c9f26e3c-92eb-4d58-a5a5-f3790565e4e8" name="Stormvermin" points="7.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -4709,7 +4901,7 @@ first one.”</description>
         </link>
       </links>
     </entry>
-    <entry id="56d5b2b2-0e45-f58b-e325-b437b1a3aa5b" name="Thanquol &amp; Boneripper" points="450.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="56d5b2b2-0e45-f58b-e325-b437b1a3aa5b" name="Thanquol &amp; Boneripper" points="450.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="c629fc97-ec08-55f0-ef49-4ac1f356b27a" name="Thanquol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -4930,12 +5122,19 @@ automatically and will not strike back.”</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f18f-bc95-c217-16c7" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="f18f-bc95-c217-16c7" name="Thanquol &amp; Boneripper (The End Times - Thanquol)" points="450.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="f18f-bc95-c217-16c7" name="Thanquol &amp; Boneripper (The End Times - Thanquol)" points="650.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="6069-683a-2724-926b" name="Thanquol &amp; Boneripper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -7109,213 +7308,6 @@ machine with three crew.”</description>
           <modifiers/>
         </link>
         <link id="f918068a-63db-5a4c-fc3a-989566b0c42a" targetId="ff77bad7-bbff-531e-af9e-5482bafd9cd4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7d1e-8a2a-f150-16d1" name="Stormfiends" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2fbf-b828-816f-cd94" name="Stormfiends" points="85.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="6f59-d6a7-fc57-bcb6" name="Armament" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="bb4c-236a-46f9-df61" name="Doom-flayer gauntlets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules>
-                    <rule id="8291-73b5-3404-62a1" name="Warpstone-laced Armour" hidden="false">
-                      <description>Warpstone-laced armour gives a 4+ armour save.</description>
-                      <modifiers/>
-                    </rule>
-                  </rules>
-                  <profiles>
-                    <profile id="f0af-cf89-654c-6689" profileTypeId="576561706f6e23232344415441232323" name="Doom-flayer gauntlets" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+2"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Whirling Doom"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-                <entry id="1d15-4181-244c-39d4" name="Grinderfists" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="3ed0-b05b-99b3-2fc6" profileTypeId="576561706f6e23232344415441232323" name="Grinderfists" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Tunneler
-Warp-strike
-Warpstone Weapon"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-                <entry id="051f-039d-746e-7d6a" name="Ratling cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="1937-c974-09a0-10a8" profileTypeId="576561706f6e23232344415441232323" name="Ratling cannons" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="18&apos;&apos;"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Armour Piercing
-Hot Warplead
-Multiple Shots (3D6)
-Quick to Fire
-Warpstone Weapon
-Wildfire"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-                <entry id="bd5d-5569-3a0e-a0e3" name="Shock gauntlets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules>
-                    <rule id="0200-5925-d770-6f20" name="Warpstone-laced Armour" hidden="false">
-                      <description>Warpstone-laced armour gives a 4+ armour save.</description>
-                      <modifiers/>
-                    </rule>
-                  </rules>
-                  <profiles>
-                    <profile id="ed92-f5d7-e7d0-ffb4" profileTypeId="576561706f6e23232344415441232323" name="Shock gauntlets" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="CC"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="+1"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Warp Lightining Discharge"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-                <entry id="b33e-7dfa-08ec-5f93" name="Warpfire projetors" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="0f59-e35c-8736-8cfb" profileTypeId="576561706f6e23232344415441232323" name="Warpfire projetors" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="n/a"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="5"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flamig Attacks
-Multiple Wounds (D3)
-Move or Fire
-Quick to Fire
-Warpstone Weapon
-Wildly Off-target"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-                <entry id="1851-92d7-a976-f6f4" name="Windlaunchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles>
-                    <profile id="c062-8d27-71c1-e734" profileTypeId="576561706f6e23232344415441232323" name="Windlaunchers" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="6-24&apos;&apos;"/>
-                        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="n/a"/>
-                        <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Plague Wind
-Slow to Fire
-Warpsotne Weapon
-Wild Misfire"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="8e60-0554-6ce5-810b" profileTypeId="4d6f64656c23232344415441232323" name="Stormfiends" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
-                <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
-                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
-                <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
-                <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-                <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
-                <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
-                <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
-                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
-                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Infrantry"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="f782-85d7-7cad-c7a6" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="50c2-6dcd-db39-85d3" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="e9e52978-fc66-4a5d-9761-d2eb93a24920" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules>
-        <rule id="6dbe-e4d5-fb71-4585" name="Big and Bulky" hidden="false">
-          <description>Stormfiends cannot use the Fire On The March and Light Troops rules that normally apply to units with the Skirmishers special rule.</description>
-          <modifiers/>
-        </rule>
-        <rule id="8faf-197c-3de7-49e1" name="Double the Death" hidden="false">
-          <description>Stormfiends equipped with doom-flayer gauntlets, grinderfists or shock gauntlets re-roll all failed To Wound rolls in the Close Combat phase (including Impact Hits and Stomps). Stormfiends equipped with ratling cannons, warpfire projectors or windlaunchers re-roll all failed To Wound rolls when shooting with these weapons.</description>
-          <modifiers/>
-        </rule>
-        <rule id="7939-2a42-0a7f-6cc5" name="Warpstone-laced Armour" hidden="false">
-          <description>Stormfiends equipped with doom-flayer gauntlets or shock gauntlets have warpstone-laced armour that gives them a 4+ armour save. If a unit of Stormfiends includes one or more models with warpstone-laced armour when armour saves are taken, then use their armour save of 4+ against all of the Wounds that have been inflicted. However, any Wounds that are not saved must be applied to models with warpstone-laced armour before any are applied to models with light armour. If this creates a gap in the unit, move a model up from the back rank to fill the gap. If the unit consists of only a single rank, close the gap by moving the remaining models sideways towards the centre of the gap.
-
-Any attacks, spells or special rules which allow you to target a specific model ignore this special rule, and use the armour save of the model that is targeted; if the target has warpstone-laced armour save it has a 4+ save, and if not it has a 6+ armour save.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links>
-        <link id="a84e-1a5e-f921-1768" targetId="80a8d44b-ae46-93c1-4e80-2c912cb2838b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6b1e-ce4a-b0b8-d07f" targetId="cc6363ad-11c6-c706-c108-23aa809d12a7" linkType="rule">
           <modifiers/>
         </link>
       </links>
