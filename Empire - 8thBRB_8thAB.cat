@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d0f6d5ae-af44-401a-9a02-e6df49652942" revision="6" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Empire - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d0f6d5ae-af44-401a-9a02-e6df49652942" revision="7" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Empire - Army Book (2013-4) -V8.8.2." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="578a5b26-b90b-4c1d-a24d-72d54d6114d5" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -194,7 +195,7 @@
                   <description>.</description>
                   <modifiers/>
                 </rule>
-                <rule id="55906b42-f30d-dbaf-e67c-25894f9d1a57" name="Holy Fervour (FAQ'ed)" hidden="false" book="AB" page="47">
+                <rule id="55906b42-f30d-dbaf-e67c-25894f9d1a57" name="Holy Fervour (FAQ&apos;ed)" hidden="false" book="AB" page="47">
                   <description>ERRATA
 Page 47 – War Altar of Sigmar, Holy Fervour.
 Add the following at the end of the special rule: ‘Note that in
@@ -3040,7 +3041,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="5d0decf1-f666-5508-68c8-a9b363d2ffc1" profileTypeId="4d6f64656c23232344415441232323" name="Count's Champion" hidden="false" book="AB" page="40">
+                <profile id="5d0decf1-f666-5508-68c8-a9b363d2ffc1" profileTypeId="4d6f64656c23232344415441232323" name="Count&apos;s Champion" hidden="false" book="AB" page="40">
                   <characteristics>
                     <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
@@ -5052,7 +5053,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="e7100ea9-3314-711d-d034-fb626f3c2750" name="The Emperor's Chosen" hidden="false" book="AB" page="55">
+        <rule id="e7100ea9-3314-711d-d034-fb626f3c2750" name="The Emperor&apos;s Chosen" hidden="false" book="AB" page="55">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -5110,7 +5111,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         </link>
       </links>
     </entry>
-    <entry id="cf30c02e-f21d-475d-a1a6-e697ec5ee9f6" name="Ludwig Schwarzhelm, The Emperor's Champion" points="185.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="cf30c02e-f21d-475d-a1a6-e697ec5ee9f6" name="Ludwig Schwarzhelm, The Emperor&apos;s Champion" points="185.0" categoryId="4865726f657323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="6fefd095-83df-4395-9a65-f5bbc1bb01b7" name="Magic Items: Weapons" defaultEntryId="0b14c68d-c941-41af-9e63-9e402f3d9ec1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5139,13 +5140,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         </entryGroup>
         <entryGroup id="df7ef484-74e2-4bef-9469-b9d9d048d352" name="Magic Items: Magic Standards" defaultEntryId="ff0b50fb-af06-44b0-8867-40560e913521" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="ff0b50fb-af06-44b0-8867-40560e913521" name="AB - The Emperor's Standard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="ff0b50fb-af06-44b0-8867-40560e913521" name="AB - The Emperor&apos;s Standard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="69767688-d4ba-8cb1-a0b9-60edefbdb65e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="The Emperor's Standard" hidden="false" book="AB" page="56">
+                <profile id="69767688-d4ba-8cb1-a0b9-60edefbdb65e" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="The Emperor&apos;s Standard" hidden="false" book="AB" page="56">
                   <characteristics>
                     <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Battle Standard with Hold Your Ground! (BRB-107) at 18&quot;."/>
                   </characteristics>
@@ -5162,11 +5163,11 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="cd56fd09-cfea-6202-56ad-37b5cccd063a" name="The Emperor's Herald" hidden="false" book="AB" page="56">
+        <rule id="cd56fd09-cfea-6202-56ad-37b5cccd063a" name="The Emperor&apos;s Herald" hidden="false" book="AB" page="56">
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="51795c66-087b-9bf0-d6cd-0ca34eefb05f" name="The Emperor's Bodyguard" hidden="false" book="AB" page="56">
+        <rule id="51795c66-087b-9bf0-d6cd-0ca34eefb05f" name="The Emperor&apos;s Bodyguard" hidden="false" book="AB" page="56">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -5480,7 +5481,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="2cfc00a3-be85-280c-1f34-99d1a2560372" name="Wulfhart's Hunters" hidden="false" book="AB" page="58">
+        <rule id="2cfc00a3-be85-280c-1f34-99d1a2560372" name="Wulfhart&apos;s Hunters" hidden="false" book="AB" page="58">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -5712,7 +5713,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="c6f41331-3562-4617-b07f-937a85ecadae" name="'Stand Back, Sir!'" hidden="false" book="AB" page="35">
+        <rule id="c6f41331-3562-4617-b07f-937a85ecadae" name="&apos;Stand Back, Sir!&apos;" hidden="false" book="AB" page="35">
           <description>.</description>
           <modifiers/>
         </rule>
@@ -6735,7 +6736,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <characteristics>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;(1SP) / 24&quot;(2SP) / 36&quot;(3SP)"/>
             <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="10"/>
-            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D6) (BRB-73). Fired directly ahead. If First Artillery Dice is a Misfire is doesn't fire and take D3 Wounds no ArmourSave."/>
+            <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D6) (BRB-73). Fired directly ahead. If First Artillery Dice is a Misfire is doesn&apos;t fire and take D3 Wounds no ArmourSave."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -7153,6 +7154,111 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         </link>
       </links>
     </entry>
+    <entry id="57dcc387-9ee4-3d93-3fd8-d3f04a07c8ef" name="Valten (End Times - Nagash)" points="330.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="46">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e5e75fbd-d321-9819-5a11-72a5874b50f5" name="Equipment" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="42f5cf17-55b1-c48c-711b-1ea2e7c81145" name="Two hand weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d297b09e-aefa-e727-56d3-b0eb800845c2" targetId="494e8289-5f23-d17f-365e-e25fc7fe250d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2deccdd5-ae20-b0ef-f651-c835f14e68ff" name="Full Plate, Barded Warhorse and Ghal Maraz" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="9f4676c8-04a9-f38f-26c5-57d904cce3f9" profileTypeId="576561706f6e23232344415441232323" name="Ghal Maraz" hidden="false" book="AB" page="54">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Auto wound no armour saves allowed. Multiple Wounds (D3) (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="ba5f6c8f-5351-36e9-b777-a75893255e06" profileTypeId="4d6f64656c23232344415441232323" name="Barded Warhorse" hidden="false" book="">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-2"/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="3cf85216-2b3f-8c4b-9075-5c094ccc8708" targetId="9f4ff25d-c4c5-33e4-e5a5-f01a6e4635bc" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="c1fa447b-1dde-d752-2795-0de0087b1626" targetId="b65335cd-c572-49ae-fbb8-48f59ffb85d9" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="a0190a63-dda5-2ff3-511a-68b22b6a5490" targetId="0fbf0d55-00e1-dc6c-e693-296829aaf3c5" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="727400f4-6989-5e87-7ba3-59e035a4c776" name="Chosen of Sigmar" hidden="false" book="">
+          <description>Valten has a 4+ ward save. In addition, once per game, he may harness the very power of Sigmar. Valten must declare that he is harnessig this power at the start of any Close Combat phase. If he does so, roll a d3 - Valten adds this number to his Weapon Skill, Strength, Toughness and Attacks characteristics until the end of the turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c44a3d4e-58bd-00db-2498-f55670696ce0" name="Iron Resolve" hidden="false">
+          <description>The first time Valten suffers a Wound that removes him as a casualty (including unsaved Wounds that killed him as a result of the Killing Blow, Heroic killing Blow or Multiple Wounds special rules), roll 2d6 before removing him as a casualty; if the total is less than or equal to 9, Valten negates the Wound; otherwise, Valten is removed as a casualty as normal.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="348be09d-af1e-4962-3240-be75c879499f" profileTypeId="4d6f64656c23232344415441232323" name="Valten" hidden="false" book="End Times - Nagash" page="46">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="37a19700-47fe-5a2a-0496-f2118bdb132f" targetId="7773aa81-a348-8909-1588-57f04e8d9e91" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="3b0527e4-d531-4464-bdd6-a9978e50bbe4" name="Volkmar the Grim, The Grand Theogonist" points="190.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="3d53e41c-90c7-4ba0-a81e-14485d7ce381" name="War Altar of Sigmar" points="150.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -7202,7 +7308,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
               <description>.</description>
               <modifiers/>
             </rule>
-            <rule id="0c798157-1bc8-c9f4-ae63-733cfbdab203" name="Holy Fervour (FAQ'ed)" hidden="false" book="AB" page="47">
+            <rule id="0c798157-1bc8-c9f4-ae63-733cfbdab203" name="Holy Fervour (FAQ&apos;ed)" hidden="false" book="AB" page="47">
               <description>ERRATA
 Page 47 – War Altar of Sigmar, Holy Fervour.
 Add the following at the end of the special rule: ‘Note that in
@@ -7302,7 +7408,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
                 <profile id="9076aaad-51bd-e39d-c422-766f9e49a773" profileTypeId="576561706f6e23232344415441232323" name="The Staff of Command" hidden="false" book="AB" page="59">
                   <characteristics>
                     <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2*"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2*"/>
                     <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="S bonus only on War Altar."/>
                   </characteristics>
                   <modifiers/>
@@ -7667,15 +7773,15 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         </link>
       </links>
     </entry>
-    <entry id="7e5b3c07-b0e0-46ed-9147-6e90a9b0e258" name="Wulfhart's Hunters" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="7e5b3c07-b0e0-46ed-9147-6e90a9b0e258" name="Wulfhart&apos;s Hunters" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="6b1707ff-99f4-49b5-af45-31a5795d857f" name="Wulfhart's Hunters" points="11.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="6b1707ff-99f4-49b5-af45-31a5795d857f" name="Wulfhart&apos;s Hunters" points="11.0" categoryId="(No Category)" type="model" minSelections="10" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="1109932b-393e-4d8b-57cb-39b50a5717f6" profileTypeId="4d6f64656c23232344415441232323" name="Wulfhart's Huntsman" hidden="false" book="AB" page="39">
+            <profile id="1109932b-393e-4d8b-57cb-39b50a5717f6" profileTypeId="4d6f64656c23232344415441232323" name="Wulfhart&apos;s Huntsman" hidden="false" book="AB" page="39">
               <characteristics>
                 <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                 <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
@@ -7706,7 +7812,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="f53e52d2-e601-9aa8-ee35-6260c7493c72" profileTypeId="4d6f64656c23232344415441232323" name="Wulfhart's Tracker" hidden="false" book="AB" page="39">
+                <profile id="f53e52d2-e601-9aa8-ee35-6260c7493c72" profileTypeId="4d6f64656c23232344415441232323" name="Wulfhart&apos;s Tracker" hidden="false" book="AB" page="39">
                   <characteristics>
                     <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
                     <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
@@ -7782,67 +7888,100 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         </link>
       </links>
     </entry>
-    <entry id="57dcc387-9ee4-3d93-3fd8-d3f04a07c8ef" name="Valten (End Times - Nagash)" points="330.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="46">
+    <entry id="5af8-63db-3127-5973" name="Balthasar Gelt, Incarnate of Metal" points="475.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="e5e75fbd-d321-9819-5a11-72a5874b50f5" name="Equipment" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="7645-ae69-7656-9166" name="Magic Items: Arcane Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="42f5cf17-55b1-c48c-711b-1ea2e7c81145" name="Two hand weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d297b09e-aefa-e727-56d3-b0eb800845c2" targetId="494e8289-5f23-d17f-365e-e25fc7fe250d" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2deccdd5-ae20-b0ef-f651-c835f14e68ff" name="Full Plate, Barded Warhorse and Ghal Maraz" points="145.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="9dbe-8d65-06fc-74ce" name="AB - Staff of Volans" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="9f4676c8-04a9-f38f-26c5-57d904cce3f9" profileTypeId="576561706f6e23232344415441232323" name="Ghal Maraz" hidden="false" book="AB" page="54">
+                <profile id="d781-c742-987a-c726" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Volans" hidden="false" book="AB" page="61">
                   <characteristics>
-                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Auto wound no armour saves allowed. Multiple Wounds (D3) (BRB-73)"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="ba5f6c8f-5351-36e9-b777-a75893255e06" profileTypeId="4d6f64656c23232344415441232323" name="Barded Warhorse" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="4d23232344415441232323" name="M" value="7"/>
-                    <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
-                    <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
-                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
-                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
-                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
-                    <characteristic characteristicId="4923232344415441232323" name="I" value="3"/>
-                    <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
-                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
-                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-2"/>
-                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
-                    <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+2 on casting."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
               </profiles>
-              <links>
-                <link id="3cf85216-2b3f-8c4b-9075-5c094ccc8708" targetId="9f4ff25d-c4c5-33e4-e5a5-f01a6e4635bc" linkType="profile">
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="df99-c9db-8ff8-51d8" name="Magic Items: Enchanted Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c0a7-adeb-d0a8-4b0f" name="AB - The Cloak of Molten Metal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="281e-a857-5252-61cc" profileTypeId="41726d6f757223232344415441232323" name="The Cloak of Molten Metal" hidden="false" book="AB" page="61">
+                  <characteristics>
+                    <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="none"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="3+ WardSave against shooting attacks."/>
+                  </characteristics>
                   <modifiers/>
-                </link>
-                <link id="c1fa447b-1dde-d752-2795-0de0087b1626" targetId="b65335cd-c572-49ae-fbb8-48f59ffb85d9" linkType="profile">
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="c313-a77c-9b3b-19e0" name="Magic Items: Talismans" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="67a1-d8a1-977e-82f4" name="AB - Amulet of Sea Gold" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="b7d2-5a2e-393a-ae4b" profileTypeId="54616c69736d616e23232344415441232323" name="Amulet of Sea Gold" hidden="false" book="AB" page="61">
+                  <characteristics>
+                    <characteristic characteristicId="50726f74656374696f6e23232344415441232323" name="Protection" value="Magic Resistance (3) (BRB-72)"/>
+                  </characteristics>
                   <modifiers/>
-                </link>
-                <link id="a0190a63-dda5-2ff3-511a-68b22b6a5490" targetId="0fbf0d55-00e1-dc6c-e693-296829aaf3c5" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="4e6f-fc40-b966-03b1" name="Lore" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7592-649f-34a1-010e" name="Lore of Metal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="276e-0644-ef99-73cc" name="Wizard Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="74ee-0db7-a9b2-82f5" name="Wizard Level 5" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
@@ -7852,37 +7991,44 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
       </entryGroups>
       <modifiers/>
       <rules>
-        <rule id="727400f4-6989-5e87-7ba3-59e035a4c776" name="Chosen of Sigmar" hidden="false" book="">
-          <description>Valten has a 4+ ward save. In addition, once per game, he may harness the very power of Sigmar. Valten must declare that he is harnessig this power at the start of any Close Combat phase. If he does so, roll a d3 - Valten adds this number to his Weapon Skill, Strength, Toughness and Attacks characteristics until the end of the turn.</description>
+        <rule id="52d6-d65e-dec8-7156" name="Loremaster (Lore of Metal)" hidden="false" book="BRB" page="72">
+          <description>.</description>
           <modifiers/>
         </rule>
-        <rule id="c44a3d4e-58bd-00db-2498-f55670696ce0" name="Iron Resolve" hidden="false">
-          <description>The first time Valten suffers a Wound that removes him as a casualty (including unsaved Wounds that killed him as a result of the Killing Blow, Heroic killing Blow or Multiple Wounds special rules), roll 2d6 before removing him as a casualty; if the total is less than or equal to 9, Valten negates the Wound; otherwise, Valten is removed as a casualty as normal.</description>
+        <rule id="d940-4c59-518f-469f" name="Mantle of Chamon" hidden="false">
+          <description>Balthasar Gelt has a 2+ ward save against Wounds caused by attacks that have the Flaming Attacks special rule.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7032-b0e8-dd04-5120" name="The Crucible" hidden="false">
+          <description>Innate Bound Spell (power Level 10). The Crucible is an augment spell with a range of 18&quot; that targets Balthasar Gelt and/or up to D3 other units. Remove all target units from the battlefield. At the start of Gelt’s next turn, set up each target unit anywhere on the battlefield that is more than 1&quot; from any unit and impassable terrain, in the same formation and facing the direction of your choice. Each unit other than Gelt that is set up in this way suffers D6-1 Wounds with no saves of any kind allowed.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="348be09d-af1e-4962-3240-be75c879499f" profileTypeId="4d6f64656c23232344415441232323" name="Valten" hidden="false" book="End Times - Nagash" page="46">
+        <profile id="441a-1f85-0d7a-403c" profileTypeId="4d6f64656c23232344415441232323" name="Balthasar Gelt, Incarnate of Metal" hidden="false" book="AB" page="61">
           <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="4"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="7"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
             <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
             <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="3"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="6"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
             <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
             <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="3"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monstrous Cavalry (Special Character)"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="37a19700-47fe-5a2a-0496-f2118bdb132f" targetId="7773aa81-a348-8909-1588-57f04e8d9e91" linkType="rule">
+        <link id="b33c-d80c-a696-0ea1" targetId="91e334ae-14c6-755f-5911-48ff700f784f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="ea98-2ba7-aec6-235e" targetId="8fe80367-ccef-e7f4-9f0c-ed99573d9fcb" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -8286,15 +8432,15 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="df4b24da-1099-032d-be83-3426ee9b7124" name="BRB - Trickster's Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="df4b24da-1099-032d-be83-3426ee9b7124" name="BRB - Trickster&apos;s Shard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="da0cb517-ddc7-68ac-6c03-d140c78b8cd3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster's Shard" hidden="false" book="BRB" page="504">
+            <profile id="da0cb517-ddc7-68ac-6c03-d140c78b8cd3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Trickster&apos;s Shard" hidden="false" book="BRB" page="504">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer's spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Declare use at start of your magic phase. If bearer&apos;s spell is dispelled the enemy wizard suffers a wound (no armour save) on a 5+."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8346,13 +8492,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="080d2994-ef16-69fe-8339-2cc0fc1f732a" name="BRB - Sivejir's Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="080d2994-ef16-69fe-8339-2cc0fc1f732a" name="BRB - Sivejir&apos;s Hex Scroll" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a81371b3-e2a1-7d17-0089-606ddfe8fa39" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir's Hex Scroll" hidden="false" book="BRB" page="504">
+            <profile id="a81371b3-e2a1-7d17-0089-606ddfe8fa39" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Sivejir&apos;s Hex Scroll" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Instead of dispel. Enemy wizard rolls D6 if higher then his wizard level he transforms in a toad. No channel, no casting, no items work, stats reduced to 1 (except W). Controlling player rolls D6 at start of each magic phase, on a 4+ transformation ends."/>
               </characteristics>
@@ -8412,7 +8558,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0dce948a-d0b9-cefa-0e85-38c48fad37bf" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (FAQ'ed)" hidden="false" book="BRB" page="504">
+            <profile id="0dce948a-d0b9-cefa-0e85-38c48fad37bf" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Staff of Sorcery (FAQ&apos;ed)" hidden="false" book="BRB" page="504">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="+1 bonus on attempts to dispel"/>
               </characteristics>
@@ -8436,7 +8582,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <profiles>
             <profile id="f735dbce-a990-9888-5881-2b7f1eb791f9" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Speed" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. +3 I until end of turn"/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. +3 I until end of turn"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8451,7 +8597,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <profiles>
             <profile id="0454efe0-9b4f-1d47-439b-1ddb325432d0" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Foolhardiness" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player's turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at start of any player&apos;s turn. Gain Immune to Psychology(BRB-71) and Devastating Charge(BRB-68) until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8473,13 +8619,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="ac38ff06-8b5a-898b-19e4-f3a18c4e016e" name="BRB - The Other Trickster's Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="ac38ff06-8b5a-898b-19e4-f3a18c4e016e" name="BRB - The Other Trickster&apos;s Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="dbdcce96-6a34-7c72-6ff9-cd27046378e3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster's Shard" hidden="false" book="BRB" page="505">
+            <profile id="dbdcce96-6a34-7c72-6ff9-cd27046378e3" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="The Other Trickster&apos;s Shard" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Models in base contact (friends and foes) must re-roll successful Ward Saves."/>
               </characteristics>
@@ -8496,7 +8642,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <profiles>
             <profile id="a74a949e-e616-f9ab-202c-e8a415100688" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Toughness" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 T until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 T until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8511,7 +8657,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <profiles>
             <profile id="9237b924-8649-4a4f-82cb-f5d1ff84efdd" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Potion of Strength" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player's turn. +3 S until end of turn."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. Drink at the start of any player&apos;s turn. +3 S until end of turn."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8571,7 +8717,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <profiles>
             <profile id="85867fea-79de-aa57-fbbc-dbe0c689b455" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Healing Potion" hidden="false" book="BRB" page="505">
               <characteristics>
-                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player's turn. Recover D6 Wounds."/>
+                <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only at start of controlling player&apos;s turn. Recover D6 Wounds."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8608,13 +8754,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="b887c2f4-16b4-0b29-0403-a32ef03227b7" name="BRB - Fozzirik's Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="b887c2f4-16b4-0b29-0403-a32ef03227b7" name="BRB - Fozzirik&apos;s Folding Fortress" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="be130fb5-c79b-4ea3-7c65-43186b90490a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik's Folding Fortress" hidden="false" book="BRB" page="505">
+            <profile id="be130fb5-c79b-4ea3-7c65-43186b90490a" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Fozzirik&apos;s Folding Fortress" hidden="false" book="BRB" page="505">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="place a Watchtower Building in your deployment zone before army deployment."/>
               </characteristics>
@@ -8653,13 +8799,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="aaaefa0a-bdca-c739-d808-9ae27d9fafe5" name="AB - Van Horstmann's Speculum" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="aaaefa0a-bdca-c739-d808-9ae27d9fafe5" name="AB - Van Horstmann&apos;s Speculum" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7d4edfe4-c50f-dff5-432a-312c4ac9b393" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann's Speculum" hidden="false" book="AB" page="63">
+            <profile id="7d4edfe4-c50f-dff5-432a-312c4ac9b393" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Van Horstmann&apos;s Speculum" hidden="false" book="AB" page="63">
               <characteristics>
                 <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="Must swap all  S, T, I and A values with enemy in a challenge."/>
               </characteristics>
@@ -8723,13 +8869,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="23f03206-5e2e-f367-f307-6f240f5eccbc" name="BRB - Gambler's Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="23f03206-5e2e-f367-f307-6f240f5eccbc" name="BRB - Gambler&apos;s Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="802f1914-38fc-688c-9d5e-aaa13177af88" profileTypeId="41726d6f757223232344415441232323" name="Gambler's Armour" hidden="false" book="BRB" page="502">
+            <profile id="802f1914-38fc-688c-9d5e-aaa13177af88" profileTypeId="41726d6f757223232344415441232323" name="Gambler&apos;s Armour" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="5+"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Grants the wearer 6+ WardSave"/>
@@ -8835,16 +8981,16 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="6a14a562-8208-e3c4-ee04-0ed5438bf14f" name="BRB - Trickster's Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="6a14a562-8208-e3c4-ee04-0ed5438bf14f" name="BRB - Trickster&apos;s Helm" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="d0ebd845-e9a7-eee6-b6ab-3f00ae1f612d" profileTypeId="41726d6f757223232344415441232323" name="Trickster's Helm" hidden="false" book="BRB" page="502">
+            <profile id="d0ebd845-e9a7-eee6-b6ab-3f00ae1f612d" profileTypeId="41726d6f757223232344415441232323" name="Trickster&apos;s Helm" hidden="false" book="BRB" page="502">
               <characteristics>
                 <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="-1"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster's Helm must be re-rolled."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Any succesfull roll to wound made against the wearer of the Trickster&apos;s Helm must be re-rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -8959,7 +9105,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           <profiles>
             <profile id="ed8f6383-311a-b3ac-0204-62d2cd2bce73" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Gleaming Pennant" hidden="false" book="BRB" page="503">
               <characteristics>
-                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it's first failed Ld test."/>
+                <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="One use only. Can re-roll it&apos;s first failed Ld test."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9041,13 +9187,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="18a7fa1f-6395-21df-01a8-58d4859a0706" name="BRB - Ranger's Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="18a7fa1f-6395-21df-01a8-58d4859a0706" name="BRB - Ranger&apos;s Standard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="57bf8b23-7a6a-32c3-2718-735f660e261a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger's Standard" hidden="false" book="BRB" page="503">
+            <profile id="57bf8b23-7a6a-32c3-2718-735f660e261a" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Ranger&apos;s Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Strider (BRB-76)"/>
               </characteristics>
@@ -9071,13 +9217,13 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="b2c1fff0-25b2-e8cf-c901-8beceea22400" name="BRB - Rampager's Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="b2c1fff0-25b2-e8cf-c901-8beceea22400" name="BRB - Rampager&apos;s Standard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="c454a775-c4ae-7ae0-f270-2777726cad1c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager's Standard" hidden="false" book="BRB" page="503">
+            <profile id="c454a775-c4ae-7ae0-f270-2777726cad1c" profileTypeId="4d61676963205374616e6461726423232344415441232323" name="Rampager&apos;s Standard" hidden="false" book="BRB" page="503">
               <characteristics>
                 <characteristic characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323" name="Magical Emination" value="Can re-roll charge distance dice."/>
               </characteristics>
@@ -9151,7 +9297,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
             <profile id="8f0ac9fb-4bd3-a865-f7c8-419454580198" profileTypeId="576561706f6e23232344415441232323" name="Sword of Might" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -9321,7 +9467,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
             <profile id="4fb59d65-8ef5-30c5-6aa5-10c19e76f028" profileTypeId="576561706f6e23232344415441232323" name="Sword of Anti-Heroes" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1*"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1*"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="+1S and +1A for every enemy character in base contact."/>
               </characteristics>
               <modifiers/>
@@ -9329,17 +9475,17 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="86ab36a3-a324-5f90-c1a1-4ff748d9fbd7" name="BRB - Fencer's Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="86ab36a3-a324-5f90-c1a1-4ff748d9fbd7" name="BRB - Fencer&apos;s Blades" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="0d44d219-e81c-7b84-b107-e58561f29662" profileTypeId="576561706f6e23232344415441232323" name="Fencer's Blades" hidden="false" book="BRB" page="501">
+            <profile id="0d44d219-e81c-7b84-b107-e58561f29662" profileTypeId="576561706f6e23232344415441232323" name="Fencer&apos;s Blades" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
                 <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons (FAQ'ed)(BRB-501). WS 10."/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Paired Weapons (FAQ&apos;ed)(BRB-501). WS 10."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -9372,7 +9518,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
             <profile id="751a5fbb-0afb-7a9d-cc66-881e4a9e206d" profileTypeId="576561706f6e23232344415441232323" name="Ogre Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -9423,7 +9569,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
             <profile id="fe76331d-307f-1c37-15ce-d80f9cc0c57a" profileTypeId="576561706f6e23232344415441232323" name="Giant Blade" hidden="false" book="BRB" page="501">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+3"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules"/>
               </characteristics>
               <modifiers/>
@@ -9457,7 +9603,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
             <profile id="b2bb92f3-3702-2e24-6d45-ddf333db349a" profileTypeId="576561706f6e23232344415441232323" name="The Mace of Helsturm" hidden="false" book="AB" page="62">
               <characteristics>
                 <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
                 <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Always StrikesLast (BRB-66). Requires Two Hands (BRB-75). Forfeit all normal attacks for a S10 Flaming Attacks (BRB-69) and Multiple Wounds (D3) (BRB-73) attack."/>
               </characteristics>
               <modifiers/>
@@ -9674,7 +9820,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="43def729-b911-4897-18a5-aa9c7b4ccc0c" name="Always Strikes First (FAQ'ed)" hidden="false" book="BRB" page="66">
+    <rule id="43def729-b911-4897-18a5-aa9c7b4ccc0c" name="Always Strikes First (FAQ&apos;ed)" hidden="false" book="BRB" page="66">
       <description>ERRATA
 Change “[...]re-roll failed misses[...]” to “[...]re-roll
 misses[...]” in the first sentence of the third paragraph.</description>
@@ -9684,7 +9830,7 @@ misses[...]” in the first sentence of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="88343b48-223a-c862-2f28-e426f427800b" name="Ambushers (FAQ'ed)" hidden="false" book="BRB" page="79">
+    <rule id="88343b48-223a-c862-2f28-e426f427800b" name="Ambushers (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
 turn[...]” in the second paragraph</description>
@@ -9706,7 +9852,7 @@ turn[...]” in the second paragraph</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="d57f18d5-a07c-05c8-b6d6-c2a215b846b4" name="Detachment (FAQ'ed)" hidden="false" book="AB" page="30">
+    <rule id="d57f18d5-a07c-05c8-b6d6-c2a215b846b4" name="Detachment (FAQ&apos;ed)" hidden="false" book="AB" page="30">
       <description>Errata:
 Page 30 – Army Special Rules, Detachments.
 Add the following after the second paragraph:
@@ -9732,7 +9878,7 @@ less ranks.’</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="3215ad00-0d48-cf9f-c6da-940985863931" name="Extra Attack (FAQ'ed)" hidden="false" book="BRB" page="69">
+    <rule id="3215ad00-0d48-cf9f-c6da-940985863931" name="Extra Attack (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
       <description>ERRATA:
 Add “Unlike most special rules, the effects of multiple Extra
 Attack special rules are cumulative.”</description>
@@ -9746,7 +9892,7 @@ Attack special rules are cumulative.”</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="22288e85-d48e-b48f-691d-257ce407e724" name="Fight in Extra Ranks (FAQ'ed)" hidden="false" book="BRB" page="69">
+    <rule id="22288e85-d48e-b48f-691d-257ce407e724" name="Fight in Extra Ranks (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
       <description>ERRATA
 Add “Unlike most special rules, the effects of multiple Fight
 In Extra Ranks special rules are cumulative.”</description>
@@ -9788,7 +9934,7 @@ In Extra Ranks special rules are cumulative.”</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="00126939-3f86-0311-d2a7-bc34a050e1fa" name="Impact Hits (D6) (FAQ'ed)" hidden="false" book="BRB" page="71">
+    <rule id="00126939-3f86-0311-d2a7-bc34a050e1fa" name="Impact Hits (D6) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
       <description>ERRATA:
 Change “[...]this rule has no effect.” to “[...]no Impact Hits
 are inflicted.”
@@ -9845,7 +9991,7 @@ Add the following sentence to the end of the third paragraph:
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="3890a93a-d57e-33da-05ff-3401f091029a" name="Random Movement (FAQ'ed)" hidden="false" book="BRB" page="74">
+    <rule id="3890a93a-d57e-33da-05ff-3401f091029a" name="Random Movement (FAQ&apos;ed)" hidden="false" book="BRB" page="74">
       <description>ERRATA:
 Add “If a model has the Random Movement and Swiftstride
 special rules (a chariot with Random Movement, for example),
@@ -9881,7 +10027,7 @@ first paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="496c0e45-bac5-4762-0e70-6467bb98fe43" name="Skirmishers (FAQ'ed)" hidden="false" book="BRB" page="77">
+    <rule id="496c0e45-bac5-4762-0e70-6467bb98fe43" name="Skirmishers (FAQ&apos;ed)" hidden="false" book="BRB" page="77">
       <description>ERRATA
 Free Reform.
 Change “[...]move, provided[...]” to “[...]move, even if it
@@ -9897,7 +10043,7 @@ combat[...]”.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="a75d2134-54ad-7ea3-5044-22240acc4c25" name="Sniper (FAQ'ed)" hidden="false" book="BRB" page="75">
+    <rule id="a75d2134-54ad-7ea3-5044-22240acc4c25" name="Sniper (FAQ&apos;ed)" hidden="false" book="BRB" page="75">
       <description>ERRATA:
 Change “A model making a[...]” to “unless making a Stand
 and Shoot charge reaction, a model making a[...]” at the start
@@ -9948,10 +10094,10 @@ of the third paragraph.</description>
       <description>.</description>
       <modifiers/>
     </rule>
-    <rule id="658a7306-afae-8a46-c44e-54032803441e" name="Vanguard (FAQ'ed)" hidden="false" book="BRB" page="79">
+    <rule id="658a7306-afae-8a46-c44e-54032803441e" name="Vanguard (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
       <description>ERRATA:
-Change “[...]make a 12" move[...]” to “[...]make a move of
-up to 12"[...]”.</description>
+Change “[...]make a 12&quot; move[...]” to “[...]make a move of
+up to 12&quot;[...]”.</description>
       <modifiers/>
     </rule>
     <rule id="479ec103-c078-3251-91f3-a05c77114a31" name="Volley Fire" hidden="false" book="BRB" page="78">
@@ -9997,7 +10143,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="45c5137a-6ca2-988d-63c6-53553e05cadc" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Combat) (FAQ'ed)" hidden="false" book="BRB" page="91">
+    <profile id="45c5137a-6ca2-988d-63c6-53553e05cadc" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Combat) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
@@ -10005,7 +10151,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ac4a0b09-2946-5361-6e8b-da544009207d" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Shooting) (FAQ'ed)" hidden="false" book="BRB" page="91">
+    <profile id="ac4a0b09-2946-5361-6e8b-da544009207d" profileTypeId="576561706f6e23232344415441232323" name="Brace of Pistols (Shooting) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
@@ -10093,7 +10239,7 @@ up to 12"[...]”.</description>
     <profile id="868ba624-13d1-db13-af64-e3cd3c3aa31e" profileTypeId="576561706f6e23232344415441232323" name="Great Weapon" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+2"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+2"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)"/>
       </characteristics>
       <modifiers/>
@@ -10109,7 +10255,7 @@ up to 12"[...]”.</description>
     <profile id="f9950088-d781-a571-5f11-4af6553f00bf" profileTypeId="576561706f6e23232344415441232323" name="Halberd" hidden="false" book="BRB" page="90">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
-        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="'+1"/>
+        <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
         <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75)"/>
       </characteristics>
       <modifiers/>
@@ -10281,7 +10427,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="494e8289-5f23-d17f-365e-e25fc7fe250d" profileTypeId="576561706f6e23232344415441232323" name="Two/Additional Hand Weapons (Models on foot only) (FAQ'ed)" hidden="false" book="BRB" page="91">
+    <profile id="494e8289-5f23-d17f-365e-e25fc7fe250d" profileTypeId="576561706f6e23232344415441232323" name="Two/Additional Hand Weapons (Models on foot only) (FAQ&apos;ed)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
