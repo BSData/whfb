@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="22" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="23" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -13162,8 +13162,59 @@ Add the following sentence to the end of the third paragraph:
     <entry id="00edba8e-6d16-3564-4265-8bac0d9e34d0" name="Plague Drones of Nurgle" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="c25b132f-093c-882f-940d-95aa79ee1ee0" name="Plague Drone of Nurgle" points="55.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="46">
-          <entries/>
-          <entryGroups/>
+          <entries>
+            <entry id="0e54-53b3-efce-1da9" name="Death&apos;s Heads" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="104c-58c6-e225-f721" profileTypeId="576561706f6e23232344415441232323" name="Death&apos;s Heads" hidden="false" book="AB" page="46">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73), Poisoned Attacks (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="65fe-b2c8-0e81-ad8f" name="Rot Fly upgrades" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="a6f6-0494-a06b-81e8" name="Plague Proboscis" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="ee62-d11e-23fe-4a66" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="f82d-5d9a-1e02-00b4" name="Venom Sting" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="0ece-68e5-a200-a744" name="Venom Sting" hidden="false" book="AB" page="46">
+                      <description>.</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <rules/>
           <profiles>
@@ -13182,23 +13233,6 @@ Add the following sentence to the end of the third paragraph:
                 <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
                 <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
                 <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="e3b146b1-58ad-2057-ed29-a2f6857327bf" name="Death&apos;s Heads" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="7e4404d3-c025-7de7-380c-63db61da210e" profileTypeId="576561706f6e23232344415441232323" name="Death&apos;s Heads" hidden="false" book="AB" page="46">
-              <characteristics>
-                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73), Poisoned Attacks (BRB-73)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -13261,38 +13295,6 @@ Add the following sentence to the end of the third paragraph:
                   <modifiers/>
                 </profile>
               </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="587c1e9c-f6a1-0918-fe90-10b8321a82e7" name="Rot Fly upgrades" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="3fa3ee3b-f90e-8dee-5a77-9fd140312033" name="Plague Proboscis" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="e7517bc3-f7e5-feb7-3d50-a764a4de51ea" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="a67b4099-0738-ed6f-3ae0-98c15d88351c" name="Venom Sting" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="f0f033f3-1658-6d5f-1be9-7c4022acdee6" name="Venom Sting" hidden="false" book="AB" page="46">
-                  <description>.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
               <links/>
             </entry>
           </entries>

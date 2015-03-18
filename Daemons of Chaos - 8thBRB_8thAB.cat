@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="11" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3f94667-e16f-80d8-df32-da06de0d6d28" revision="12" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Daemons of Chaos - Army Book (2013-4) -V8.8.0." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -573,6 +573,109 @@
           <modifiers/>
         </link>
         <link id="bac1cd2f-bb64-981c-228c-5a567c0b9a5c" targetId="14334141-be6a-bb69-152a-32da579e8c2a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="19a4-becf-44e9-71f4" name="Bloodthirster of Insensate Rage" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="51ec-d471-fd50-b979" name="Deamonic Gifts" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
+          <entries>
+            <entry id="0b94-8540-bd3d-2b9a" name="Exalted Gifts" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a30c-05c4-f908-17e7" name="Greater Gifts" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6211-6380-050e-9a6b" name="Lesser Gifts" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="3331-af47-b7b1-7c9d" targetId="e766f518-e3ed-ad7d-1808-ec3fa044f846" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f1b9-e924-89b1-a5b3" profileTypeId="4d6f64656c23232344415441232323" name="Bloodthirster of Insesate Rage" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="10"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="10"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="9"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="2"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d257-3fae-d84d-24d4" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="42af-40de-929b-6096" targetId="369fec70-ec57-7af3-0b40-e7d54bdaa850" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1019-5e91-c83e-f162" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0644-452f-6b48-c34f" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8774-6d43-8e22-e6f3" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c81b-9238-68ce-c2b3" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6098-2ded-3319-5ebe" targetId="1bbbe12c-6638-85a9-4c5a-83cfa9a466c8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4079-3455-1b9c-401c" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c89d-5034-520c-9a64" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e3ce-2c4f-be32-a72a" targetId="a2b0bb0f-9f12-1df0-a536-c9e04b5d51dc" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="794f-8fe2-d906-3d15" targetId="9452bbf5-1c3c-77e0-1cfc-b14675a49cac" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="09b8-833e-79f7-91ff" targetId="51811a4a-d721-4666-d6c4-a6d17e98d2c1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cd65-6742-d4b5-a345" targetId="7bf07a21-182c-4f2d-2160-c120a9f4f20e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3908,8 +4011,59 @@ Add the following sentence to the end of the third paragraph:
     <entry id="00edba8e-6d16-3564-4265-8bac0d9e34d0" name="Plague Drones of Nurgle" points="0.0" categoryId="5261726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="c25b132f-093c-882f-940d-95aa79ee1ee0" name="Plague Drone of Nurgle" points="55.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="46">
-          <entries/>
-          <entryGroups/>
+          <entries>
+            <entry id="1b84-24c1-b47c-9426" name="Death&apos;s Heads" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3bc0-2cd6-1f3e-ebf4" profileTypeId="576561706f6e23232344415441232323" name="Death&apos;s Heads" hidden="false" book="AB" page="46">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73), Poisoned Attacks (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="0e91-a85f-47c3-35f0" name="Rot Fly upgrades" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="6479-2660-3121-4a19" name="Plague Proboscis" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="87ae-5267-7170-68e2" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="29b2-1911-cf5e-2e03" name="Venom Sting" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules>
+                    <rule id="7ec9-6615-1bbf-2a49" name="Venom Sting" hidden="false" book="AB" page="46">
+                      <description>.</description>
+                      <modifiers/>
+                    </rule>
+                  </rules>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <rules/>
           <profiles>
@@ -3928,23 +4082,6 @@ Add the following sentence to the end of the third paragraph:
                 <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
                 <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
                 <characteristic characteristicId="5479706523232344415441232323" name="Type" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="e3b146b1-58ad-2057-ed29-a2f6857327bf" name="Death&apos;s Heads" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="7e4404d3-c025-7de7-380c-63db61da210e" profileTypeId="576561706f6e23232344415441232323" name="Death&apos;s Heads" hidden="false" book="AB" page="46">
-              <characteristics>
-                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="12&quot;"/>
-                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="4"/>
-                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Multiple Wounds (D3)(BRB-73), Poisoned Attacks (BRB-73)"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4007,38 +4144,6 @@ Add the following sentence to the end of the third paragraph:
                   <modifiers/>
                 </profile>
               </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="587c1e9c-f6a1-0918-fe90-10b8321a82e7" name="Rot Fly upgrades" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="3fa3ee3b-f90e-8dee-5a77-9fd140312033" name="Plague Proboscis" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="e7517bc3-f7e5-feb7-3d50-a764a4de51ea" targetId="9cf1fea2-67dc-da56-3a86-038b23640957" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="a67b4099-0738-ed6f-3ae0-98c15d88351c" name="Venom Sting" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="AB" page="46">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="f0f033f3-1658-6d5f-1be9-7c4022acdee6" name="Venom Sting" hidden="false" book="AB" page="46">
-                  <description>.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
               <links/>
             </entry>
           </entries>
@@ -5306,109 +5411,6 @@ Add the following sentence to the end of the third paragraph:
           <modifiers/>
         </link>
         <link id="ac26-5101-7bf0-6c52" targetId="c8c1cf99-0c2a-48db-d514-800d7938d6dc" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="19a4-becf-44e9-71f4" name="Bloodthirster of Insensate Rage" points="500.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="51ec-d471-fd50-b979" name="Deamonic Gifts" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="100.0" collective="false" hidden="false">
-          <entries>
-            <entry id="0b94-8540-bd3d-2b9a" name="Exalted Gifts" points="75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="a30c-05c4-f908-17e7" name="Greater Gifts" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="6211-6380-050e-9a6b" name="Lesser Gifts" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="AB" page="61">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="3331-af47-b7b1-7c9d" targetId="e766f518-e3ed-ad7d-1808-ec3fa044f846" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f1b9-e924-89b1-a5b3" profileTypeId="4d6f64656c23232344415441232323" name="Bloodthirster of Insesate Rage" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="4d23232344415441232323" name="M" value="8"/>
-            <characteristic characteristicId="575323232344415441232323" name="WS" value="10"/>
-            <characteristic characteristicId="425323232344415441232323" name="BS" value="10"/>
-            <characteristic characteristicId="5323232344415441232323" name="S" value="6"/>
-            <characteristic characteristicId="5423232344415441232323" name="T" value="6"/>
-            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
-            <characteristic characteristicId="4923232344415441232323" name="I" value="9"/>
-            <characteristic characteristicId="4123232344415441232323" name="A" value="6"/>
-            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
-            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
-            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="5+"/>
-            <characteristic characteristicId="4d5223232344415441232323" name="MR" value="2"/>
-            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="d257-3fae-d84d-24d4" targetId="2443f591-9fb8-7e32-3743-fe5fd8264560" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="42af-40de-929b-6096" targetId="369fec70-ec57-7af3-0b40-e7d54bdaa850" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1019-5e91-c83e-f162" targetId="e16f6654-8c36-97cf-5263-a4d5826046ef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0644-452f-6b48-c34f" targetId="fdd6a1c0-ab8a-b7ab-a7f5-835a35012c4d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8774-6d43-8e22-e6f3" targetId="e8ca02b5-3a5f-3f52-9111-c7b1d4f5c220" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c81b-9238-68ce-c2b3" targetId="f1474c72-7405-cdf2-0372-36c1d90e25c6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6098-2ded-3319-5ebe" targetId="1bbbe12c-6638-85a9-4c5a-83cfa9a466c8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4079-3455-1b9c-401c" targetId="f0f4b328-6f7c-34ca-a1b1-a3648272ce16" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c89d-5034-520c-9a64" targetId="798705ad-0331-1d18-b882-3c149a7b998a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="e3ce-2c4f-be32-a72a" targetId="a2b0bb0f-9f12-1df0-a536-c9e04b5d51dc" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="794f-8fe2-d906-3d15" targetId="9452bbf5-1c3c-77e0-1cfc-b14675a49cac" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="09b8-833e-79f7-91ff" targetId="51811a4a-d721-4666-d6c4-a6d17e98d2c1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cd65-6742-d4b5-a345" targetId="7bf07a21-182c-4f2d-2160-c120a9f4f20e" linkType="rule">
           <modifiers/>
         </link>
       </links>
