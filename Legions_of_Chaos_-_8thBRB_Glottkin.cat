@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="23" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5ddb409-1fb1-397d-1ed8-55fc3d17b57b" revision="24" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Legions of Chaos - 8thBRB Glottkin" authorName="Maetco" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="acec9744-14ee-a759-3f06-1236be33120d" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -13124,7 +13124,15 @@ Add the following sentence to the end of the third paragraph:
         </entryGroup>
         <entryGroup id="d879eb0a-f22d-a1ae-7076-d844e08142ea" name="Lore" defaultEntryId="14235ccb-663f-b52a-9f95-280c488e99ec" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="14235ccb-663f-b52a-9f95-280c488e99ec" name="Lore of Tzeentch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="14235ccb-663f-b52a-9f95-280c488e99ec" name="Lore of Tzeentch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4c34-f9af-4e41-d678" name="Lore of Undeath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="End Times - Nagash" page="15">
               <entries/>
               <entryGroups/>
               <modifiers/>
