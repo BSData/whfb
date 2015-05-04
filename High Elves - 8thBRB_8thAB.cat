@@ -202,6 +202,122 @@
         </link>
       </links>
     </entry>
+    <entry id="07cb-0761-36e8-d2ea" name="Alarielle, Incarnate of Life" points="540.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer End Times: Khaine" page="38">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e8fc-1f66-9289-c513" name="Magic Items: Arcane Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9274-fd17-5f86-2609" name="AB - Stave of Avelorn" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cf3e-1891-3358-aafb" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Stave of Avelorn" hidden="false" book="AB" page="59">
+                  <characteristics>
+                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="One use only. If used can cast an already used spell (even if miscast or failed to cast)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="9dd4-8f24-4d51-a746" name="Magic Items: Enchanted Items" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="bd64-f5e9-a78e-a6c7" name="AB - Star of Avelorn" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="60af-242c-52e1-87ba" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" name="Star of Avelorn" hidden="false" book="AB" page="59">
+                  <characteristics>
+                    <characteristic characteristicId="4d616769632050726f706572747923232344415441232323" name="Magic Property" value="At start of movement phase. Declare single friendly character within 12&quot; that model regains a single Wound lost earlier. Can only target herself is no viable targets are within range."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="e34e-9144-15c1-3a12" name="Wizard Level" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b5ee-b00d-bfc5-1e6b" name="Wizard Level 5" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="31fb-14a5-1692-1bac" name="Locus of Renewal" hidden="false">
+          <description>If Alarielle, Incarnate of Life, suffers a miscast whilst casting a spell, you may re-roll the result on the Miscast table (but must accept the second result if you do so, even if it is worse)</description>
+          <modifiers/>
+        </rule>
+        <rule id="cc54-f6c9-0f46-c3e7" name="Incarnate of Life" hidden="false">
+          <description>Alarielle, Incarnate of Life, and all friendly units within 12&quot;of her have a 6+ ward save the regeneration special rule. In addition at the start of each friendly magic phase, Alarielle and every friendly model within 12&quot; of her regain a single wound lost earlier in battle.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c2f9-1190-defc-405c" name="Touch of Purity" hidden="false">
+          <description>Alarielle&apos;s close combat attacks are magical attacks. In addition, they always wound on a 2+ and have the Multiple Wounds (D6) special rule if directed against models from the Forces of Destruction</description>
+          <modifiers/>
+        </rule>
+        <rule id="61ec-3302-45b8-1847" name="Loremaster (Life)" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c1c7-af7f-5cb1-0251" profileTypeId="4d6f64656c23232344415441232323" name="Alarielle, Incarnate of Life" hidden="false" book="Warhammer End Times: Khaine" page="38">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="5"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="4"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8ae1-67af-69dd-0fce" targetId="7768a3fb-06df-d5bb-a773-b1ef1bdcecf7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="535b-48ee-6051-97fb" targetId="70c9555e-de7a-4788-1dd6-05c7bc7d9949" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3d45-dd59-b66c-236c" targetId="dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9b24-5e8e-ea53-42e5" targetId="1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f3fe1d2a-7060-5924-85af-5c43bae198d2" name="Alith Anar" points="250.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -1061,6 +1177,110 @@
           <modifiers/>
         </link>
         <link id="c9581567-8252-eac2-56ca-9c372a5b2f14" targetId="dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7157-6e6b-6889-42ce" name="Caradryan, Incarnate of Fire" points="590.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer End Times: Archaon" page="39">
+      <entries>
+        <entry id="a771-7aa9-2a14-2b20" name="Wizard Level 3" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="48aa-c843-ee38-d734" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="09d2-0fc7-4cdb-662c" name="AB - The Phoenix Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ae86-1e9a-d181-70e0" profileTypeId="576561706f6e23232344415441232323" name="The Phoenix Blade" hidden="false" book="AB" page="61">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+1"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks (BRB-69), Multiple Wounds (D3) (BRB-73)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="32a7-edaa-119d-7ad4" name="Wake of Fire" hidden="false" book="AB" page="53">
+          <description>.</description>
+          <modifiers/>
+        </rule>
+        <rule id="83a1-a408-584f-65e5" name="Loremaster (Fire)" hidden="false" book="Warhammer End Times: Khaine" page="8">
+          <modifiers/>
+        </rule>
+        <rule id="0b06-00eb-5116-0772" name="Mark of Aqshy" hidden="false" book="Warhammer End Times: Archaon" page="39">
+          <description>If Caradryan is slain in close combat, the unit that killed him immediately takes 3D6 strength 4 hits with the Flamming attacks special rule. Hits from this attack are magical. Any wounds caused are distributed as for shooting attacks, and count towards combat results. If Caradryan is killed in a challenge, then only his opponent takes these hits- any excess wounds caused by the Mark of Aqshy count towards over kill.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9d20-210f-7cb2-f837" profileTypeId="4d6f64656c23232344415441232323" name="Caradryan, Incarnate of Fire" hidden="false" book="Warhammer End Times: Archaon " page="3">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="5"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="5"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="7"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="7"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="4+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Monster (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f594-cccd-650d-fc1b" targetId="7768a3fb-06df-d5bb-a773-b1ef1bdcecf7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a720-9577-2306-92e2" targetId="899e66f3-e7f9-110d-4769-40144b30936a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2ad9-da2f-084e-8ff7" targetId="dacdc05e-81be-6660-94ba-be985bf5289d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="51cd-b444-eab9-1f9e" targetId="efc4d2ce-5da3-e168-653c-48b1a78699df" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="184b-bb1e-5947-e488" targetId="8ae446f0-eab6-48a8-3bbf-1292da7b6a9d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac6c-830f-a4e9-357a" targetId="e2a586fd-6586-1061-3f78-8f459379dcf1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0214-2320-f0d3-6752" targetId="f2895f82-1fc2-b971-6a39-0a696ca7c646" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e00a-538b-d569-4c26" targetId="dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="164a-0046-3753-9e0c" targetId="1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="463b-7359-94a6-3593" targetId="a26e239e-ec3a-4e1d-ba6c-be5bf71cb995" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5147,6 +5367,118 @@
           <modifiers/>
         </link>
         <link id="29b742c5-b94d-576c-7d6d-ada600350ec7" targetId="dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b57d-8d18-359c-f54f" name="Tyrion, Incarnate of Light" points="550.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer End Times: Archaon" page="35">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ee85-e6f0-c7dd-9e0e" name="Magic Items: Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ed2e-9081-61fa-8ef4" name="AB - Dragon Armour of Aenarion" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cf23-5945-bc82-559d" profileTypeId="41726d6f757223232344415441232323" name="Dragon Armour of Aenarion" hidden="false" book="AB" page="55">
+                  <characteristics>
+                    <characteristic characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323" name="Saving Throw modifier" value="1+ (cannot be improved)"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="4+ Ward Save (BRB-44), Fireborn (AB-36)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="0c93-6493-f02f-64cd" name="Magic Items: Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b9b5-3cfd-5c3c-39b5" name="AB - Sunfang" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="b3ec-7557-9764-e89a" profileTypeId="576561706f6e23232344415441232323" name="Sunfang" hidden="false" book="AB" page="55">
+                  <characteristics>
+                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="&apos;+3"/>
+                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Flaming Attacks (BRB-69), Once per battle in shooting phase, Breath Attack S4 (BRB-67)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="4060-6e34-9be0-279e" name="Incarnate of Light" hidden="false" book="Warhammer End Times: Archaon" page="35">
+          <description>At the start of every Magic phase, every enemy modle with the Undead or Daemonic special rule which is within 6&quot; of Tyrion suffers a single strength 4 hit. Hits from this attack are magical</description>
+          <modifiers/>
+        </rule>
+        <rule id="2db2-48a5-d6a1-ed39" name="Shield of Light" hidden="false" book="Warhammer End Times: Archaon" page="35">
+          <description>All friendly units within 12&quot; of Tyrion, Incarnate of Light have a 5+ ward save against enemy shooting attacks and spells. This is increased to a 4+ ward save if the attacking unit or the wizard which is casting the spell has the Undead or Daemonic special rule.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0c44-9144-b1fa-0616" profileTypeId="4d6f64656c23232344415441232323" name="Tyrion, Incarnate of Light" hidden="false" book="Warhammer End Times: Archaon" page="35">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="10"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="7"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="5"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="10"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="5"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="10"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="1+"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value="4+"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavarly (Special Character)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ea17-e477-0de7-7e2c" profileTypeId="4d6f64656c23232344415441232323" name="Malhandir" hidden="false" book="AB" page="64">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="10"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="4"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="0"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="7"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value="-1"/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Cavalry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="af48-ac42-2ac3-0d96" targetId="7768a3fb-06df-d5bb-a773-b1ef1bdcecf7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5797-e3a7-e908-33d6" targetId="dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4df4-bf5b-3198-4bd8" targetId="1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" linkType="rule">
           <modifiers/>
         </link>
       </links>
