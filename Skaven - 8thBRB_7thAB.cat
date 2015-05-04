@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="14" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3876997b-2c96-4639-af9b-5a6a08bdd1ea" revision="15" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" battleScribeVersion="1.15" name="Skaven - Army Book (2013-4) -V8.7.7." authorName="Mazik" authorContact="mazik90@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5bfafc21-3e9b-4133-b6a3-7aa442b0aed7" name="- Army Size" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -873,7 +873,7 @@ an extra rank even in the turn they charge.”</description>
             </entryGroup>
           </entryGroups>
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="805cdf34-7625-4bb9-95c6-d21105fd69e7" incrementField="selections" incrementValue="5.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="121463b5-80ef-4184-bd71-1d340a786f83" incrementChildId="805cdf34-7625-4bb9-95c6-d21105fd69e7" incrementField="selections" incrementValue="5.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -2286,7 +2286,7 @@ Ignore the second sentence.</description>
         </entryGroup>
       </entryGroups>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="77358e2d-4337-8546-82ac-47315e7f2556" field="selections" type="equal to" value="1.0"/>
           </conditions>
@@ -2881,6 +2881,10 @@ armour save allowed.”</description>
               <entryGroups/>
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="14108af5-7c76-46e5-997c-05a8322a56a3" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="610bbba3-dea4-1316-5368-19a8481f1ba3" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
@@ -5449,6 +5453,270 @@ automatically and will not strike back.”</description>
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="6c3f-c199-e263-455e" name="Throt&apos;s Giant Rats" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="853f-c0ba-74d6-2e1f" name="Giant Rats" points="3.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="6a5f-c840-cc0c-170a" name="Rat Pack" hidden="false" book="AB" page="54">
+              <description>.</description>
+              <modifiers/>
+            </rule>
+            <rule id="4242-8eeb-d5a4-1efe" name="Wave of Rats (FAQ&apos;ed)" hidden="false" book="AB" page="54">
+              <description>Amendments:
+Page 54 – Wave of Rats
+Change the second and third sentence to “Giant Rats have the
+Fight in Extra Ranks special rule, except that they fight with
+an extra rank even in the turn they charge.”</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="b0e4-a027-8269-4b14" profileTypeId="4d6f64656c23232344415441232323" name="Giant Rat" hidden="false" book="AB" page="54">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="1"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="3"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="War Beast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="ff53-49a4-7657-7e7a" profileTypeId="576561706f6e23232344415441232323" name="Sharp teeth/claws" hidden="false" book="BRB" page="88">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="as Hand Weapons"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="892f-7a98-cb4c-e303" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="28ff-28ed-f92f-76c4" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b3da-986e-bd29-b3c0" name="Packmaster" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="df1c-e8d3-e73e-59ba" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="3c94-25bc-80fb-4e6c" name="Master Moulder" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries>
+                    <entry id="7cb9-c73b-34bf-7794" name="Magic Items and Scavenge-pile items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="30.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups>
+                        <entryGroup id="57ad-f705-1a44-f2f1" name="Magic Items: Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries>
+                            <entry id="6eb3-dda4-a608-5479" name="AB - Electro-whip (Clan Moulder Beast-prods)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles>
+                                <profile id="0d8e-d0e3-f4e7-b150" profileTypeId="576561706f6e23232344415441232323" name="Electro-whip (Clan Moulder Beast-prods)(FAQ&apos;ed)" hidden="false" page="0">
+                                  <characteristics>
+                                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
+                                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="D3 Attacks. Roll to determine the number of Attacks each round of combat. Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed)"/>
+                                  </characteristics>
+                                  <modifiers/>
+                                </profile>
+                              </profiles>
+                              <links/>
+                            </entry>
+                            <entry id="e6d3-18b7-c774-7037" name="AB - Shock-prod (Clan Moulder Beast-prods)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles>
+                                <profile id="059f-86e4-67eb-bcf4" profileTypeId="576561706f6e23232344415441232323" name="Shock-prod (Clan Moulder Beast-prods)(FAQ&apos;ed)" hidden="false" page="0">
+                                  <characteristics>
+                                    <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                                    <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                                    <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Ignores Armour Saves."/>
+                                  </characteristics>
+                                  <modifiers/>
+                                </profile>
+                              </profiles>
+                              <links/>
+                            </entry>
+                          </entries>
+                          <entryGroups/>
+                          <modifiers/>
+                          <links/>
+                        </entryGroup>
+                      </entryGroups>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="1a84-b7ae-4df3-556e" targetId="d4b9034f-abae-db6d-89e4-210fabf11ac2" linkType="entry group">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups>
+                    <entryGroup id="b749-2af0-7374-5b82" name="Armament" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="c584-adf0-012b-2fdd" name="Great Weapon" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="a51a-ba96-bf77-c6f5" targetId="aa6635d1-89fb-7ebf-dd64-5275d86b45e4" linkType="profile">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="9a29-795e-c353-bba2" name="Things-catcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles>
+                            <profile id="0b3c-33ff-47f6-d0f7" profileTypeId="576561706f6e23232344415441232323" name="Things-catcher" hidden="false" book="AB" page="53">
+                              <characteristics>
+                                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
+                                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Requires Two Hands (BRB-75), Killing Blow (BRB-72)"/>
+                              </characteristics>
+                              <modifiers/>
+                            </profile>
+                          </profiles>
+                          <links/>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="2208-0041-e62f-f9a6" profileTypeId="4d6f64656c23232344415441232323" name="Master Moulder" hidden="false" book="AB" page="53">
+                      <characteristics>
+                        <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                        <characteristic characteristicId="575323232344415441232323" name="WS" value="5"/>
+                        <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                        <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+                        <characteristic characteristicId="5423232344415441232323" name="T" value="4"/>
+                        <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+                        <characteristic characteristicId="4923232344415441232323" name="I" value="5"/>
+                        <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                        <characteristic characteristicId="4c4423232344415441232323" name="LD" value="6"/>
+                        <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                        <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                        <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                        <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="97bb-c06b-32c6-13c9" targetId="d2ed62e0-b406-f06d-8def-62b28ffb8e83" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="5329-d1d0-bfdd-b782" targetId="c60a2eb1-9a89-9fd1-2b31-a8f35c3233b2" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="6c3f-c199-e263-455e" incrementChildId="853f-c0ba-74d6-2e1f" incrementField="selections" incrementValue="5.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="5859-ae7b-023e-0336" name="Running with the Pack" hidden="false" book="AB" page="53">
+              <description>.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="c71a-b4ae-5d5a-a38b" profileTypeId="4d6f64656c23232344415441232323" name="Packmaster" hidden="false" book="AB" page="53">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="6"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="3"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="3"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="4"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="5"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave"/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave"/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR"/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="06e7-4aad-b73d-3e51" profileTypeId="576561706f6e23232344415441232323" name="Whip (Two/Additional Hand Weapons (Models on foot only))" hidden="false" book="AB" page="53">
+              <characteristics>
+                <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat, through 1 rank of Rat Ogres or up to 3 ranks of Giant Rats"/>
+                <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
+                <characteristic characteristicId="5370656369616c2052756c657323232344415441232323" name="Special Rules" value="Extra Attack (BRB-69), Requires Two Hands (BRB-75)(FAQ&apos;ed)"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1277-c6f1-43e3-57e1" targetId="83de2e4d-2902-3b8c-d1d1-5385d26676cd" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="4254-40bb-7c62-18fd" targetId="a201f687-8fef-1688-702e-c5c270056e43" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="34ca-9382-6dad-81aa" targetId="d33deffb-1f8e-54a8-4eb0-558af2305b82" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1001-14e1-2386-728e" targetId="cd1a67da-b6e4-b995-97ef-6176d4401a7d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="aec4ad1c-ecc1-f9c7-0de0-6a609f16208c" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="4e843470-fecd-ee96-bb5c-9177935b9ee4" name="Throt&apos;s Rat Ogres" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
