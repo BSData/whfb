@@ -6567,7 +6567,7 @@ up to 12"[...]”.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8387dc6f-67db-d567-90e4-5c7847d60d90" profileTypeId="576561706f6e23232344415441232323" name="Spear (Foot)" hidden="false" book="AB" page="91">
+    <profile id="8387dc6f-67db-d567-90e4-5c7847d60d90" profileTypeId="576561706f6e23232344415441232323" name="Spear (Foot)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>

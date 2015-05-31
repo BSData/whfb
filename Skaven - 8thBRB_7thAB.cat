@@ -10126,7 +10126,7 @@ attacks made by them count as magical.”</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f8edaa82-9f5d-24d7-d6dd-d8d94652d11c" profileTypeId="576561706f6e23232344415441232323" name="Spear (Foot)" hidden="false" book="AB" page="91">
+    <profile id="f8edaa82-9f5d-24d7-d6dd-d8d94652d11c" profileTypeId="576561706f6e23232344415441232323" name="Spear (Foot)" hidden="false" book="BRB" page="91">
       <characteristics>
         <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="Combat"/>
         <characteristic characteristicId="537472656e67746823232344415441232323" name="Strength" value="As user"/>
