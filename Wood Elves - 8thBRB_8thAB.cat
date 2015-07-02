@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="10" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="11" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1547,12 +1547,31 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
     </entry>
     <entry id="df09afb2-a31c-9101-37b6-2b2b1a89eab7" name="Wardancers" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="30859c25-796d-9e36-48d3-497bc18bb685" name=" Wardancer" points="15.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="30859c25-796d-9e36-48d3-497bc18bb685" name="Wardancer" points="15.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="9dd6-eef4-32fd-998b" profileTypeId="4d6f64656c23232344415441232323" name=" Wardancer" hidden="false" book="AB" page="93">
+              <characteristics>
+                <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+                <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+                <characteristic characteristicId="4123232344415441232323" name="A" value="1"/>
+                <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="db984bc8-5716-51b6-e643-8031b870b081" name="Swap for Asrai Spear (per model)" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1567,12 +1586,31 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <entryGroups>
         <entryGroup id="f4e8dd50-4b37-5e7f-1c94-bb993158be49" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="8f9814e3-4235-fca0-3ee0-a767865b724b" name="Champion" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="8f9814e3-4235-fca0-3ee0-a767865b724b" name="Bladesinger" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="c427-5749-e083-44fd" profileTypeId="4d6f64656c23232344415441232323" name="Bladesinger" hidden="false" book="AB" page="93">
+                  <characteristics>
+                    <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+                    <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+                    <characteristic characteristicId="425323232344415441232323" name="BS" value="4"/>
+                    <characteristic characteristicId="5323232344415441232323" name="S" value="3"/>
+                    <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+                    <characteristic characteristicId="5723232344415441232323" name="W" value="1"/>
+                    <characteristic characteristicId="4923232344415441232323" name="I" value="6"/>
+                    <characteristic characteristicId="4123232344415441232323" name="A" value="2"/>
+                    <characteristic characteristicId="4c4423232344415441232323" name="LD" value="8"/>
+                    <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+                    <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+                    <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+                    <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
             <entry id="522f1265-1a4c-ba1a-71f6-4fbf06f3849d" name="Musician" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1592,7 +1630,26 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="c75a-5add-1b08-53af" targetId="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="611f-dc1e-927e-f392" targetId="a7ec9af5-0ef4-c4e8-a4bf-61579b5f9980" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a45e-9970-f795-9a79" targetId="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="531f-3f3f-dbac-23af" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c46b-1b9f-a2aa-1e38" targetId="91e7f9e7-8415-188b-b28c-1d44d2c24792" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="db49-a7d6-d24d-e23a" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="e0ae6f2d-c2c2-f87f-55fe-a47dfc98ec98" name="Warhawk Riders" points="0.0" categoryId="5370656369616c23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
@@ -3507,6 +3564,61 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="b8e1-3197-8f19-4822" name="Magic Arrows (Single Unit)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="307f-ed7f-48b9-4fc8" name="Hagbane Tips" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="1301-0949-68e1-701e" name="Trueflight Arrows" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="6261-6c37-b8df-4802" name="Moonfire Shot" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="9118-5a0d-b608-c887" name="Starfire Shafts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="1759-adce-ae2a-71ba" name="Swiftshiver Shards" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8931-359e-7c04-b93f" name="Arcane Bodkins" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="a6b5e487-8cb4-5f31-8af4-e560e98410e5" name="Magic Arrows (Whole Unit)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="f0579c04-aee3-7198-1011-e7a83b63b57a" name="Hagbane Tips" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
@@ -3678,61 +3790,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="b8e1-3197-8f19-4822" name="Magic Arrows (Single Unit)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="307f-ed7f-48b9-4fc8" name="Hagbane Tips" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="1301-0949-68e1-701e" name="Trueflight Arrows" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="6261-6c37-b8df-4802" name="Moonfire Shot" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="9118-5a0d-b608-c887" name="Starfire Shafts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="1759-adce-ae2a-71ba" name="Swiftshiver Shards" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="8931-359e-7c04-b93f" name="Arcane Bodkins" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="69139d30-b762-93fe-bf68-14daf69ee2c4" name="Always Strike First" hidden="false" book="BRB" page="67">
@@ -3801,7 +3858,7 @@ If more than half of the models are within a forest :
 - aimed shot : no armour save</description>
       <modifiers/>
     </rule>
-    <rule id="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" name="Immune to Psicology" hidden="false" book="BRB" page="0">
+    <rule id="e2be34c2-28ef-4ac5-edb6-a7d220db2c7d" name="Immune to Psychology" hidden="false" book="BRB" page="0">
       <description>The unit automatically passes all Panic, Fear and Terror tests it has to take. 
 Break tests (and other Leadership tests) are taken normally </description>
       <modifiers/>
