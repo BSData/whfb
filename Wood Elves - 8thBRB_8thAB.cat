@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="9" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="10" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -475,7 +475,7 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="2ef0e44a-0953-9ac7-8084-f9e14639a721" targetId="a6b5e487-8cb4-5f31-8af4-e560e98410e5" linkType="entry group">
+        <link id="d061-2e85-251c-9975" targetId="b8e1-3197-8f19-4822" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -3507,7 +3507,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="a6b5e487-8cb4-5f31-8af4-e560e98410e5" name="Magic Arrows" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="a6b5e487-8cb4-5f31-8af4-e560e98410e5" name="Magic Arrows (Whole Unit)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="f0579c04-aee3-7198-1011-e7a83b63b57a" name="Hagbane Tips" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
           <entries/>
@@ -3677,6 +3677,61 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <modifiers/>
         </link>
       </links>
+    </entryGroup>
+    <entryGroup id="b8e1-3197-8f19-4822" name="Magic Arrows (Single Unit)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="307f-ed7f-48b9-4fc8" name="Hagbane Tips" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="1301-0949-68e1-701e" name="Trueflight Arrows" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="6261-6c37-b8df-4802" name="Moonfire Shot" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="9118-5a0d-b608-c887" name="Starfire Shafts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="1759-adce-ae2a-71ba" name="Swiftshiver Shards" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8931-359e-7c04-b93f" name="Arcane Bodkins" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
