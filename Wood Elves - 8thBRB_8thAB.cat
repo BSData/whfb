@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="11" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0f48c054-1399-d222-0570-b20c15442639" revision="12" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" battleScribeVersion="1.15" name="Wood Elves - Army Book (2014-5) -V8.8.0." authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb">
   <entries>
     <entry id="c193f65a-b2e5-92f0-83ab-79e477c9f7a8" name="Araloth" points="260.0" categoryId="4c6f72647323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -473,9 +473,34 @@
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="e7e2-17b7-3497-c682" profileTypeId="4d6f64656c23232344415441232323" name="Glade Captain" hidden="false" book="AB" page="89">
+          <characteristics>
+            <characteristic characteristicId="4d23232344415441232323" name="M" value="5"/>
+            <characteristic characteristicId="575323232344415441232323" name="WS" value="6"/>
+            <characteristic characteristicId="425323232344415441232323" name="BS" value="6"/>
+            <characteristic characteristicId="5323232344415441232323" name="S" value="4"/>
+            <characteristic characteristicId="5423232344415441232323" name="T" value="3"/>
+            <characteristic characteristicId="5723232344415441232323" name="W" value="2"/>
+            <characteristic characteristicId="4923232344415441232323" name="I" value="7"/>
+            <characteristic characteristicId="4123232344415441232323" name="A" value="3"/>
+            <characteristic characteristicId="4c4423232344415441232323" name="LD" value="9"/>
+            <characteristic characteristicId="41726d6f75725361766523232344415441232323" name="ArmourSave" value=""/>
+            <characteristic characteristicId="576172645361766523232344415441232323" name="WardSave" value=""/>
+            <characteristic characteristicId="4d5223232344415441232323" name="MR" value=""/>
+            <characteristic characteristicId="5479706523232344415441232323" name="Type" value="Infantry"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="d061-2e85-251c-9975" targetId="b8e1-3197-8f19-4822" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4a8d-35a4-62d0-c1bd" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0360-4ed4-f459-41fa" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3844,7 +3869,7 @@ If more than half of the models are within a forest :
       <description>Affected unit gets one extra attack per model and is Immune to Psychology. Whenever one or more enemies are within charge range, the frenzied unit must charge one of them. If they overtake fleeing enemies, they always overrun. A frenzied unit that is beaten in combat loses Frenzy. </description>
       <modifiers/>
     </rule>
-    <rule id="4c1952e2-a9c9-e554-3d34-02f06cf6fca3" name="Guardians onf the Wildwoods" hidden="false" book="AB" page="0">
+    <rule id="4c1952e2-a9c9-e554-3d34-02f06cf6fca3" name="Guardians of the Wildwoods" hidden="false" book="AB" page="0">
       <description>if in base contact with one enemy which cause Fear or Terror, this model has +1 Attack</description>
       <modifiers/>
     </rule>
