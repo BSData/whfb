@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d489-613f-7b0b-2233" name="Dark Elves - Armybook (2008)" revision="1" battleScribeVersion="2.03" authorName="DurzoBlintDeluxe" authorContact="wipeout.htc2011@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" library="false" gameSystemId="779f-c127-a94a-bf00" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <categoryEntries>
-    <categoryEntry id="c22b-e9c2-12ba-047c" name="Uncounting" hidden="false"/>
-  </categoryEntries>
+<catalogue id="d489-613f-7b0b-2233" name="Dark Elves - Armybook (2008)" revision="1" battleScribeVersion="2.03" authorName="DurzoBlintDeluxe" authorContact="" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" library="false" gameSystemId="779f-c127-a94a-bf00" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="a181-017b-710d-7628" name="AB - Dark Elves"/>
+  </publications>
   <selectionEntries>
-    <selectionEntry id="45a2-e5f0-700a-0758" name="Dark Elf Warriors" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="45a2-e5f0-700a-0758" name="Dark Elf Warriors" publicationId="a181-017b-710d-7628" page="94" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="993c-b95a-2b52-7fe4" name="Dark Elf Warriors" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="Initiative" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="118a-28b2-36c6-9bfb" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
       </categoryLinks>
@@ -94,7 +109,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c4c0-c69d-8395-ac40" name="Dark Elf Repeater Crossbowmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c4c0-c69d-8395-ac40" name="Dark Elf Repeater Crossbowmen" publicationId="a181-017b-710d-7628" page="94" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="a071-34ca-4b9e-94bf" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
       </categoryLinks>
@@ -158,7 +173,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67cf-535a-ee64-b740" name="Black Ark Corsairs" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="67cf-535a-ee64-b740" name="Black Ark Corsairs" publicationId="a181-017b-710d-7628" page="94" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="888d-7003-b29d-af09" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
       </categoryLinks>
@@ -268,7 +283,35 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3060-1edc-0820-f2d1" name="Dark Riders" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3060-1edc-0820-f2d1" name="Dark Riders" publicationId="a181-017b-710d-7628" page="95" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="560f-19eb-bae6-5a52" name="Dark Riders" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
+            <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
+            <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="Initiative" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b5f4-9173-0693-a580" name="Dark Steed" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">9</characteristic>
+            <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
+            <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">0</characteristic>
+            <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="Initiative" typeId="b418-0e30-644f-1435">4</characteristic>
+            <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="425f-1d5d-9c5d-3969" name="New CategoryLink" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
       </categoryLinks>
@@ -347,9 +390,9 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e9d-33dc-3fa1-b2f0" name="Harpies" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3e9d-33dc-3fa1-b2f0" name="Harpies" publicationId="a181-017b-710d-7628" page="95" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="3cbf-5e2e-e706-15b4" name="New CategoryLink" hidden="false" targetId="c22b-e9c2-12ba-047c" primary="true"/>
+        <categoryLink id="62d1-2056-cfe9-09f4" name="New CategoryLink" hidden="false" targetId="bdfa-6d6e-a1bf-5d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="531e-cbde-e60b-44ae" name="Harpies" hidden="false" collective="false" import="true" type="upgrade">
@@ -366,7 +409,22 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8145-405c-caeb-19b3" name="Shades" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8145-405c-caeb-19b3" name="Shades" publicationId="a181-017b-710d-7628" page="96" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2872-54a6-366c-7c04" name="Shades" publicationId="a181-017b-710d-7628" page="96" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
+          <characteristics>
+            <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+            <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+            <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">5</characteristic>
+            <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
+            <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
+            <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
+            <characteristic name="Initiative" typeId="b418-0e30-644f-1435">5</characteristic>
+            <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">1</characteristic>
+            <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="7a45-d42e-edea-eaf5" name="Special" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
       </categoryLinks>
@@ -451,7 +509,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95fe-0b03-2fa7-6771" name="Cold One Knights" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="95fe-0b03-2fa7-6771" name="Cold One Knights" publicationId="a181-017b-710d-7628" page="97" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="fe1e-2098-6673-0b63" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
       </categoryLinks>
@@ -573,7 +631,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5155-ba99-5abf-ece0" name="Cold One Chariot" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5155-ba99-5abf-ece0" name="Cold One Chariot" publicationId="a181-017b-710d-7628" page="97" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="c440-54e1-c1c4-eb6f" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
       </categoryLinks>
@@ -581,7 +639,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef21-ec08-26cc-4bde" name="Witch Elves" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ef21-ec08-26cc-4bde" name="Witch Elves" publicationId="a181-017b-710d-7628" page="96" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="62d3-efc6-6c2c-634e">
           <conditions>
@@ -675,7 +733,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="acb6-f9ee-debd-fbe1" name="Har Ganeth Executioners" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="acb6-f9ee-debd-fbe1" name="Har Ganeth Executioners" publicationId="a181-017b-710d-7628" page="96" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="3ef1-54ca-1b3b-40f1" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
       </categoryLinks>
@@ -773,7 +831,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0eb6-f63f-0706-c678" name="Reaper Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0eb6-f63f-0706-c678" name="Reaper Bolt Thrower" publicationId="a181-017b-710d-7628" page="98" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="ec16-66f8-af7e-db83" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
       </categoryLinks>
@@ -792,7 +850,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d97f-6eaa-fdf6-a6f7" name="War Hydra" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d97f-6eaa-fdf6-a6f7" name="War Hydra" publicationId="a181-017b-710d-7628" page="98" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bbfb-d0ed-fb46-f328" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
       </categoryLinks>
@@ -800,7 +858,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ca5-c1f1-ed81-005c" name="Black Guard of Naggarond" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3ca5-c1f1-ed81-005c" name="Black Guard of Naggarond" publicationId="a181-017b-710d-7628" page="97" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="0971-3b45-91bb-ab8c" name="New CategoryLink" hidden="false" targetId="4a3f-84d1-0495-6ecb" primary="true"/>
       </categoryLinks>
@@ -938,7 +996,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cad-8c2b-6c46-0f93" name="Sorceress" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5cad-8c2b-6c46-0f93" name="Sorceress" publicationId="a181-017b-710d-7628" page="92" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="4869-631d-a97c-6928" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="b49c-6ca9-5e2a-3f2c" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -989,7 +1047,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c756-0a40-8f10-5569" name="Master" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c756-0a40-8f10-5569" name="Master" publicationId="a181-017b-710d-7628" page="93" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="7a5f-0d26-0f02-02cd" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="05d1-7f88-2472-9868" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1148,7 +1206,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d861-593b-7c7a-97b1" name="Dreadlord" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d861-593b-7c7a-97b1" name="Dreadlord" publicationId="a181-017b-710d-7628" page="91" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bc97-d68f-5664-7e2c" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="6093-e6ce-a172-5c4b" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1269,7 +1327,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b372-23fe-7561-18c8" name="Supreme Sorceress" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b372-23fe-7561-18c8" name="Supreme Sorceress" publicationId="a181-017b-710d-7628" page="91" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="50c2-2207-253e-3e8d" name="New CategoryLink" hidden="false" targetId="623e-5f3d-d939-9b51" primary="true"/>
         <categoryLink id="c817-c7a2-c787-ed3d" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1320,12 +1378,12 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a08-d705-e93e-bdae" name="Dark Elf Assassin" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0a08-d705-e93e-bdae" name="Dark Elf Assassin" publicationId="a181-017b-710d-7628" page="95" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9b4-639a-01b1-2a5c" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="773d-8077-5514-e970" name="Uncounting" hidden="false" targetId="c22b-e9c2-12ba-047c" primary="true"/>
+        <categoryLink id="5d37-823f-76e4-ae1b" name="New CategoryLink" hidden="false" targetId="bdfa-6d6e-a1bf-5d03" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8f89-b81b-a693-e73d" name="Weapons" hidden="false" collective="false" import="true">
@@ -1382,7 +1440,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4036-e8b1-a018-1718" name="Death Hag" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4036-e8b1-a018-1718" name="Death Hag" publicationId="a181-017b-710d-7628" page="93" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="7ddd-13b8-538a-ff35" name="New CategoryLink" hidden="false" targetId="5694-61f3-6913-6154" primary="true"/>
         <categoryLink id="3df6-da4f-7d36-9c22" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="false"/>
@@ -1405,7 +1463,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d490-733c-e8b6-6a1e" name="Cauldron of Blood" hidden="false" collective="false" import="true" targetId="8ad9-dfc7-8ad7-a31a" type="selectionEntry"/>
+        <entryLink id="d490-733c-e8b6-6a1e" name="Cauldron of Blood" publicationId="a181-017b-710d-7628" page="93" hidden="false" collective="false" import="true" targetId="8ad9-dfc7-8ad7-a31a" type="selectionEntry"/>
         <entryLink id="a92d-17f5-e806-92b3" name="Gifts of Khaine" hidden="false" collective="false" import="true" targetId="894c-63a3-23d7-cd1c" type="selectionEntryGroup">
           <constraints>
             <constraint field="eaa7-6800-e651-8bea" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec10-1230-a272-33d8" type="max"/>
@@ -1420,7 +1478,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eedb-f248-b86a-efd1" name="Crone Hellebron, The Hag Queen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="eedb-f248-b86a-efd1" name="Crone Hellebron, The Hag Queen" publicationId="a181-017b-710d-7628" page="90" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7827-e372-8808-1deb" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3d7-5653-623b-7d7a" type="max"/>
@@ -1436,7 +1494,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="350.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6399-b627-5670-f6a6" name="Malekith, the Witch King" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6399-b627-5670-f6a6" name="Malekith, the Witch King" publicationId="a181-017b-710d-7628" page="90" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ba0-dd04-65d7-fef0" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7c7-2b99-f746-ea84" type="max"/>
@@ -1471,7 +1529,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="600.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="22a5-1d4e-e419-512f" name="Morathi, the Hag Sorceress" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="22a5-1d4e-e419-512f" name="Morathi, the Hag Sorceress" publicationId="a181-017b-710d-7628" page="90" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38cb-6e29-59da-7d08" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d14b-52d3-171c-1b26" type="max"/>
@@ -1486,12 +1544,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de36-fee2-35a2-e0fe" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="bdfb-cbb9-e3a8-7fb7" name="Heartrender" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bdfb-cbb9-e3a8-7fb7" name="Heartrender" publicationId="a181-017b-710d-7628" page="90" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="45.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0b95-fcc9-f6c4-ef0e" name="Dark Sword" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0b95-fcc9-f6c4-ef0e" name="Dark Sword" publicationId="a181-017b-710d-7628" page="90" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
               </costs>
@@ -1507,7 +1565,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="455.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="30cb-d54c-ce21-3b46" name="Malus Darkblade, Scion of Hag Graef" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="30cb-d54c-ce21-3b46" name="Malus Darkblade, Scion of Hag Graef" publicationId="a181-017b-710d-7628" page="92" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4836-b12e-4dd6-386a" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e4a-8e3b-5c51-ae03" type="max"/>
@@ -1520,7 +1578,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb2d-2edc-4b45-22ec" name="Shadowblade, Master of Assassins" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="eb2d-2edc-4b45-22ec" name="Shadowblade, Master of Assassins" publicationId="a181-017b-710d-7628" page="92" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab54-1d03-5971-1c4f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74ab-ab10-4dd0-7583" type="max"/>
@@ -1533,7 +1591,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67c2-3afc-91a4-8679" name="Lokhir Fellheart, Captain of the Tower of Blessed Dread" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="67c2-3afc-91a4-8679" name="Lokhir Fellheart, Captain of the Tower of Blessed Dread" publicationId="a181-017b-710d-7628" page="92" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa20-c61e-7c14-510c" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea5e-5461-340c-ade7" type="max"/>
@@ -2186,7 +2244,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="894c-63a3-23d7-cd1c" name="Gifts of Khaine" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="503f-bbd2-44df-262a" name="Touch of Death" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="503f-bbd2-44df-262a" name="Touch of Death" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2842-5631-0daa-3193" type="max"/>
           </constraints>
@@ -2194,7 +2252,7 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="151b-92fb-8a45-db8c" name="Dance of Doom" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="151b-92fb-8a45-db8c" name="Dance of Doom" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b9d-73b8-75dc-b0b7" type="max"/>
           </constraints>
@@ -2202,7 +2260,7 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b221-aedf-dc8c-b422" name="Hand of Khaine" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b221-aedf-dc8c-b422" name="Hand of Khaine" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5872-60df-8775-6346" type="max"/>
           </constraints>
@@ -2217,17 +2275,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16af-4219-2753-10dc" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0a8b-c12e-66c1-b75e" name="Dark Venom" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0a8b-c12e-66c1-b75e" name="Dark Venom" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e5e0-00c3-dbbf-13f7" name="Black Lotus" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e5e0-00c3-dbbf-13f7" name="Black Lotus" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9e7d-d3e9-6876-9e95" name="Manbane" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9e7d-d3e9-6876-9e95" name="Manbane" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
               </costs>
@@ -2236,8 +2294,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3e9b-3f2f-438e-fb18" name="Rune of Khaine" hidden="false" collective="false" import="true" targetId="4c25-1d46-aa6c-e61d" type="selectionEntry"/>
-        <entryLink id="5084-6a86-7981-f978" name="Cry of War" hidden="false" collective="false" import="true" targetId="009a-2986-998f-21d0" type="selectionEntry"/>
+        <entryLink id="3e9b-3f2f-438e-fb18" name="Rune of Khaine" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" targetId="4c25-1d46-aa6c-e61d" type="selectionEntry"/>
+        <entryLink id="5084-6a86-7981-f978" name="Cry of War" publicationId="a181-017b-710d-7628" page="99" hidden="false" collective="false" import="true" targetId="009a-2986-998f-21d0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
