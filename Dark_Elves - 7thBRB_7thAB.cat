@@ -62,7 +62,6 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="33d4-83b6-6941-9abb" name="Magic Banner" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1ba-1623-2ed7-457d" type="max"/>
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aea7-a5ae-512f-ca87" type="max"/>
               </constraints>
               <entryLinks>
@@ -209,7 +208,6 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="5362-9e38-02ed-344e" name="Magic Banner" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4890-86c0-3545-de50" type="max"/>
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8372-282b-6a8d-55ee" type="max"/>
               </constraints>
               <entryLinks>
@@ -536,15 +534,7 @@
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="9004-b31f-9536-10e6" name="Magic Banner" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="set" field="fd44-e314-29f8-4e7b" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd44-e314-29f8-4e7b" type="max"/>
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="30b8-b54d-920d-a492" type="max"/>
               </constraints>
               <entryLinks>
@@ -565,7 +555,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b4e-59c8-2a37-2448" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8335-10d2-a1d1-5dfb" type="max"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="6539-6180-6a44-0026" name="Magic Items" hidden="false" collective="false" import="true">
@@ -761,7 +751,6 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="cfa8-469a-1e68-f3fd" name="Magic Banner" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f35e-0253-5e20-029e" type="max"/>
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf16-57e9-7f53-f0b6" type="max"/>
               </constraints>
               <entryLinks>
@@ -850,7 +839,7 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d97f-6eaa-fdf6-a6f7" name="War Hydra" publicationId="a181-017b-710d-7628" page="98" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d97f-6eaa-fdf6-a6f7" name="War Hydra" publicationId="a181-017b-710d-7628" page="98" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bbfb-d0ed-fb46-f328" name="New CategoryLink" hidden="false" targetId="a3af-995e-0cf1-7091" primary="true"/>
       </categoryLinks>
@@ -886,7 +875,6 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="c5c4-f0d8-0b97-603b" name="Magic Banner" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e52a-4e38-955a-751b" type="max"/>
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1812-c6a0-520b-3921" type="max"/>
               </constraints>
               <entryLinks>
@@ -915,21 +903,9 @@
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d4d-361a-af28-c1d8" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7fb6-cf50-018f-609b" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd98-0dde-fd1a-af41" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="5251-792f-b8fb-32eb" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ffd7-ced0-5a31-9e15" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88fb-e099-eb43-e289" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="33cd-e939-f02c-b160" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a92-642a-96a4-4d27" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="7fb6-cf50-018f-609b" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup"/>
+                <entryLink id="5251-792f-b8fb-32eb" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ffd7-ced0-5a31-9e15" type="selectionEntryGroup"/>
+                <entryLink id="33cd-e939-f02c-b160" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup"/>
                 <entryLink id="c942-75a3-d3f6-0efe" name="Talismans" hidden="false" collective="false" import="true" targetId="2435-3d55-7f77-f21c" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -1020,16 +996,8 @@
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f52-ae42-2cbd-a8d9" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="b4af-7260-11a7-19b7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e00-57e9-4afc-8252" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="33b0-249d-5eef-12b5" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ee6-fea4-7245-f973" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="b4af-7260-11a7-19b7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup"/>
+                <entryLink id="33b0-249d-5eef-12b5" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup"/>
                 <entryLink id="3acf-0024-7c95-7de5" name="Talismans" hidden="false" collective="false" import="true" targetId="2435-3d55-7f77-f21c" type="selectionEntryGroup"/>
                 <entryLink id="8ff2-bd5e-7a3b-7c96" name="Arcane Items" hidden="false" collective="false" import="true" targetId="aa4a-9b4a-397c-4f5f" type="selectionEntryGroup"/>
               </entryLinks>
@@ -1070,22 +1038,10 @@
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9fa6-86a8-99d9-113a" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="e06d-0737-cd7c-f276" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fa5-d703-c864-9463" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="3ad8-c0b8-b5e9-273e" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e74c-6671-9d93-0e1b" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="e06d-0737-cd7c-f276" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup"/>
+                <entryLink id="3ad8-c0b8-b5e9-273e" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup"/>
                 <entryLink id="47c1-a731-7450-a699" name="Talismans" hidden="false" collective="false" import="true" targetId="2435-3d55-7f77-f21c" type="selectionEntryGroup"/>
-                <entryLink id="36d5-8f70-618e-7dc2" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ffd7-ced0-5a31-9e15" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03c9-0502-2921-7b6b" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="36d5-8f70-618e-7dc2" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ffd7-ced0-5a31-9e15" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="08a8-cf58-b026-027b" name="Magic Standard" hidden="false" collective="false" import="true">
@@ -1222,22 +1178,10 @@
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7415-c9b8-f02d-2df0" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="3175-c143-d280-7235" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a63-8f94-eed4-9cce" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="f498-c2a5-d749-0e7b" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f980-7bec-0b4c-d6c8" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="3175-c143-d280-7235" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup"/>
+                <entryLink id="f498-c2a5-d749-0e7b" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup"/>
                 <entryLink id="c884-d774-bf7e-6367" name="Talismans" hidden="false" collective="false" import="true" targetId="2435-3d55-7f77-f21c" type="selectionEntryGroup"/>
-                <entryLink id="5cfe-6e57-f756-2c54" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ffd7-ced0-5a31-9e15" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa83-f78b-d70d-6f69" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="5cfe-6e57-f756-2c54" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ffd7-ced0-5a31-9e15" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1343,16 +1287,8 @@
                 <constraint field="eaa7-6800-e651-8bea" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a77a-5365-e1a1-13c5" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="0f03-9b12-f965-963f" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1999-d120-3730-efff" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="db51-7d23-e431-2031" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d61d-1988-821a-d6d9" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="0f03-9b12-f965-963f" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="9952-afbe-bdda-98ca" type="selectionEntryGroup"/>
+                <entryLink id="db51-7d23-e431-2031" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="c783-44c5-1c8b-6efb" type="selectionEntryGroup"/>
                 <entryLink id="1a56-1a53-9019-836b" name="Talismans" hidden="false" collective="false" import="true" targetId="2435-3d55-7f77-f21c" type="selectionEntryGroup"/>
                 <entryLink id="7171-44bb-4ee8-eb8a" name="Arcane Items" hidden="false" collective="false" import="true" targetId="aa4a-9b4a-397c-4f5f" type="selectionEntryGroup"/>
               </entryLinks>
@@ -1437,7 +1373,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4036-e8b1-a018-1718" name="Death Hag" publicationId="a181-017b-710d-7628" page="93" hidden="false" collective="false" import="true" type="unit">
@@ -1689,7 +1625,7 @@
       <modifiers>
         <modifier type="increment" field="79c6-80b1-f6a5-efb1" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f89e-1ec4-08e7-d2d3" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="76af-9584-1a59-64ba" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1751,18 +1687,12 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="76af-9584-1a59-64ba" name="Null Talisman" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="8fca-a083-10d7-6da2" name="Nulls Talismans" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="f89e-1ec4-08e7-d2d3" name="Null Talisman" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f505-aef3-4ad3-5de4" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="0187-c1bd-3c63-16b4" type="selectionEntry"/>
       </entryLinks>
