@@ -74,7 +74,7 @@
       </modifiers>
       <rules>
         <rule id="4edae407-a7c4-c5cb-9313-56f7a8cffb8d" name="Cloud of Horror" hidden="false" book="AB" page="37">
-          <description>.</description>
+          <description>An enemy unit in base contact with Bat Swarms has the Always Strikes Last special rule</description>
           <modifiers/>
         </rule>
       </rules>
@@ -1333,7 +1333,7 @@
       <modifiers/>
       <rules>
         <rule id="4848af06-e468-3133-0170-d31cdcf1d66b" name="Slavering Charge" hidden="false" book="AB" page="36">
-          <description>.</description>
+          <description>+1 Strength on the turn they charge </description>
           <modifiers/>
         </rule>
       </rules>
@@ -1800,15 +1800,15 @@
       </modifiers>
       <rules>
         <rule id="c9108165-df43-bbfb-12a5-ed255f47a0b8" name="Soul Reapers" hidden="false" book="AB" page="47">
-          <description>.</description>
+          <description>Attacks made by hexwraiths are magical,Count as Flaming Attacks and allow no armour save against them. </description>
           <modifiers/>
         </rule>
         <rule id="fe6f0f06-8462-fa73-c133-9a48cc4254ae" name="Soulstriders" hidden="false" book="AB" page="47">
-          <description>.</description>
+          <description>Hexwraiths can move through unengaged units, Cannot end movement within "1" of another unit</description>
           <modifiers/>
         </rule>
         <rule id="66cce9f2-845d-a2b1-48aa-150afefa210f" name="Spectral Hunters" hidden="false" book="AB" page="47">
-          <description>.</description>
+          <description>If a unit of hexwraiths moves through one or more units nominate one of them at end of move phase, this unit suffers a str 5 hit (distributed as shooting) for each wraith which passed through it, these attacks are magical,flaming and allow no armour save.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2115,7 +2115,7 @@
       <modifiers/>
       <rules>
         <rule id="73cac017-56a3-15eb-21ba-bd8e4aa2baa3" name="Champion of the Dead" hidden="false" book="AB" page="59">
-          <description>.</description>
+          <description>Must Issue challenges whenever possible. Gains Heroic Killing Blow if in a challenge in same unit as Kemmler, MUST accept </description>
           <modifiers/>
         </rule>
       </rules>
@@ -3200,7 +3200,7 @@
           <modifiers/>
           <rules>
             <rule id="4bf1121b-cc61-4936-2ba2-18d6b8b63e48" name="Rancid Maw" hidden="false" book="AB" page="48">
-              <description>.</description>
+              <description>Gain Poisoned attacks(but not for thunderstomps) </description>
               <modifiers/>
             </rule>
           </rules>
@@ -3213,7 +3213,7 @@
           <modifiers/>
           <rules>
             <rule id="04a1e2de-3dd2-82cf-2085-b54c7b161fe6" name="Infested" hidden="false" book="AB" page="48">
-              <description>.</description>
+              <description>When the Terrorgheist dies all units in base combat(friend and foe) take 3d6 str 2 hits. </description>
               <modifiers/>
             </rule>
           </rules>
@@ -4049,7 +4049,7 @@
       </modifiers>
       <rules>
         <rule id="92c3c523-7fb2-67d3-eb73-617332229b55" name="Bestial Fury" hidden="false" book="AB" page="44">
-          <description>.</description>
+          <description>Has no flanks or rear for purpose of combat results.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4556,7 +4556,7 @@
       <modifiers/>
       <rules>
         <rule id="3f93fcd8-7cf9-ed54-55a1-48bd5ff10587" name="The Newly Dead" hidden="false" book="AB" page="34">
-          <description>.</description>
+          <description>Gains an extra D6 wounds from Invocation Of Nehek</description>
           <modifiers/>
         </rule>
       </rules>
@@ -6908,7 +6908,8 @@ turn[...]” in the second paragraph</description>
       <modifiers/>
     </rule>
     <rule id="696c399a-e2ce-f538-2ed0-16ccc2294b08" name="Death Shriek" hidden="false" book="AB" page="48">
-      <description>.</description>
+      <description>A death shriek is a special attack which happens in the shooting phase. can be targeted into combat. 
+        "8" 2d6+wounds left on Terrorgheist vs targets ld-Counts as magical, no armour saves. </description>
       <modifiers/>
     </rule>
     <rule id="cb66c395-7946-f038-064e-093cbd799210" name="Devastating Charge" hidden="false" book="BRB" page="68">
@@ -6916,7 +6917,7 @@ turn[...]” in the second paragraph</description>
       <modifiers/>
     </rule>
     <rule id="2af09ef2-71da-e8d4-1cad-af5e256bef93" name="Ethereal" hidden="false" book="BRB" page="68">
-      <description>.</description>
+      <description>Treat all terrain as open Can never be slowed by spells/items.Has Magical attacks and only wounded by magical attacks</description>
       <modifiers/>
     </rule>
     <rule id="87be5019-3797-4850-5a89-889472ca9a9f" name="Extra Attack (FAQ&apos;ed)" hidden="false" book="BRB" page="69">
@@ -6952,7 +6953,7 @@ In Extra Ranks special rules are cumulative.”</description>
       <modifiers/>
     </rule>
     <rule id="f0c3028b-71a4-4f53-f1ca-c8e090599529" name="Frenzy" hidden="false" book="BRB" page="70">
-      <description>.</description>
+      <description>Extra attack, Immune to psychology. Frenzied units must test against ld in charge phase or charge closest visible enemy. Frenzied models must overrun, cannot parry. But Lose frenzy if beaten in a round of combat. </description>
       <modifiers/>
     </rule>
     <rule id="48eea62d-c5cf-676f-1cb3-77956b2781db" name="Ghostly Howl" hidden="false" book="AB" page="31">
@@ -6964,7 +6965,7 @@ In Extra Ranks special rules are cumulative.”</description>
       <modifiers/>
     </rule>
     <rule id="63de25ba-7e53-56df-a65b-205f239590c7" name="Heroic Killing Blow" hidden="false" book="BRB" page="72">
-      <description>.</description>
+      <description>6's to wound in close combat automatically kills opponent, only ward save allowed. </description>
       <modifiers/>
     </rule>
     <rule id="1572ae64-6ee9-0820-34f3-9f568b7c70de" name="Hover" hidden="false" book="BRB" page="71">
@@ -7025,7 +7026,7 @@ Add the following sentence to the end of the third paragraph:
       <modifiers/>
     </rule>
     <rule id="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" name="Poisoned Attacks" hidden="false" book="BRB" page="73">
-      <description>.</description>
+      <description>wounds target automatically if a 6 is rolled to hit</description>
       <modifiers/>
     </rule>
     <rule id="5be98526-8099-0f14-c181-d8865c6a319e" name="Quick to Fire" hidden="false" book="BRB" page="73">
@@ -7096,7 +7097,7 @@ of the third paragraph.</description>
       <modifiers/>
     </rule>
     <rule id="0c4b16cc-a45d-afca-5505-a097980d1597" name="Spectral Steeds" hidden="false" book="AB" page="51">
-      <description>.</description>
+      <description>Counts as ethereal for movement only.</description>
       <modifiers/>
     </rule>
     <rule id="d9150917-e572-36a9-021d-dc5a09ac4aab" name="Stomp" hidden="false" book="BRB" page="76">
@@ -7120,7 +7121,7 @@ of the third paragraph.</description>
       <modifiers/>
     </rule>
     <rule id="978cb138-9bf8-6b46-bf61-14121d8083bb" name="Terror" hidden="false" book="BRB" page="78">
-      <description>.</description>
+      <description>Fear causing models must take fear tests against a terror monster. IF charged by a terror causing unit, ld test or they MUST take the flee reaction.</description>
       <modifiers/>
     </rule>
     <rule id="416135ba-6e09-84b0-477b-6372bb12f204" name="The General of Undeath" hidden="false" book="AB" page="26">
@@ -7132,7 +7133,7 @@ of the third paragraph.</description>
       <modifiers/>
     </rule>
     <rule id="a3751cf1-7c54-da2a-6586-aea81f497f0e" name="Thunderstomp" hidden="false" book="BRB" page="76">
-      <description>.</description>
+      <description>Inflicts D6 automatic hits at model strength on one enemy infantry,war beasts or swarm in base contact. A.ways Strikes Last.</description>
       <modifiers/>
     </rule>
     <rule id="51fcdc91-783c-e642-ec1e-c9b8e90bd201" name="Unbreakable" hidden="false" book="BRB" page="78">
@@ -7140,7 +7141,7 @@ of the third paragraph.</description>
       <modifiers/>
     </rule>
     <rule id="95882ded-3472-7ed3-c073-99047ac815c5" name="Undead" hidden="false" book="AB" page="26">
-      <description>.</description>
+      <description>Fear, cannot march, Unstable.</description>
       <modifiers/>
     </rule>
     <rule id="5e45a335-ca2c-4724-496f-892b8201068b" name="Unstable" hidden="false" book="BRB" page="78">
@@ -7152,7 +7153,7 @@ of the third paragraph.</description>
       <modifiers/>
     </rule>
     <rule id="b72caa89-fe4a-eacc-233b-f3d4d5928030" name="Vampiric" hidden="false" book="AB" page="26">
-      <description>.</description>
+      <description>Can march,Does not crumble</description>
       <modifiers/>
     </rule>
     <rule id="658e3120-c6b5-ca4a-c62c-487a65ce2017" name="Vanguard (FAQ&apos;ed)" hidden="false" book="BRB" page="79">
