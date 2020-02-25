@@ -6395,7 +6395,7 @@ Any unit taking a hit, must pass leadership at -3 in order to declare a charge n
 Not cumulative with Witchbrew.</description>
         </rule>
         <rule id="9135-4096-df1a-bbf9" name="Strength of Khaine" publicationId="3d8fff6c--pubN65980" page="47" hidden="false">
-          <description>Friendly models with the Murderous Prowess special rule in units within 6&quot; re-roll all failed To Wound rolls.</description>
+          <description>Friendly models with the Murderous Prowess special rule in units within 6&quot; of the Cauldron of Blood re-roll all failed To Wound rolls</description>
         </rule>
         <rule id="a9f7-d81b-4cb1-c85c" name="Bloodshield of Khaine" publicationId="3d8fff6c--pubN65980" page="47" hidden="false">
           <description>4 + Ward save.
