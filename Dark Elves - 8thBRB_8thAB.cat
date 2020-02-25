@@ -776,6 +776,7 @@
         <infoLink id="249d-4d6a-e342-0638" hidden="false" targetId="dbf9-cacd-99a2-bd62" type="rule"/>
         <infoLink id="4001-0ecd-9541-d654" hidden="false" targetId="d0278406-cc36-47dd-3b48-7854ce7b0a68" type="rule"/>
         <infoLink id="01f8-d2e5-914f-d435" hidden="false" targetId="85b4-48c6-6350-1035" type="rule"/>
+        <infoLink id="1762-0d3a-30b5-a4e2" name="Cold One" hidden="false" targetId="356f-4922-ac2b-8e65" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ed31e63f-fcaf-4e50-a8b8-63f05c117e48-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -864,9 +865,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="2fbc-9542-5f09-32dd" hidden="false" collective="false" import="true" targetId="239d-3e2c-7c0d-caad" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="115.0"/>
       </costs>
@@ -880,6 +878,7 @@
         <infoLink id="6fea-caf0-bc6b-019d" hidden="false" targetId="d0278406-cc36-47dd-3b48-7854ce7b0a68" type="rule"/>
         <infoLink id="caec-91d0-c67a-a072" hidden="false" targetId="85b4-48c6-6350-1035" type="rule"/>
         <infoLink id="04c5-fe01-a3b3-b81c" hidden="false" targetId="27b1-52e5-ba60-41e4" type="rule"/>
+        <infoLink id="fbd5-ec0d-44ac-4a10" name="Cold One" hidden="false" targetId="356f-4922-ac2b-8e65" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a69a994b-c802-4881-8b6c-0e511c30b81e-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -1032,13 +1031,6 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e8e0-4f3c-5e70-3ec5" hidden="false" collective="false" import="true" targetId="239d-3e2c-7c0d-caad" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -1049,6 +1041,7 @@
         <infoLink id="d5b9-d8d9-4d7d-590f" hidden="false" targetId="fecf-d6f1-a549-ee2b" type="rule"/>
         <infoLink id="986a-7cb2-2dff-2819" hidden="false" targetId="d0278406-cc36-47dd-3b48-7854ce7b0a68" type="rule"/>
         <infoLink id="058b-5fe6-b829-8c21" hidden="false" targetId="1b99-64d7-c44d-144e" type="rule"/>
+        <infoLink id="6c88-9e9d-7c99-f00a" name="Dark Steed" hidden="false" targetId="b86c-ebd4-21da-3463" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dcf997a5-f01b-4c64-b92d-155024e59ef8-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
@@ -1179,13 +1172,6 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="211b-c17f-450a-f4fb" hidden="false" collective="false" import="true" targetId="985d-b4f4-a418-cb2a" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -1654,6 +1640,7 @@ If targeted as a wizard, opponent may choose target.
         <infoLink id="f377-d305-ff6a-2031" hidden="false" targetId="f12c-cfab-6ee5-fac1" type="rule"/>
         <infoLink id="d18c-bdaa-d535-949a" hidden="false" targetId="fecf-d6f1-a549-ee2b" type="rule"/>
         <infoLink id="d332-efe2-8045-3678" hidden="false" targetId="1b99-64d7-c44d-144e" type="rule"/>
+        <infoLink id="1fbf-cf4c-04a6-fd70" name="Dark Steed" hidden="false" targetId="b86c-ebd4-21da-3463" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e66a17c4-15a3-175a-6309-393c7e735eae-5261726523232344415441232323" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
@@ -1720,13 +1707,6 @@ If targeted as a wizard, opponent may choose target.
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="10a3-b100-a81e-7107" hidden="false" collective="true" import="true" targetId="985d-b4f4-a418-cb2a" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -6455,6 +6435,25 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="a637-8169-682d-29d6" name="Cold One" publicationId="3d8fff6c--pubN65980" page="92" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">7</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">3</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-</characteristic>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323">-</characteristic>
+            <characteristic name="MR" typeId="4d5223232344415441232323">-</characteristic>
+            <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="d075-798a-86b4-3475" hidden="false" targetId="7c7c-fbca-1b52-0586" type="rule"/>
         <infoLink id="78e6-39d2-8416-d84b" hidden="false" targetId="85b4-48c6-6350-1035" type="rule"/>
@@ -8711,6 +8710,40 @@ Only one model with this special rule can join each unit.</description>
         <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
         <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Extra Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="356f-4922-ac2b-8e65" name="Cold One" publicationId="3d8fff6c--pubN65980" page="92" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="4d23232344415441232323">7</characteristic>
+        <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+        <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+        <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+        <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+        <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
+        <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+        <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+        <characteristic name="LD" typeId="4c4423232344415441232323">3</characteristic>
+        <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-</characteristic>
+        <characteristic name="WardSave" typeId="576172645361766523232344415441232323">-</characteristic>
+        <characteristic name="MR" typeId="4d5223232344415441232323">-</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b86c-ebd4-21da-3463" name="Dark Steed" publicationId="3d8fff6c--pubN65980" page="94" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="4d23232344415441232323">9</characteristic>
+        <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+        <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+        <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+        <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
+        <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
+        <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+        <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+        <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
+        <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+        <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+        <characteristic name="MR" typeId="4d5223232344415441232323"/>
+        <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
