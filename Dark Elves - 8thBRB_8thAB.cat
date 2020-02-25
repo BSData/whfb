@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" name="Dark Elves  - Army Book (2013-10) -V8.8.0." revision="76" battleScribeVersion="2.03" authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" name="Dark Elves  - Army Book (2013-10) -V8.8.0." revision="77" battleScribeVersion="2.03" authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3d8fff6c--pubN65980" name="Dark Elves"/>
     <publication id="3d8fff6c--pubN89082" name="End Times - Nagash"/>
@@ -149,7 +149,7 @@
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
                 <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
-                <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">6</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
@@ -403,7 +403,7 @@
                     <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                     <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
                     <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
-                    <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
+                    <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
@@ -2041,7 +2041,7 @@ If targeted as a wizard, opponent may choose target.
                     <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-                    <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
                     <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
@@ -2733,7 +2733,7 @@ A unit is ummune to the effects of Abyssal Howl if the majority of its models ha
         <profile id="d2d2-d4a7-227b-5be2" name="Kouran Darkhand" publicationId="3d8fff6c--pubN65980" page="88" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
-            <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">6</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
             <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
@@ -2859,6 +2859,9 @@ A unit is ummune to the effects of Abyssal Howl if the majority of its models ha
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="8a78-7561-27a2-4ef6" name="Regeneration" hidden="false" targetId="bc5e-3cd9-6d59-3cf5" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -3130,9 +3133,9 @@ All units within 12&quot; pass all panic tests</description>
                     <characteristic name="T" typeId="5423232344415441232323">6</characteristic>
                     <characteristic name="W" typeId="5723232344415441232323">6</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">8</characteristic>
-                    <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="A" typeId="4123232344415441232323">6</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Monster</characteristic>
@@ -3160,7 +3163,6 @@ Any unit taking a hit, must pass leadership at -3 in order to declare a charge n
           </selectionEntries>
           <entryLinks>
             <entryLink id="8470-99be-b175-37a4" hidden="false" collective="false" import="true" targetId="239d-3e2c-7c0d-caad" type="selectionEntry"/>
-            <entryLink id="be1a-fef4-3d02-0612" hidden="false" collective="false" import="true" targetId="4ea2-5afa-7359-05ea" type="selectionEntry"/>
             <entryLink id="23d5-f47b-ef6c-b94e" hidden="false" collective="false" import="true" targetId="bb5c-e13a-bdad-0e51" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="110.0"/>
@@ -3198,11 +3200,11 @@ Any unit taking a hit, must pass leadership at -3 in order to declare a charge n
       </profiles>
       <rules>
         <rule id="83918784-295e-cd5e-b511-3d79d186fe56" name="Tz&apos;arkan" page="0" hidden="false">
-          <description>Can choose to apply at start of any turn: 
+          <description>Can choose to apply at start of any friendly Movement phase, once released it cannot be bound back during the battle:
 
-Gains Frenzy
-Gaines +1 WS, +1 S, +2 T, +2 I, +1 Ld
-If Malus is not in base contact with an enemy, roll a D6 (1-3 fails), failure will drive Malus to attack friendly models in base contact</description>
+Gains Frenzy (+1 A and Immune to Psychology)
+Gains +1 WS, +1 S, +1 T, +1 I, +1 Ld
+Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of your choice) suffer an automatic hit at Malus&apos;s Stength that must be re-rolled if it fails to Wound</description>
         </rule>
         <rule id="8b80b448-614a-b65d-158c-0a58af2df826" name="Not Just a Dumb Brute" page="0" hidden="false">
           <description>Cold Ones (including Spite) in the Unit are not afffected by Stupidity</description>
@@ -3305,10 +3307,10 @@ If Malus is not in base contact with an enemy, roll a D6 (1-3 fails), failure wi
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
-            <characteristic name="BS" typeId="425323232344415441232323">7</characteristic>
-            <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
-            <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-            <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">6</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
@@ -3608,16 +3610,16 @@ If Malus is not in base contact with an enemy, roll a D6 (1-3 fails), failure wi
           <profiles>
             <profile id="0007-a7a5-b12f-bcf2" name="Mount: Sulephet, the Dark Pegasus" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
               <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323"/>
-                <characteristic name="WS" typeId="575323232344415441232323"/>
-                <characteristic name="BS" typeId="425323232344415441232323"/>
-                <characteristic name="S" typeId="5323232344415441232323"/>
-                <characteristic name="T" typeId="5423232344415441232323"/>
-                <characteristic name="W" typeId="5723232344415441232323"/>
-                <characteristic name="I" typeId="4923232344415441232323"/>
-                <characteristic name="A" typeId="4123232344415441232323"/>
-                <characteristic name="LD" typeId="4c4423232344415441232323"/>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323"/>
@@ -4541,6 +4543,9 @@ and that unit cannot make Parry saves this turn.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1ba4-77a7-7c47-e9e5" name="Hand Weapon" hidden="false" targetId="38f3-bd4f-4c33-b9d3" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -8602,6 +8607,11 @@ When fleeing and pursuing, use 3D6 and discard the lowest result.
       <description>The model has no steeds but uses its own Movement value and can march, join units as if it were a character (but must be placed in the centre front rank).
 Only one model with this special rule can join each unit.</description>
     </rule>
+    <rule id="bc5e-3cd9-6d59-3cf5" name="Regeneration" publicationId="3d8fff6c--pubN96895" page="74" hidden="false">
+      <description>Special regenerate saving throw after it has failed any armour save instead of a ward save
+Roll a D6, 1-3 wound affects normally, 4-6 the wound is discounted
+Flaming Attacks cannot be regenerated</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="2dc4-8ee7-718b-2ddc" name="Bloodwrack Stare" publicationId="3d8fff6c--pubN65980" page="48" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -8735,8 +8745,8 @@ Only one model with this special rule can join each unit.</description>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
         <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
         <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
-        <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
-        <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
+        <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
+        <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
         <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
         <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
         <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
