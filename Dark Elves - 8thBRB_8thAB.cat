@@ -1950,11 +1950,15 @@ If targeted as a wizard, opponent may choose target.
           <entryLinks>
             <entryLink id="7abf-a293-b7c5-a138" hidden="false" collective="false" import="true" targetId="f2b6-05c1-3527-de9a" type="selectionEntry"/>
             <entryLink id="dd96-71d4-150c-aee8" hidden="false" collective="false" import="true" targetId="239d-3e2c-7c0d-caad" type="selectionEntry"/>
-            <entryLink id="ab2c-dde1-6f5a-9a21" hidden="false" collective="false" import="true" targetId="bb5c-e13a-bdad-0e51" type="selectionEntry"/>
+            <entryLink id="ab2c-dde1-6f5a-9a21" hidden="false" collective="false" import="true" targetId="bb5c-e13a-bdad-0e51" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="points" value="120.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="5209-888c-fdcc-0aca" hidden="false" collective="false" import="true" targetId="70dd-6ae5-0f41-73ae" type="selectionEntry"/>
             <entryLink id="9c7d-d283-6cb0-353c" hidden="false" collective="false" import="true" targetId="985d-b4f4-a418-cb2a" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="points" value="10.0"/>
+                <modifier type="set" field="points" value="20.0"/>
               </modifiers>
             </entryLink>
             <entryLink id="867f-375b-37e2-6975" hidden="false" collective="false" import="true" targetId="05a5-39d5-c07c-c180" type="selectionEntry"/>
