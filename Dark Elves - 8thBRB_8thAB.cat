@@ -1682,13 +1682,6 @@ If targeted as a wizard, opponent may choose target.
               </characteristics>
             </profile>
           </profiles>
-          <entryLinks>
-            <entryLink id="da07-2d1c-5724-38d1" hidden="false" collective="false" import="true" targetId="985d-b4f4-a418-cb2a" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="points" value="0.0"/>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -1727,6 +1720,13 @@ If targeted as a wizard, opponent may choose target.
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="10a3-b100-a81e-7107" hidden="false" collective="true" import="true" targetId="985d-b4f4-a418-cb2a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -6616,6 +6616,25 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="6664-2d39-ef67-b492" name="Dark Steed" publicationId="3d8fff6c--pubN65980" page="94" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">9</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">-</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">-</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
