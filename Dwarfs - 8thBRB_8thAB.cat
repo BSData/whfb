@@ -1495,7 +1495,67 @@
                     <constraint field="points" scope="parent" value="75.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="7aad861d-ed41-3839-4636-61680fb7fc42" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup"/>
+                    <entryLink id="c56b-3d08-4835-be52" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="43bc-20e0-1d88-77ec" name="Rune of Battle (1st rune)" hidden="false" collective="false" import="true" targetId="83ca-bfe7-0879-eeae" type="selectionEntry"/>
+                        <entryLink id="23a9-eb45-8792-dc04" name="Rune of Slowness (2nd rune)" hidden="false" collective="false" import="true" targetId="2f90-61e8-4dc7-c09a" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f1-20d8-8a3e-4df4" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="5432-95e3-b24d-3bd5" name="Rune of Battle (3rd rune)" hidden="false" collective="false" import="true" targetId="c391-5722-739b-3883" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="818b-cd60-95df-e916" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="0379-3923-3891-75a0" name="Rune of Slowness (1st rune)" hidden="false" collective="false" import="true" targetId="74f1-20d8-8a3e-4df4" type="selectionEntry"/>
+                        <entryLink id="64f8-40bc-72c7-629c" name="Rune of Sanctuary (1st rune)" hidden="false" collective="false" import="true" targetId="e7f6-71b8-81a2-054b" type="selectionEntry"/>
+                        <entryLink id="edcf-7509-a437-8cdb" name="Rune of Battle (2nd rune)" hidden="false" collective="false" import="true" targetId="818b-cd60-95df-e916" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83ca-bfe7-0879-eeae" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="858f-f35b-d81b-8717" name="Rune of Sanctuary (2nd rune)" hidden="false" collective="false" import="true" targetId="5747-b7fa-0d65-5d9c" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7f6-71b8-81a2-054b" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="3179-1baf-c22e-23ed" name="Rune of Slowness (3rd rune)" hidden="false" collective="false" import="true" targetId="3c89-c376-39b4-2543" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f90-61e8-4dc7-c09a" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="d6c5-fbe1-22eb-0ff3" name="Rune of Sanctuary (3rd rune)" hidden="false" collective="false" import="true" targetId="5dbb-e339-3e14-0f42" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5747-b7fa-0d65-5d9c" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1686,7 +1746,67 @@
                     <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="fb293a65-07f4-5201-d23e-56cdb6f4f4f7" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup"/>
+                    <entryLink id="d831-62d1-adb7-f8e7" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="39c4-81e5-21f3-f441" name="Rune of Battle (1st rune)" hidden="false" collective="false" import="true" targetId="83ca-bfe7-0879-eeae" type="selectionEntry"/>
+                        <entryLink id="4f2a-c6ff-8dcc-b814" name="Rune of Slowness (2nd rune)" hidden="false" collective="false" import="true" targetId="2f90-61e8-4dc7-c09a" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f1-20d8-8a3e-4df4" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="dfed-cd22-d23f-ebc2" name="Rune of Battle (3rd rune)" hidden="false" collective="false" import="true" targetId="c391-5722-739b-3883" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="818b-cd60-95df-e916" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="c78e-a6c2-49f4-befe" name="Rune of Slowness (1st rune)" hidden="false" collective="false" import="true" targetId="74f1-20d8-8a3e-4df4" type="selectionEntry"/>
+                        <entryLink id="8068-475e-27ff-4f47" name="Rune of Sanctuary (1st rune)" hidden="false" collective="false" import="true" targetId="e7f6-71b8-81a2-054b" type="selectionEntry"/>
+                        <entryLink id="535f-c811-40ca-3a4b" name="Rune of Battle (2nd rune)" hidden="false" collective="false" import="true" targetId="818b-cd60-95df-e916" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83ca-bfe7-0879-eeae" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="25ae-5a50-f903-844e" name="Rune of Sanctuary (2nd rune)" hidden="false" collective="false" import="true" targetId="5747-b7fa-0d65-5d9c" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7f6-71b8-81a2-054b" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="db26-60ce-5cf7-1ddc" name="Rune of Slowness (3rd rune)" hidden="false" collective="false" import="true" targetId="3c89-c376-39b4-2543" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f90-61e8-4dc7-c09a" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="6a5d-16f7-9ab5-4bf7" name="Rune of Sanctuary (3rd rune)" hidden="false" collective="false" import="true" targetId="5dbb-e339-3e14-0f42" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5747-b7fa-0d65-5d9c" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1906,7 +2026,67 @@
                     <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="66f1095d-05ee-fec1-7c71-a65341ba1cce" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup"/>
+                    <entryLink id="66f1095d-05ee-fec1-7c71-a65341ba1cce" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="9cbd-447d-4836-7fd6" name="Rune of Battle (1st rune)" hidden="false" collective="false" import="true" targetId="83ca-bfe7-0879-eeae" type="selectionEntry"/>
+                        <entryLink id="3b8e-92b8-ab31-a7d9" name="Rune of Slowness (2nd rune)" hidden="false" collective="false" import="true" targetId="2f90-61e8-4dc7-c09a" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f1-20d8-8a3e-4df4" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="5526-301a-9a6d-848f" name="Rune of Battle (3rd rune)" hidden="false" collective="false" import="true" targetId="c391-5722-739b-3883" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="818b-cd60-95df-e916" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="f0bc-9e1f-3cb8-07c3" name="Rune of Slowness (1st rune)" hidden="false" collective="false" import="true" targetId="74f1-20d8-8a3e-4df4" type="selectionEntry"/>
+                        <entryLink id="a4c1-3d11-c669-a4b7" name="Rune of Sanctuary (1st rune)" hidden="false" collective="false" import="true" targetId="e7f6-71b8-81a2-054b" type="selectionEntry"/>
+                        <entryLink id="9ad5-7d72-5773-7c06" name="Rune of Battle (2nd rune)" hidden="false" collective="false" import="true" targetId="818b-cd60-95df-e916" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83ca-bfe7-0879-eeae" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="9859-01fc-0313-bb82" name="Rune of Sanctuary (2nd rune)" hidden="false" collective="false" import="true" targetId="5747-b7fa-0d65-5d9c" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7f6-71b8-81a2-054b" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="6fab-d36e-425d-97d0" name="Rune of Slowness (3rd rune)" hidden="false" collective="false" import="true" targetId="3c89-c376-39b4-2543" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f90-61e8-4dc7-c09a" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="3b26-62d4-af19-b638" name="Rune of Sanctuary (3rd rune)" hidden="false" collective="false" import="true" targetId="5dbb-e339-3e14-0f42" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5747-b7fa-0d65-5d9c" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2146,7 +2326,67 @@
                     <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="5a3b3113-ed1f-1904-f6d1-bfd4724a140f" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup"/>
+                    <entryLink id="514f-d2bd-138b-1ec6" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="3653-4587-da4d-16e3" name="Rune of Battle (1st rune)" hidden="false" collective="false" import="true" targetId="83ca-bfe7-0879-eeae" type="selectionEntry"/>
+                        <entryLink id="d1b3-d3c6-f1db-5f2f" name="Rune of Slowness (2nd rune)" hidden="false" collective="false" import="true" targetId="2f90-61e8-4dc7-c09a" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f1-20d8-8a3e-4df4" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="d75e-dd03-4fd8-936c" name="Rune of Battle (3rd rune)" hidden="false" collective="false" import="true" targetId="c391-5722-739b-3883" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="818b-cd60-95df-e916" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="ac51-3558-8c86-6749" name="Rune of Slowness (1st rune)" hidden="false" collective="false" import="true" targetId="74f1-20d8-8a3e-4df4" type="selectionEntry"/>
+                        <entryLink id="5365-3e14-c87f-19e2" name="Rune of Sanctuary (1st rune)" hidden="false" collective="false" import="true" targetId="e7f6-71b8-81a2-054b" type="selectionEntry"/>
+                        <entryLink id="e44e-d1f2-53b4-0a1d" name="Rune of Battle (2nd rune)" hidden="false" collective="false" import="true" targetId="818b-cd60-95df-e916" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83ca-bfe7-0879-eeae" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="e664-0650-8303-3f6a" name="Rune of Sanctuary (2nd rune)" hidden="false" collective="false" import="true" targetId="5747-b7fa-0d65-5d9c" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7f6-71b8-81a2-054b" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="1045-e714-7d2f-362c" name="Rune of Slowness (3rd rune)" hidden="false" collective="false" import="true" targetId="3c89-c376-39b4-2543" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f90-61e8-4dc7-c09a" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="5839-6767-561a-3c05" name="Rune of Sanctuary (3rd rune)" hidden="false" collective="false" import="true" targetId="5dbb-e339-3e14-0f42" type="selectionEntry">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5747-b7fa-0d65-5d9c" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4206,7 +4446,7 @@
                     <condition field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88e1-f19b-fbfd-8d39" type="lessThan"/>
                   </conditions>
                 </modifier>
-				 <modifier type="set" field="b1bd-eaeb-2f2f-9a23" value="0.0">
+                <modifier type="set" field="b1bd-eaeb-2f2f-9a23" value="0.0">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
@@ -4245,7 +4485,7 @@
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
-                </modifier>               
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1bd-eaeb-2f2f-9a23" type="min"/>
@@ -4298,7 +4538,67 @@
                         <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8440-b67d-08b5-7855" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="a972-aa5e-5955-7edb" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup"/>
+                        <entryLink id="0966-c1b5-99a7-822f" hidden="false" collective="false" import="true" targetId="2b9bd341-71c1-0b37-d2f7-9d1ba41bb3e1" type="selectionEntryGroup">
+                          <entryLinks>
+                            <entryLink id="95ed-52f6-9cc1-925e" name="Rune of Battle (1st rune)" hidden="false" collective="false" import="true" targetId="83ca-bfe7-0879-eeae" type="selectionEntry"/>
+                            <entryLink id="8502-9194-1c24-b2f8" name="Rune of Slowness (2nd rune)" hidden="false" collective="false" import="true" targetId="2f90-61e8-4dc7-c09a" type="selectionEntry">
+                              <modifiers>
+                                <modifier type="set" field="hidden" value="true">
+                                  <conditions>
+                                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f1-20d8-8a3e-4df4" type="equalTo"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </entryLink>
+                            <entryLink id="7301-227e-2ff3-c0dc" name="Rune of Battle (3rd rune)" hidden="false" collective="false" import="true" targetId="c391-5722-739b-3883" type="selectionEntry">
+                              <modifiers>
+                                <modifier type="set" field="hidden" value="true">
+                                  <conditions>
+                                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="818b-cd60-95df-e916" type="equalTo"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </entryLink>
+                            <entryLink id="29c8-b28e-e008-e033" name="Rune of Slowness (1st rune)" hidden="false" collective="false" import="true" targetId="74f1-20d8-8a3e-4df4" type="selectionEntry"/>
+                            <entryLink id="2fc0-72fa-e62e-47a8" name="Rune of Sanctuary (1st rune)" hidden="false" collective="false" import="true" targetId="e7f6-71b8-81a2-054b" type="selectionEntry"/>
+                            <entryLink id="d0e8-4277-8b17-f8e4" name="Rune of Battle (2nd rune)" hidden="false" collective="false" import="true" targetId="818b-cd60-95df-e916" type="selectionEntry">
+                              <modifiers>
+                                <modifier type="set" field="hidden" value="true">
+                                  <conditions>
+                                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83ca-bfe7-0879-eeae" type="equalTo"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </entryLink>
+                            <entryLink id="ca96-b512-5990-1713" name="Rune of Sanctuary (2nd rune)" hidden="false" collective="false" import="true" targetId="5747-b7fa-0d65-5d9c" type="selectionEntry">
+                              <modifiers>
+                                <modifier type="set" field="hidden" value="true">
+                                  <conditions>
+                                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7f6-71b8-81a2-054b" type="equalTo"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </entryLink>
+                            <entryLink id="a9cd-dbc3-ead2-2a01" name="Rune of Slowness (3rd rune)" hidden="false" collective="false" import="true" targetId="3c89-c376-39b4-2543" type="selectionEntry">
+                              <modifiers>
+                                <modifier type="set" field="hidden" value="true">
+                                  <conditions>
+                                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f90-61e8-4dc7-c09a" type="equalTo"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </entryLink>
+                            <entryLink id="68f8-6c0a-9f41-0f65" name="Rune of Sanctuary (3rd rune)" hidden="false" collective="false" import="true" targetId="5dbb-e339-3e14-0f42" type="selectionEntry">
+                              <modifiers>
+                                <modifier type="set" field="hidden" value="true">
+                                  <conditions>
+                                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5747-b7fa-0d65-5d9c" type="equalTo"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </entryLink>
+                          </entryLinks>
+                        </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
