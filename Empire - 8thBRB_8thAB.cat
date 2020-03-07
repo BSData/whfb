@@ -4,6 +4,7 @@
     <publication id="d0f6d5ae--pubN65778" name="AB"/>
     <publication id="d0f6d5ae--pubN69354" name="BRB"/>
     <publication id="d0f6d5ae--pubN71391" name="End Times - Nagash"/>
+    <publication id="f6fc-8cec-2b81-fb48" name="End Times - Glottkin"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="578a5b26-b90b-4c1d-a24d-72d54d6114d5" name="- Army Size" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -7601,6 +7602,66 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="475.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="737e-d3cc-13d7-cd8b" name="Karl Franz Ascendant" publicationId="f6fc-8cec-2b81-fb48" page="46" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8606-7d4f-f5a0-e81e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e58-6f09-4dc0-10b5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5240-f967-9815-9d3b" name="Karl Franz Ascendant" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">5</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">9</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">10</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323">Monster (Special Character)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ad16-c813-7274-36c2" name="The Essence of Ghal Maraz" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
+            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Hits from this weapon wound automatically with no armoour saves allowed.  In addition, Wounds caused by the Essence of Ghal Maraz have the Multiple Wounds (D3+1) special rule</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4a0f-18a4-9230-e00a" name="The Silver Seal" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
+          <characteristics>
+            <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">Grant Karl Franz Ascendant a 4+ ward save and the Magic Resistance (2) special rule</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c026-be09-01e2-d220" name="Bloodroar" hidden="false">
+          <description>Enemy units roll an additional D6, discarding the lowest result, for Leadership tests caused by this model&apos;s Fear or Terror special rules</description>
+        </rule>
+        <rule id="8fce-7c6f-e17e-a6fa" name="Inspiring Leader" hidden="false">
+          <description>If Karl Franz Ascendant is your army General, his Inspiring Presence rule has a range of 24&apos;&apos;</description>
+        </rule>
+        <rule id="2b79-803f-bce9-3a0c" name="Lord of Lightning" hidden="false">
+          <description>Innate Bound Spell (Power Level 6) Lord of Lightning is a Direct Damage spell with a range of 18&apos;&apos;.  The target suffers D6 Strength 6 hits.  Once the damage has been resolved, roll a D6; on a 3+ the target suffers a further D6 Strength 6 hits.  After this additional damage has been resolved, roll another D6; on a 5+ the target suffers a further D6 Strength 6 hits.
+This is a lightning based attack for the purposes of the Storm Rage special Rule (Warhammer: Warriors of Chaos)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e345-8e5e-a1cc-7d58" name="Full Plate Armour" hidden="false" targetId="b65335cd-c572-49ae-fbb8-48f59ffb85d9" type="profile"/>
+        <infoLink id="7fc9-e324-3d75-8155" name="Fly" hidden="false" targetId="8fe80367-ccef-e7f4-9f0c-ed99573d9fcb" type="rule"/>
+        <infoLink id="f5f3-69cb-b908-b1e0" name="Immune to Psychology" hidden="false" targetId="7773aa81-a348-8909-1588-57f04e8d9e91" type="rule"/>
+        <infoLink id="8c16-10a2-13cb-2ae0" name="Large Target" hidden="false" targetId="7eca7c36-b36b-52cf-795a-93d1e6ce9676" type="rule"/>
+        <infoLink id="7697-5055-4283-f81b" name="Stubborn" hidden="false" targetId="4c56de65-7708-cf1d-0bed-0e4c013d8d92" type="rule"/>
+        <infoLink id="3040-3687-00bd-4578" name="Terror" hidden="false" targetId="529c3da3-7f14-edb9-1851-cb1216e36b9c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="810.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
