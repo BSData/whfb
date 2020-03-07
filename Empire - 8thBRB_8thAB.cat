@@ -6755,7 +6755,7 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57dcc387-9ee4-3d93-3fd8-d3f04a07c8ef" name="Valten (End Times - Nagash)" page="46" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="57dcc387-9ee4-3d93-3fd8-d3f04a07c8ef" name="Valten (End Times - Nagash)" page="520" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
@@ -6784,6 +6784,9 @@ Beasts or ridden Monsters, this only applies to the rider.’</description>
         </rule>
         <rule id="c44a3d4e-58bd-00db-2498-f55670696ce0" name="Iron Resolve" hidden="false">
           <description>The first time Valten suffers a Wound that removes him as a casualty (including unsaved Wounds that killed him as a result of the Killing Blow, Heroic killing Blow or Multiple Wounds special rules), roll 2d6 before removing him as a casualty; if the total is less than or equal to 9, Valten negates the Wound; otherwise, Valten is removed as a casualty as normal.</description>
+        </rule>
+        <rule id="ea1b-8829-e82c-3921" name="Awesome Presence" hidden="false">
+          <description>Valten, and all friendly units within 6&apos;&apos; of Valten, have the Stubborn special rule</description>
         </rule>
       </rules>
       <infoLinks>
