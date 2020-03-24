@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6d2bd945-b04e-6da5-26bb-7968529e33ec" name="High Elves - Army Book (2013-4) -V8.8.0." revision="9" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6d2bd945-b04e-6da5-26bb-7968529e33ec" name="High Elves - Army Book (2013-4) -V8.8.0." revision="10" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6d2bd945--pubN66078" name="AB"/>
     <publication id="6d2bd945--pubN66497" name="Warhammer End Times: Khaine"/>
@@ -5177,6 +5177,71 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac3d-4cfc-62ab-ad58" name="Imrik, Crown Prince of Caledor" publicationId="6d2bd945--pubN66497" page="34" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f535-3d11-5065-4c84" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0955-a86e-6aa7-38d7" name="Imrik, Crown Prince of Caledor" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">8</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">7</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">7</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">7</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">10</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">10</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">3+</characteristic>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323">Monster (Special Character)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="684b-d215-6a6f-7ff4" name="Star Lance" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323"/>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+3</characteristic>
+            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Can only be used in which bearer made a successful charge, armour saves cannot be taken against wounds caused</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="34d5-5783-70f8-cf99" name="Armour of the Dragontamer" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
+          <characteristics>
+            <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">5+ Ward</characteristic>
+            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f32f-6da3-03ee-c372" name="The Dragonhorn" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
+          <characteristics>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">One use only. At the start of any of your turns, you can sound the Dragonhorn.  Imrik, and all friendly Monsters within 12&apos;&apos;, have the Stubborn special rule until the start of your next turn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a60d-818c-27fa-4cc6" name="Dragonfire" hidden="false">
+          <description>Imrik&apos;s mount has a Strength 4 Breath Weapon with the Flaming Attacks special rule.</description>
+        </rule>
+        <rule id="b9c1-8ffc-f527-b22f" name="Lord of Dragons" hidden="false">
+          <description>Monsters suffer a -1 To Hit penalty when directing their attacks against Imrik</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e706-f03e-5971-335c" name="Hand Weapon" hidden="false" targetId="acdc9abc-1068-c7e6-3af2-79f2387de376" type="profile"/>
+        <infoLink id="2d5e-bb6d-a443-ea61" name="Valour of Ages" hidden="false" targetId="1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" type="rule"/>
+        <infoLink id="0459-a817-73de-845b" name="Terror" hidden="false" targetId="a26e239e-ec3a-4e1d-ba6c-be5bf71cb995" type="rule"/>
+        <infoLink id="f3e7-7cfb-5fa9-2b1f" name="Martial Prowess" hidden="false" targetId="dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" type="rule"/>
+        <infoLink id="c365-96b5-ec55-ec50" name="Large Target" hidden="false" targetId="e2a586fd-6586-1061-3f78-8f459379dcf1" type="rule"/>
+        <infoLink id="d700-bfbc-f923-b1ce" name="Always Strikes First (FAQ&apos;ed)" hidden="false" targetId="7768a3fb-06df-d5bb-a773-b1ef1bdcecf7" type="rule"/>
+        <infoLink id="e9ae-2ee4-119e-00f8" name="Fly" hidden="false" targetId="8ae446f0-eab6-48a8-3bbf-1292da7b6a9d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8700-7be3-4353-e8ab" name="Lords" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="810.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
