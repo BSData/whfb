@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" name="Dark Elves  - Army Book (2013-10) -V8.8.0." revision="77" battleScribeVersion="2.03" authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" name="Dark Elves  - Army Book (2013-10) -V8.8.0." revision="78" battleScribeVersion="2.03" authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="77" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3d8fff6c--pubN65980" name="Dark Elves"/>
     <publication id="3d8fff6c--pubN89082" name="End Times - Nagash"/>
@@ -472,7 +472,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -539,7 +539,7 @@
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -586,7 +586,7 @@
     </selectionEntry>
     <selectionEntry id="8294573f-df2e-d5fb-fe4a-79c871bd69f4" name="Bloodwrack Medusa" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="fa2f-1a40-887d-36c8" name="Bloodwrack Medusa" publicationId="3d8fff6c--pubN65980" page="95" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+        <profile id="398b-c4d7-8fc2-9677" name="Bloodwrack Medusa" publicationId="3d8fff6c--pubN65980" page="95" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">7</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -635,7 +635,7 @@
             <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">6+</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Chariot (Armour Save 6+)</characteristic>
@@ -900,7 +900,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">6</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">2+</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Cavalry</characteristic>
@@ -1063,7 +1063,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Cavalry</characteristic>
@@ -1206,7 +1206,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">6+</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -1313,7 +1313,7 @@
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">6+</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -1724,7 +1724,7 @@ If targeted as a wizard, opponent may choose target.
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">6+</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Character)</characteristic>
@@ -1975,7 +1975,7 @@ If targeted as a wizard, opponent may choose target.
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2042,7 +2042,7 @@ If targeted as a wizard, opponent may choose target.
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2114,7 +2114,7 @@ If targeted as a wizard, opponent may choose target.
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2196,7 +2196,7 @@ If targeted as a wizard, opponent may choose target.
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2415,7 +2415,7 @@ If targeted as a wizard, opponent may choose target.
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">4+</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Character)</characteristic>
@@ -2820,7 +2820,7 @@ A unit is ummune to the effects of Abyssal Howl if the majority of its models ha
             <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">3+</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Special Character)</characteristic>
@@ -2917,7 +2917,7 @@ A unit is ummune to the effects of Abyssal Howl if the majority of its models ha
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+ &amp; 2+ against all non-magical attacks</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">5+ armour save 2+ against non-magical attacks</characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323">2</characteristic>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Special Character)</characteristic>
@@ -3135,7 +3135,7 @@ All units within 12&quot; pass all panic tests</description>
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">6</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Monster</characteristic>
@@ -3191,7 +3191,7 @@ Any unit taking a hit, must pass leadership at -3 in order to declare a charge n
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">1+</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cavalry (Special Character)</characteristic>
@@ -3314,7 +3314,7 @@ Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of y
             <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">6+</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Character)</characteristic>
@@ -3619,7 +3619,7 @@ Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of y
                 <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323"/>
@@ -3965,7 +3965,7 @@ Armor Piercing</description>
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
@@ -6356,6 +6356,25 @@ Special rules: Flaming Attacks, Multiple shots*
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="3912-a2fc-3391-967e" name="Black Dragon" publicationId="3d8fff6c--pubN65980" page="50" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">6</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">6</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="bcdf-7586-791a-cd9d" name="Noxious Breath" page="0" hidden="false">
           <description>Breath Attack
@@ -6368,6 +6387,7 @@ Any unit taking a hit, must pass leadership at -3 in order to declare a charge n
         <infoLink id="1093-ea39-8ba9-0d76" hidden="false" targetId="4494-2cd4-1157-b4bd" type="rule"/>
         <infoLink id="164a-c5ec-a212-b549" hidden="false" targetId="5e9d-5ed4-562b-a664" type="rule"/>
         <infoLink id="4bb9-4736-4c9c-80cb" hidden="false" targetId="cef7-ffb3-4adf-7701" type="rule"/>
+        <infoLink id="2fa0-790b-aa00-9594" name="Hatred (High Elves)" hidden="false" targetId="4c166434-f4cf-7021-ed7e-dc120e87729e" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
@@ -6452,7 +6472,7 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">3</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-1 to rider</characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323">-</characteristic>
             <characteristic name="MR" typeId="4d5223232344415441232323">-</characteristic>
             <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
@@ -6612,6 +6632,25 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="eaf4-fa64-e283-5235" name="Dark Pegasus" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="4e28-7889-65e9-1929" hidden="false" targetId="4494-2cd4-1157-b4bd" type="rule"/>
         <infoLink id="495f-a7a5-6e70-7ec6" hidden="false" targetId="7371-92fd-4ee2-61ec" type="rule"/>
@@ -6636,7 +6675,7 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-1 to rider</characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
@@ -6651,6 +6690,25 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="15dd-29d6-d9e7-1068" name="Manticore" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">5</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">4</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323">Monster</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="6285-1105-4041-bd1d" name="Uncontrollable" publicationId="3d8fff6c--pubN65980" page="51" hidden="false">
           <description>Rider test Leadership or both gain Frenzy. 
@@ -6730,7 +6788,7 @@ Opponent receives +1 To Hit in close combat.</description>
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-1 to rider</characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
@@ -8697,8 +8755,8 @@ Flaming Attacks cannot be regenerated</description>
     </profile>
     <profile id="6882-edec-e128-380e" name="Shield" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
       <characteristics>
-        <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">6+</characteristic>
-        <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323"/>
+        <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">-1</characteristic>
+        <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Parry Save (BRB-88)</characteristic>
       </characteristics>
     </profile>
     <profile id="aa56-19df-53e0-e9e1" name="Spear" publicationId="3d8fff6c--pubN96895" page="91" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -8733,7 +8791,7 @@ Flaming Attacks cannot be regenerated</description>
         <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
         <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
         <characteristic name="LD" typeId="4c4423232344415441232323">3</characteristic>
-        <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-</characteristic>
+        <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-1 to rider</characteristic>
         <characteristic name="WardSave" typeId="576172645361766523232344415441232323">-</characteristic>
         <characteristic name="MR" typeId="4d5223232344415441232323">-</characteristic>
         <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
@@ -8750,7 +8808,7 @@ Flaming Attacks cannot be regenerated</description>
         <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
         <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
         <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-        <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+        <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">-1 to rider</characteristic>
         <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
         <characteristic name="MR" typeId="4d5223232344415441232323"/>
         <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
