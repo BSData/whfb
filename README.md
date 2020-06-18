@@ -19,6 +19,11 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
+* __I'd like to contact you to see if I can help out.__
+
+  Then join us on Discord!
+  
+  [![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://discord.gg/KqPVhds)
 
 ## Links ##
 [Links]: #links
