@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="46a6-49ed-b403-8022" name="Empire 4ed" revision="6" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="46a6-49ed-b403-8022" name="Empire 4ed" revision="7" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="99df-285e-40ad-9e07" name="General of the Empire" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2252,23 +2252,23 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec0a-d41d-fffa-a038" name="Outriders" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ec0a-d41d-fffa-a038" name="Pistoliers" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="097f-832e-3122-befb" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="9e25-1c06-2553-7636" name="Outrider" hidden="false" targetId="c8c5-9178-16d9-b65e" type="profile"/>
+        <infoLink id="9e25-1c06-2553-7636" name="Pistoler" hidden="false" targetId="7e4d-8321-5f44-4c7a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0f95-3636-ccd1-a7e5" name="Regiments" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="14db-366d-42bb-39bf" name="Outriders" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="14db-366d-42bb-39bf" name="Pistoliers" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41e5-9e5f-b53c-009d" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="28.0"/>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fd35-ffdc-51c6-acfb" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -2283,14 +2283,13 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="72c3-ada3-ed2b-5798" name="Repeter Hand Gun or Pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="72c3-ada3-ed2b-5798" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38ed-d6bd-7aae-ca15" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5e-961e-5292-a1c9" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="cf97-cef3-7a95-a9d6" name="Repeater Hand Gun" hidden="false" targetId="a809-9970-4f9b-abb6" type="profile"/>
-            <infoLink id="c13e-016b-123d-66c5" name="Repeater Pistol" hidden="false" targetId="3409-6648-22ba-5ae6" type="profile"/>
+            <infoLink id="cf97-cef3-7a95-a9d6" name="Pistol" hidden="false" targetId="9430-109f-c597-e4e5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -2317,18 +2316,6 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9415-7c26-3182-55e9" name="Barding" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c972-38ad-9212-a6cc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288f-ff16-abff-6b21" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ee80-c5f4-bb65-c11d" name="Barding" hidden="false" targetId="3069-471f-5e53-7c54" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c536-fdd4-024b-dff2" name="Command Group" hidden="false" collective="false" import="true">
@@ -2338,7 +2325,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3142-77be-05a3-f7d1" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="28.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b2ad-1928-9c2c-7e24" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2346,7 +2333,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b439-f113-d646-a180" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="28.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3535,6 +3522,110 @@
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e79c-0f3f-98e9-92d1" name="Outriders" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e99-ecaf-2079-1708" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fe73-53e4-ea88-378b" name="Outrider" hidden="false" targetId="c8c5-9178-16d9-b65e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ed84-6432-41d9-ae7c" name="Regiments" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="83d4-fcf2-6e39-3261" name="Outriders" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c23-f49f-309d-86cb" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3ec6-8988-6e22-ebda" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f802-0447-446b-02b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d53-5f75-5788-5187" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2c52-52a1-a73a-a2df" name="Light Armour" hidden="false" targetId="eb59-f399-63e7-5c58" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="015e-f0d1-5fbf-e64e" name="Repeter Hand Gun or Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d69-12a0-6d83-c8f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1044-8264-a2f9-78ac" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6108-aadb-c96d-620d" name="Repeater Hand Gun" hidden="false" targetId="a809-9970-4f9b-abb6" type="profile"/>
+            <infoLink id="3fc7-c82a-5055-e504" name="Repeater Pistol" hidden="false" targetId="3409-6648-22ba-5ae6" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="13f8-0c76-8f75-1272" name="Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e908-1e8d-cea9-5d00" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fff-f704-df3b-851d" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c088-a036-e5f1-e888" name="Sword" hidden="false" targetId="6e77-240c-7324-eef7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ff29-4cee-a76a-2f78" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b083-b98a-e15b-37e9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe8-d0ff-e7ec-3202" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b91a-2431-4e5e-6a21" name="Barding" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b79e-4322-09df-fd29" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="280e-6637-7559-1d6d" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="936d-d788-60f1-094e" name="Barding" hidden="false" targetId="3069-471f-5e53-7c54" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3016-09b0-e891-fb93" name="Command Group" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="917e-70af-ee2a-3fd9" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260d-c2f0-8ea9-f685" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="28.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c717-d9fa-c843-aac8" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7078-a4ad-5dd6-954f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ae2e-6428-959d-b4b4" name="Runefang" hidden="false" collective="false" import="true" type="upgrade">
@@ -4299,7 +4390,7 @@
         <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">7</characteristic>
       </characteristics>
     </profile>
-    <profile id="7e4d-8321-5f44-4c7a" name="Pistoler" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
+    <profile id="7e4d-8321-5f44-4c7a" name="Pistolier" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">8</characteristic>
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">3</characteristic>
