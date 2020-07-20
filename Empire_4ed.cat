@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="46a6-49ed-b403-8022" name="Empire 4ed" revision="7" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="46a6-49ed-b403-8022" name="Empire 4ed" revision="8" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="99df-285e-40ad-9e07" name="General of the Empire" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2597,7 +2597,7 @@
     </selectionEntry>
     <selectionEntry id="a221-8613-a9a9-031c" name="Dwarfs" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="775e-75c5-feab-bb5f" name="Crossbowmen" hidden="false" targetId="d440-19f9-3e06-183d" type="profile"/>
+        <infoLink id="775e-75c5-feab-bb5f" name="Dwarf" hidden="false" targetId="fe1f-b03d-d420-fd5f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a60c-2b61-1f8c-f932" name="Regiments" hidden="false" targetId="62d3-efc6-6c2c-634e" primary="true"/>
