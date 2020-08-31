@@ -397,17 +397,6 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="755d-dc2f-7caf-e0c4" name="Long Bow" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa5-a290-12ba-7e67" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="923e-b586-64b7-4884" name="Long Bow" hidden="false" targetId="f671-5677-e104-2c7d" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="cd16-a625-d83e-6729" name="Extra Elven Steed" hidden="false" collective="false" import="true" type="upgrade">
           <comment>For two extra Elven Steed</comment>
           <constraints>
@@ -420,7 +409,7 @@
             <cost name="pts" typeId="eaa7-6800-e651-8bea" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="abf3-c339-21eb-f1c2" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="abf3-c339-21eb-f1c2" name="Crew" publicationId="64fe-967e-013c-506e" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c45b-3c73-9a17-aad6" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5581-fad2-36e0-fbc1" type="min"/>
@@ -470,6 +459,24 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="eaa7-6800-e651-8bea" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8719-2819-0244-a8c9" name="Long Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="eaa7-6800-e651-8bea" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b9-b0cb-7467-11b2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d9c1-5efd-e877-d986" name="Long Bow" hidden="false" targetId="f671-5677-e104-2c7d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
