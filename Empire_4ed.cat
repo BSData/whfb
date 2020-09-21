@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="46a6-49ed-b403-8022" name="Empire 4ed" revision="8" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="46a6-49ed-b403-8022" name="Empire 4ed" revision="9" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="99df-285e-40ad-9e07" name="General of the Empire" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2497,7 +2497,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd7-cc8a-1df5-d337" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3711-4032-d685-438b" name="Hand Gunners" hidden="false" targetId="63ad-f8fa-16db-bbd4" type="profile"/>
+        <infoLink id="3711-4032-d685-438b" name="Flagellant" hidden="false" targetId="0517-7a5d-9f12-d5c5" type="profile"/>
         <infoLink id="7182-4ab7-9ce3-a790" name="Unbreakable" hidden="false" targetId="49a7-34ab-202c-e78d" type="rule"/>
         <infoLink id="957c-cd68-dbb9-49ed" name="Immune to Psychology" hidden="false" targetId="044f-19b3-567d-1c12" type="rule"/>
       </infoLinks>
