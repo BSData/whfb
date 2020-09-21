@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0960-9080-f057-eb15" name="Dark Elves 4ed" revision="2" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0960-9080-f057-eb15" name="Dark Elves 4ed" revision="3" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b0d6-fcd6-b0a5-ece7" name="Dark Elf General" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2079,7 +2079,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da7-5bdb-a410-683c" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="13.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="738d-7987-867c-7fec" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2102,7 +2102,7 @@
                 <entryLink id="47e7-c2bc-6e42-ea36" name="Magic Banners" hidden="false" collective="false" import="true" targetId="cfa8-f226-7d38-630b" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="13.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="df77-96ed-46de-6059" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
