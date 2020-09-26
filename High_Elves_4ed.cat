@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6eea-f2ac-f82f-1a2d" name="High Elves 4ed" revision="1" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6eea-f2ac-f82f-1a2d" name="High Elves 4ed" revision="2" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="85c0-55aa-05e9-98c8" name="High Elf General" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -590,7 +590,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -849,7 +849,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="17.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1077,7 +1077,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1368,7 +1368,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="34.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1525,7 +1525,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="32.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1703,7 +1703,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="34.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1904,7 +1904,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="36.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2135,7 +2135,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="36.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2160,6 +2160,9 @@
               <infoLinks>
                 <infoLink id="e893-969c-8a1c-e767" name="Halberds" hidden="false" targetId="67bc-c025-7aee-b102" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="91db-7fc6-afc6-d18a" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2168,6 +2171,9 @@
               <infoLinks>
                 <infoLink id="b469-dde6-f6e1-e53e" name="Spear (Infantry)" hidden="false" targetId="925b-15fa-f0ae-b77b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2349,7 +2355,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="38.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2374,6 +2380,9 @@
               <infoLinks>
                 <infoLink id="8ca7-d7c8-7014-0b00" name="Long Bow" hidden="false" targetId="f671-5677-e104-2c7d" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="364c-a1b1-d31b-478a" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2453,6 +2462,9 @@
           <infoLinks>
             <infoLink id="ef08-cbf9-4b52-0d31" name="Spear (Infantry)" hidden="false" targetId="925b-15fa-f0ae-b77b" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2581,7 +2593,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="39.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2599,6 +2611,9 @@
               <infoLinks>
                 <infoLink id="14d2-aa77-b4f6-f89b" name="Additional Hand Weapon" hidden="false" targetId="836c-6f87-2540-ed02" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3709-4056-d546-d518" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2820,7 +2835,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="37.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2845,6 +2860,9 @@
               <infoLinks>
                 <infoLink id="aa6e-0786-72be-a073" name="Long Bow" hidden="false" targetId="f671-5677-e104-2c7d" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6697-122d-1c8d-48d3" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2914,6 +2932,9 @@
       <entryLinks>
         <entryLink id="9303-3586-b809-5f1c" name="Monsters" hidden="false" collective="false" import="true" targetId="4679-8d34-4c3f-e789" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>

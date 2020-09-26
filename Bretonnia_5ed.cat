@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cdf0-7390-8a8a-60e1" name="Bretonnia 5ed" revision="2" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cdf0-7390-8a8a-60e1" name="Bretonnia 5ed" revision="3" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6818-c4f5-b923-bb68" name="Knights" hidden="false"/>
     <categoryEntry id="f1c0-b42b-c4c9-2efd" name="Commoners" hidden="false"/>
@@ -387,6 +387,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a81-e8e0-11fc-44a1" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="363e-cd95-a51b-c015" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -395,6 +398,9 @@
               <entryLinks>
                 <entryLink id="3376-d152-15dd-c70b" name="Magic Banners" hidden="false" collective="false" import="true" targetId="cfa8-f226-7d38-630b" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="eace-d656-f9c0-d27f" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -497,7 +503,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -598,6 +604,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a2c-0173-4cc2-37ca" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ca42-1f81-e832-f26e" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -606,6 +615,9 @@
               <entryLinks>
                 <entryLink id="9e8c-724e-116c-5041" name="Magic Banners" hidden="false" collective="false" import="true" targetId="cfa8-f226-7d38-630b" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0f63-0b02-2b9b-c5d3" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -708,7 +720,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="40.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -806,6 +818,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d74-56c0-a963-3a84" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e570-0436-eddc-9e37" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -814,6 +829,9 @@
               <entryLinks>
                 <entryLink id="0ffa-3134-0101-7fee" name="Magic Banners" hidden="false" collective="false" import="true" targetId="cfa8-f226-7d38-630b" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9454-c694-06a2-4cf4" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -916,7 +934,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1014,6 +1032,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d187-f5a1-7e31-0cee" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b003-9578-be5b-8d71" name="Standard Berer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1022,6 +1043,9 @@
               <entryLinks>
                 <entryLink id="56c8-bc68-93ca-1cc0" name="Magic Banners" hidden="false" collective="false" import="true" targetId="cfa8-f226-7d38-630b" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9eed-8e68-31b8-3425" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1124,7 +1148,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1504,7 +1528,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1739,7 +1763,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="25.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5bd9-8a30-c610-91e3" name="Musican" hidden="false" collective="false" import="true" type="upgrade">
@@ -1920,7 +1944,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="30.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a5f-4333-382b-879b" name="Musican" hidden="false" collective="false" import="true" type="upgrade">
@@ -2335,6 +2359,9 @@ If the Knight&apos;s original attacks hit automatically, then he must still roll
           <entryLinks>
             <entryLink id="7e5b-ea74-1585-5c05" name="Monsters" hidden="false" collective="false" import="true" targetId="1b6e-b14c-d994-ca2d" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="73b9-32d6-62f0-118d" name="Bretonnian Warhorse" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3013,8 +3040,8 @@ If the Knight&apos;s original attacks hit automatically, then he must still roll
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">3</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">4</characteristic>
         <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">4</characteristic>
-        <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404"></characteristic>
-        <characteristic name="Initiative" typeId="b418-0e30-644f-1435"></characteristic>
+        <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404"/>
+        <characteristic name="Initiative" typeId="b418-0e30-644f-1435"/>
         <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">3</characteristic>
         <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">8</characteristic>
       </characteristics>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="30e5-02e2-ca6f-0bfe" name="Chaos Dwarf 4ed" revision="5" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="30e5-02e2-ca6f-0bfe" name="Chaos Dwarf 4ed" revision="6" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="004c-aa1b-0448-7c45" name="Chaos Dwarf General" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -764,7 +764,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="34.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -947,7 +947,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="34.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1120,7 +1120,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="27.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1279,7 +1279,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="106.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="65.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1431,7 +1431,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="27.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1631,7 +1631,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="27.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="21.5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1927,7 +1927,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="42.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="33.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7391-0b94-b72a-5e37" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -2429,7 +2429,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="33.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="27.5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="202b-7bcd-b56c-d94a" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -2777,7 +2777,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="15.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="12.5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="81f3-a953-aa8d-bb0e" name="Musican" hidden="false" collective="false" import="true" type="upgrade">

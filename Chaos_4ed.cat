@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2523-b45c-817a-3f0b" name="Chaos 4ed" revision="2" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2523-b45c-817a-3f0b" name="Chaos 4ed" revision="3" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0586-0ab9-c254-40e5" name="Chaos Lord General" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -744,7 +744,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="afe0-5156-a043-09ad" name="Chaos Champion" hidden="false" collective="false" import="true" targetId="433d-8ed2-9725-2974" type="selectionEntry"/>
+            <entryLink id="afe0-5156-a043-09ad" name="Chaos Champion" hidden="false" collective="false" import="true" targetId="433d-8ed2-9725-2974" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-66.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="cc0e-16ae-4125-c9d7" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="8f42-a5d5-3c8a-fd6e">
@@ -968,7 +972,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="5914-f7fe-2d57-b235" name="Chaos Champion" hidden="false" collective="false" import="true" targetId="433d-8ed2-9725-2974" type="selectionEntry"/>
+            <entryLink id="5914-f7fe-2d57-b235" name="Chaos Champion" hidden="false" collective="false" import="true" targetId="433d-8ed2-9725-2974" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-24.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e4a3-a0bd-3b94-c447" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="8607-0125-da86-51c2">
@@ -1327,7 +1335,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
+                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1360,7 +1368,11 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2400-e4fb-68e3-d83e" name="Chaos Champion" hidden="false" collective="false" import="true" targetId="433d-8ed2-9725-2974" type="selectionEntry"/>
+        <entryLink id="2400-e4fb-68e3-d83e" name="Chaos Champion" hidden="false" collective="false" import="true" targetId="433d-8ed2-9725-2974" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-16.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
@@ -1803,7 +1815,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="100.0"/>
+                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="60.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2088,7 +2100,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="155.0"/>
+                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="68.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2499,7 +2511,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="93.0"/>
+                    <cost name="pts" typeId="eaa7-6800-e651-8bea" value="70.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3604,6 +3616,9 @@ Chaos only</description>
           <description>The Champion may retake any failed armour save. Each time he does so roll a D6: on a roll of 1 the card must be discarded.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0653-81a6-aab5-d3e0" name="Battle Fury of Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3699,6 +3714,9 @@ Chaos only</description>
           <description>In hand-to-hand combat, enemy models must test against Ld on 3D6 to be able to strike the Champion. Once a model has passed the test, it need not test again.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fd63-92a0-4dab-241e" name="Massive Horns" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3710,6 +3728,9 @@ Chaos only</description>
           <description>+1 Attack in hand-to-hand combat.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5097-bd0c-d829-626a" name="Scaly Skin" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3722,6 +3743,9 @@ Chaos only</description>
 </description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5aec-f33e-88ca-c972" name="Scorpion Tail" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3775,6 +3799,9 @@ Chaos only</description>
           <description>The recipient beneﬁts from a 4+ saving throw against wounds, taken after any normal armour save for armour has been failed, and is not modiﬁed by the enemy&apos;s Strength.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="33ac-a977-9c4a-66a2" name="Fortune of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3800,6 +3827,9 @@ Chaos only</description>
           <description>Use teardrop-shaped template. Any models affected are hit on D6 roll of 4+ for a single S4 hit.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="508c-c6ed-c570-094e" name="Regeneration" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3811,6 +3841,9 @@ Chaos only</description>
           <description>The Champion can regenerate damage like a Troll, and regenerates wounds on 4+ (see rules for Trolls on P15 of the Battle Bestiary). Once the Champion has suffered a wound from a flame-based attack, this ability is nulliﬁed.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6796-85d4-2bae-1f7f" name="Gaze of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3822,6 +3855,9 @@ Chaos only</description>
           <description>All enemy models attempting to ﬁght the Champion in hand-to-hand combat lose -1 A.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f2c3-f9dc-236f-84cd" name="Destiny of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>

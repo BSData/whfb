@@ -601,7 +601,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -820,7 +820,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="23.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -958,7 +958,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="32.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1084,7 +1084,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="33.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1271,7 +1271,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1434,7 +1434,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="38.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1649,7 +1649,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="37.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1806,7 +1806,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="62.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="50.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1971,7 +1971,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2176,7 +2176,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="36.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2383,7 +2383,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="48.0"/>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="37.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

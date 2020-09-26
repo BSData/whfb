@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="493e-2f09-c5cd-eddd" name="Undead 4ed" revision="4" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="493e-2f09-c5cd-eddd" name="Undead 4ed" revision="5" battleScribeVersion="2.03" authorName="Tilioch" authorContact="" library="false" gameSystemId="417a-57eb-6f3e-81c9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9f0e-919c-1a92-2ae2" name="Undead General" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -911,7 +911,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="02ec-74dd-a0bb-bc09" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup"/>
+            <entryLink id="02ec-74dd-a0bb-bc09" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup">
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-8.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1121,7 +1125,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="a363-60a9-196e-6795" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup"/>
+            <entryLink id="a363-60a9-196e-6795" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup">
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-18.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1270,7 +1278,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="568a-9d4d-7d3d-a141" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup"/>
+            <entryLink id="568a-9d4d-7d3d-a141" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup">
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-4.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1378,7 +1390,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="6be6-7301-4436-c7ea" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup"/>
+            <entryLink id="6be6-7301-4436-c7ea" name="Champion" hidden="false" collective="false" import="true" targetId="1272-c47f-9093-655e" type="selectionEntryGroup">
+              <costs>
+                <cost name="pts" typeId="eaa7-6800-e651-8bea" value="-8.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
