@@ -160,7 +160,7 @@
         <categoryLink id="9f96-5dae-3d8e-2055" name="Characters" hidden="false" targetId="48f1-4778-a9db-cde7" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e21b-6a94-af96-9cea" name="Wizard level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e21b-6a94-af96-9cea" name="Wizard level" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce3d-e293-4a8b-3c80">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bffd-9b35-1160-7d9d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427f-57a5-0a81-0455" type="max"/>
@@ -2883,9 +2883,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="07d0-39c5-8c1f-64a9" name="Repeater Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a168-139d-0c8d-44f7" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="0e8a-3ede-e0b6-e7e6" name="Repearer bolt thrower" hidden="false" targetId="838f-ce34-e076-423f" type="profile"/>
         <infoLink id="e21d-d0c2-20b4-be42" name="Crew" hidden="false" targetId="46c9-a7b8-cf7d-b890" type="profile"/>
@@ -3496,10 +3493,10 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
   <sharedProfiles>
     <profile id="ff38-cd5a-ca11-882c" name="Phoenix Guard" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b"/>
-        <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3"/>
-        <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c"/>
-        <characteristic name="Strength" typeId="0c58-1252-962d-8fcc"/>
+        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
+        <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
         <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
         <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
         <characteristic name="Initiative" typeId="b418-0e30-644f-1435">7</characteristic>
@@ -3515,7 +3512,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">4</characteristic>
         <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">4</characteristic>
         <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">3</characteristic>
-        <characteristic name="Initiative" typeId="b418-0e30-644f-1435"/>
+        <characteristic name="Initiative" typeId="b418-0e30-644f-1435">8</characteristic>
         <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">2</characteristic>
         <characteristic name="Leadership" typeId="bbad-d421-400b-87c1">8</characteristic>
       </characteristics>
@@ -3526,7 +3523,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">4</characteristic>
-        <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427"/>
+        <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">4</characteristic>
         <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">2</characteristic>
         <characteristic name="Initiative" typeId="b418-0e30-644f-1435">7</characteristic>
         <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">1</characteristic>
@@ -3552,7 +3549,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">5</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">4</characteristic>
-        <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427"/>
+        <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
         <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
         <characteristic name="Initiative" typeId="b418-0e30-644f-1435">7</characteristic>
         <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">2</characteristic>
@@ -3653,7 +3650,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
     <profile id="73dc-8172-66d9-5d40" name="Shadow Warrior" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
       <characteristics>
         <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
-        <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3"/>
+        <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
         <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
@@ -3704,7 +3701,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
     </profile>
     <profile id="e3ac-07f8-abea-a503" name="Charioteer" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b"/>
+        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
@@ -3717,7 +3714,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
     </profile>
     <profile id="ddfc-1cf1-6805-1ca8" name="Reaver Knight" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b"/>
+        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
@@ -3745,9 +3742,9 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
       <characteristics>
         <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
-        <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c"/>
-        <characteristic name="Strength" typeId="0c58-1252-962d-8fcc"/>
-        <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427"/>
+        <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
+        <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
+        <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
         <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
         <characteristic name="Initiative" typeId="b418-0e30-644f-1435">6</characteristic>
         <characteristic name="Attacks" typeId="fa03-f9a3-8117-98dd">1</characteristic>
@@ -3782,7 +3779,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
     </profile>
     <profile id="7d98-c649-3c05-147b" name="White Lion" hidden="false" typeId="0a0f-00cd-0261-c0ea" typeName="Profile">
       <characteristics>
-        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b"/>
+        <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">5</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
         <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">4</characteristic>
@@ -3798,7 +3795,7 @@ If a spell is cast against the Unicorn rider or a unit he is with, then it is au
         <characteristic name="Movement" typeId="da3c-fb2b-4c5f-a22b">5</characteristic>
         <characteristic name="Weapon Skill" typeId="d46f-1ae5-387f-4ac3">4</characteristic>
         <characteristic name="Ballistic Skill" typeId="22c7-799b-e07c-f32c">4</characteristic>
-        <characteristic name="Strength" typeId="0c58-1252-962d-8fcc"/>
+        <characteristic name="Strength" typeId="0c58-1252-962d-8fcc">3</characteristic>
         <characteristic name="Toughness" typeId="16d7-9f22-06d8-8427">3</characteristic>
         <characteristic name="Wounds" typeId="f9d0-a5b0-7e0b-a404">1</characteristic>
         <characteristic name="Initiative" typeId="b418-0e30-644f-1435">6</characteristic>
