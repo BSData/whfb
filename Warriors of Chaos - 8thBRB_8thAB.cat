@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." revision="19" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e871f8-4468-74bc-71de-d3d70b327c63" name="Warriors of Chaos - Army Book (2013-4) -V8.8.0." revision="20" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f0e871f8--pubN65795" name="AB"/>
     <publication id="f0e871f8--pubN66840" name="Battlescroll - Be&apos;lakor"/>
@@ -70,18 +70,19 @@
       </profiles>
       <rules>
         <rule id="ec8a4d69-22b6-82d7-b990-56738124d59b" name="Chosen of the Gods" publicationId="f0e871f8--pubN65795" page="48" hidden="false">
-          <description>.</description>
+          <description>Archaon has the Mark of Khorn, Tzeentch, Nurgle, and Slaanesh
+In addition, Archaon may re-roll any Eye of the Gods Roll, but the second result stands</description>
         </rule>
         <rule id="3ee14033-d49e-eb23-ab84-418af19bfa34" name="Lord of the End Times" publicationId="f0e871f8--pubN65795" page="48" hidden="false">
-          <description>.</description>
+          <description>If you take Archaon, he must be your army General. His Inspiring Presence has a range of 18&quot;.</description>
         </rule>
         <rule id="61413161-b31e-5e44-8023-2d3d3d850240" name="The Swords of Chaos" publicationId="f0e871f8--pubN65795" page="48" hidden="false">
-          <description>.</description>
+          <description>If your army includes Archaon, one unit of Chaos Knights that does not have a Mark of Chaos may be upgraded to be the Swords of Chaos. This unit has the Hatred and Immune to Psychology special rules.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5d3c1e7f-99a4-709e-deee-6bb516e34afb" hidden="false" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" type="profile"/>
-        <infoLink id="5decd26b-ddbc-fef6-abc2-5b56811945b4" hidden="false" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" type="rule"/>
+        <infoLink id="5d3c1e7f-99a4-709e-deee-6bb516e34afb" name="Shield" hidden="false" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" type="profile"/>
+        <infoLink id="5decd26b-ddbc-fef6-abc2-5b56811945b4" name="Eye of the Gods" hidden="false" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7c044005-ff6d-d633-ceb2-b73ea9fee458-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
@@ -256,7 +257,7 @@
                 <profile id="a8b3adea-9a6c-c3a0-9d9b-ffe47fe6c897" name="The Armour of Morkar" publicationId="f0e871f8--pubN65795" page="48" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
                   <characteristics>
                     <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">3+</characteristic>
-                    <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">No attack on Archaon can be better the 3+ even autowounds.</characteristic>
+                    <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">No to Wound rolls on Archaon can be better than 3+ even, autowounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -281,7 +282,7 @@
               <profiles>
                 <profile id="904f8a54-bed3-3ddf-e387-1273b14e4bef" name="The Eye of Sheerian" publicationId="f0e871f8--pubN65795" page="48" hidden="false" typeId="54616c69736d616e23232344415441232323" typeName="Talisman">
                   <characteristics>
-                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">4+ Ward Save (BRB-44) (wich is increased to 3+ by Mark of Tzeentch)</characteristic>
+                    <characteristic name="Protection" typeId="50726f74656374696f6e23232344415441232323">4+ Ward Save (BRB-44) (which is increased to 3+ by Mark of Tzeentch)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -686,10 +687,17 @@
       </profiles>
       <rules>
         <rule id="22577f90-84cd-740f-fb21-05fcc12a845b" name="Fall Over" publicationId="f0e871f8--pubN65795" page="44" hidden="false">
-          <description>.</description>
+          <description>Test if:
+Beaten in close combat
+Fleeing at start of movement
+If crosses an obstacle
+Jump Up and Down
+Slain
+Roll of 1, giant falls down. Scatter Die for direction, S6 hit with Multiple Wounds (D3)
+Falling you suffer 1W</description>
         </rule>
         <rule id="ae4caffc-86d6-37d4-757d-543e236cd92f" name="Giant Special Attacks" publicationId="f0e871f8--pubN65795" page="45" hidden="false">
-          <description>.</description>
+          <description>Pick unit in base contact and roll D6 on one of the tables depending on enemy unit&apos;s size.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1569,7 +1577,9 @@
       </constraints>
       <rules>
         <rule id="370c3650-3c79-6c57-c58e-9ab69c7d7d95" name="Ogre Charge" publicationId="f0e871f8--pubN65795" page="40" hidden="false">
-          <description>.</description>
+          <description>Impact Hits (1)
+Increased to Impact Hits (D3), if 2 highest charge dice total 10+
+Add current rank bonus to the strength of Impact Hits</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2675,7 +2685,8 @@
       </constraints>
       <rules>
         <rule id="12b63dac-2864-308c-cb37-f3b392a83594" name="Troll Vomit" publicationId="f0e871f8--pubN65795" page="40" hidden="false">
-          <description>.</description>
+          <description>Can make vomit attacks instead of ordinary attacks.
+S5, automatic hit, no armour saves</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3067,13 +3078,16 @@
       </profiles>
       <rules>
         <rule id="5544ea2c-2c7e-f2a9-984c-97af22c28b99" name="Favour of the Ruinous Powers" publicationId="f0e871f8--pubN65795" page="43" hidden="false">
-          <description>.</description>
+          <description>Friendly models within 12&apos;&apos; that roll on Eye of Gods table, roll a 2nd dice and discard a single choice.</description>
         </rule>
         <rule id="8b1f83e0-663c-93d5-2862-f3f3966991b9" name="Giver of Glory" publicationId="f0e871f8--pubN65795" page="43" hidden="false">
-          <description>.</description>
+          <description>Innate bound Spell (power level 4)
+Augment spell that targets D3 friendly models with the Eye of the Gods special rule within 12&quot;.
+The targets of the spell immediately roll on the Eye of the Gods table (see page 25).
+Remember, they will also benefit from the Chaos Warshrine’s Favour of the Ruinous Powers special rule (see above).</description>
         </rule>
         <rule id="afab5e5b-95e1-0a4d-fc5b-ba0fe7075be5" name="Protection of the Dark Gods" publicationId="f0e871f8--pubN65795" page="43" hidden="false">
-          <description>.</description>
+          <description>4+ ward save</description>
         </rule>
         <rule id="9fd7d9b3-85aa-5661-3a1f-b01a1267aeab" name="War Platform" publicationId="f0e871f8--pubN65795" page="43" hidden="false">
           <description>.</description>
@@ -3215,7 +3229,8 @@
       </profiles>
       <rules>
         <rule id="7b7cc888-57cc-a328-584e-442957fa231a" name="Fiend Tail" publicationId="f0e871f8--pubN65795" page="37" hidden="false">
-          <description>.</description>
+          <description>Random Attacks (D3)
++1 to Hit bonus if in rear arc</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3523,7 +3538,7 @@
       </profiles>
       <rules>
         <rule id="24acd5ab-cb12-a574-67d2-b0178177b974" name="Daemonic Invulnerability" publicationId="f0e871f8--pubN65795" page="30" hidden="false">
-          <description>.</description>
+          <description>5+ ward save</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3894,7 +3909,8 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="d363cccb-e382-9658-47a0-381def6720aa" name="Storm Rage" publicationId="f0e871f8--pubN65795" page="41" hidden="false">
-          <description>.</description>
+          <description>2+ ward save against lightning attacks
+If model with this rule is hit by lightning based attacks gain Frenzy.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3957,14 +3973,15 @@ Armour Piercing</description>
       </constraints>
       <rules>
         <rule id="a43428b5-2179-522e-0365-0a1b51a1289f" name="Storm Rage" publicationId="f0e871f8--pubN65795" page="41" hidden="false">
-          <description>.</description>
+          <description>2+ ward save against lightning attacks
+If model with this rule is hit by lightning based attacks gain Frenzy.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="9b7b7064-1613-d863-3f72-470f98a4a6b3" hidden="false" targetId="7601dc60-ac2b-e898-f12c-4510ddf9b4a2" type="profile"/>
         <infoLink id="4b3298a7-aa57-c958-b9d9-ebc2d1ceccb1" hidden="false" targetId="e307b451-4c6d-6f02-559c-a8c31b09bbe6" type="profile"/>
         <infoLink id="c6515d20-bd5b-3dfd-33b3-47f9104fdab2" hidden="false" targetId="a62dfdb7-be68-d543-1445-d9a28cdcc2bd" type="rule"/>
-        <infoLink id="952246a9-9d23-e986-04de-c2e59462722a" hidden="false" targetId="e1236111-f8df-8013-82dd-e1dd210b5e0f" type="rule"/>
+        <infoLink id="952246a9-9d23-e986-04de-c2e59462722a" name="Scaly Skin (5+)" hidden="false" targetId="e1236111-f8df-8013-82dd-e1dd210b5e0f" type="rule"/>
         <infoLink id="4d178013-48a0-3fbb-60e5-e4607909ba3d" hidden="false" targetId="57418148-e38d-2cc7-d7b0-19aae0a09004" type="rule"/>
         <infoLink id="664d2cc5-63c3-ff8b-efe1-00771a763374" hidden="false" targetId="4804a8f1-072a-ef84-1c16-352d576ede08" type="rule"/>
       </infoLinks>
@@ -4572,10 +4589,10 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="713a1544-d69a-d7d8-94ec-13922d75df97" name="Harbinger of Pestilence" publicationId="f0e871f8--pubN65795" page="52" hidden="false">
-          <description>.</description>
+          <description>While in unit, all models in unit has Poisoned Attacks.</description>
         </rule>
         <rule id="14a5e454-7b87-a590-ca09-201a30049e9e" name="Healing Elixers" publicationId="f0e871f8--pubN65795" page="52" hidden="false">
-          <description>.</description>
+          <description>While in unit, all models in unit have Regeneration 5+.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4656,7 +4673,13 @@ Armour Piercing</description>
     <selectionEntry id="23e86182-e509-9ebf-794b-089b9ef69ef2" name="Forsaken" page="0" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="2fe9c9df-061a-0116-69c3-e983e20b3b9d" name="Freakish Mutations" publicationId="f0e871f8--pubN65795" page="38" hidden="false">
-          <description>.</description>
+          <description>If unit is b2b contact with one or more enemgies roll on chart
+1. Slug Brains - Forsaken unit have Always Strike Last
+2. Razor Talons - Forsaken unit have Armour Piercing
+3. Lashing Tentacles - Forsaken unit have Always Strikes First
+4. Venomous Fangs - Forsake unit have Poisoned Attacks
+5. Healing Flesh - Forsaken unit have Regeneration 5+
+6. Decapitating Claws - Forsaken unit have Killing Blow</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4764,15 +4787,15 @@ Armour Piercing</description>
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
-            <characteristic name="BS" typeId="425323232344415441232323"/>
-            <characteristic name="S" typeId="5323232344415441232323"/>
-            <characteristic name="T" typeId="5423232344415441232323"/>
-            <characteristic name="W" typeId="5723232344415441232323"/>
-            <characteristic name="I" typeId="4923232344415441232323"/>
-            <characteristic name="A" typeId="4123232344415441232323"/>
+            <characteristic name="BS" typeId="425323232344415441232323">6</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">6</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">6</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">6</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">6</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">3+</characteristic>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323">6+</characteristic>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Monster (Special Character)</characteristic>
           </characteristics>
@@ -4780,10 +4803,16 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="1f08fc78-832e-6da6-c206-1f4a989b93ce" name="Spirit of Galrauch" publicationId="f0e871f8--pubN65795" page="56" hidden="false">
-          <description>.</description>
+          <description>Start of each of his turns take a leadership test.
+If failed, ancient spirit of Dragon surfaces again.
+Ancient Spirit of Dragon -
+Cannot move, cast spells, or use Breath Weapons.
+Direct combat, half attacks go into himself.
+Wounds caused by Galrauch to himself are added to enemy&apos;s score in resolution.</description>
         </rule>
         <rule id="4c438acd-79a9-da05-78b6-0b6dafbfaea5" name="Breath of Change" publicationId="f0e871f8--pubN65795" page="56" hidden="false">
-          <description>.</description>
+          <description>Breath Weapon
+Any models hit, test Toughness.  If Failed they are removed from play with no saves of any kind allowed.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4791,7 +4820,7 @@ Armour Piercing</description>
         <infoLink id="88b73f5b-a362-cf5c-2aea-df06465fba19" hidden="false" targetId="ca521073-4b5e-f30f-953b-409592d11b1c" type="rule"/>
         <infoLink id="b3853d68-ea09-3e1c-0160-30c6c4502be4" hidden="false" targetId="4804a8f1-072a-ef84-1c16-352d576ede08" type="rule"/>
         <infoLink id="e6b6356d-01bc-ee53-5dc4-f59b9ede337a" hidden="false" targetId="ae6162d4-2f9e-56ff-f54d-3a43cc853f33" type="rule"/>
-        <infoLink id="622e5aed-8cbf-4502-9f69-4592e9da1a94" hidden="false" targetId="70c12097-e8cb-d255-2fd4-e0504c725cf8" type="rule"/>
+        <infoLink id="622e5aed-8cbf-4502-9f69-4592e9da1a94" name="Mark of Tzeentch" hidden="false" targetId="70c12097-e8cb-d255-2fd4-e0504c725cf8" type="rule"/>
         <infoLink id="3bd05a22-6b7f-2458-4393-d8d0e20fad18" hidden="false" targetId="db2f3cfc-7640-6bc7-900d-80d8f9f13c76" type="rule"/>
         <infoLink id="9ffe54b9-27bd-5747-9687-9031d7fc5ef7" hidden="false" targetId="335a74d0-1308-ffab-4492-b0fa4cd3c661" type="rule"/>
       </infoLinks>
@@ -5092,10 +5121,13 @@ Armour Piercing</description>
       </constraints>
       <rules>
         <rule id="48f2b289-5a2e-9fec-7c2f-405d188fd077" name="Caged Fire" publicationId="f0e871f8--pubN65795" page="42" hidden="false">
-          <description>.</description>
+          <description>If not in combat take leadership test.
+If failed, pivot hellcanon to face closest enemy unit
+Subject to random movement (3D6) until beginnning of next turn, except can only move forward</description>
         </rule>
         <rule id="0402eb64-aa54-1953-7627-babbd61e5824" name="Daemonic Construction" publicationId="f0e871f8--pubN65795" page="42" hidden="false">
-          <description>.</description>
+          <description>Armour save 4+
+Ward Save 5+</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5350,7 +5382,7 @@ Armour Piercing</description>
             <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">7</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323">4+ (scaly skin)</characteristic>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Monster (Special Character)</characteristic>
@@ -5359,10 +5391,14 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="54918d49-2c90-21e8-9c6e-0cb861f4c99f" name="Lord of the Storm" publicationId="f0e871f8--pubN65795" page="57" hidden="false">
-          <description>.</description>
+          <description>During his shooting phase, may choose single unengaged enemy unit within 24&apos;&apos; and in front arc, line of shot.
+Roll D6:
+2-6, inflict D6 S6 hits
+1, attack hit Kholek</description>
         </rule>
         <rule id="895e6120-9a0c-5f48-9881-1d735b98734a" name="Storm Rage" publicationId="f0e871f8--pubN65795" page="41" hidden="false">
-          <description>.</description>
+          <description>2+ war save against all lightning based attacks.
+If a model with this rule is hit by a lighting based attack or effect, they gain Frenzy.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5762,7 +5798,7 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="ddd84add-7d1b-0b27-087f-1b15fce01448" name="Aura of Mutation" publicationId="f0e871f8--pubN65795" page="46" hidden="false">
-          <description>.</description>
+          <description>Innate Bound spell (Power level 5)  Page 46 see chart.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6075,14 +6111,15 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="b52eea58-514b-85a8-5dac-fd73ca1179e3" name="Favoured Son" publicationId="f0e871f8--pubN65795" page="53" hidden="false">
-          <description>.</description>
+          <description>If required to roll on Eye of Gods table, instead always receive Dark Fury reward.</description>
         </rule>
         <rule id="51b15d37-32a8-f313-eda4-3f7fe9f3eaa6" name="Supreme Vanity" publicationId="f0e871f8--pubN65795" page="53" hidden="false">
-          <description>.</description>
+          <description>Never re-roll a failed Stupidity test, nor use another model&apos;s leadership
+Applies to unit he is in as well</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d995ec29-404d-7371-4a99-9e6c0686a51f" hidden="false" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" type="profile"/>
+        <infoLink id="d995ec29-404d-7371-4a99-9e6c0686a51f" name="Shield" hidden="false" targetId="2a2d70a4-d5d4-4974-c2a0-6b38594b73a5" type="profile"/>
         <infoLink id="b110c813-6adb-6c11-8ce4-463fe57e98df" hidden="false" targetId="c18972ff-57cc-708f-40e3-9e8309e85314" type="rule"/>
         <infoLink id="07d40841-7075-059d-5548-c89e578f1f3a" hidden="false" targetId="f0020818-2175-18ad-ee56-bf654777c94e" type="rule"/>
         <infoLink id="8da7dcd1-03f3-fe42-8b96-5e9e50c80ae6" hidden="false" targetId="7c26d9b3-cbff-b1b2-53cd-2ad6b55542b0" type="rule"/>
@@ -6410,7 +6447,7 @@ Armour Piercing</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f81cbdc6-0782-c4d4-9804-d9399745cfcd" hidden="false" collective="false" import="true" targetId="cd5be81e-6ffb-681e-0e6c-fcf87d88f914" type="selectionEntry"/>
+        <entryLink id="f81cbdc6-0782-c4d4-9804-d9399745cfcd" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" targetId="cd5be81e-6ffb-681e-0e6c-fcf87d88f914" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6598,7 +6635,10 @@ Armour Piercing</description>
           <description>.</description>
         </rule>
         <rule id="46e6806d-dd44-067c-df62-7e4d3b938da3" name="Unbound" publicationId="f0e871f8--pubN65795" page="47" hidden="false">
-          <description>.</description>
+          <description>If at beginning of movement phase, master has been slain, it is Unbound.
+Unbound:
+Random Movement (2D6), Frenzy
+</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6761,13 +6801,15 @@ Armour Piercing</description>
           <description>.</description>
         </rule>
         <rule id="a37ba14e-0989-c3ff-e530-a2db8a72e5d7" name="Copius Vomit" publicationId="f0e871f8--pubN65795" page="54" hidden="false">
-          <description>.</description>
+          <description>S5 Breath Weapon
+No armour saved allowed against Wounds caused by this.</description>
         </rule>
         <rule id="5031054f-6528-84aa-f4dc-2aff682803f5" name="Lord of the Monstrous Horde" publicationId="f0e871f8--pubN65795" page="54" hidden="false">
-          <description>.</description>
+          <description>If army includes Throgg, units of Chaos Trolls count as Core choices instead of Special</description>
         </rule>
         <rule id="3506eb9b-f6a2-73e5-fd92-3f3dbe5e9209" name="Mutant Regeneration" publicationId="f0e871f8--pubN65795" page="54" hidden="false">
-          <description>.</description>
+          <description>Regenration special rule
+If pass 2+ Regeneration saving throws in same phase, roll on Eye of the Gods table at end of phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6916,10 +6958,11 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="53e93e9f-3e48-0d79-2b2a-4448895bff0f" name="Consort of the Blood God" publicationId="f0e871f8--pubN65795" page="50" hidden="false">
-          <description>.</description>
+          <description>If roll on Eye of the Gods table, you instead always get Slaughterer&apos;s Strength reward</description>
         </rule>
         <rule id="cd06665f-ad07-10ef-0529-f7c51b3a16a1" name="The Gaze of Khorne" publicationId="f0e871f8--pubN65795" page="50" hidden="false">
-          <description>.</description>
+          <description>All friendly units within 12&apos;&apos; re-roll failed Break tests.
+Any friendly unit that flees within 12&apos;&apos;, for whatever reason, suffers D6 Strength 6 hits.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6975,7 +7018,7 @@ Armour Piercing</description>
               <profiles>
                 <profile id="f4302dc2-4a95-9222-8fa2-9608596f6604" name="Daemonshield" publicationId="f0e871f8--pubN65795" page="50" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
                   <characteristics>
-                    <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">+1</characteristic>
+                    <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">-1</characteristic>
                     <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Enemy in base contact loses 1A till minimum of 1</characteristic>
                   </characteristics>
                 </profile>
@@ -7287,13 +7330,16 @@ Armour Piercing</description>
       </profiles>
       <rules>
         <rule id="f6e8e5f1-53ee-ecb7-29f5-25ae298aba76" name="Gift of Tongues" publicationId="f0e871f8--pubN65795" page="49" hidden="false">
-          <description>.</description>
+          <description>When Wulfrik the Wanderer issues a challenge, your opponent cannot choose to refuse it.
+Furthermore, Wulfrik nominates which character will accept the challenge - your opponent does not get to choose as per the normal challenges rules.</description>
         </rule>
         <rule id="d3d0606f-6987-9259-488d-860d2efb0453" name="Hunter of Champions" publicationId="f0e871f8--pubN65795" page="49" hidden="false">
-          <description>.</description>
+          <description>As soon as Wulfrik the Wanderer is placed on the tabletop, nominate one enemy character in your opponent’s army
+Wulfrik gains + 2 Strength and rerolls all failed To Hit rolls against the chosen character.</description>
         </rule>
         <rule id="c01012df-fa38-4dc2-6d84-c16000d7dc19" name="Seafang" publicationId="f0e871f8--pubN65795" page="49" hidden="false">
-          <description>.</description>
+          <description>Before any units are deployed, Wulfrik the Wanderer and a single unit of Chaos Marauders may choose to use Seafang to encircle their foes. 
+Receive Ambushers special rule, roll for both Wulfrik and Chaos Marauders together, when deployed Wulfrik has to join unit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7848,7 +7894,7 @@ Armour Piercing</description>
       </constraints>
       <rules>
         <rule id="bf2b88cb-18dc-ceb6-aee5-86a5dbc1dd0c" name="Brass Behemoth" publicationId="f0e871f8--pubN65795" page="35" hidden="false">
-          <description>.</description>
+          <description>Improve rider&apos;s armour save by 2 instead of 1</description>
         </rule>
         <rule id="e2888505-599f-9c62-db1d-c8fb51da2c51" name="Murderous Charge" publicationId="f0e871f8--pubN65795" page="35" hidden="false">
           <description>+1S on charge</description>
