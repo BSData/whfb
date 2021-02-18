@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" name="Dark Elves  - Army Book (2013-10) -V8.8.0." revision="78" battleScribeVersion="2.03" authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="77" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8fff6c-8870-f30f-66f1-1897aba3d588" name="Dark Elves  - Army Book (2013-10) -V8.8.0." revision="79" battleScribeVersion="2.03" authorName="Fade" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=6&amp;t=329" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3d8fff6c--pubN65980" name="Dark Elves"/>
     <publication id="3d8fff6c--pubN89082" name="End Times - Nagash"/>
@@ -472,7 +472,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -539,7 +539,7 @@
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -635,7 +635,7 @@
             <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Chariot (Armour Save 6+)</characteristic>
@@ -900,7 +900,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">6</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Cavalry</characteristic>
@@ -1063,7 +1063,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Cavalry</characteristic>
@@ -1206,7 +1206,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -1313,7 +1313,7 @@
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -1367,172 +1367,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1b11ed8d-341d-386c-a7b0-2ac1c421cbb2" name="Magic Banner (no limit)" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="eb118909-5440-3f98-0dd6-8cf6fa522368" name="Wailing Banner" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="73ae6e2e-c35c-c512-c885-830c562eefe1" name="Wailing Banner" page="0" hidden="false">
-                      <description>Causes Terror</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="50.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="121d9384-543c-1395-f674-e1f03c6cf52c" name="Scarecrow Banner" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="76d64cf0-5163-3c99-ff67-802b434d1996" name="Scarecrow Banner" page="0" hidden="false">
-                      <description>Unit causes Fear to Fliers</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="481c0707-85ad-f6c0-44f4-4970ed7ce05d" name="Ranger&apos;s Standard" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="2d781362-3df4-9d4b-5c43-83337dee2561" name="Ranger&apos;s Standard" page="0" hidden="false">
-                      <description>Unit has the strider special Rule</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="50.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c44005ec-c3ad-d08d-50cc-c23664c999d8" name="Razor Standard" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="fd172335-d08e-3758-7023-1120c54281fd" name="Razor Standard" page="0" hidden="false">
-                      <description>Armor Piercing</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="45.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="626f5fc9-7b2e-e175-1eae-c80a947f33c7" name="Lichbone Pennant" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="c80d7079-1ca8-cb12-3571-9516d17cd693" name="Lichbone Pennant" page="0" hidden="false">
-                      <description>Unit has Magic Resistance (1)</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="e3876bb6-af3c-0136-68ca-35fd55e9e3e0" name="Rampager&apos;s Standard" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="4dca7bde-25f3-e732-3835-62a3c011e8f8" name="Rampager&apos;s Standard" page="0" hidden="false">
-                      <description>Re-roll charge Distance dice</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="55.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6d9a228d-3d3f-1d12-e70f-68a8f5b709a6" name="Standard of Discipline" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="cb158cf4-449c-8712-fe55-f7fcbffbc3eb" name="Standard of Discipline" page="0" hidden="false">
-                      <description>Unit has +1 Leadership, cannot use General inspiring presence</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4c337926-6137-f60e-d76a-a06d003a74a9" name="Gleaming Pennant" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="da4b2c6d-c98a-f0f3-afd4-803dfdf21d5a" name="Gleaming Pennant" page="0" hidden="false">
-                      <description>One use - may re-roll first failed leadership test</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f092fa9a-7a01-1f34-c605-a3b44da4eac2" name="War Banner" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="93a0de59-e29d-d439-ff16-95aed0b3fc9f" name="War Banner" page="0" hidden="false">
-                      <description>+1 Combat Resoltuion</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="35.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="31eda282-0d92-3bd3-958c-a1304e4bee5a" name="Banner of Swiftness" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="ed5b1c6b-beef-a7ad-511b-43fa253da0be" name="Banner of Swiftness" page="0" hidden="false">
-                      <description>+1 to movement</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="cdb0f738-0d3a-7dbe-c765-521a96e7c4a4" name="DE - Banner of Nagarythe" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="5c1e9032-f316-47bb-25c1-4a792b12a6aa" name="Banner of Nagarythe" page="0" hidden="false">
-                      <description>All models in the unit become unbreakable (also counts for High Elf Shadow Warriors if within 12&quot;)
-</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="100.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="27bf6415-59e3-638a-03f7-5c75acd3bbe1" name="Banner of Eternal Flame" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="b31d8d62-1d61-d4b4-c006-9e6a40736f81" name="Banner of Eternal Flame" page="0" hidden="false">
-                      <description>Unit has Flaming Attacks</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="da9e-14e4-cf5b-d0da" name="Magic Standards" hidden="false" collective="false" import="true" targetId="080d5ab6-b45c-aa20-4e9f-d45b23b97b86" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -1604,7 +1441,7 @@
             <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="408a-e3bb-5648-416d" hidden="false" collective="false" import="true" targetId="e2e63f99-0260-ca16-aa2c-61eab97cf065" type="selectionEntryGroup"/>
+            <entryLink id="408a-e3bb-5648-416d" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="e2e63f99-0260-ca16-aa2c-61eab97cf065" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e73a-80fc-12e9-f3b0" name="Mounts" hidden="false" collective="false" import="true">
@@ -1724,7 +1561,7 @@ If targeted as a wizard, opponent may choose target.
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Character)</characteristic>
@@ -1975,7 +1812,7 @@ If targeted as a wizard, opponent may choose target.
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2042,7 +1879,7 @@ If targeted as a wizard, opponent may choose target.
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2114,7 +1951,7 @@ If targeted as a wizard, opponent may choose target.
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" typeId="4d5223232344415441232323"/>
                 <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2196,7 +2033,7 @@ If targeted as a wizard, opponent may choose target.
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" typeId="4d5223232344415441232323"/>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Infantry</characteristic>
@@ -2415,7 +2252,7 @@ If targeted as a wizard, opponent may choose target.
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Character)</characteristic>
@@ -2820,7 +2657,7 @@ A unit is ummune to the effects of Abyssal Howl if the majority of its models ha
             <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Special Character)</characteristic>
@@ -3191,7 +3028,7 @@ Any unit taking a hit, must pass leadership at -3 in order to declare a charge n
             <characteristic name="I" typeId="4923232344415441232323">8</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cavalry (Special Character)</characteristic>
@@ -3314,7 +3151,7 @@ Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of y
             <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Infantry (Character)</characteristic>
@@ -3324,7 +3161,7 @@ Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of y
       <infoLinks>
         <infoLink id="9498-28f9-503b-48c2" hidden="false" targetId="b4254ed7-65af-394c-69f4-5495c42e89cf" type="rule"/>
         <infoLink id="6ffe-ed13-00b0-62d0" hidden="false" targetId="4c166434-f4cf-7021-ed7e-dc120e87729e" type="rule"/>
-        <infoLink id="593b-6e58-6da5-d518" hidden="false" targetId="d0278406-cc36-47dd-3b48-7854ce7b0a68" type="rule"/>
+        <infoLink id="593b-6e58-6da5-d518" name="Murderous Prowess" hidden="false" targetId="d0278406-cc36-47dd-3b48-7854ce7b0a68" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3ba64df0-51f0-4845-ac43-4983762ffa02-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
@@ -3334,6 +3171,9 @@ Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of y
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="be57-f4c3-a3de-232b" name="Magic Standards" hidden="false" collective="false" import="true" targetId="080d5ab6-b45c-aa20-4e9f-d45b23b97b86" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -3362,27 +3202,14 @@ Each time Malus makes a To Hit roll of 1, a friendly model in base contact (of y
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2fae06ad-0e06-347b-8278-4598ef86155f" name="Banner or Magic items" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2fae06ad-0e06-347b-8278-4598ef86155f" name="Magic items" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4b5f2047-68d4-2377-9a80-7dbe5d3ac086" name="Magic standard (no limit)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="3d23-ebba-cd70-a33c" hidden="false" collective="false" import="true" targetId="080d5ab6-b45c-aa20-4e9f-d45b23b97b86" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="54ac-b626-b2e6-57fe" name="Magic Items (100 pts)" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="54ac-b626-b2e6-57fe" name="Magic Items (50 pts)" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="points" scope="parent" value="100.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+                <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
                 <entryLink id="f621-b556-b6d0-3ba5" hidden="false" collective="false" import="true" targetId="4d0a7a70-f6c3-866b-d986-a6fcec20c6f6" type="selectionEntryGroup"/>
@@ -3965,7 +3792,7 @@ Armor Piercing</description>
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">-</characteristic>
@@ -6644,7 +6471,7 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323"/>
@@ -6702,7 +6529,7 @@ Witch Elves, Hags, Death Hags (including Hellebron) in the same unit or mounted 
             <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
             <characteristic name="Type" typeId="5479706523232344415441232323">Monster</characteristic>
