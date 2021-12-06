@@ -1159,7 +1159,7 @@
         <entryLink id="4171-1252-b391-cf10" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="eca1-46d6-8778-847f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="70.0"/>
+        <cost name="pts" typeId="eaa7-6800-e651-8bea" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d861-593b-7c7a-97b1" name="Dreadlord" publicationId="a181-017b-710d-7628" page="91" hidden="false" collective="false" import="true" type="unit">
